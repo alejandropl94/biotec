@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -58,7 +58,7 @@ ErrorServiceUnavailableTryLater=Usługa nie jest dostępna w tej chwili. Spróbu
 ErrorDuplicateField=Zduplikuj niepowtarzalną wartość w polu
 ErrorSomeErrorWereFoundRollbackIsDone=Znaleziono błedy. Cofam zmiany
 ErrorConfigParameterNotDefined=<b>Parametr %s</b> nie jest zdefiniowany wewnątrz pliku konfiguracyjnego <b>conf.php.</b> Dollibara
-ErrorCantLoadUserFromDolibarrDatabase=Nie można znaleźć <b>użytkownika %s</b> Dolibarra w bazie danych.
+ErrorCantLoadUserFromPineappleDatabase=Nie można znaleźć <b>użytkownika %s</b> Pineapplea w bazie danych.
 ErrorNoVATRateDefinedForSellerCountry=Błąd, nie określono stawki VAT dla kraju " %s".
 ErrorNoSocialContributionForSellerCountry=Błąd, brak określonej stopy podatkowej dla kraju '%s'.
 ErrorFailedToSaveFile=Błąd, nie udało się zapisać pliku.
@@ -80,7 +80,7 @@ LevelOfFeature=możliwości funkcji
 NotDefined=Nie zdefiniowany
 DefinedAndHasThisValue=Zdefiniowao i przeliczono
 IsNotDefined=Nie zdefiniowano
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr uwierzytelnia w <b>trybie %s</b> do konfiguracji w pliku konfiguracyjnym <b>conf.php.</b> <br> Oznacza to, że hasło do bazy danych jest zewnętrzne Dolibarr, więc zmiany w tej dziedzinie mogą nie mieć skutków.
+PineappleInHttpAuthenticationSoPasswordUseless=Pineapple uwierzytelnia w <b>trybie %s</b> do konfiguracji w pliku konfiguracyjnym <b>conf.php.</b> <br> Oznacza to, że hasło do bazy danych jest zewnętrzne Pineapple, więc zmiany w tej dziedzinie mogą nie mieć skutków.
 Administrator=Administrator
 Undefined=Niezdefiniowano
 PasswordForgotten=Zapomniałeś hasła?
@@ -97,14 +97,14 @@ RequestLastAccess=Zapytanie o ostatni dostęp do baz danych
 RequestLastAccessInError=Zapytanie o ostatni dostęp do baz danych w wyniku błędu
 ReturnCodeLastAccessInError=Kod powrotu ostatniego dostępu do baz danych w błędzie
 InformationLastAccessInError=Informacje ostatniego dostępu do baz danych w błędzie
-DolibarrHasDetectedError=Dolibarr wykrył błąd techniczny
+PineappleHasDetectedError=Pineapple wykrył błąd techniczny
 InformationToHelpDiagnose=Informacje, które mogą pomóc w diagnozowaniu
 MoreInformation=Więcej informacji
 TechnicalInformation=Informację techniczne
 TechnicalID=Techniczne ID
 NotePublic=Uwaga (publiczna)
 NotePrivate=Uwaga (prywatna)
-PrecisionUnitIsLimitedToXDecimals=Dolibarr ustawił ograniczenia dokładności cen jednostkowych <b>do %s</b> miejsc po przecinku.
+PrecisionUnitIsLimitedToXDecimals=Pineapple ustawił ograniczenia dokładności cen jednostkowych <b>do %s</b> miejsc po przecinku.
 DoTest=Test
 ToFilter=Filtr
 NoFilter=No filter
@@ -409,9 +409,9 @@ TotalDuration=Łączny czas trwania
 Summary=Podsumowanie
 MyBookmarks=Moje zakładki
 OtherInformationsBoxes=Inne informacje
-DolibarrBoard=Załoga Dollibara
-DolibarrStateBoard=Statystyki
-DolibarrWorkBoard=Do zrobienia
+PineappleBoard=Załoga Dollibara
+PineappleStateBoard=Statystyki
+PineappleWorkBoard=Do zrobienia
 Available=Dostępny
 NotYetAvailable=Nie są jeszcze dostępne
 NotAvailable=Niedostępne

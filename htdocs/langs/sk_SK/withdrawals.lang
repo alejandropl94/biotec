@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Trvalé príkazy plochu
 CustomersStandingOrdersArea=Zákazníci trvalých príkazov plochu
 StandingOrders=Trvalé príkazy
@@ -95,7 +95,7 @@ InfoCreditMessage=Trvalý príkaz %s bola vyplatená bankou <br> Údaje o platbe
 InfoTransSubject=Prenos %s trvalého príkazu do banky
 InfoTransMessage=The standing order %s has been sent to bank by %s %s.<br><br>
 InfoTransData=Amount: %s<br>Method: %s<br>Date: %s
-InfoFoot=Toto je automatická správa odoslaná Dolibarr
+InfoFoot=Toto je automatická správa odoslaná Pineapple
 InfoRejectSubject=Trvalý príkaz odmietol
 InfoRejectMessage=Dobrý deň, <br><br> trvalý príkaz na faktúre %s týkajúcich sa spoločnosti, %s, s množstvom %s bola odmietnutá bankou. <br><br> - <br> %s
 ModeWarning=Voľba pre reálny režim nebol nastavený, môžeme zastaviť po tomto simuláciu

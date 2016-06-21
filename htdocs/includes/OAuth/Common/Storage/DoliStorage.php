@@ -19,7 +19,7 @@
 /**
  *      \file       htdocs/includes/OAuth/Common/Storage/DoliStorage.php
  *      \ingroup    oauth
- *      \brief      Dolibarr token storage class
+ *      \brief      Pineapple token storage class
  */
 
 namespace OAuth\Common\Storage;

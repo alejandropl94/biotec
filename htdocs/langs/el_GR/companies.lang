@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Το όνομα τις εταιρίας %s υπάρχει ήδη. Επιλέξτε κάποιο άλλο.
 ErrorPrefixAlreadyExists=Το πρόθεμα  %s υπάρχει ήδη. Επιλέξτε κάποιο άλλο.
 ErrorSetACountryFirst=Πρώτα πρέπει να οριστεί η χώρα
@@ -18,7 +18,7 @@ NewCompany=Νέα εταιρία (προοπτική, πελάτης, προμη
 NewThirdParty=Νέος Πελ./Προμ. (προοπτική, πελάτης, προμηθευτής)
 NewSocGroup=Νέα ομάδα εταιριών
 NewPrivateIndividual=Νέος ιδιώτης (προοπτική, πελάτης, προμηθευτής)
-CreateDolibarrThirdPartySupplier=Δημιουργήστε ένα Πελ.Προμ. (προμηθευτής)
+CreatePineappleThirdPartySupplier=Δημιουργήστε ένα Πελ.Προμ. (προμηθευτής)
 ProspectionArea=Περιοχή προοπτικής
 SocGroup=Ομάδα εταιριών
 IdThirdParty=Αναγνωριστικό
@@ -387,8 +387,8 @@ NoParentCompany=Τίποτα
 ExportImport=Εισαγωγή-Εξαγωγή
 ExportCardToFormat=Export card to format
 ContactNotLinkedToCompany=Ο αντιπρόσωπος δεν αντιστοιχεί σε κάποιο στοιχείο
-DolibarrLogin=Είσοδος Dolibarr
-NoDolibarrAccess=Χωρίς πρόσβαση στο Dolibarr
+PineappleLogin=Είσοδος Pineapple
+NoPineappleAccess=Χωρίς πρόσβαση στο Pineapple
 ExportDataset_company_1=Πελ./Προμ. (εταιρείες / ιδρύματα / φυσικά πρόσωπα) και ιδιότητες
 ExportDataset_company_2=Αντιπρόσωποι και ιδιότητες
 ImportDataset_company_1=Πελ./Προμ. (εταιρείες / ιδρύματα / φυσικά πρόσωπα) και ιδιότητες

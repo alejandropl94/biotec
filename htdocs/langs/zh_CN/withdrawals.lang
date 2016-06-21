@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=区人大常委会订单
 CustomersStandingOrdersArea=站在客户的订单面积
 StandingOrders=常年订单
@@ -95,7 +95,7 @@ InfoCreditMessage=站在为了%s银行已支付<br>付款资料：%s
 InfoTransSubject=传输到银行的长期订单%s
 InfoTransMessage=%s %s银行长期订单的%s已被transmited。 <br><br>
 InfoTransData=金额：%s <br> metode：%s <br>日期：%s
-InfoFoot=这是一个由Dolibarr自动发送的消息
+InfoFoot=这是一个由Pineapple自动发送的消息
 InfoRejectSubject=定期支付被拒
 InfoRejectMessage=你好，<br><br>与公司%s相关的发票%s的定期支付，支付额为%s， 被银行<br><br>--<br>%s 拒绝
 ModeWarning=实模式下的选项没有设置，这个模拟后，我们停止

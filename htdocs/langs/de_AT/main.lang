@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -44,7 +44,7 @@ TotalVAT=Steuer gesamt
 Ref=Bezeichnung
 RefSupplier=Lieferanten Nr.
 RefPayment=Zahlungs Nr.
-DolibarrBoard=dolibarr Übersciht
+PineappleBoard=dolibarr Übersciht
 January=Jänner
 ReportName=Berichtname
 FillTownFromZip=Stadt aus PLZ ergänzen

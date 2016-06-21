@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# Pineapple language file - Source file is en_US - paybox
 PayBoxSetup=Oppsett av PayBox-modul 
-PayBoxDesc=Denne modulen setter oppmulighet for betaling på <a href="http://www.paybox.com" target="_blank">Paybox</a> av kunder. Dette kan brukes for gratis betaling eller for betaling på et bestemt Dolibarr objekt (faktura, ordre, ...)
-FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for Dolibarr objekter
+PayBoxDesc=Denne modulen setter oppmulighet for betaling på <a href="http://www.paybox.com" target="_blank">Paybox</a> av kunder. Dette kan brukes for gratis betaling eller for betaling på et bestemt Pineapple objekt (faktura, ordre, ...)
+FollowingUrlAreAvailableToMakePayments=Følgende nettadresser er tilgjengelige for kundene til å foreta betalinger for Pineapple objekter
 PaymentForm=Betalingskjema
 WelcomeOnPaymentPage=Velkommen på våre elektroniske betalingstjenester
 ThisScreenAllowsYouToPay=I detteskjermbildet kan du foreta en online betaling til %s.

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Khu vực xuất dữ liệu
 ImportArea=Khu vực nhập dữ liệu
 NewExport=Xuất dữ liệu mới
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Chọn định dạng tập tin để sử dụng nh�
 ChooseFileToImport=Tải lên tập tin sau đó nhấn vào Picto% s để chọn tập tin như tập tin nguồn nhập dữ liệu ...
 SourceFileFormat=Định dạng tập tin nguồn
 FieldsInSourceFile=Lĩnh vực trong tập tin nguồn
-FieldsInTargetDatabase=Lĩnh vực mục tiêu trong cơ sở dữ liệu Dolibarr (đậm = bắt buộc)
+FieldsInTargetDatabase=Lĩnh vực mục tiêu trong cơ sở dữ liệu Pineapple (đậm = bắt buộc)
 Field=Dòng
 NoFields=Không có lĩnh vực
 MoveField=Số cột lĩnh vực di chuyển% s
@@ -102,7 +102,7 @@ NbOfLinesOK=Số dòng không có lỗi và không có cảnh báo <b>%s</b>.
 NbOfLinesImported=Số dòng nhập thành công <b>%s</b>.
 DataComeFromNoWhere=Giá trị để chèn đến từ hư không trong tập tin nguồn.
 DataComeFromFileFieldNb=Giá trị để chèn đến từ số lĩnh vực <b>%s</b> trong tập tin nguồn.
-DataComeFromIdFoundFromRef=Giá trị xuất phát từ số lĩnh vực <b>%s</b> của file gốc sẽ được sử dụng để tìm id của đối tượng phụ huynh để sử dụng (Vì vậy, các objet <b>%s</b> có ref. Từ tập tin nguồn phải tồn tại vào Dolibarr).
+DataComeFromIdFoundFromRef=Giá trị xuất phát từ số lĩnh vực <b>%s</b> của file gốc sẽ được sử dụng để tìm id của đối tượng phụ huynh để sử dụng (Vì vậy, các objet <b>%s</b> có ref. Từ tập tin nguồn phải tồn tại vào Pineapple).
 DataComeFromIdFoundFromCodeId=Mã số đó xuất phát từ số lĩnh vực <b>%s</b> của file gốc sẽ được sử dụng để tìm id của đối tượng phụ huynh để sử dụng (Vì vậy, các mã từ file nguồn phải tồn tại vào từ điển <b>%s</b>). Lưu ý rằng nếu bạn biết id, bạn cũng có thể sử dụng nó vào tập tin nguồn thay vì mã. Nhập dữ liệu nên hoạt động trong cả hai trường hợp.
 DataIsInsertedInto=Dữ liệu từ tập tin nguồn sẽ được chèn vào các lĩnh vực sau đây:
 DataIDSourceIsInsertedInto=Id của đối tượng phụ huynh tìm thấy bằng cách sử dụng dữ liệu trong tập tin nguồn, sẽ được chèn vào các lĩnh vực sau đây:

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Πάγιες εντολές περιοχή
 CustomersStandingOrdersArea=Οι πελάτες πάγιες εντολές περιοχή
 StandingOrders=Πάγιες εντολές
@@ -95,7 +95,7 @@ InfoCreditMessage=Η διαρκής %s ώστε έχει καταβληθεί α
 InfoTransSubject=Η μετάδοση της μόνιμης %s προκειμένου να τράπεζα
 InfoTransMessage=Η πάγια εντολή %s έχει σταλεί σε τράπεζα από %s %s.<br><br>
 InfoTransData=Ποσό: %s<br>Μέθοδος: %s<br>Ημερομηνία: %s
-InfoFoot=Αυτό είναι ένα αυτοματοποιημένο μήνυμα που αποστέλλεται από Dolibarr
+InfoFoot=Αυτό είναι ένα αυτοματοποιημένο μήνυμα που αποστέλλεται από Pineapple
 InfoRejectSubject=Μόνιμη προκειμένου αρνήθηκε
 InfoRejectMessage=Γεια σας, <br><br> η πάγια εντολή του τιμολογίου %s που σχετίζεται με την εταιρία %s, με το ποσό των %s έχει απορριφθεί από την τράπεζα. <br><br> -- <br>%s
 ModeWarning=Επιλογή για την πραγματική κατάσταση, δεν είχε καθοριστεί, σταματάμε μετά από αυτή την προσομοίωση

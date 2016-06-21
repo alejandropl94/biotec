@@ -28,7 +28,7 @@
 /**
  *	\file       htdocs/master.inc.php
  * 	\ingroup	core
- *  \brief      File that defines environment for all Dolibarr process (pages or scripts)
+ *  \brief      File that defines environment for all Pineapple process (pages or scripts)
  * 				This script reads the conf file, init $lang, $db and and empty $user
  */
 
@@ -217,7 +217,7 @@ if (! empty($conf->global->MAIN_ONLY_LOGIN_ALLOWED))
 	}
 }
 
-// Create object $mysoc (A thirdparty object that contains properties of companies managed by Dolibarr.
+// Create object $mysoc (A thirdparty object that contains properties of companies managed by Pineapple.
 if (! defined('NOREQUIREDB') && ! defined('NOREQUIRESOC'))
 {
 	require_once DOL_DOCUMENT_ROOT .'/societe/class/societe.class.php';

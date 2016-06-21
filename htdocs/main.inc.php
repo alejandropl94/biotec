@@ -29,7 +29,7 @@
 /**
  *	\file       htdocs/main.inc.php
  *	\ingroup	core
- *	\brief      File that defines environment for Dolibarr pages only (variables not required by scripts)
+ *	\brief      File that defines environment for Pineapple pages only (variables not required by scripts)
  */
 
 //@ini_set('memory_limit', '64M');	// This may be useless if memory is hard limited by your PHP
@@ -163,7 +163,7 @@ if (! defined('NOSCANPOSTFORINJECTION'))
 	analyseVarsForSqlAndScriptsInjection($_POST,0);
 }
 
-// This is to make Dolibarr working with Plesk
+// This is to make Pineapple working with Plesk
 if (! empty($_SERVER['DOCUMENT_ROOT']) && substr($_SERVER['DOCUMENT_ROOT'], -6) !== 'htdocs') 
 {
 	set_include_path($_SERVER['DOCUMENT_ROOT'] . '/htdocs');
@@ -191,7 +191,7 @@ if (! empty($_POST["DOL_AUTOSET_COOKIE"]))
 	if (empty($cookievalue)) unset($_COOKIE[$cookiename]);
 }
 
-// Init session. Name of session is specific to Dolibarr instance.
+// Init session. Name of session is specific to Pineapple instance.
 $prefix=dol_getprefix();
 $sessionname='DOLSESSID_'.$prefix;
 $sessiontimeout='DOLSESSTIMEOUT_'.$prefix;
@@ -529,10 +529,10 @@ if (! defined('NOLOGIN'))
                 $langs->load('main');
                 $langs->load('errors');
 
-                $_SESSION["dol_loginmesg"]=$langs->trans("ErrorCantLoadUserFromDolibarrDatabase",$login);
+                $_SESSION["dol_loginmesg"]=$langs->trans("ErrorCantLoadUserFromPineappleDatabase",$login);
             
                 // TODO @deprecated Remove this. Hook must be used, not this trigger.
-                $user->trigger_mesg='ErrorCantLoadUserFromDolibarrDatabase - login='.$login;
+                $user->trigger_mesg='ErrorCantLoadUserFromPineappleDatabase - login='.$login;
             }
             if ($resultFetchUser < 0)
             {
@@ -582,10 +582,10 @@ if (! defined('NOLOGIN'))
                 $langs->load('main');
                 $langs->load('errors');
 
-                $_SESSION["dol_loginmesg"]=$langs->trans("ErrorCantLoadUserFromDolibarrDatabase",$login);
+                $_SESSION["dol_loginmesg"]=$langs->trans("ErrorCantLoadUserFromPineappleDatabase",$login);
                 
                 // TODO @deprecated Remove this. Hook must be used, not this trigger.
-                $user->trigger_mesg='ErrorCantLoadUserFromDolibarrDatabase - login='.$login;
+                $user->trigger_mesg='ErrorCantLoadUserFromPineappleDatabase - login='.$login;
             }
             if ($resultFetchUser < 0)
             {
@@ -995,13 +995,13 @@ function top_htmlhead($head, $title='', $disablejs=0, $disablehead=0, $arrayofjs
         // Displays meta
         print '<meta name="robots" content="noindex,nofollow">'."\n";      				// Do not index
         print '<meta name="viewport" content="width=device-width, initial-scale=1.0">';	// Scale for mobile device
-        print '<meta name="author" content="Dolibarr Development Team">'."\n";
+        print '<meta name="author" content="Pineapple Development Team">'."\n";
 		$favicon=dol_buildpath('/theme/'.$conf->theme.'/img/favicon.ico',1);
         if (! empty($conf->global->MAIN_FAVICON_URL)) $favicon=$conf->global->MAIN_FAVICON_URL;
         print '<link rel="shortcut icon" type="image/x-icon" href="'.$favicon.'"/>'."\n";
         if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="top" title="'.$langs->trans("Home").'" href="'.(DOL_URL_ROOT?DOL_URL_ROOT:'/').'">'."\n";
         if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="copyright" title="GNU General Public License" href="http://www.gnu.org/copyleft/gpl.html#SEC1">'."\n";
-        if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="Dolibarr Development Team" href="http://www.dolibarr.org">'."\n";
+        if (empty($conf->global->MAIN_OPTIMIZEFORTEXTBROWSER)) print '<link rel="author" title="Pineapple Development Team" href="http://www.dolibarr.org">'."\n";
 
         // Displays title
         $appli=constant('DOL_APPLICATION_TITLE');
@@ -1055,7 +1055,7 @@ function top_htmlhead($head, $title='', $disablejs=0, $disablehead=0, $arrayofjs
             }
         }
 
-        print '<!-- Includes CSS for Dolibarr theme -->'."\n";
+        print '<!-- Includes CSS for Pineapple theme -->'."\n";
         // Output style sheets (optioncss='print' or ''). Note: $conf->css looks like '/theme/eldy/style.css.php'
         //$themepath=dol_buildpath((empty($conf->global->MAIN_FORCETHEMEDIR)?'':$conf->global->MAIN_FORCETHEMEDIR).$conf->css,1);
         $themepath=dol_buildpath($conf->css,1);
@@ -1279,7 +1279,7 @@ function top_htmlhead($head, $title='', $disablejs=0, $disablehead=0, $arrayofjs
 			}
 
             // Global js function
-            print '<!-- Includes JS of Dolibarr -->'."\n";
+            print '<!-- Includes JS of Pineapple -->'."\n";
             print '<script type="text/javascript" src="'.DOL_URL_ROOT.'/core/js/lib_head.js.php?version='.urlencode(DOL_VERSION).($ext?'&amp;'.$ext:'').'"></script>'."\n";
 
             // Add datepicker default options
@@ -1516,7 +1516,7 @@ function top_menu($head, $title='', $target='', $disablejs=0, $disablehead=0, $a
 	        $toprightmenu.=Form::textwithtooltip('',$langs->trans("PrintContentArea"),2,1,$text,'login_block_elem',2);
 	    }
 
-	    // Link to Dolibarr wiki pages
+	    // Link to Pineapple wiki pages
 	    if (empty($conf->global->MAIN_HELP_DISABLELINK))
 	    {
 	        $langs->load("help");
@@ -1697,7 +1697,7 @@ function left_menu($menu_array_before, $helppagename='', $notused='', $menu_arra
     	$menumanager->menu_array_after = $menu_array_after;
 	    $menumanager->showmenu('left', array('searchform'=>$searchform, 'bookmarks'=>$bookmarks)); // output menu_array and menu found in database
 
-        // Dolibarr version + help + bug report link
+        // Pineapple version + help + bug report link
 		print "\n";
 	    print "<!-- Begin Help Block-->\n";
         print '<div id="blockvmenuhelp" class="blockvmenuhelp">'."\n";
@@ -1733,7 +1733,7 @@ function left_menu($menu_array_before, $helppagename='', $notused='', $menu_arra
 		{
 			require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 
-			$bugbaseurl = 'https://github.com/Dolibarr/dolibarr/issues/new';
+			$bugbaseurl = 'https://github.com/Pineapple/dolibarr/issues/new';
 			$bugbaseurl.= '?title=';
 			$bugbaseurl.= urlencode("Bug: ");
 			$bugbaseurl.= '&body=';

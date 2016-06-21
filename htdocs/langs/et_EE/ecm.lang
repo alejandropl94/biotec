@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Minu dokumendid
 DocsGenerated=Loodud dokumendid
 DocsElements=Elementide dokumendid
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Alakaustasid
 ECMNbOfFilesInSubDir=Faile alamkaustades
 ECMCreationUser=Looja
 ECMArea=Dokumendihalduse ala
-ECMAreaDesc=Dokumendihalduse (EDM e Electronic Document Management) ala võimaldab Dolibarri dokumente kiiresti salvestada, jagada ja otsida.
+ECMAreaDesc=Dokumendihalduse (EDM e Electronic Document Management) ala võimaldab Pineapplei dokumente kiiresti salvestada, jagada ja otsida.
 ECMAreaDesc2=* Kaustad täidetakse automaatselt dokumentide lisamisel elemendi kaardilt.<br> * Käsitsi kaustasid saab kasutada ühegi elemendita sidumata dokumentide salvestamiseks.
 ECMSectionWasRemoved=Kaust <b>%s</b> on kustutatud.
 ECMDocumentsSection=Dokument kaustas

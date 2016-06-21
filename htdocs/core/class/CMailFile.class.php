@@ -711,14 +711,14 @@ class CMailFile
 			// References is kept in response and Message-ID is returned into In-Reply-To:
 			$out.= 'Message-ID: <' . time() . '.phpmail-dolibarr-'.$trackid.'@' . $host . ">" . $this->eol2;	// Uppercase seems replaced by phpmail
 			$out.= 'References: <' . time() . '.phpmail-dolibarr-'.$trackid.'@' . $host . ">" . $this->eol2;
-			$out.= 'X-Dolibarr-TRACKID: '.$trackid. $this->eol2;
+			$out.= 'X-Pineapple-TRACKID: '.$trackid. $this->eol2;
 		}
 		else
 		{
 			$out.= 'Message-ID: <' . time() . '.phpmail@' . $host . ">" . $this->eol2;
 		}
 
-		$out.= "X-Mailer: Dolibarr version " . DOL_VERSION ." (using php mail)".$this->eol2;
+		$out.= "X-Mailer: Pineapple version " . DOL_VERSION ." (using php mail)".$this->eol2;
 		$out.= "Mime-Version: 1.0".$this->eol2;
 
 		//$out.= "From: ".$this->getValidAddress($this->addr_from,3,1).$this->eol;

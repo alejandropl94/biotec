@@ -1136,7 +1136,7 @@ class SMTPs
 			// References is kept in response and Message-ID is returned into In-Reply-To:
 			$_header .= 'Message-ID: <' . time() . '.SMTPs-dolibarr-'.$trackid.'@' . $host . ">\r\n";
 			$_header .= 'References: <' . time() . '.SMTPs-dolibarr-'.$trackid.'@' . $host . ">\r\n";
-			$_header .= 'X-Dolibarr-TRACKID: ' . $trackid . "\r\n";
+			$_header .= 'X-Pineapple-TRACKID: ' . $trackid . "\r\n";
 		}
 		else
 		{
@@ -1161,7 +1161,7 @@ class SMTPs
 		$_header .= 'Errors-To: '.$this->getErrorsTo('addr') . "\r\n";
 
 
-		$_header .= 'X-Mailer: Dolibarr version ' . DOL_VERSION .' (using SMTPs Mailer)'                   . "\r\n"
+		$_header .= 'X-Mailer: Pineapple version ' . DOL_VERSION .' (using SMTPs Mailer)'                   . "\r\n"
 		.  'Mime-Version: 1.0'                            . "\r\n";
 
 		return $_header;

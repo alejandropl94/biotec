@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Hakkında
 CronAbout = Cron hakkında
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Engelle
 CronTaskInactive=Bu iş devre dışı
 CronId=Kimlik
 CronClassFile=Sınıflar (dosyaadı.sınıf.php)
-CronModuleHelp=Dolibarr modül dizini adı (aynı zamanda dış Dolibarr modülü ile de çalışır). <BR> Örneğin; Dolibarr Ürün nesnesi alım yöntemi /htdocs/<u>product</u>/class/product.class.php, modül değeri <i>product</i>
-CronClassFileHelp=Yüklenecek dosya adı. <BR> Örneğin; Dolibarr Ürün nesnesi alım yöntemi /htdocs/product/class/<u>product.class.php</u>, sınıf dosya adı değeri <i>product.class.php</i>
-CronObjectHelp=Yüklenecek nesne adı. <BR> Örneğin; Dolibarr Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, sınıf dosya adı değeri <i>Product</i>
-CronMethodHelp=Çalıştırılacak nesne yöntemi. <BR> Örneğin; Dolibarr Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, yöntem değeri <i>fecth</i>
-CronArgsHelp=Yöntem parametreleri. <BR> Örneğin; Dolibarr Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, parametre değerleri <i>0, ProductRef</i> olabilir
+CronModuleHelp=Pineapple modül dizini adı (aynı zamanda dış Pineapple modülü ile de çalışır). <BR> Örneğin; Pineapple Ürün nesnesi alım yöntemi /htdocs/<u>product</u>/class/product.class.php, modül değeri <i>product</i>
+CronClassFileHelp=Yüklenecek dosya adı. <BR> Örneğin; Pineapple Ürün nesnesi alım yöntemi /htdocs/product/class/<u>product.class.php</u>, sınıf dosya adı değeri <i>product.class.php</i>
+CronObjectHelp=Yüklenecek nesne adı. <BR> Örneğin; Pineapple Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, sınıf dosya adı değeri <i>Product</i>
+CronMethodHelp=Çalıştırılacak nesne yöntemi. <BR> Örneğin; Pineapple Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, yöntem değeri <i>fecth</i>
+CronArgsHelp=Yöntem parametreleri. <BR> Örneğin; Pineapple Ürün nesnesi alım yöntemi /htdocs/product/class/product.class.php, parametre değerleri <i>0, ProductRef</i> olabilir
 CronCommandHelp=Yürütülecek sistem komut satırı.
 CronCreateJob=Yeni Planlı İş oluştur
 CronFrom=Gönderen
@@ -84,7 +84,7 @@ CronFrom=Gönderen
 CronInfoPage=Bilgi
 # Common
 CronType=İş türü
-CronType_method=Dolibarr Sınıfı çağırma yöntemi
+CronType_method=Pineapple Sınıfı çağırma yöntemi
 CronType_command=Kabuk komutu
 CronMenu=Kron
 CronCannotLoadClass=%s sınıfı ya da %s nesnesi yüklenemiyor

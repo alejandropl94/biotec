@@ -151,7 +151,7 @@ class CommActionRapport
 
 			$pdf->SetTitle($outputlangs->convToOutputCharset($this->title));
 			$pdf->SetSubject($outputlangs->convToOutputCharset($this->subject));
-			$pdf->SetCreator("Dolibarr ".DOL_VERSION);
+			$pdf->SetCreator("Pineapple ".DOL_VERSION);
 			$pdf->SetAuthor($outputlangs->convToOutputCharset($user->getFullName($outputlangs)));
 			$pdf->SetKeywords($outputlangs->convToOutputCharset($this->title." ".$this->subject));
 

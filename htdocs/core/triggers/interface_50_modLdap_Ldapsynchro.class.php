@@ -30,15 +30,15 @@ require_once DOL_DOCUMENT_ROOT."/user/class/usergroup.class.php";
 /**
  *  Class of triggers for ldap module
  */
-class InterfaceLdapsynchro extends DolibarrTriggers
+class InterfaceLdapsynchro extends PineappleTriggers
 {
 	public $family = 'ldap';
-	public $description = "Triggers of this module allows to synchronize Dolibarr toward a LDAP database.";
+	public $description = "Triggers of this module allows to synchronize Pineapple toward a LDAP database.";
 	public $version = self::VERSION_DOLIBARR;
 	public $picto = 'technic';
 
 	/**
-	 * Function called when a Dolibarrr business event is done.
+	 * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * @param string		$action		Event action code

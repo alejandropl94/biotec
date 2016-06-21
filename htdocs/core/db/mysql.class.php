@@ -21,13 +21,13 @@
 
 /**
  *	\file       	htdocs/core/db/mysql.class.php
- *	\brief      	Class file to manage Dolibarr database access for a MySQL database
+ *	\brief      	Class file to manage Pineapple database access for a MySQL database
  */
 
 require_once DOL_DOCUMENT_ROOT .'/core/db/DoliDB.class.php';
 
 /**
- *	Class to manage Dolibarr database access for a MySQL database using the mysql extension
+ *	Class to manage Pineapple database access for a MySQL database using the mysql extension
  *
  * @deprecated Use DoliDBMysqli
  */
@@ -112,7 +112,7 @@ class DoliDBMysql extends DoliDB
 				$this->database_name = $name;
 				$this->ok = true;
 
-				// If client connected with different charset than Dolibarr HTML output
+				// If client connected with different charset than Pineapple HTML output
 				$clientmustbe='';
 				if (preg_match('/UTF-8/i',$conf->file->character_set_client))      $clientmustbe='utf8';
 				if (preg_match('/ISO-8859-1/i',$conf->file->character_set_client)) $clientmustbe='latin1';
@@ -138,7 +138,7 @@ class DoliDBMysql extends DoliDB
 
 			if ($this->connected)
 			{
-				// If client connected with different charset than Dolibarr HTML output
+				// If client connected with different charset than Pineapple HTML output
 				$clientmustbe='';
 				if (preg_match('/UTF-8/i',$conf->file->character_set_client))      $clientmustbe='utf8';
 				if (preg_match('/ISO-8859-1/i',$conf->file->character_set_client)) $clientmustbe='latin1';
@@ -399,7 +399,7 @@ class DoliDBMysql extends DoliDB
 		}
 		else
 		{
-			// Constants to convert a MySql error code to a generic Dolibarr error code
+			// Constants to convert a MySql error code to a generic Pineapple error code
 			$errorcode_map = array(
 			1004 => 'DB_ERROR_CANNOT_CREATE',
 			1005 => 'DB_ERROR_CANNOT_CREATE',

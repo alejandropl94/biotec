@@ -71,7 +71,7 @@ class modPrinting extends DolibarrModules
         $this->depends = array();
         $this->requiredby = array();
         $this->phpmin = array(5,1);                     // Minimum version of PHP required by module
-        $this->need_dolibarr_version = array(3,7,-2);   // Minimum version of Dolibarr required by module
+        $this->need_dolibarr_version = array(3,7,-2);   // Minimum version of Pineapple required by module
         $this->conflictwith = array();
         $this->langfiles = array("printing");
 

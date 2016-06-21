@@ -23,7 +23,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions2.lib.php
- *	\brief			A set of functions for Dolibarr
+ *	\brief			A set of functions for Pineapple
  *					This file contains all rare functions.
  */
 
@@ -1383,9 +1383,9 @@ function version_php()
 }
 
 /**
- * 	Return Dolibarr version
+ * 	Return Pineapple version
  *
- * 	@return		string			Dolibarr version
+ * 	@return		string			Pineapple version
  *  @see		versiondolibarrarray
  */
 function version_dolibarr()

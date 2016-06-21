@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Sense errors, és vàlid
@@ -40,9 +40,9 @@ ErrorBadDateFormat=El valor '%s' té un format de data no reconegut
 ErrorWrongDate=La data no es correcta!
 ErrorFailedToWriteInDir=No es pot escriure a la carpeta %s
 ErrorFoundBadEmailInFile=Trobada sintaxi incorrecta en email a %s línies en fitxer (exemple linia %s amb email=%s)
-ErrorUserCannotBeDelete=L'usuari no pot ser eliminat. Potser estigui associat a elements de Dolibarr.
+ErrorUserCannotBeDelete=L'usuari no pot ser eliminat. Potser estigui associat a elements de Pineapple.
 ErrorFieldsRequired=No s'han indicat alguns camps obligatoris
-ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de Dolibarr. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php dolibarr pertanyen a l'usuari del servidor web.
+ErrorFailedToCreateDir=Error en la creació d'una carpeta. Comprovi que l'usuari del servidor web té drets d'escriptura en les carpetes de documents de Pineapple. Si el paràmetre <b>safe_mode</b> està actiu en aquest PHP, Comproveu que els fitxers php dolibarr pertanyen a l'usuari del servidor web.
 ErrorNoMailDefinedForThisUser=E-Mail no definit per a aquest usuari
 ErrorFeatureNeedJavascript=Aquesta funcionalitat requereix javascript actiu per funcionar. Modifiqueu en configuració->entorn.
 ErrorTopMenuMustHaveAParentWithId0=Un menú del tipus 'Superior' no pot tenir un menú pare. Poseu 0 en l'ID pare o busqueu un menu del tipus 'Esquerra'
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=El camp <b>%s</b> no ha de contenir car
 ErrorFieldCanNotContainSpecialNorUpperCharacters=El camp <b>%s</b> no ha de contenir caràcters especials, ni caràcters en majúscula i no pot contindre només números.
 ErrorNoAccountancyModuleLoaded=Mòdul de comptabilitat no activat
 ErrorExportDuplicateProfil=El nom d'aquest perfil ja existeix per aquest conjunt d'exportació
-ErrorLDAPSetupNotComplete=La configuració Dolibarr-LDAP és incompleta.
+ErrorLDAPSetupNotComplete=La configuració Pineapple-LDAP és incompleta.
 ErrorLDAPMakeManualTest=S'ha creat un arxiu .ldif a la carpeta %s. Tracti de carregar manualment aquest arxiu des de la línia de comandes per obtenir més informació sobre l'error.
 ErrorCantSaveADoneUserWithZeroPercentage=No es pot canviar una acció al estat no començada si teniu un usuari realitzant de l'acció.
 ErrorRefAlreadyExists=La referència utilitzada per a la creació ja existeix
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Valor incorrecte per al camp nombre <b>%s</b> (el valor '<b>%
 ErrorsOnXLines=Errors a <b>%s</b> línies font
 ErrorFileIsInfectedWithAVirus=L'antivirus no ha pogut validar aquest arxiu (és probable que estigui infectat per un virus)!
 ErrorSpecialCharNotAllowedForField=Els caràcters especials no són admesos pel camp "%s"
-ErrorDatabaseParameterWrong=El paràmetre de configuració de la base de dades '<b>%s</b>' té un valor no compatible per una instal lació de Dolibarr (ha de tenir el valor '<b>%s</b>').
+ErrorDatabaseParameterWrong=El paràmetre de configuració de la base de dades '<b>%s</b>' té un valor no compatible per una instal lació de Pineapple (ha de tenir el valor '<b>%s</b>').
 ErrorNumRefModel=Hi ha una referència a la base de dades (%s) i és incompatible amb aquesta numeració. Elimineu la línia o renomeneu la referència per activar aquest mòdul.
 ErrorQtyTooLowForThisSupplier=Quantitat insuficient per aquest proveïdor
 ErrorModuleSetupNotComplete=La configuració del mòdul sembla incompleta. Ves Configuració - Mòduls per completar-ho.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Error en l'enviament de la contrasenya
 ErrorFailedToLoadRSSFile=Error en la recuperació del flux RSS. Afegiu la constant MAIN_SIMPLEXMLLOAD_DEBUG si el missatge d'error no és molt explícit.
 ErrorPasswordDiffers=Les contrasenyes no són identiques, torni a introduir-les
 ErrorForbidden=Accés denegat. <br> Intentes accedir a una pàgina, àrea o funcionalitat d'un mòdul amb desactivat o sense estar en una sessió autenticada o que no se li permet al seu usuari.
-ErrorForbidden2=Els permisos per a aquest usuari poden ser assignats per l'administrador Dolibarr mitjançant el menú  %s-> %s.
-ErrorForbidden3=Dolibarr no sembla funcionar en una sessió autentificada. Consulteu la documentació d'instal lació de Dolibarr per saber com administrar les autenticacions (htacces, mod_auth o altre ...).
+ErrorForbidden2=Els permisos per a aquest usuari poden ser assignats per l'administrador Pineapple mitjançant el menú  %s-> %s.
+ErrorForbidden3=Pineapple no sembla funcionar en una sessió autentificada. Consulteu la documentació d'instal lació de Pineapple per saber com administrar les autenticacions (htacces, mod_auth o altre ...).
 ErrorNoImagickReadimage=La classe imagick_readimage no està present en aquesta instal lació de PHP. La ressenya no està doncs disponible. Els administradors poden desactivar aquesta pestanya en el menú Configuració->Visualització.
 ErrorRecordAlreadyExists=Registre ja existent
 ErrorCantReadFile=Error de lectura del fitxer '%s'
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=El compte d'execució del servidor web <b>%s<
 ErrorNoActivatedBarcode=No hi ha activat cap tipus de codi de barres
 ErrUnzipFails=No s'ha pogut descomprimir el fitxer %s amb ZipArchive
 ErrNoZipEngine=En aquest PHP no hi ha motor per descomprimir l'arxiu %s
-ErrorFileMustBeADolibarrPackage=El fitxer %s ha de ser un paquet Dolibarr en format zip
-ErrorFileRequired=Es requereix un fitxer de paquet Dolibarr en format zip
+ErrorFileMustBeAPineapplePackage=El fitxer %s ha de ser un paquet Pineapple en format zip
+ErrorFileRequired=Es requereix un fitxer de paquet Pineapple en format zip
 ErrorPhpCurlNotInstalled=L'extensió PHP CURL no es troba instal·lada, és indispensable per dialogar amb Paypal.
 ErrorFailedToAddToMailmanList=S'ha produït un error en intentar afegir un registre a la llista Mailman o base de dades SPIP
 ErrorFailedToRemoveToMailmanList=Error en l'eliminació de %s de la llista Mailmain %s o base SPIP
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Error en l'addició del contacte
 ErrorDateMustBeBeforeToday=La data no pot ser superior a avui
 ErrorPaymentModeDefinedToWithoutSetup=S'ha establert la forma de pagament al tipus %s però a la configuració del mòdul de factures no s'ha indicat la informació per mostrar aquesta forma de pagament.
 ErrorPHPNeedModule=Error, el seu PHP ha de tenir instal·lat el mòdul <b>%s</b> per utilitzar aquesta funcionalitat.
-ErrorOpenIDSetupNotComplete=Ha configurat Dolibarr per acceptar l'autentificació OpenID, però la URL del servei OpenID no es troba definida a la constant %s
+ErrorOpenIDSetupNotComplete=Ha configurat Pineapple per acceptar l'autentificació OpenID, però la URL del servei OpenID no es troba definida a la constant %s
 ErrorWarehouseMustDiffers=El magatzem d'origen i destí han de ser diferents
 ErrorBadFormat=El format és incorrecte!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, aquest soci encara no s'ha enllaçat a un tercer. Enllaci el soci a un tercer existent o creï un tercer nou abans de crear la quota amb la factura.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=El magatzem és obligatori en la línia a
 ErrorFileMustHaveFormat=El fitxer té format %s
 
 # Warnings
-WarningPasswordSetWithNoAccount=S'ha indicat una contrasenya per aquest soci. En canvi, no s'ha creat cap compte d'usuari, de manera que aquesta contrasenya s'ha desat però no pot ser utilitzada per entrar a Dolibarr. Es pot utilitzar per un mòdul/interfície extern, però si no cal definir cap usuari i contrasenya per un soci, pots deshabilitar la opció "Gestiona l'entrada per tots els socis" des de la configuració del mòdul Socis. Si necessites gestionar una entrada sense contrasenya, pots mantenir aquest camp buit i permetre aquest avís. Nota: El correu electrònic es pot utilitzar per entrar si el soci està enllaçat a un usuarí
+WarningPasswordSetWithNoAccount=S'ha indicat una contrasenya per aquest soci. En canvi, no s'ha creat cap compte d'usuari, de manera que aquesta contrasenya s'ha desat però no pot ser utilitzada per entrar a Pineapple. Es pot utilitzar per un mòdul/interfície extern, però si no cal definir cap usuari i contrasenya per un soci, pots deshabilitar la opció "Gestiona l'entrada per tots els socis" des de la configuració del mòdul Socis. Si necessites gestionar una entrada sense contrasenya, pots mantenir aquest camp buit i permetre aquest avís. Nota: El correu electrònic es pot utilitzar per entrar si el soci està enllaçat a un usuarí
 WarningMandatorySetupNotComplete=Els paràmetres obligatoris de configuració no estan encara definits
 WarningSafeModeOnCheckExecDir=Atenció, està activada l'opció PHP <b>safe_mode</b>, la comanda ha d'estar dins d'un directori declarat dins del paràmetre php <b>safe_mode_exec_dir</b>.
 WarningAllowUrlFopenMustBeOn=El paràmetre <b>allow_url_fopen</b> ha de ser especificat a <b>on</b> a l'arxiu <b>php.ini</b> per disposar d'aquest mòdul completament actiu. Ha de modificar aquest arxiu manualment

@@ -17,7 +17,7 @@
 
 /**
  *      \defgroup   webservices     Module webservices
- *      \brief      Module to enable the Dolibarr server of web services
+ *      \brief      Module to enable the Pineapple server of web services
  *       \file       htdocs/core/modules/modWebServices.class.php
  *       \ingroup    webservices
  *       \brief      File to describe webservices module
@@ -43,7 +43,7 @@ class modWebServices extends DolibarrModules
         $this->family = "technic";
         // Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
         $this->name = preg_replace('/^mod/i','',get_class($this));
-        $this->description = "Enable the Dolibarr web services server";
+        $this->description = "Enable the Pineapple web services server";
         $this->version = 'dolibarr';                        // 'experimental' or 'dolibarr' or version
         // Key used in llx_const table to save module status enabled/disabled (where MYMODULE is value of property name of module in uppercase)
         $this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);

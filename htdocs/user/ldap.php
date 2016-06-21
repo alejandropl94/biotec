@@ -108,7 +108,7 @@ print '<table class="border" width="100%">';
 print '<tr><td class="titlefield">'.$langs->trans("Login").'</td>';
 if ($object->ldap_sid)
 {
-    print '<td class="warning">'.$langs->trans("LoginAccountDisableInDolibarr").'</td>';
+    print '<td class="warning">'.$langs->trans("LoginAccountDisableInPineapple").'</td>';
 }
 else
 {

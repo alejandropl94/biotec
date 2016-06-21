@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - install
+# Pineapple language file - Source file is en_US - install
 LastStepDesc=<strong>Laatste stap:</strong> Definieer hier de login en het wachtwoord die u wilt gebruiken om verbinding te maken software. Niet los dit als het is de rekening voor alle anderen te beheren.
 ShowEditTechnicalParameters=Klik hier om verder gevorderde parameters te zien of aan te passen. (expert instellingen)
 WarningUpgrade=Opgelet:\nHeb je een database backup uitgevoerd ?\nDit wordt ten zeerste aanbevolen: wegens fouten in de database systemen (vb mysql version 5.5.40/41/42/43), kunnen bepaalde gegevens verloren gaan tijdens dit proces, voer daarom eerst een complete dump uit van je database voor je start met de migratie opdracht.\n\nKlik op OK om de migratie te starten...

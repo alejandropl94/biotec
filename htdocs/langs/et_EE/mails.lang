@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=E-postitamine
 EMailing=E-postitamine
 Mailings=E-postitamised
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kõigi kolmandate isikute (klient, huviline, hankija jne) kontaktid/aadressid
-MailingModuleDescDolibarrUsers=Dolibarri kasutajad
+MailingModuleDescPineappleUsers=Pineapplei kasutajad
 MailingModuleDescFundationMembers=Ühenduse liikmed, kellel on e-posti aadress
 MailingModuleDescEmailsFromFile=E-posti aadressid tekstifailist (e-post;perenimi;eesnimi;muu)
 MailingModuleDescEmailsFromUser=Kasutaja sisestatud e-posti aadressid (e-post;perenimi;eesnimi;muu)
 MailingModuleDescContactsCategories=Kolmandad isikud (kategooriate järgi)
-MailingModuleDescDolibarrContractsLinesExpired=Aegunud lepingu ridadega kolmandad isikud
+MailingModuleDescPineappleContractsLinesExpired=Aegunud lepingu ridadega kolmandad isikud
 MailingModuleDescContactsByCompanyCategory=Kolmandate isikute kontaktid/aadressid (kolmandate isikute kategooriate järgi)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Ühenduse liikmed (kategooriate kaupa)

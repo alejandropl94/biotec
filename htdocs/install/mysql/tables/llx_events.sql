@@ -17,7 +17,7 @@
 --
 -- ========================================================================
 -- This table logs all dolibarr security events
--- Content of this table is not managed by users but by Dolibarr
+-- Content of this table is not managed by users but by Pineapple
 -- trigger interface_20_all_Logevents.
 -- ========================================================================
 

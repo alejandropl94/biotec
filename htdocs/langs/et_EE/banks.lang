@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Pank
 Banks=Pangad
 MenuBankCash=Pank/raha
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=Finantskontode päevaraamat
 BankTransfer=Pangaülekanne
 BankTransfers=Pangaülekanded
-TransferDesc=Kanne ühelt kontolt teisele. Dolibarr kirjutab kaks kannet (debiteerib lähtekonto ja krediteerib sihtkonto samas summas. Tehingu teostamiseks kasutatakse sama silti ja kuupäeva)
+TransferDesc=Kanne ühelt kontolt teisele. Pineapple kirjutab kaks kannet (debiteerib lähtekonto ja krediteerib sihtkonto samas summas. Tehingu teostamiseks kasutatakse sama silti ja kuupäeva)
 TransferFrom=Kust
 TransferTo=Kuhu
 TransferFromToDone=Kanne kontolt <b>%s</b> kontole <b>%s</b> väärtuses <b>%s</b> %s on registreeritud.

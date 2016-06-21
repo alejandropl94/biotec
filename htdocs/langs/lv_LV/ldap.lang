@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Domēna parole
 YouMustChangePassNextLogon=Parole lietotāju <b>%s</b> par domēna <b>%s</b> ir jāmaina.
 UserMustChangePassNextLogon=Lietotājam ir nomainīt paroli uz domēna %s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Pirmais abonēšanas datumu
 LDAPFieldFirstSubscriptionAmount=Pirmais parakstīšanās summu
 LDAPFieldLastSubscriptionDate=Pēdējā abonēšanas datums
 LDAPFieldLastSubscriptionAmount=Pēdējā parakstīšanās summu
-SynchronizeDolibarr2Ldap=Sinhronizēt lietotāja (Dolibarr -&gt; LDAP)
+SynchronizePineapple2Ldap=Sinhronizēt lietotāja (Pineapple -&gt; LDAP)
 UserSynchronized=Lietotājs sinhronizēts
 GroupSynchronized=Grupa sinhronizēta
 MemberSynchronized=Biedrs sinhronizēti
 ContactSynchronized=Kontakti sinhronizēti
-ForceSynchronize=Force sinhronizācija Dolibarr -&gt; LDAP
+ForceSynchronize=Force sinhronizācija Pineapple -&gt; LDAP
 ErrorFailedToReadLDAP=Neizdevās nolasīt LDAP datu bāzi. Pārbaudiet LDAP modulis uzstādīšanas un datu bāzes pieejamību.

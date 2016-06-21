@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Über
 CronAbout = Über Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Deaktivieren
 CronTaskInactive=Dieser Job ist deaktiviert
 CronId=ID
 CronClassFile=Klassen (filenames.class.php)
-CronModuleHelp=Name des Dolibarr Modul (funktioniert auch mit externen Dolibarr Modul). <BR> Als Beispiel um die Funktion fetch der Dolibarr Produkt Klasse  /htdocs/<u>product</u>/class/product.class.php aufzurufen, der Wert des Modul ist <i>product.</i>
-CronClassFileHelp=Der Name der Datei zu laden<BR> Als Beispiel um die Funktion fetch der Dolibarr Produkt Klasse /htdocs/product/class/<u>product.class.php</u> aufzurufen, ist der Name der Datei <i>product.class.php</i>
-CronObjectHelp=Der Klassennamen um zu laden. <BR> Als Beispiel um die Funktion fetch der Dolibarr Produkt Klasse  /htdocs/product/class/product.class.php aufzurufen, der Klassennamen-Wert ist <i>Produkt-</i>
-CronMethodHelp=Die Objektmethode, um zu starten. <BR> Zum Beispiel um die Methode fetch vom  Dolibarr Produkt Objekt /htdocs/product/class/product.class.php aufzurufen, ist der Methoden-Wert <i>fetch</i>
-CronArgsHelp=Das Methodenargument/Input-Parameter.<BR>  Zum Beispiel um die Methode fetch vom  Dolibarr Produkt Objekt /htdocs/product/class/product.class.php aufzurufen, ist der Input-Parameter-Wert <i>0, RefProduit</i>
+CronModuleHelp=Name des Pineapple Modul (funktioniert auch mit externen Pineapple Modul). <BR> Als Beispiel um die Funktion fetch der Pineapple Produkt Klasse  /htdocs/<u>product</u>/class/product.class.php aufzurufen, der Wert des Modul ist <i>product.</i>
+CronClassFileHelp=Der Name der Datei zu laden<BR> Als Beispiel um die Funktion fetch der Pineapple Produkt Klasse /htdocs/product/class/<u>product.class.php</u> aufzurufen, ist der Name der Datei <i>product.class.php</i>
+CronObjectHelp=Der Klassennamen um zu laden. <BR> Als Beispiel um die Funktion fetch der Pineapple Produkt Klasse  /htdocs/product/class/product.class.php aufzurufen, der Klassennamen-Wert ist <i>Produkt-</i>
+CronMethodHelp=Die Objektmethode, um zu starten. <BR> Zum Beispiel um die Methode fetch vom  Pineapple Produkt Objekt /htdocs/product/class/product.class.php aufzurufen, ist der Methoden-Wert <i>fetch</i>
+CronArgsHelp=Das Methodenargument/Input-Parameter.<BR>  Zum Beispiel um die Methode fetch vom  Pineapple Produkt Objekt /htdocs/product/class/product.class.php aufzurufen, ist der Input-Parameter-Wert <i>0, RefProduit</i>
 CronCommandHelp=Die auszuführende System-Kommandozeile
 CronCreateJob=Erstelle neuen cronjob
 CronFrom=Von
@@ -84,7 +84,7 @@ CronFrom=Von
 CronInfoPage=Information
 # Common
 CronType=Job Typ
-CronType_method=Aufrufmethode einer Dolibarr Class
+CronType_method=Aufrufmethode einer Pineapple Class
 CronType_command=Shell-Befehl
 CronMenu=Cron
 CronCannotLoadClass=Kann Klasse %s oder Object %s nicht laden

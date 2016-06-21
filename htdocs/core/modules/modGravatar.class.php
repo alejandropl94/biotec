@@ -41,7 +41,7 @@ class modGravatar extends DolibarrModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
+		// Use here a free id (See in Home -> System information -> Pineapple for list of used modules id).
 		$this->numero = 2700;
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'gravatar';
@@ -76,7 +76,7 @@ class modGravatar extends DolibarrModules
 		$this->depends = array();		// List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->phpmin = array(4,3);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(2,7);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(2,7);	// Minimum version of Pineapple required by module
 		$this->langfiles = array();
 
 		// Constants

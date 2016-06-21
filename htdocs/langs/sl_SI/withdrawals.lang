@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Področje trajnikov
 CustomersStandingOrdersArea=Področje trajnikov kupcev
 StandingOrders=Trajniki
@@ -95,7 +95,7 @@ InfoCreditMessage=Odprto naročilo %s je bilo plačano s strani banke<br>Data of
 InfoTransSubject=Prenos odprtega naročila %s na banko
 InfoTransMessage=Odprto naročilo %s je bilo preneseno na banko z %s %s.<br><br>
 InfoTransData=Znesek: %s<br>Način: %s<br>Datum: %s
-InfoFoot=To sporočilo je avtomatsko poslal Dolibarr
+InfoFoot=To sporočilo je avtomatsko poslal Pineapple
 InfoRejectSubject=Odprto naročilo zavrnjeno
 InfoRejectMessage=Pozdravljeni,<br><br>odprto naročilo za račun %s, ki se nanaša na podjetje %s, v znesku %s je banka zavrnila.<br><br>--<br>%s
 ModeWarning=Opcija za delo v živo ni bila nastavljena, zato se bo sistem ustavil po simulaciji

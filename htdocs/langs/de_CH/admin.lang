@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 ConfirmPurgeSessions=Wollen Sie wirklich alle Sitzungsdaten löschen? Damit wird zugleich jeder Benutzer (ausser Ihnen) vom System abgemeldet.
 FormToTestFileUploadForm=Formular für das Testen von Datei-Uplads (je nach Konfiguration)
 DictionarySetup=Wörterbuch Einstellungen
@@ -22,9 +22,9 @@ MeasuringUnit=Masseinheit
 MAIN_MAIL_SMTP_PORT=SMTP-Port (standardmässig in der php.ini: <b>%s</b>)
 MAIN_MAIL_SMTP_SERVER=SMTP-Host (standardmässig in php.ini: <b>%s</b>)
 MAIN_MAIL_EMAIL_FROM=E-Mail-Absender für automatisch erzeugte Mails (standardmässig in php.ini: <b>%s</b>)
-SubmitTranslationENUS=Sollte die Übersetzung für eine Sprache nicht vollständig sein oder Fehler beinhalten, können Sie die entsprechenden Sprachdateien im Verzeichnis <b>langs/%s</b>  bearbeiten und anschliessend Ihre Änderungen an dolibarr.org/forum oder für Entwickler auf github.com/Dolibarr/dolibarr. übertragen.
+SubmitTranslationENUS=Sollte die Übersetzung für eine Sprache nicht vollständig sein oder Fehler beinhalten, können Sie die entsprechenden Sprachdateien im Verzeichnis <b>langs/%s</b>  bearbeiten und anschliessend Ihre Änderungen an dolibarr.org/forum oder für Entwickler auf github.com/Pineapple/dolibarr. übertragen.
 SubmitTranslation=Wenn die Übersetzung der Sprache unvollständig ist oder wenn Sie Fehler finden, können Sie können Sie die entsprechenden Sprachdateien im Verzeichnis <b>langs/%s</b> korrigieren und und anschliessend Ihre Änderungen unter  www.transifex.com/dolibarr-association/dolibarr/ teilen.
-InfDirAlt=Seit Version 3 ist es möglich, ein alternatives Stammverzeichnis anzugeben. Dies ermöglicht, Erweiterungen und eigene Templates am gleichen Ort zu speichern.<br>Legen Sie einfach ein Verzeichis im Hauptverzeichnis von Dolibarr an (z.B. "eigenes").<br>
+InfDirAlt=Seit Version 3 ist es möglich, ein alternatives Stammverzeichnis anzugeben. Dies ermöglicht, Erweiterungen und eigene Templates am gleichen Ort zu speichern.<br>Legen Sie einfach ein Verzeichis im Hauptverzeichnis von Pineapple an (z.B. "eigenes").<br>
 GenericMaskCodes=Sie können ein beliebiges Numerierungsschema wählen. Dieses Schema könnte z.B. so aussehen:<br><b>{000000}</b> steht für eine 6-stellige Nummer, die sich bei jedem neuen %s automatisch erhöht. Wählen Sie die Anzahl der Nullen je nach gewünschter Nummernlänge. Der Zähler füllt sich automatisch bis zum linken Ende mit Nullen um das gewünschte Format abzubilden. <br><b>{000000+000}</b> führt zu einem ähnlichen Ergebnis, allerdings mit einem Wertsprung in Höhe des Werts rechts des Pluszeichens, der beim ersten %s angewandt wird. <br><b>{000000@x}</b> wie zuvor, jedoch stellt sich der Zähler bei Erreichen des Monats x (zwischen 1 und 12) automatisch auf 0 zurück. Ist diese Option gewählt und x hat den Wert 2 oder höher, ist die Folge {mm}{yy} or {mm}{yyyy} ebenfalls erfoderlich. <br><b>{dd}</b> Tag (01 bis 31).<br><b>{mm}</b> Monat (01 bis 12).<br><b>{yy}</b>, <b>{yyyy}</b> or <b>{y}</b> Jahreszahl 1-, 2- oder 4-stellig. <br>
 GenericMaskCodes2=<b>{cccc}</b>  den Kunden-Code mit n Zeichen<br><b>{cccc000}</b> den Kunden-Code mit n Zeichen, gefolgt von einer Client-Zähler zugeordnet zu dem Kunden. <br><b>{tttt}</b> Die Geschäftspartner ID mit n Zeichen (siehe Wörterbuch Partner Typen).<br>
 GenericMaskCodes4a=<u>Beispiel auf der 99. %s des Dritten thecompany Geschehen 2007-01-31:</u> <br>
@@ -85,7 +85,7 @@ TriggerDisabledByName=Trigger in dieser Datei sind durch das <b>-NORUN</b>-Suffi
 MAIN_ROUNDING_RULE_TOT=Rundungseinstellung (Für Länder in denen nicht auf 10er basis Gerundet wird. zB. 0.05 damit in 0.05 Schritten gerundet wirb)
 TotalPriceAfterRounding=Gesamtpreis (Netto/MwSt./Brutto) gerundet
 NoEventOrNoAuditSetup=Keine sicherheitsrelevanten Protokollereignisse. Überprüfen Sie die Aktivierung dieser Funktionen unter 'Einstellunge-Sicherheit-Protokoll'.
-RestoreDesc2=Wiederherstellung von Archive Datei (zip Datei zum Beispiel)\nvom documents Verzeichnis um den documents Datei-Baum im documents verzeichnis in eine neue Dolibarr Installation oder in ein bestehendes Dolibarr Verzeichnis (<b>%s</b>).
+RestoreDesc2=Wiederherstellung von Archive Datei (zip Datei zum Beispiel)\nvom documents Verzeichnis um den documents Datei-Baum im documents verzeichnis in eine neue Pineapple Installation oder in ein bestehendes Pineapple Verzeichnis (<b>%s</b>).
 DownloadMoreSkins=Weitere grafische Oberflächen/Themes herunterladen
 ShowVATIntaInAddress=Ausblenden MwSt. Nummer in Adressen auf Dokumenten.
 MenuUseLayout=Machen Sie vertikales Menü hidable (Option Javascript muss nicht deaktiviert werden)
@@ -100,7 +100,7 @@ UserGroupSetup=Benutzer- und Gruppeneinstellunen
 CompanyCodeChecker=Modul für Geschäftspartner-Code-Erstellung (Kunden oder Lieferanten)
 ModuleCompanyCodeAquarium=Generiert einen Kontierungscode %s, gefolgt von der Lieferantenummer für einen Lieferanten-Kontierungscode und %s, gefolgt vom Kundencontierungscode für einen Kundenkontierungscode.
 ModuleCompanyCodeDigitaria=Kontierungscode hängt vom Geschäftspartner Code ab. Der Code setzt sich aus dem Buchstaben 'C' und den ersten 5 Stellen des Geschäftspartner Codes zusammen.
-NotificationsDesc=E-Mail-Benachrichtigungsfunktionen erlauben Ihnen den stillschweigenden Versand automatischer Benachrichtigungen zu einigen Dolibarr-Ereignissen. Ziele dafür können definiert werden:<br>* pro Geschäftspartner-Kontakt (Kunden oder Lieferanten), ein Geschäftspartner zur Zeit.<br>* durch das Setzen einer globalen Ziel-Mail-Adresse in den Modul-Einstellungen
+NotificationsDesc=E-Mail-Benachrichtigungsfunktionen erlauben Ihnen den stillschweigenden Versand automatischer Benachrichtigungen zu einigen Pineapple-Ereignissen. Ziele dafür können definiert werden:<br>* pro Geschäftspartner-Kontakt (Kunden oder Lieferanten), ein Geschäftspartner zur Zeit.<br>* durch das Setzen einer globalen Ziel-Mail-Adresse in den Modul-Einstellungen
 CompanyIdProfChecker=Berufs-Identifikation einzigartige
 MustBeMandatory=Erforderlich um Geschäftspartner anzulegen?
 WebCalYesByDefault=Nach Rückfrage (standardmässig JA)

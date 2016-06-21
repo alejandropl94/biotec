@@ -24,11 +24,11 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  *
  */
-class CategoryApi extends DolibarrApi
+class CategoryApi extends PineappleApi
 {
     /**
      * @var array   $FIELDS     Mandatory fields, checked when create and update object 
@@ -78,7 +78,7 @@ class CategoryApi extends DolibarrApi
      */
     function get($id)
     {		
-		if(! DolibarrApiAccess::$user->rights->categorie->lire) {
+		if(! PineappleApiAccess::$user->rights->categorie->lire) {
 			throw new RestException(401);
 		}
 			
@@ -87,8 +87,8 @@ class CategoryApi extends DolibarrApi
             throw new RestException(404, 'category not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('category',$this->category->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('category',$this->category->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->category);
@@ -113,7 +113,7 @@ class CategoryApi extends DolibarrApi
         
         $obj_ret = array();
         
-         if(! DolibarrApiAccess::$user->rights->categorie->lire) {
+         if(! PineappleApiAccess::$user->rights->categorie->lire) {
 			throw new RestException(401);
 		}
         
@@ -251,7 +251,7 @@ class CategoryApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->categorie->creer) {
+        if(! PineappleApiAccess::$user->rights->categorie->creer) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -260,7 +260,7 @@ class CategoryApi extends DolibarrApi
         foreach($request_data as $field => $value) {
             $this->category->$field = $value;
         }
-        if($this->category->create(DolibarrApiAccess::$user) < 0) {
+        if($this->category->create(PineappleApiAccess::$user) < 0) {
             throw new RestException(503, 'Error when create category : '.$this->category->error);
         }
         return $this->category->id;
@@ -277,7 +277,7 @@ class CategoryApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->categorie->creer) {
+        if(! PineappleApiAccess::$user->rights->categorie->creer) {
 			throw new RestException(401);
 		}
         
@@ -286,15 +286,15 @@ class CategoryApi extends DolibarrApi
             throw new RestException(404, 'category not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('category',$this->category->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('category',$this->category->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->category->$field = $value;
         }
         
-        if($this->category->update(DolibarrApiAccess::$user))
+        if($this->category->update(PineappleApiAccess::$user))
             return $this->get ($id);
         
         return false;
@@ -310,7 +310,7 @@ class CategoryApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->categorie->supprimer) {
+        if(! PineappleApiAccess::$user->rights->categorie->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->category->fetch($id);
@@ -318,11 +318,11 @@ class CategoryApi extends DolibarrApi
             throw new RestException(404, 'category not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('category',$this->category->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('category',$this->category->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
-        if (! $this->category->delete(DolibarrApiAccess::$user)) {
+        if (! $this->category->delete(PineappleApiAccess::$user)) {
             throw new RestException(401,'error when delete category');
         }
         

@@ -4,12 +4,12 @@ Building packages
 ##################################################
 
 All sub-directories of "build" directory contains files required to build
-automatically Dolibarr packages.
+automatically Pineapple packages.
 There are several tools:
 
 
 
-- To build full Dolibarr packages, launch the script
+- To build full Pineapple packages, launch the script
 > Launch command perl makepack-dolibarr.pl
 
 Note: Prerequisites to build tgz, debian, rpm package
@@ -40,7 +40,7 @@ Note: Prerequisites to build autoexe DoliWamp package:
 
 Note: 
 The build directory and all its contents is absolutely not required to make
-Dolibarr working. It is here only to build Dolibarr packages, and those
+Pineapple working. It is here only to build Pineapple packages, and those
 generated packages will not contains this "build" directory.
 
 
@@ -56,13 +56,13 @@ To build Debian package.
 To build Mac OS package (not ready yet).
 
 * doap:
-To build Doap descriptor to promote/describe Dolibarr releases.
+To build Doap descriptor to promote/describe Pineapple releases.
 
 * doxygen:
 Dir with config file to build doxygen documentation.
 
 * exe:
-To build exe package for Windows that distribute Dolibarr sources or
+To build exe package for Windows that distribute Pineapple sources or
 to build the complete DoliWamp package.
 
 * launchpad:
@@ -75,10 +75,10 @@ Doc file to explain how to create a demo live CD.
 Doc file to explain how to push release onto OBS.
 
 * pad:
-To build a PAD file descriptor to promote/describe Dolibarr releases.
+To build a PAD file descriptor to promote/describe Pineapple releases.
 
 * patch:
-Script file to generate a patch file to distribute a Dolibarr mod.
+Script file to generate a patch file to distribute a Pineapple mod.
 
 * perl:
 Tool to install dolibarr when using virtualmin pro

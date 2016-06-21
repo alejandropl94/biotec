@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=การส่งอีเมล
 EMailing=การส่งอีเมล
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=รายชื่อ / ที่อยู่ของบุคคลที่สามทั้งหมด (ลูกค้าโอกาสผู้จัดจำหน่าย, ... )
-MailingModuleDescDolibarrUsers=ผู้ใช้ Dolibarr
+MailingModuleDescPineappleUsers=ผู้ใช้ Pineapple
 MailingModuleDescFundationMembers=สมาชิกมูลนิธิกับอีเมล
 MailingModuleDescEmailsFromFile=อีเมลจากแฟ้มข้อความ (อีเมล; นามสกุล; FirstName; อื่น ๆ )
 MailingModuleDescEmailsFromUser=อีเมลจากผู้ใช้ป้อน (อีเมล์นามสกุล; FirstName; อื่น ๆ )
 MailingModuleDescContactsCategories=บุคคลที่สาม (ตามหมวดหมู่)
-MailingModuleDescDolibarrContractsLinesExpired=บุคคลที่สามที่มีเส้นที่หมดอายุสัญญา
+MailingModuleDescPineappleContractsLinesExpired=บุคคลที่สามที่มีเส้นที่หมดอายุสัญญา
 MailingModuleDescContactsByCompanyCategory=รายชื่อ / ที่อยู่ของบุคคลที่สาม (โดยบุคคลที่สามหมวดหมู่)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=สมาชิกมูลนิธิ (ตามประเภท)

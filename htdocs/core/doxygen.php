@@ -20,14 +20,14 @@
 /**
  *	    \file       htdocs/core/doxygen.php
  *      \ingroup    core
- *		\mainpage	Dolibarr project
+ *		\mainpage	Pineapple project
  *
- *	    This is source documentation for Dolibarr ERP/CRM.<br>
+ *	    This is source documentation for Pineapple ERP/CRM.<br>
  *      This documentation can be built or updated running the script <b>dolibarr-doxygen-build.pl</b> or from Eclipse with Doxygen plugin.<br>
  *      <br>
- *      Dolibarr official web site: <a href="http://www.dolibarr.org">www.dolibarr.org</a><br>
+ *      Pineapple official web site: <a href="http://www.dolibarr.org">www.dolibarr.org</a><br>
  *      <br>
- *      Dolibarr french portal: <a href="http://www.dolibarr.fr">www.dolibarr.fr</a><br>
- *      Dolibarr spanish portal: <a href="http://www.dolibarr.es">www.dolibarr.es</a><br>
+ *      Pineapple french portal: <a href="http://www.dolibarr.fr">www.dolibarr.fr</a><br>
+ *      Pineapple spanish portal: <a href="http://www.dolibarr.es">www.dolibarr.es</a><br>
  *      <br>
  */

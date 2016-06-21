@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal moduļa iestatīšana
-PaypalDesc=Šis modulis piedāvā lapas, lai ļautu maksājumu ar <a href="http://www.paypal.com" target="_blank">PayPal</a> klienti. To var izmantot par brīvu maksājumu vai maksājumu par konkrētu Dolibarr objektu (rēķins, rīkojums, ...)
+PaypalDesc=Šis modulis piedāvā lapas, lai ļautu maksājumu ar <a href="http://www.paypal.com" target="_blank">PayPal</a> klienti. To var izmantot par brīvu maksājumu vai maksājumu par konkrētu Pineapple objektu (rēķins, rīkojums, ...)
 PaypalOrCBDoPayment=Maksāt ar kredītkarti vai Paypal
 PaypalDoPayment=Maksāt ar Paypal
 PaypalCBDoPayment=Maksāt ar kredītkarti

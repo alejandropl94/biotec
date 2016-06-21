@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columna pel fitxer d'exportació
 ACCOUNTING_EXPORT_DATE=Format de data pel fitxer d'exportació
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Número d'elements per visualitzar el desgloss
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Comença la classificació de les pàgines de desglossament "S'ha de desglossar" pels elements més recents
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Comença la classificació de les pàgines de desglossament "Desglossar" pels elements més recents
 
-AccountLength=Longitud dels comptes comptables mostrats a Dolibarr
-AccountLengthDesc=Funció que permet fingir una longitud de compte comptable mitjançant la substitució d'espais per la xifra zero. Aquesta funció només toca la pantalla, no modifica els comptes comptables registrats a Dolibarr. Per a l'exportació, aquesta funció és necessària per ser compatible amb un determinat programari.
+AccountLength=Longitud dels comptes comptables mostrats a Pineapple
+AccountLengthDesc=Funció que permet fingir una longitud de compte comptable mitjançant la substitució d'espais per la xifra zero. Aquesta funció només toca la pantalla, no modifica els comptes comptables registrats a Pineapple. Per a l'exportació, aquesta funció és necessària per ser compatible amb un determinat programari.
 ACCOUNTING_LENGTH_DESCRIPTION=Longitud per mostrar la descripció de productes i serveis en llistats (Recomanat = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Longitud per mostrar la el formulari de descripció comptes de productes i serveis en llistats (Recomanat = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Mida dels comptes generals

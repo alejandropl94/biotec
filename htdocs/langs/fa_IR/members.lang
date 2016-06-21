@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - members
+# Pineapple language file - Source file is en_US - members
 MembersArea=بخش کاربران
 PublicMembersArea=بخش کاربران عمومی
 MemberCard=کارت اعضا
@@ -20,8 +20,8 @@ ErrorMemberIsAlreadyLinkedToThisThirdParty=یکی دیگر از عضو (نام �
 ErrorUserPermissionAllowsToLinksToItselfOnly=به دلایل امنیتی، شما باید مجوز اعطا شده به ویرایش تمام کاربران قادر به پیوند عضو به یک کاربر است که مال شما نیست.
 ThisIsContentOfYourCard=این جزئیات از کارت شما است
 CardContent=محتوا از کارت عضو شما
-SetLinkToUser=پیوند به یک کاربر Dolibarr
-SetLinkToThirdParty=لینک به شخص ثالث Dolibarr
+SetLinkToUser=پیوند به یک کاربر Pineapple
+SetLinkToThirdParty=لینک به شخص ثالث Pineapple
 MembersCards=کاربران کارت های کسب و کار
 MembersList=فهرست کاربران
 MembersListToValid=لیست اعضای پیش نویس (به اعتبار شود)
@@ -106,10 +106,10 @@ ConfirmDeleteSubscription=آیا مطمئن هستید که می خواهید ا
 Filehtpasswd=فایل htpasswd
 ValidateMember=اعتبارسنجی عضو
 ConfirmValidateMember=آیا مطمئن هستید که می خواهید به اعتبار این عضو؟
-FollowingLinksArePublic=لینک های زیر صفحات باز شده توسط هر اجازه Dolibarr محافظت نشده است. آنها صفحات formated نیست، که به عنوان مثال برای نشان دادن چگونگی به لیست پایگاه داده کاربران.
+FollowingLinksArePublic=لینک های زیر صفحات باز شده توسط هر اجازه Pineapple محافظت نشده است. آنها صفحات formated نیست، که به عنوان مثال برای نشان دادن چگونگی به لیست پایگاه داده کاربران.
 PublicMemberList=فهرست کاربران عمومی
 BlankSubscriptionForm=شکل خودکار اشتراک عمومی
-BlankSubscriptionFormDesc=Dolibarr می تواند به شما URL های عمومی ارائه اجازه می دهد تا بازدید کننده خارجی به درخواست برای عضویت در پایه و اساس. اگر یک ماژول پرداخت آنلاین فعال باشد، به صورت پرداخت نیز به صورت خودکار ارائه خواهند شد.
+BlankSubscriptionFormDesc=Pineapple می تواند به شما URL های عمومی ارائه اجازه می دهد تا بازدید کننده خارجی به درخواست برای عضویت در پایه و اساس. اگر یک ماژول پرداخت آنلاین فعال باشد، به صورت پرداخت نیز به صورت خودکار ارائه خواهند شد.
 EnablePublicSubscriptionForm=فعال کردن فرم خودکار اشتراک عمومی
 MemberPublicLinks=لینک های عمومی / صفحات
 ExportDataset_member_1=کاربران و اشتراک
@@ -126,7 +126,7 @@ PublicMemberCard=کاربران کارت های عمومی
 MemberNotOrNoMoreExpectedToSubscribe=کاربران بیشتری انتظار می رود نیست و یا هیچ به اشتراک
 AddSubscription=Create subscription
 ShowSubscription=نمایش اشتراک
-MemberModifiedInDolibarr=کاربران تغییر در Dolibarr
+MemberModifiedInPineapple=کاربران تغییر در Pineapple
 SendAnEMailToMember=ارسال ایمیل به اطلاعات به عضو
 DescADHERENT_AUTOREGISTER_NOTIF_MAIL_SUBJECT=موضوع ایمیل را دریافت کرده در مورد خودکار کتیبه مهمان
 DescADHERENT_AUTOREGISTER_NOTIF_MAIL=فرستادن به ایمیل دریافت در صورت خودکار کتیبه مهمان
@@ -151,7 +151,7 @@ MayBeOverwrited=این متن را می توان با مقدار مشخص شده
 ShowTypeCard=نمایش نوع «٪ s '
 HTPasswordExport=نسل فایل htpassword
 NoThirdPartyAssociatedToMember=بدون شخص ثالث مرتبط به این کاربر
-ThirdPartyDolibarr=شخص ثالث Dolibarr
+ThirdPartyPineapple=شخص ثالث Pineapple
 MembersAndSubscriptions= کاربران و اشتراک
 MoreActions=اقدام مکمل در ضبط
 MoreActionsOnSubscription=اقدام مکمل، پیشنهاد به طور پیش فرض هنگام ضبط اشتراک
@@ -202,5 +202,5 @@ MembersByNature=This screen show you statistics on members by nature.
 MembersByRegion=This screen show you statistics on members by region.
 VATToUseForSubscriptions=نرخ مالیات بر ارزش افزوده برای استفاده از اشتراک ها
 NoVatOnSubscription=بدون TVA برای اشتراک
-MEMBER_PAYONLINE_SENDEMAIL=ایمیل برای هشدار دادن به هنگام Dolibarr دریافت تایید از پرداخت اعتبار برای اشتراک
+MEMBER_PAYONLINE_SENDEMAIL=ایمیل برای هشدار دادن به هنگام Pineapple دریافت تایید از پرداخت اعتبار برای اشتراک
 ADHERENT_PRODUCT_ID_FOR_SUBSCRIPTIONS=Product used for subscription line into invoice: %s

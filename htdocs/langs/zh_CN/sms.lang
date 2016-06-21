@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - sms
+# Pineapple language file - Source file is en_US - sms
 Sms=短信
 SmsSetup=SMS安装
 SmsDesc=此页面允许您定义全局选项上的短信功能

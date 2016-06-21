@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Omat asiakirjat
 DocsGenerated=Muodostettu asiakirjat
 DocsElements=Elements asiakirjat
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Useita osa-hakemistoja
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=Creator
 ECMArea=EDM area
-ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Dolibarr.
+ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Pineapple.
 ECMAreaDesc2=* Automaattinen hakemistoja täyttyvät automaattisesti kun lisäät dokumentteja kortin osa. <br> * Manuaalinen hakemistojen avulla voidaan tallentaa asiakirjoja, joita ei ole sidottu tiettyyn osa.
 ECMSectionWasRemoved=<b>Hakemiston %s</b> on poistettu.
 ECMDocumentsSection=Asiakirja luettelopalvelujen

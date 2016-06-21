@@ -21,7 +21,7 @@
 /**
  *      \file       scripts/company/sync_contacts_dolibarr2ldap.php
  *      \ingroup    ldap company
- *      \brief      Script to update all contacts from Dolibarr into a LDAP database
+ *      \brief      Script to update all contacts from Pineapple into a LDAP database
  */
 
 $sapi_type = php_sapi_name();
@@ -69,7 +69,7 @@ $now=$argv[1];
 print "Mails sending disabled (useless in batch mode)\n";
 $conf->global->MAIN_DISABLE_ALL_MAILS=1;	// On bloque les mails
 print "\n";
-print "----- Synchronize all records from Dolibarr database:\n";
+print "----- Synchronize all records from Pineapple database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -98,7 +98,7 @@ if (! $confirmed)
 /*
 if (! $conf->global->LDAP_CONTACT_ACTIVE)
 {
-	print $langs->trans("LDAPSynchronizationNotSetupInDolibarr");
+	print $langs->trans("LDAPSynchronizationNotSetupInPineapple");
 	exit(-1);
 }
 */

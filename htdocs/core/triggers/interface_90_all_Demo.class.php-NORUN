@@ -35,7 +35,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/dolibarrtriggers.class.php';
 /**
  *  Class of triggers for demo module
  */
-class InterfaceDemo extends DolibarrTriggers
+class InterfaceDemo extends PineappleTriggers
 {
 
 	public $family = 'demo';
@@ -44,7 +44,7 @@ class InterfaceDemo extends DolibarrTriggers
 	public $version = self::VERSION_DOLIBARR;
 
 	/**
-     * Function called when a Dolibarrr business event is done.
+     * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
      *
      * @param string		$action		Event action code
@@ -56,7 +56,7 @@ class InterfaceDemo extends DolibarrTriggers
      */
     public function runTrigger($action, $object, User $user, Translate $langs, Conf $conf)
     {
-		// Put here code you want to execute when a Dolibarr business events occurs.
+		// Put here code you want to execute when a Pineapple business events occurs.
         // Data and type of action are stored into $object and $action
 	    
 	    switch ($action) {

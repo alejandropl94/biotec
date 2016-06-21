@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Παρέμβαση
 Interventions=Παρεμβάσεις
 InterventionCard=Καρτέλα παρέμβασης
@@ -31,13 +31,13 @@ RelatedInterventions=Οι παρεμβάσεις που σχετίζονται
 ShowIntervention=Εμφάνιση παρέμβασης
 SendInterventionRef=Υποβολή παρέμβασης %s
 SendInterventionByMail=Αποστολή παρέμβασης μέσω e-mail
-InterventionCreatedInDolibarr=Παρέμβαση %s δημιουργήθηκε
-InterventionValidatedInDolibarr=Παρέμβαση %s επικυρώθηκε
-InterventionModifiedInDolibarr=Παρέμβαση %s τροποποιήθηκε
-InterventionClassifiedBilledInDolibarr=Σετ Παρέμβασης %s όπως τιμολογείται
-InterventionClassifiedUnbilledInDolibarr=Σετ Παρέμβαση %s ως μη τιμολογημένο
+InterventionCreatedInPineapple=Παρέμβαση %s δημιουργήθηκε
+InterventionValidatedInPineapple=Παρέμβαση %s επικυρώθηκε
+InterventionModifiedInPineapple=Παρέμβαση %s τροποποιήθηκε
+InterventionClassifiedBilledInPineapple=Σετ Παρέμβασης %s όπως τιμολογείται
+InterventionClassifiedUnbilledInPineapple=Σετ Παρέμβαση %s ως μη τιμολογημένο
 InterventionSentByEMail=Παρέμβαση %s αποστέλλετε με ηλεκτρονικό ταχυδρομείο 
-InterventionDeletedInDolibarr=Παρέμβαση %s διαγράφετε
+InterventionDeletedInPineapple=Παρέμβαση %s διαγράφετε
 SearchAnIntervention=Αναζήτηση παρέμβασης
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

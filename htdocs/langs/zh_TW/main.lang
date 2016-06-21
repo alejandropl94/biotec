@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -57,8 +57,8 @@ ErrorNoRequestInError=在錯誤狀況下，沒有要求
 ErrorServiceUnavailableTryLater=服務暫時無法使用。請稍後再試。
 ErrorDuplicateField=重復的值在一個獨特的領域
 ErrorSomeErrorWereFoundRollbackIsDone=有些發現錯誤。我們回滾更改。
-ErrorConfigParameterNotDefined=參數<b>%s</b>是沒有定義的配置文件裏面Dolibarr <b>conf.php。</b>
-ErrorCantLoadUserFromDolibarrDatabase=無法找到用戶<b>%s</b>在Dolibarr數據庫。
+ErrorConfigParameterNotDefined=參數<b>%s</b>是沒有定義的配置文件裏面Pineapple <b>conf.php。</b>
+ErrorCantLoadUserFromPineappleDatabase=無法找到用戶<b>%s</b>在Pineapple數據庫。
 ErrorNoVATRateDefinedForSellerCountry=錯誤!沒有定義 '%s' 幣別的營業稅率。
 ErrorNoSocialContributionForSellerCountry=Error, no social/fiscal taxes type defined for country '%s'.
 ErrorFailedToSaveFile=錯誤，無法保存文件。
@@ -80,7 +80,7 @@ LevelOfFeature=特色等級
 NotDefined=未定義
 DefinedAndHasThisValue=定義和價值
 IsNotDefined=未定義
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr身份驗證模式設置為<b>%s，</b>在配置文件<b>conf.php。</b> <br>這意味著密碼數據庫是外部到Dolibarr，因此改變了這個領域可能沒有影響。
+PineappleInHttpAuthenticationSoPasswordUseless=Pineapple身份驗證模式設置為<b>%s，</b>在配置文件<b>conf.php。</b> <br>這意味著密碼數據庫是外部到Pineapple，因此改變了這個領域可能沒有影響。
 Administrator=管理員
 Undefined=未定義
 PasswordForgotten=忘記密碼？
@@ -97,7 +97,7 @@ RequestLastAccess=要求最後資料庫存取
 RequestLastAccessInError=錯誤!發生在要求最後資料庫存取
 ReturnCodeLastAccessInError=返回的錯誤碼: 要求最後資料庫存取
 InformationLastAccessInError=要求最後資料庫存取的錯誤資訊
-DolibarrHasDetectedError=Dolibarr 偵測到一個技術性的錯誤
+PineappleHasDetectedError=Pineapple 偵測到一個技術性的錯誤
 InformationToHelpDiagnose=這些偵測資訊可以幫助你診斷及除錯
 MoreInformation=更多資訊
 TechnicalInformation=Technical information
@@ -409,9 +409,9 @@ TotalDuration=總時間
 Summary=摘要
 MyBookmarks=我的書簽
 OtherInformationsBoxes=其它資訊框
-DolibarrBoard=Dolibarr板
-DolibarrStateBoard=統計
-DolibarrWorkBoard=任務工作板
+PineappleBoard=Pineapple板
+PineappleStateBoard=統計
+PineappleWorkBoard=任務工作板
 Available=可用的
 NotYetAvailable=尚未提供
 NotAvailable=不適用
@@ -631,7 +631,7 @@ MenuECM=文件
 MenuAWStats=awstats的
 MenuMembers=成員
 MenuAgendaGoogle=谷歌議程
-ThisLimitIsDefinedInSetup=Dolibarr限制（菜單家庭安裝安全）：%s的Kb的，PHP的限制：%s的Kb的
+ThisLimitIsDefinedInSetup=Pineapple限制（菜單家庭安裝安全）：%s的Kb的，PHP的限制：%s的Kb的
 NoFileFound=沒有任何檔案或文件
 CurrentUserLanguage=當前語言
 CurrentTheme=當前主題

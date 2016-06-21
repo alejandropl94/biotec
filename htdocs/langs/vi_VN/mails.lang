@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=Gửi email
 EMailing=Gửi email
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Liên hệ / địa chỉ của tất cả các bên thứ ba (khách hàng, khách hàng tiềm năng, nhà cung cấp, ...)
-MailingModuleDescDolibarrUsers=Người sử dụng Dolibarr
+MailingModuleDescPineappleUsers=Người sử dụng Pineapple
 MailingModuleDescFundationMembers=Thành viên sáng lập với các email
 MailingModuleDescEmailsFromFile=Email từ một tập tin văn bản (email, LastName, FirstName, khác)
 MailingModuleDescEmailsFromUser=Email từ người dùng nhập vào (email, LastName, FirstName, khác)
 MailingModuleDescContactsCategories=Các bên thứ ba (theo thể loại)
-MailingModuleDescDolibarrContractsLinesExpired=Các bên thứ ba với những đường nét hết hạn hợp đồng của
+MailingModuleDescPineappleContractsLinesExpired=Các bên thứ ba với những đường nét hết hạn hợp đồng của
 MailingModuleDescContactsByCompanyCategory=Liên hệ / địa chỉ của các bên thứ ba (theo thể loại bên thứ ba)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Thành viên sáng lập (theo loại)

@@ -218,7 +218,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i',$action))
                 dolibarr_install_syslog('step5: set MAIN_VERSION_LAST_INSTALL const to ' . $targetversion, LOG_DEBUG);
                 $resql=$db->query("DELETE FROM ".MAIN_DB_PREFIX."const WHERE ".$db->decrypt('name')."='MAIN_VERSION_LAST_INSTALL'");
                 if (! $resql) dol_print_error($db,'Error in setup program');
-                $resql=$db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL',1).",".$db->encrypt($targetversion,1).",'chaine',0,'Dolibarr version when install',0)");
+                $resql=$db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) values(".$db->encrypt('MAIN_VERSION_LAST_INSTALL',1).",".$db->encrypt($targetversion,1).",'chaine',0,'Pineapple version when install',0)");
                 if (! $resql) dol_print_error($db,'Error in setup program');
                 $conf->global->MAIN_VERSION_LAST_INSTALL=$targetversion;
 
@@ -286,7 +286,7 @@ if ($action == "set" || empty($action) || preg_match('/upgrade/i',$action))
                 dolibarr_install_syslog('step5: set MAIN_VERSION_LAST_UPGRADE const to value ' . $targetversion);
                 $resql=$db->query("DELETE FROM ".MAIN_DB_PREFIX."const WHERE ".$db->decrypt('name')."='MAIN_VERSION_LAST_UPGRADE'");
                 if (! $resql) dol_print_error($db,'Error in setup program');
-                $resql=$db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE',1).",".$db->encrypt($targetversion,1).",'chaine',0,'Dolibarr version for last upgrade',0)");
+                $resql=$db->query("INSERT INTO ".MAIN_DB_PREFIX."const(name,value,type,visible,note,entity) VALUES (".$db->encrypt('MAIN_VERSION_LAST_UPGRADE',1).",".$db->encrypt($targetversion,1).",'chaine',0,'Pineapple version for last upgrade',0)");
                 if (! $resql) dol_print_error($db,'Error in setup program');
                 $conf->global->MAIN_VERSION_LAST_UPGRADE=$targetversion;
             }
@@ -398,7 +398,7 @@ elseif (empty($action) || preg_match('/upgrade/i',$action))
         print "<br>";
 
         print '<div class="center"><a href="../index.php?mainmenu=home'.(isset($_POST["login"])?'&username='.urlencode($_POST["login"]):'').'">';
-        print $langs->trans("GoToDolibarr");
+        print $langs->trans("GoToPineapple");
         print '</a></div>';
     }
     else
@@ -425,6 +425,6 @@ else
 clearstatcache();
 
 
-dolibarr_install_syslog("--- step5: Dolibarr setup finished");
+dolibarr_install_syslog("--- step5: Pineapple setup finished");
 
 pFooter(1,$setuplang);

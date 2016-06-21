@@ -19,7 +19,7 @@
 
 /**
  *  \file       htdocs/admin/system/dolibarr.php
- *  \brief      Page to show Dolibarr informations
+ *  \brief      Page to show Pineapple informations
  */
 
 require '../../main.inc.php';
@@ -42,7 +42,7 @@ $form=new Form($db);
 
 llxHeader();
 
-print load_fiche_titre($langs->trans("InfoDolibarr"),'','title_setup');
+print load_fiche_titre($langs->trans("InfoPineapple"),'','title_setup');
 
 // Version
 $var=true;
@@ -138,7 +138,7 @@ if (isset($conf->global->MAIN_OPTIMIZE_SPEED) && ($conf->global->MAIN_OPTIMIZE_S
 // Localisation
 $var=true;
 print '<table class="noborder" width="100%">';
-print '<tr class="liste_titre"><td>'.$langs->trans("LocalisationDolibarrParameters").'</td><td>'.$langs->trans("Value").'</td></tr>'."\n";
+print '<tr class="liste_titre"><td>'.$langs->trans("LocalisationPineappleParameters").'</td><td>'.$langs->trans("Value").'</td></tr>'."\n";
 $var=!$var;
 print '<tr '.$bc[$var].'><td width="300">'.$langs->trans("LanguageBrowserParameter","HTTP_ACCEPT_LANGUAGE").'</td><td>'.$_SERVER["HTTP_ACCEPT_LANGUAGE"].'</td></tr>'."\n";
 $var=!$var;
@@ -169,7 +169,7 @@ print '<tr '.$bc[$var].'><td width="300">&nbsp; => price(1234.56)</td><td>'.pric
 // Timezone
 $txt =$langs->trans("OSTZ").' (variable system TZ): '.(! empty($_ENV["TZ"])?$_ENV["TZ"]:$langs->trans("NotDefined")).'<br>'."\n";
 $txt.=$langs->trans("PHPTZ").' (php.ini date.timezone): '.(ini_get("date.timezone")?ini_get("date.timezone"):$langs->trans("NotDefined")).''."<br>\n"; // date.timezone must be in valued defined in http://fr3.php.net/manual/en/timezones.europe.php
-$txt.=$langs->trans("Dolibarr constant MAIN_SERVER_TZ").': '.(empty($conf->global->MAIN_SERVER_TZ)?$langs->trans("NotDefined"):$conf->global->MAIN_SERVER_TZ);
+$txt.=$langs->trans("Pineapple constant MAIN_SERVER_TZ").': '.(empty($conf->global->MAIN_SERVER_TZ)?$langs->trans("NotDefined"):$conf->global->MAIN_SERVER_TZ);
 //$txt.=$langs->trans("YouCanEditPHPTZ"); // deprecated
 $var=!$var;
 print '<tr '.$bc[$var].'><td width="300">'.$langs->trans("CurrentTimeZone").'</td><td>';	// Timezone server PHP

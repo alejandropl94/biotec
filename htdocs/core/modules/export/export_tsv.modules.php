@@ -62,7 +62,7 @@ class ExportTsv extends ModeleExports
         $this->version='1.15';         // Driver version
 
         // If driver use an external library, put its name here
-        $this->label_lib='Dolibarr';
+        $this->label_lib='Pineapple';
         $this->version_lib=DOL_VERSION;
     }
 
@@ -272,7 +272,7 @@ class ExportTsv extends ModeleExports
      */
     function tsv_clean($newvalue, $charset)
     {
-		// Rule Dolibarr: No HTML
+		// Rule Pineapple: No HTML
 		$newvalue=dol_string_nohtmltag($newvalue, 1, $charset);
 
 		// Rule 1 TSV: No CR, LF in cells

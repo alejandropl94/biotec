@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - help
+# Pineapple language file - Source file is en_US - help
 CommunitySupport=منتدى / الدعم ويكي
 EMailSupport=رسائل البريد الإلكتروني لدعم
 RemoteControlSupport=الانترنت في الوقت الحقيقي / النائية الدعم
@@ -6,8 +6,8 @@ OtherSupport=الدعم الأخرى
 ToSeeListOfAvailableRessources=للاتصال / انظر الموارد المتاحة :
 ClickHere=اضغط هنا
 HelpCenter=مركز المساعدة
-DolibarrHelpCenter=Dolibarr مركز المساعدة والدعم
-ToGoBackToDolibarr=Otherwise, click <a href=بخلاف ذلك ، انقر <a href="%s">هنا لاستخدام Dolibarr</a>
+PineappleHelpCenter=Pineapple مركز المساعدة والدعم
+ToGoBackToPineapple=Otherwise, click <a href=بخلاف ذلك ، انقر <a href="%s">هنا لاستخدام Pineapple</a>
 TypeOfSupport=مصدر الدعم
 TypeSupportCommunauty=المجتمع (مجاني)
 TypeSupportCommercial=التجارية
@@ -18,11 +18,11 @@ TypeHelpOnly=يساعد فقط
 TypeHelpDev=+ المساعدة على التنمية
 TypeHelpDevForm=مساعدة التنمية + + تشكيل
 ToGetHelpGoOnSparkAngels1=ويمكن أن توفر بعض الشركات سريعة (ما الفورية) ، وزيادة كفاءة شبكة الإنترنت عن طريق دعم السيطرة على جهاز الكمبيوتر الخاص بك. مساعدات من هذا القبيل يمكن الاطلاع على الموقع الإلكتروني <b>ل ٪</b> :
-ToGetHelpGoOnSparkAngels3=كما يمكنك الذهاب الى قائمة المدربين كل ما هو متاح لDolibarr ، لهذا اضغط على زر
+ToGetHelpGoOnSparkAngels3=كما يمكنك الذهاب الى قائمة المدربين كل ما هو متاح لPineapple ، لهذا اضغط على زر
 ToGetHelpGoOnSparkAngels2=في بعض الأحيان ، لا يوجد أي شركة المتاحة في الوقت الراهن تقوم بإجراء البحث ، لذلك اعتقد تغيير فلتر للبحث عن "توافر جميع". ستتمكن من ارسال المزيد من الطلبات.
 BackToHelpCenter=Otherwise, click here to go <a href=بخلاف ذلك ، انقر هنا للذهاب <a href="%s">الى الصفحة الرئيسية لمركز المساعدة.</a>
-LinkToGoldMember=تستطيع الاتصال به من قبل المدرب مختار مسبقا لغتك Dolibarr (٪) عن طريق النقر فوق القطعة له (والحد الاعلى لسعر يتم تحديثها تلقائيا) :
+LinkToGoldMember=تستطيع الاتصال به من قبل المدرب مختار مسبقا لغتك Pineapple (٪) عن طريق النقر فوق القطعة له (والحد الاعلى لسعر يتم تحديثها تلقائيا) :
 PossibleLanguages=وأيد لغات
-MakeADonation=مساعدة Dolibarr المشروع ، تقديم تبرع
-SubscribeToFoundation=مساعدة مشروع Dolibarr، الاشتراك في الجمعية
-SeeOfficalSupport=للحصول على الدعم Dolibarr الرسمي في لغتك: <br> <b><a href="%s" target="_blank">٪ الصورة</a></b>
+MakeADonation=مساعدة Pineapple المشروع ، تقديم تبرع
+SubscribeToFoundation=مساعدة مشروع Pineapple، الاشتراك في الجمعية
+SeeOfficalSupport=للحصول على الدعم Pineapple الرسمي في لغتك: <br> <b><a href="%s" target="_blank">٪ الصورة</a></b>

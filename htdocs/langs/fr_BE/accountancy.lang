@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - accountancy
+# Pineapple language file - Source file is en_US - accountancy
 Menuthirdpartyaccount=Comptes tiers
 ConfigAccountingExpert=Configuration du module de compta expert
 Selectmodelcsv=Sélectionnez un modèle d'export
@@ -18,7 +18,7 @@ EndProcessing=Fin de l'exécution
 Lineofinvoice=Lignes de facture
 VentilatedinAccount=Ventilé(es) correctement dans le compte comptable
 NotVentilatedinAccount=Non ventilé(es) dans le compte comptable
-AccountLength=Longeur du compte comptable affiché dans Dolibarr
+AccountLength=Longeur du compte comptable affiché dans Pineapple
 Doctype=Type de document
 CashPayment=Paiement en espèces
 ThirdPartyAccount=Compte tiers

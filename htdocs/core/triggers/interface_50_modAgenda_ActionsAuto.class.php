@@ -32,7 +32,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/dolibarrtriggers.class.php';
 /**
  *  Class of triggered functions for agenda module
  */
-class InterfaceActionsAuto extends DolibarrTriggers
+class InterfaceActionsAuto extends PineappleTriggers
 {
 	public $family = 'agenda';
 	public $description = "Triggers of this module add actions in agenda according to setup made in agenda setup.";
@@ -40,7 +40,7 @@ class InterfaceActionsAuto extends DolibarrTriggers
 	public $picto = 'action';
 
 	/**
-	 * Function called when a Dolibarrr business event is done.
+	 * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * Following properties must be filled:
@@ -83,8 +83,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("companies");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("NewCompanyToDolibarr",$object->name);
-            $object->actionmsg=$langs->transnoentities("NewCompanyToDolibarr",$object->name);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("NewCompanyToPineapple",$object->name);
+            $object->actionmsg=$langs->transnoentities("NewCompanyToPineapple",$object->name);
             if (! empty($object->prefix)) $object->actionmsg.=" (".$object->prefix.")";
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
@@ -109,8 +109,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("contracts");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("ContractValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("ContractValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("ContractValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("ContractValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -121,8 +121,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("propal");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("PropalValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("PropalValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -149,8 +149,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("propal");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClosedSignedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("PropalClosedSignedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClosedSignedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("PropalClosedSignedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -161,8 +161,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("propal");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClassifiedBilledInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("PropalClassifiedBilledInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClassifiedBilledInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("PropalClassifiedBilledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -173,8 +173,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("propal");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClosedRefusedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("PropalClosedRefusedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("PropalClosedRefusedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("PropalClosedRefusedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -184,8 +184,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("OrderValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("OrderValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -196,8 +196,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderDeliveredInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("OrderDeliveredInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderDeliveredInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("OrderDeliveredInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -208,8 +208,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderBilledInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("OrderBilledInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderBilledInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("OrderBilledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -220,8 +220,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderCanceledInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("OrderCanceledInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderCanceledInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("OrderCanceledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -248,8 +248,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("InvoiceValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("InvoiceValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -260,8 +260,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceBackToDraftInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoiceBackToDraftInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceBackToDraftInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoiceBackToDraftInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -289,8 +289,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 
             // Values for this action can't be defined by caller.
 			$object->actiontypecode='AC_OTH_AUTO';
-            $object->actionmsg2=$langs->transnoentities("InvoicePaidInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoicePaidInDolibarr",$object->ref);
+            $object->actionmsg2=$langs->transnoentities("InvoicePaidInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoicePaidInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -301,8 +301,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceCanceledInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoiceCanceledInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceCanceledInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoiceCanceledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -313,8 +313,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionCreatedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InterventionCreatedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionCreatedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InterventionCreatedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -327,8 +327,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("InterventionValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("InterventionValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -341,8 +341,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionModifiedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InterventionModifiedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionModifiedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InterventionModifiedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -367,8 +367,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
             $object->actiontypecode='AC_OTH_AUTO';
-           	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionClassifiedBilledInDolibarr",$object->ref);
-           	$object->actionmsg=$langs->transnoentities("InterventionClassifiedBilledInDolibarr",$object->ref);
+           	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionClassifiedBilledInPineapple",$object->ref);
+           	$object->actionmsg=$langs->transnoentities("InterventionClassifiedBilledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -379,8 +379,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
             $object->actiontypecode='AC_OTH_AUTO';
-           	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionClassifiedUnbilledInDolibarr",$object->ref);
-           	$object->actionmsg=$langs->transnoentities("InterventionClassifiedUnbilledInDolibarr",$object->ref);
+           	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionClassifiedUnbilledInPineapple",$object->ref);
+           	$object->actionmsg=$langs->transnoentities("InterventionClassifiedUnbilledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -391,8 +391,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("interventions");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionDeletedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InterventionDeletedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InterventionDeletedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InterventionDeletedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -437,8 +437,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("OrderValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("OrderValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -449,8 +449,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 			$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderApprovedInDolibarr",$object->ref);
-			$object->actionmsg=$langs->transnoentities("OrderApprovedInDolibarr",$object->ref);
+			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderApprovedInPineapple",$object->ref);
+			$object->actionmsg=$langs->transnoentities("OrderApprovedInPineapple",$object->ref);
 			$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -461,8 +461,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 			$langs->load("orders");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderRefusedInDolibarr",$object->ref);
-			$object->actionmsg=$langs->transnoentities("OrderRefusedInDolibarr",$object->ref);
+			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("OrderRefusedInPineapple",$object->ref);
+			$object->actionmsg=$langs->transnoentities("OrderRefusedInPineapple",$object->ref);
 			$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -490,8 +490,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("InvoiceValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("InvoiceValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -502,8 +502,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceBackToDraftInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoiceBackToDraftInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceBackToDraftInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoiceBackToDraftInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
             $object->sendtoid=0;
@@ -531,8 +531,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoicePaidInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoicePaidInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoicePaidInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoicePaidInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -543,8 +543,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("bills");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceCanceledInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("InvoiceCanceledInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("InvoiceCanceledInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("InvoiceCanceledInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
 			$object->sendtoid=0;
@@ -557,8 +557,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("members");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
-            $object->actionmsg=$langs->transnoentities("MemberValidatedInDolibarr",($object->newref?$object->newref:$object->ref));
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberValidatedInPineapple",($object->newref?$object->newref:$object->ref));
+            $object->actionmsg=$langs->transnoentities("MemberValidatedInPineapple",($object->newref?$object->newref:$object->ref));
             $object->actionmsg.="\n".$langs->transnoentities("Member").': '.$object->getFullName($langs);
             $object->actionmsg.="\n".$langs->transnoentities("Type").': '.$object->type;
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
@@ -571,8 +571,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("members");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberSubscriptionAddedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("MemberSubscriptionAddedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberSubscriptionAddedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("MemberSubscriptionAddedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Member").': '.$object->getFullName($langs);
             $object->actionmsg.="\n".$langs->transnoentities("Type").': '.$object->type;
             $object->actionmsg.="\n".$langs->transnoentities("Amount").': '.$object->last_subscription_amount;
@@ -587,8 +587,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("members");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberResiliatedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("MemberResiliatedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberResiliatedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("MemberResiliatedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Member").': '.$object->getFullName($langs);
             $object->actionmsg.="\n".$langs->transnoentities("Type").': '.$object->type;
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
@@ -601,8 +601,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
             $langs->load("members");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberDeletedInDolibarr",$object->ref);
-            $object->actionmsg=$langs->transnoentities("MemberDeletedInDolibarr",$object->ref);
+            if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("MemberDeletedInPineapple",$object->ref);
+            $object->actionmsg=$langs->transnoentities("MemberDeletedInPineapple",$object->ref);
             $object->actionmsg.="\n".$langs->transnoentities("Member").': '.$object->getFullName($langs);
             $object->actionmsg.="\n".$langs->transnoentities("Type").': '.$object->type;
             $object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
@@ -617,8 +617,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
         	$langs->load("projects");
 
         	$object->actiontypecode='AC_OTH_AUTO';
-        	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("ProjectCreatedInDolibarr",$object->ref);
-        	$object->actionmsg=$langs->transnoentities("ProjectCreatedInDolibarr",$object->ref);
+        	if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("ProjectCreatedInPineapple",$object->ref);
+        	$object->actionmsg=$langs->transnoentities("ProjectCreatedInPineapple",$object->ref);
         	$object->actionmsg.="\n".$langs->transnoentities("Project").': '.$object->ref;
         	$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
@@ -632,8 +632,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 
 			$object->actiontypecode='AC_OTH_AUTO';
 
-			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskCreatedInDolibarr",$object->ref);
-			$object->actionmsg=$langs->transnoentities("TaskCreatedInDolibarr",$object->ref);
+			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskCreatedInPineapple",$object->ref);
+			$object->actionmsg=$langs->transnoentities("TaskCreatedInPineapple",$object->ref);
 			$object->actionmsg.="\n".$langs->transnoentities("Task").': '.$object->ref;
 			$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
@@ -645,8 +645,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 			$langs->load("projects");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskModifiedInDolibarr",$object->ref);
-			$object->actionmsg=$langs->transnoentities("TaskModifieddInDolibarr",$object->ref);
+			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskModifiedInPineapple",$object->ref);
+			$object->actionmsg=$langs->transnoentities("TaskModifieddInPineapple",$object->ref);
 			$object->actionmsg.="\n".$langs->transnoentities("Task").': '.$object->ref;
 			$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 
@@ -658,8 +658,8 @@ class InterfaceActionsAuto extends DolibarrTriggers
 			$langs->load("projects");
 
 			$object->actiontypecode='AC_OTH_AUTO';
-			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskDeletedInDolibarr",$object->ref);
-			$object->actionmsg=$langs->transnoentities("TaskDeletedInDolibarr",$object->ref);
+			if (empty($object->actionmsg2)) $object->actionmsg2=$langs->transnoentities("TaskDeletedInPineapple",$object->ref);
+			$object->actionmsg=$langs->transnoentities("TaskDeletedInPineapple",$object->ref);
 			$object->actionmsg.="\n".$langs->transnoentities("Task").': '.$object->ref;
 			$object->actionmsg.="\n".$langs->transnoentities("Author").': '.$user->login;
 

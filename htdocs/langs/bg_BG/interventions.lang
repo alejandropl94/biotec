@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Намеса
 Interventions=Интервенциите
 InterventionCard=Интервенция карта
@@ -31,13 +31,13 @@ RelatedInterventions=Подобни интервенции
 ShowIntervention=Покажи намеса
 SendInterventionRef=Подаване на намеса %s
 SendInterventionByMail=Изпращане на намеса по електронна поща
-InterventionCreatedInDolibarr=Намеса %s създадена
-InterventionValidatedInDolibarr=Намеса %s валидирана
-InterventionModifiedInDolibarr=Намеса %s променена
-InterventionClassifiedBilledInDolibarr=Intervention %s set as billed
-InterventionClassifiedUnbilledInDolibarr=Intervention %s set as unbilled
+InterventionCreatedInPineapple=Намеса %s създадена
+InterventionValidatedInPineapple=Намеса %s валидирана
+InterventionModifiedInPineapple=Намеса %s променена
+InterventionClassifiedBilledInPineapple=Intervention %s set as billed
+InterventionClassifiedUnbilledInPineapple=Intervention %s set as unbilled
 InterventionSentByEMail=Намеса %s изпратена по електронна поща
-InterventionDeletedInDolibarr=Намеса %s изтрита
+InterventionDeletedInPineapple=Намеса %s изтрита
 SearchAnIntervention=Търсене на намеса
 InterventionsArea=Зона Намеси
 DraftFichinter=Чернови намеси

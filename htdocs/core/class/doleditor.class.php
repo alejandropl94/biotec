@@ -105,7 +105,7 @@ class DolEditor
         	$this->editor->Config['ToolbarStartExpanded'] = $toolbarstartexpanded;
 
     		// Rem: Le forcage de ces 2 parametres ne semble pas fonctionner.
-    		// Dolibarr utilise toujours liens avec modulepart='fckeditor' quelque soit modulepart.
+    		// Pineapple utilise toujours liens avec modulepart='fckeditor' quelque soit modulepart.
     		// Ou se trouve donc cette valeur /viewimage.php?modulepart=fckeditor&file=' ?
         	$modulepart='fckeditor';
     		$this->editor->Config['UserFilesPath'] = '/viewimage.php?modulepart='.$modulepart.'&file=';

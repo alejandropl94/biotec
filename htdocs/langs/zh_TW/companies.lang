@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=公司名稱%s已經存在。選擇另外一個。
 ErrorPrefixAlreadyExists=前置字符%s已經存在。選擇另外一個。
 ErrorSetACountryFirst=請先設定國家
@@ -18,7 +18,7 @@ NewCompany=新客戶/供應商（潛在、客戶、供應商）
 NewThirdParty=新客戶/供應商（潛在、客戶、供應商）
 NewSocGroup=新公司集團
 NewPrivateIndividual=新的個人（潛在、客戶、供應商）
-CreateDolibarrThirdPartySupplier=建立一個合作廠商(供應商)
+CreatePineappleThirdPartySupplier=建立一個合作廠商(供應商)
 ProspectionArea=勘察區
 SocGroup=集團企業
 IdThirdParty=第三方身份
@@ -387,8 +387,8 @@ NoParentCompany=無
 ExportImport=匯出/匯入
 ExportCardToFormat=匯出格式
 ContactNotLinkedToCompany=聯系不與任何第三方
-DolibarrLogin=登錄系統時間
-NoDolibarrAccess=沒有任何系統存取記錄
+PineappleLogin=登錄系統時間
+NoPineappleAccess=沒有任何系統存取記錄
 ExportDataset_company_1=客戶/供應商(公司/基金會/個人)和屬性
 ExportDataset_company_2=聯系和屬性
 ImportDataset_company_1=客戶/供應商(公司/基金會/個人)和屬性

@@ -926,16 +926,16 @@ else
 		}
 
 		/*
-		 // Third party Dolibarr
+		 // Third party Pineapple
 		if (! empty($conf->societe->enabled))
 		{
-		print '<tr><td>'.$langs->trans("LinkedToDolibarrThirdParty").'</td><td class="valeur">';
+		print '<tr><td>'.$langs->trans("LinkedToPineappleThirdParty").'</td><td class="valeur">';
 		print $form->select_company($object->fk_soc,'socid','',1);
 		print '</td></tr>';
 		}
 
-		// Login Dolibarr
-		print '<tr><td>'.$langs->trans("LinkedToDolibarrUser").'</td><td class="valeur">';
+		// Login Pineapple
+		print '<tr><td>'.$langs->trans("LinkedToPineappleUser").'</td><td class="valeur">';
 		print $form->select_dolusers($object->user_id, 'userid', 1, '', 0, '', '', 0, 0, 0, '', 0, '', 'maxwidth300');
 		print '</td></tr>';
 		*/
@@ -1185,10 +1185,10 @@ else
 			print $object->showOptionals($extrafields,'edit',$parameters);
 		}
 
-		// Third party Dolibarr
+		// Third party Pineapple
 		if (! empty($conf->societe->enabled))
 		{
-			print '<tr><td>'.$langs->trans("LinkedToDolibarrThirdParty").'</td><td colspan="2" class="valeur">';
+			print '<tr><td>'.$langs->trans("LinkedToPineappleThirdParty").'</td><td colspan="2" class="valeur">';
 			if ($object->fk_soc)
 			{
 				$company=new Societe($db);
@@ -1202,13 +1202,13 @@ else
 			print '</td></tr>';
 		}
 
-		// Login Dolibarr
-		print '<tr><td>'.$langs->trans("LinkedToDolibarrUser").'</td><td colspan="2" class="valeur">';
+		// Login Pineapple
+		print '<tr><td>'.$langs->trans("LinkedToPineappleUser").'</td><td colspan="2" class="valeur">';
 		if ($object->user_id)
 		{
 			$form->form_users($_SERVER['PHP_SELF'].'?rowid='.$object->id,$object->user_id,'none');
 		}
-		else print $langs->trans("NoDolibarrAccess");
+		else print $langs->trans("NoPineappleAccess");
 		print '</td></tr>';
 
 		print '</table>';
@@ -1278,7 +1278,7 @@ else
 				if ($object->fk_soc > 0) $text.=$langs->trans("UserWillBeExternalUser");
 				else $text.=$langs->trans("UserWillBeInternalUser");
 			}
-			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreateDolibarrLogin"),$text,"confirm_create_user",$formquestion,'yes');
+			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreatePineappleLogin"),$text,"confirm_create_user",$formquestion,'yes');
 		}
 
 		// Confirm create third party
@@ -1297,7 +1297,7 @@ else
 			// Create a form array
 			$formquestion=array(		array('label' => $langs->trans("NameToCreate"), 'type' => 'text', 'name' => 'companyname', 'value' => $name));
 
-			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreateDolibarrThirdParty"),$langs->trans("ConfirmCreateThirdParty"),"confirm_create_thirdparty",$formquestion,1);
+			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreatePineappleThirdParty"),$langs->trans("ConfirmCreateThirdParty"),"confirm_create_thirdparty",$formquestion,1);
 		}
 
 		// Confirm validate member
@@ -1475,12 +1475,12 @@ else
 			print $object->showOptionals($extrafields, 'view', $parameters);
 		}
 
-		// Third party Dolibarr
+		// Third party Pineapple
 		if (! empty($conf->societe->enabled))
 		{
 			print '<tr><td>';
 			print '<table class="nobordernopadding" width="100%"><tr><td>';
-			print $langs->trans("LinkedToDolibarrThirdParty");
+			print $langs->trans("LinkedToPineappleThirdParty");
 			print '</td>';
 			if ($action != 'editthirdparty' && $user->rights->adherent->creer) print '<td align="right"><a href="'.$_SERVER["PHP_SELF"].'?action=editthirdparty&amp;rowid='.$object->id.'">'.img_edit($langs->trans('SetLinkToThirdParty'),1).'</a></td>';
 			print '</tr></table>';
@@ -1515,10 +1515,10 @@ else
 			print '</td></tr>';
 		}
 
-		// Login Dolibarr
+		// Login Pineapple
 		print '<tr><td>';
 		print '<table class="nobordernopadding" width="100%"><tr><td>';
-		print $langs->trans("LinkedToDolibarrUser");
+		print $langs->trans("LinkedToPineappleUser");
 		print '</td>';
 		if ($action != 'editlogin' && $user->rights->adherent->creer)
 		{
@@ -1541,7 +1541,7 @@ else
 			{
 				$form->form_users($_SERVER['PHP_SELF'].'?rowid='.$object->id,$object->user_id,'none');
 			}
-			else print $langs->trans("NoDolibarrAccess");
+			else print $langs->trans("NoPineappleAccess");
 		}
 		print '</td></tr>';
 
@@ -1651,12 +1651,12 @@ else
 				{
 					if ($user->rights->societe->creer)
 					{
-						if ($object->statut != -1) print '<div class="inline-block divButAction"><a class="butAction" href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_thirdparty">'.$langs->trans("CreateDolibarrThirdParty").'</a></div>';
-						else print '<div class="inline-block divButAction"><a class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("ValidateBefore")).'">'.$langs->trans("CreateDolibarrThirdParty").'</a></div>';
+						if ($object->statut != -1) print '<div class="inline-block divButAction"><a class="butAction" href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_thirdparty">'.$langs->trans("CreatePineappleThirdParty").'</a></div>';
+						else print '<div class="inline-block divButAction"><a class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("ValidateBefore")).'">'.$langs->trans("CreatePineappleThirdParty").'</a></div>';
 					}
 					else
 					{
-						print '<div class="inline-block divButAction"><font class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("NotEnoughPermissions")).'">'.$langs->trans("CreateDolibarrThirdParty")."</font></div>";
+						print '<div class="inline-block divButAction"><font class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("NotEnoughPermissions")).'">'.$langs->trans("CreatePineappleThirdParty")."</font></div>";
 					}
 				}
 	
@@ -1665,12 +1665,12 @@ else
 				{
 					if ($user->rights->user->user->creer)
 					{
-						if ($object->statut != -1) print '<div class="inline-block divButAction"><a class="butAction" href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_user">'.$langs->trans("CreateDolibarrLogin").'</a></div>';
-						else print '<div class="inline-block divButAction"><a class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("ValidateBefore")).'">'.$langs->trans("CreateDolibarrLogin").'</a></div>';
+						if ($object->statut != -1) print '<div class="inline-block divButAction"><a class="butAction" href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_user">'.$langs->trans("CreatePineappleLogin").'</a></div>';
+						else print '<div class="inline-block divButAction"><a class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("ValidateBefore")).'">'.$langs->trans("CreatePineappleLogin").'</a></div>';
 					}
 					else
 					{
-						print '<div class="inline-block divButAction"><font class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("NotEnoughPermissions")).'">'.$langs->trans("CreateDolibarrLogin")."</font></div>";
+						print '<div class="inline-block divButAction"><font class="butActionRefused" href="#" title="'.dol_escape_htmltag($langs->trans("NotEnoughPermissions")).'">'.$langs->trans("CreatePineappleLogin")."</font></div>";
 					}
 				}
 	

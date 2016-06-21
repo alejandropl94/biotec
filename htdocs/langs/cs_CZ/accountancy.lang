@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Oddělovač sloupců pro export souboru
 ACCOUNTING_EXPORT_DATE=Formát data pro export souboru
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Počet prvků, které mají být zobrazeny roz
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Začněte třídění rozkladných stránek "Má k rozdělení" nejnovějšími elementy
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Začněte třídění rozpisu stránek "Breakdown", podle nejnovějších prvků
 
-AccountLength=Délka účetnické osnovy uvedené v Dolibarr
-AccountLengthDesc=Funkce povolující simulovat délku účetního účtu nahrazením místa prostřednictvím nulového obrázku. Tato funkce se týká pouze zobrazení, to nemění účetní účty zaregistrované v Dolibarr. Pro export této funkce je nutné, aby byla kompatibilní s daným softwarem.
+AccountLength=Délka účetnické osnovy uvedené v Pineapple
+AccountLengthDesc=Funkce povolující simulovat délku účetního účtu nahrazením místa prostřednictvím nulového obrázku. Tato funkce se týká pouze zobrazení, to nemění účetní účty zaregistrované v Pineapple. Pro export této funkce je nutné, aby byla kompatibilní s daným softwarem.
 ACCOUNTING_LENGTH_DESCRIPTION=Length for displaying product & services description in listings (Best = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Length for displaying product & services account description form in listings (Best = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Délka hlavních účtů

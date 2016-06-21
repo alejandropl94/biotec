@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Eksporto sritis
 ImportArea=Importas sritis
 NewExport=Naujas eksportas
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Pasirinkite failo formatą, kurį naudosite kaip impo
 ChooseFileToImport=Įkelkite failą, tada spustelėkite piktogramą %s, norėdami pasirinkti failą kaip šaltinio failą importui
 SourceFileFormat=Šaltinio failo formatas
 FieldsInSourceFile=Šaltinio failo laukai
-FieldsInTargetDatabase=Uždavinių laukai Dolibarr duomenų bazėje (paryškinta=privaloma)
+FieldsInTargetDatabase=Uždavinių laukai Pineapple duomenų bazėje (paryškinta=privaloma)
 Field=Laukas
 NoFields=Nėra laukų
 MoveField=Perkelti lauko stulpelio numerį %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Eilučių be klaidų ir be įspėjimų skaičius: <b>%s</b>
 NbOfLinesImported=Sėkmingai importuotų eilučių skaičius: <b>%s</b>
 DataComeFromNoWhere=Įterpiama reikšmė ateina nežinia iš kur iš šaltinio failo.
 DataComeFromFileFieldNb=Įterpiama reikšmė ateina iš lauko numeriu <b>%s</b> iš šaltinio failo.
-DataComeFromIdFoundFromRef=Reikšmė, ateinanti iš lauko numeriu <b>%s</b> iš šaltinio failo, bus naudojama patronuojančio objekto ID radimui (Taigi objektas <b>%s</b>, kuris turi nuorodą iš šaltinio failo turi egzistuoti Dolibarr).
+DataComeFromIdFoundFromRef=Reikšmė, ateinanti iš lauko numeriu <b>%s</b> iš šaltinio failo, bus naudojama patronuojančio objekto ID radimui (Taigi objektas <b>%s</b>, kuris turi nuorodą iš šaltinio failo turi egzistuoti Pineapple).
 DataComeFromIdFoundFromCodeId=Kodas, kuris ateina iš lauko numeriu <b>%s</b> iš šaltinio failo, bus naudojamaspatronuojančio objekto ID radimui (Taigi kodas iš šaltinio failo turi egzistuoti aplanke <b>%s</b>. Atkreipkite dėmesį, jei Jūs žinote ID, Jūs taip pat galite naudoti jį šaltinio faile vietoje kodo. Importas turėtų veikti abiem atvejais.
 DataIsInsertedInto=Duomenys, gauti iš šaltinio failo, bus įtraukti į sekančius laukus:
 DataIDSourceIsInsertedInto=Patronuojančio objekto ID, rastas naudojant šaltinio failo duomenis, bus įtrauktas į sekantį laukelį:

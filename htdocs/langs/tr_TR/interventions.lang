@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Müdahale
 Interventions=Müdahaleler
 InterventionCard=Müdahale kartı
@@ -31,13 +31,13 @@ RelatedInterventions=İlgili müdahaleler
 ShowIntervention=Müdahale göster
 SendInterventionRef=%s müdahalesinin sunulması
 SendInterventionByMail=Müdahaleyi Eposta ile gönder
-InterventionCreatedInDolibarr=Oluşturulan müdahale %s
-InterventionValidatedInDolibarr=Doğrulanan müdahale %s
-InterventionModifiedInDolibarr=Değiştirilen müdahale %s
-InterventionClassifiedBilledInDolibarr=Faturalandı olarak ayarlanan müdahale %s
-InterventionClassifiedUnbilledInDolibarr=Faturalanmadı olarak ayarlanan müdahale %s
+InterventionCreatedInPineapple=Oluşturulan müdahale %s
+InterventionValidatedInPineapple=Doğrulanan müdahale %s
+InterventionModifiedInPineapple=Değiştirilen müdahale %s
+InterventionClassifiedBilledInPineapple=Faturalandı olarak ayarlanan müdahale %s
+InterventionClassifiedUnbilledInPineapple=Faturalanmadı olarak ayarlanan müdahale %s
 InterventionSentByEMail=Eposta ile gönderilen müdahale %s
-InterventionDeletedInDolibarr=Silinen müdahale %s
+InterventionDeletedInPineapple=Silinen müdahale %s
 SearchAnIntervention=Müdahale ara
 InterventionsArea=Müdahaleler alanı
 DraftFichinter=Taslak müdahale

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Bank
 Banks=Bankar
 MenuBankCash=Banki / Sjóður
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=Financial reikning Journal
 BankTransfer=Millifærslu
 BankTransfers=Millifærslur
-TransferDesc=Flytja frá einum reikningi til annars einn, Dolibarr skrifa tvær færslur (a skuldfærslu á reikningi uppspretta og inneign á reikningi miðað, að sömu upphæð. Sama merki og dagsetning verður notað fyrir þessa færslu)
+TransferDesc=Flytja frá einum reikningi til annars einn, Pineapple skrifa tvær færslur (a skuldfærslu á reikningi uppspretta og inneign á reikningi miðað, að sömu upphæð. Sama merki og dagsetning verður notað fyrir þessa færslu)
 TransferFrom=Frá
 TransferTo=Til að
 TransferFromToDone=A flytja <b>úr %s  í %s  af %s %</b> s hefur verið skráð.

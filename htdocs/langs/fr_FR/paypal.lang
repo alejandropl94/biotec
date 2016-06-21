@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=Configuration module PayPal
-PaypalDesc=Ce module permet d'offrir une page de paiement via le prestataire <a href="http://www.paypal.com" target="_blank">Paypal</a> pour réaliser un paiement quelconque ou un paiement par rapport à un objet Dolibarr (facture, commande…)
+PaypalDesc=Ce module permet d'offrir une page de paiement via le prestataire <a href="http://www.paypal.com" target="_blank">Paypal</a> pour réaliser un paiement quelconque ou un paiement par rapport à un objet Pineapple (facture, commande…)
 PaypalOrCBDoPayment=Poursuivre le paiement par carte ou par Paypal
 PaypalDoPayment=Poursuivre le paiement par Paypal
 PaypalCBDoPayment=Poursuivre le paiement par carte

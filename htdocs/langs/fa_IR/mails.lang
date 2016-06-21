@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=ارسال ایمیل
 EMailing=ارسال ایمیل
 Mailings=ارسال ایمیل ها
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=تماس / آدرس تمام اشخاص ثالث (مشتری، چشم انداز، تامین کننده، ...)
-MailingModuleDescDolibarrUsers=کاربران Dolibarr
+MailingModuleDescPineappleUsers=کاربران Pineapple
 MailingModuleDescFundationMembers=اعضای بنیاد با ایمیل
 MailingModuleDescEmailsFromFile=ایمیل از یک فایل متنی (ایمیل، نام خانوادگی، نام. دیگر)
 MailingModuleDescEmailsFromUser=ایمیل از ورودی کاربر (ایمیل، نام خانوادگی، نام. دیگر)
 MailingModuleDescContactsCategories=احزاب سوم (بر اساس طبقه بندی)
-MailingModuleDescDolibarrContractsLinesExpired=احزاب سوم با خطوط قرارداد منقضی شده است
+MailingModuleDescPineappleContractsLinesExpired=احزاب سوم با خطوط قرارداد منقضی شده است
 MailingModuleDescContactsByCompanyCategory=تماس / آدرس اشخاص ثالث (بر اساس طبقه بندی اشخاص ثالث)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=اعضای بنیاد (دسته)

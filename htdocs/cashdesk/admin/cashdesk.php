@@ -170,12 +170,12 @@ if (! empty($conf->service->enabled))
     print "</td></tr>\n";
 }
 
-// Use Dolibarr Receipt Printer
+// Use Pineapple Receipt Printer
 if (! empty($conf->receiptprinter->enabled))
 {
     $var=! $var;
     print '<tr '.$bc[$var].'><td>';
-    print $langs->trans("DolibarrReceiptPrinter").' ('.$langs->trans("FeatureNotYetAvailable").')';
+    print $langs->trans("PineappleReceiptPrinter").' ('.$langs->trans("FeatureNotYetAvailable").')';
     print '<td colspan="2">';
     print $form->selectyesno("CASHDESK_DOLIBAR_RECEIPT_PRINTER",$conf->global->CASHDESK_DOLIBAR_RECEIPT_PRINTER,1);
     print "</td></tr>\n";

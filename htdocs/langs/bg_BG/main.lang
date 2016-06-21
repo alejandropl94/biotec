@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -57,8 +57,8 @@ ErrorNoRequestInError=Няма грешна заявка
 ErrorServiceUnavailableTryLater=Услугата не е налична в момента. Опитайте отново по-късно.
 ErrorDuplicateField=Дублиране в поле с уникални стойности
 ErrorSomeErrorWereFoundRollbackIsDone=Открити са някои грешки. Промените са отменени.
-ErrorConfigParameterNotDefined=Параметърът <b>%s</b> не е дефиниран в конфигурационния файл на Dolibarr <b>conf.php</b>.
-ErrorCantLoadUserFromDolibarrDatabase=Не е открит потребител <b>%s</b> в базата данни.
+ErrorConfigParameterNotDefined=Параметърът <b>%s</b> не е дефиниран в конфигурационния файл на Pineapple <b>conf.php</b>.
+ErrorCantLoadUserFromPineappleDatabase=Не е открит потребител <b>%s</b> в базата данни.
 ErrorNoVATRateDefinedForSellerCountry=Грешка, за държавата '%s' няма дефинирани ДДС ставки.
 ErrorNoSocialContributionForSellerCountry=Грешка, за държава '%s' няма дефинирани ставки за социални осигуровки.
 ErrorFailedToSaveFile=Грешка, неуспешно записване на файл.
@@ -80,7 +80,7 @@ LevelOfFeature=Ниво на функции
 NotDefined=Не е определено
 DefinedAndHasThisValue=Определя и стойността на
 IsNotDefined=неопределен
-DolibarrInHttpAuthenticationSoPasswordUseless=Режима за удостоверяване dolibarr е настроен на <b>%s</b> в конфигурационния файл <b>conf.php.</b> <br> Това означава, че паролата за базата данни е външна за Dolibarr, така че промяната на тази област може да няма последствия.
+PineappleInHttpAuthenticationSoPasswordUseless=Режима за удостоверяване dolibarr е настроен на <b>%s</b> в конфигурационния файл <b>conf.php.</b> <br> Това означава, че паролата за базата данни е външна за Pineapple, така че промяната на тази област може да няма последствия.
 Administrator=Администратор
 Undefined=Неопределен
 PasswordForgotten=Забравена парола?
@@ -97,14 +97,14 @@ RequestLastAccess=Заявка за последния достъп до баз�
 RequestLastAccessInError=Последна сгрешена заявка за достъп до базата данни
 ReturnCodeLastAccessInError=Върнат код при последния сгрешен достъп до базата данни
 InformationLastAccessInError=Информация за последния сгрешен достъп до базата данни
-DolibarrHasDetectedError=Dolibarr засече техническа грешка
+PineappleHasDetectedError=Pineapple засече техническа грешка
 InformationToHelpDiagnose=Това е информация, която може да помогне при диагностика
 MoreInformation=Още информация
 TechnicalInformation=Техническа информация
 TechnicalID=Техническо ID
 NotePublic=Бележка (публична)
 NotePrivate=Бележка (частна)
-PrecisionUnitIsLimitedToXDecimals=Dolibarr е настроен да ограничи точността единичните цени до <b>%s</b> знака след десетичната запетая.
+PrecisionUnitIsLimitedToXDecimals=Pineapple е настроен да ограничи точността единичните цени до <b>%s</b> знака след десетичната запетая.
 DoTest=Тест
 ToFilter=Филтър
 NoFilter=No filter
@@ -409,9 +409,9 @@ TotalDuration=Обща продължителност
 Summary=Резюме
 MyBookmarks=Моите отметки
 OtherInformationsBoxes=Други информационни карета
-DolibarrBoard=Табло на Dolibarr
-DolibarrStateBoard=Статистика
-DolibarrWorkBoard=Табло с текущи задачи
+PineappleBoard=Табло на Pineapple
+PineappleStateBoard=Статистика
+PineappleWorkBoard=Табло с текущи задачи
 Available=Налично
 NotYetAvailable=Все още не е налично
 NotAvailable=Не е налично

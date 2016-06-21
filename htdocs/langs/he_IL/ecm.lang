@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=My documents
 DocsGenerated=Generated documents
 DocsElements=Elements documents
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Number of sub-directories
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=Creator
 ECMArea=EDM area
-ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Dolibarr.
+ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Pineapple.
 ECMAreaDesc2=* Automatic directories are filled automatically when adding documents from card of an element.<br>* Manual directories can be used to save documents not linked to a particular element.
 ECMSectionWasRemoved=Directory <b>%s</b> has been deleted.
 ECMDocumentsSection=Document of directory

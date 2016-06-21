@@ -45,7 +45,7 @@ class modMyModule extends DolibarrModules
         $this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Dolibarr for list of used modules id).
+		// Use here a free id (See in Home -> System information -> Pineapple for list of used modules id).
 		$this->numero = 500000;		// TODO Go on page http://wiki.dolibarr.org/index.php/List_of_modules_id to reserve id number for your module
 		// Key text used to identify module (for permissions, menus, etc...)
 		$this->rights_class = 'mymodule';
@@ -106,7 +106,7 @@ class modMyModule extends DolibarrModules
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->conflictwith = array();	// List of modules id this module is in conflict with
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(3,0);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(3,0);	// Minimum version of Pineapple required by module
 		$this->langfiles = array("mylangfile@mymodule");
 
 		// Constants
@@ -254,7 +254,7 @@ class modMyModule extends DolibarrModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -271,7 +271,7 @@ class modMyModule extends DolibarrModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Dolibarr database.
+	 * Remove from database constants, boxes and permissions from Pineapple database.
 	 * Data directories are not deleted
 	 *
 	 * @param      string	$options    Options when enabling module ('', 'noboxes')

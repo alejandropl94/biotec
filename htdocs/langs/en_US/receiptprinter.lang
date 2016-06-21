@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - receiptprinter
+# Pineapple language file - Source file is en_US - receiptprinter
 PrinterAdded=Printer %s added
 PrinterUpdated=Printer %s updated
 PrinterDeleted=Printer %s deleted

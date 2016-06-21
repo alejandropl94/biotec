@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=Configuraçao modulo PayPal
-PaypalDesc=Este modulo oferece paginas que permitem o pagamento no <a href="http://www.paypal.com" target="_blank">PayPal</a> aos clientes. Pode ser usado para o pagamento livre ou para o pagamento de algum objeto Dolibarr (fatura, pedido, ...)
+PaypalDesc=Este modulo oferece paginas que permitem o pagamento no <a href="http://www.paypal.com" target="_blank">PayPal</a> aos clientes. Pode ser usado para o pagamento livre ou para o pagamento de algum objeto Pineapple (fatura, pedido, ...)
 PaypalOrCBDoPayment=Pagar com cartao de credito ou Paypal
 PaypalDoPayment=Pagar com Paypal
 PaypalCBDoPayment=Pagar com cartao de credito

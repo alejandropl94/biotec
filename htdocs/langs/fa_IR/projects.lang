@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=کد عکس. پروژه
 ProjectRef=Project ref.
 ProjectId=پروژه کد
@@ -131,10 +131,10 @@ ConfirmCloneProject=آیا مطمئن به کلون کردن این پروژه؟
 ProjectReportDate=تاریخ کار تغییر بر اساس تاریخ شروع پروژه
 ErrorShiftTaskDate=غیر ممکن است به تغییر تاریخ کار با توجه به پروژه جدید تاریخ شروع
 ProjectsAndTasksLines=پروژه ها و وظایف
-ProjectCreatedInDolibarr=پروژه٪ s را ایجاد
-TaskCreatedInDolibarr=وظیفه٪ s را ایجاد
-TaskModifiedInDolibarr=وظیفه٪ s تغییر
-TaskDeletedInDolibarr=وظیفه٪ s را حذف
+ProjectCreatedInPineapple=پروژه٪ s را ایجاد
+TaskCreatedInPineapple=وظیفه٪ s را ایجاد
+TaskModifiedInPineapple=وظیفه٪ s تغییر
+TaskDeletedInPineapple=وظیفه٪ s را حذف
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

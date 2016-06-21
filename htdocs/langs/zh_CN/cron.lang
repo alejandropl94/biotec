@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = 关于
 CronAbout = 关于cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=禁用
 CronTaskInactive=This job is disabled
 CronId=Id
 CronClassFile=Classes (filename.class.php)
-CronModuleHelp=Name of Dolibarr module directory (also work with external Dolibarr module). <BR> For exemple to fetch method of Dolibarr Product object /htdocs/<u>product</u>/class/product.class.php, the value of module is <i>product</i>
-CronClassFileHelp=The file name to load. <BR> For exemple to fetch method of Dolibarr Product object /htdocs/product/class/<u>product.class.php</u>, the value of class file name is <i>product.class.php</i>
-CronObjectHelp=The object name to load. <BR> For exemple to fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value of class file name is <i>Product</i>
-CronMethodHelp=The object method to launch. <BR> For exemple to fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value of method is  is <i>fecth</i>
-CronArgsHelp=The method arguments. <BR> For exemple to fetch method of Dolibarr Product object /htdocs/product/class/product.class.php, the value of paramters can be <i>0, ProductRef</i>
+CronModuleHelp=Name of Pineapple module directory (also work with external Pineapple module). <BR> For exemple to fetch method of Pineapple Product object /htdocs/<u>product</u>/class/product.class.php, the value of module is <i>product</i>
+CronClassFileHelp=The file name to load. <BR> For exemple to fetch method of Pineapple Product object /htdocs/product/class/<u>product.class.php</u>, the value of class file name is <i>product.class.php</i>
+CronObjectHelp=The object name to load. <BR> For exemple to fetch method of Pineapple Product object /htdocs/product/class/product.class.php, the value of class file name is <i>Product</i>
+CronMethodHelp=The object method to launch. <BR> For exemple to fetch method of Pineapple Product object /htdocs/product/class/product.class.php, the value of method is  is <i>fecth</i>
+CronArgsHelp=The method arguments. <BR> For exemple to fetch method of Pineapple Product object /htdocs/product/class/product.class.php, the value of paramters can be <i>0, ProductRef</i>
 CronCommandHelp=The system command line to execute.
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=信息
 # Common
 CronType=Job type
-CronType_method=一个Dolibarr类的调用方法
+CronType_method=一个Pineapple类的调用方法
 CronType_command=Shell command
 CronMenu=Cron
 CronCannotLoadClass=Cannot load class %s or object %s

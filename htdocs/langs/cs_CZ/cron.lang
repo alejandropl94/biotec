@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = O aplikaci
 CronAbout = O cronu
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=Informace
 # Common
 CronType=Typ úlohy
-CronType_method=Volání metody třídy Dolibarr
+CronType_method=Volání metody třídy Pineapple
 CronType_command=Shell příkaz
 CronMenu=Cron
 CronCannotLoadClass=Nelze načíst třídu nebo objekt %s %s

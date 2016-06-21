@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=Eposta
 EMailing=Eposta
 Mailings=Epostalar
@@ -95,12 +95,12 @@ NbSent=Gönderilen sayısı
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Tüm üçüncü partilerin kişileri (müşteri, aday, tedarikçi, ...)
-MailingModuleDescDolibarrUsers=Dolibarr kullanıcıları
+MailingModuleDescPineappleUsers=Pineapple kullanıcıları
 MailingModuleDescFundationMembers=Epostaları ile kurum üyeleri
 MailingModuleDescEmailsFromFile=Bir metin dosyası içinden Eposta (e-posta, soyadı, ilk adı, diğer)
 MailingModuleDescEmailsFromUser=Kullanıcı girişli Epostalar (eposta;soyadı;ilkadı;diğer)
 MailingModuleDescContactsCategories=Üçüncü partiler (kategoriye göre)
-MailingModuleDescDolibarrContractsLinesExpired=Süresi dolmuş sözleşme kalemleri ile üçüncü partiler
+MailingModuleDescPineappleContractsLinesExpired=Süresi dolmuş sözleşme kalemleri ile üçüncü partiler
 MailingModuleDescContactsByCompanyCategory=Üçüncü parti kişileri (üçüncü parti kategorilerine göre)
 MailingModuleDescContactsByCategory=Üçüncü parti kişileri/adresleri (kategoriye göre)
 MailingModuleDescMembersCategories=Kurum üyeleri (kategoriye göre)

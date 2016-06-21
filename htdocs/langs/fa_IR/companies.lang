@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=نام شرکت از٪ s از قبل وجود دارد. یکی دیگر را انتخاب کنید.
 ErrorPrefixAlreadyExists=پیشوند٪ s در حال حاضر وجود دارد. یکی دیگر را انتخاب کنید.
 ErrorSetACountryFirst=تنظیم این کشور برای اولین بار
@@ -18,7 +18,7 @@ NewCompany=شرکت جدید (چشم انداز، مشتری، عرضه کنند
 NewThirdParty=شخص ثالث جدید (چشم انداز، مشتری، عرضه کننده کالا)
 NewSocGroup=گروه شرکت های جدید
 NewPrivateIndividual=فردی خصوصی جدید (چشم انداز، مشتری، عرضه کننده کالا)
-CreateDolibarrThirdPartySupplier=ایجاد یک حزب سوم (منبع)
+CreatePineappleThirdPartySupplier=ایجاد یک حزب سوم (منبع)
 ProspectionArea=منطقه Prospection
 SocGroup=گروه شرکت های
 IdThirdParty=کد های شخص ثالث
@@ -387,8 +387,8 @@ NoParentCompany=هیچ یک
 ExportImport=صادرات و واردات
 ExportCardToFormat=کارت صادرات به فرمت
 ContactNotLinkedToCompany=تماس با به هر شخص ثالث مرتبط نیست
-DolibarrLogin=ورود Dolibarr
-NoDolibarrAccess=بدون دسترسی Dolibarr
+PineappleLogin=ورود Pineapple
+NoPineappleAccess=بدون دسترسی Pineapple
 ExportDataset_company_1=احزاب سوم (شرکت / پایه / مردم فیزیکی) و خواص
 ExportDataset_company_2=اطلاعات تماس و خواص
 ImportDataset_company_1=احزاب سوم (شرکت / پایه / مردم فیزیکی) و خواص

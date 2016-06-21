@@ -54,7 +54,7 @@ if ($contact->socid)
 
 // We create VCard
 $v = new vCard();
-$v->setProdId('Dolibarr '.DOL_VERSION);
+$v->setProdId('Pineapple '.DOL_VERSION);
 
 $v->setUid('DOLIBARR-CONTACTID-'.$contact->id);
 $v->setName($contact->lastname, $contact->firstname, "", "", "");

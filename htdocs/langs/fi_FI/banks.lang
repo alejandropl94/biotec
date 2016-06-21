@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Pankki
 Banks=Pankit
 MenuBankCash=Pankki / Käteinen
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=Rahoitustase journal
 BankTransfer=Pankkisiirto
 BankTransfers=Pankkisiirrot
-TransferDesc=Siirtäminen tililtä toiselle yhden, Dolibarr kirjoittaa kaksi tietuetta (luottotililtä vuonna lähdetiliksi ja luottoa tavoite huomioon, että sama määrä. Sama merkki ja päivämäärä voidaan käyttää tästä tapahtumasta)
+TransferDesc=Siirtäminen tililtä toiselle yhden, Pineapple kirjoittaa kaksi tietuetta (luottotililtä vuonna lähdetiliksi ja luottoa tavoite huomioon, että sama määrä. Sama merkki ja päivämäärä voidaan käyttää tästä tapahtumasta)
 TransferFrom=Mistä
 TransferTo=mihin
 TransferFromToDone=A <b>siirtää %s %s %s%</b> s on tallennettu.

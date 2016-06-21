@@ -21,7 +21,7 @@
 
 /**
  *	\file       htdocs/index.php
- *	\brief      Dolibarr home page
+ *	\brief      Pineapple home page
  */
 
 define('NOCSRFCHECK',1);	// This is login page. We must be able to go on it from another web site.
@@ -68,7 +68,7 @@ if (GETPOST('addbox'))	// Add box (when submit is done from a form when ajax dis
 if (! is_object($form)) $form=new Form($db);
 
 // Title
-$title=$langs->trans("HomeArea").' - Dolibarr '.DOL_VERSION;
+$title=$langs->trans("HomeArea").' - Pineapple '.DOL_VERSION;
 if (! empty($conf->global->MAIN_APPLICATION_TITLE)) $title=$langs->trans("HomeArea").' - '.$conf->global->MAIN_APPLICATION_TITLE;
 
 llxHeader('',$title);
@@ -119,7 +119,7 @@ print "</table>\n";
 
 
 /*
- * Dashboard Dolibarr states (statistics)
+ * Dashboard Pineapple states (statistics)
  * Hidden for external users
  */
 $langs->load("commercial");
@@ -131,9 +131,9 @@ $langs->load("contracts");
 if (empty($user->societe_id))
 {
     print '<br>';
-    print '<table  summary="'.$langs->trans("DolibarrStateBoard").'" class="noborder" width="100%">';
+    print '<table  summary="'.$langs->trans("PineappleStateBoard").'" class="noborder" width="100%">';
     print '<tr class="liste_titre">';
-    print '<th class="liste_titre">'.$langs->trans("DolibarrStateBoard").'</th>';
+    print '<th class="liste_titre">'.$langs->trans("PineappleStateBoard").'</th>';
     print '</tr>';
     print '<tr class="impair"><td class="tdboxstats nohover">';
 
@@ -307,7 +307,7 @@ print '</div><div class="fichetwothirdright"><div class="ficheaddleft">';
 
 
 /*
- * Dolibarr Working Board with weather
+ * Pineapple Working Board with weather
  */
 $showweather=empty($conf->global->MAIN_DISABLE_METEO)?1:0;
 
@@ -316,7 +316,7 @@ $dashboardlines=array();
 
 print '<table class="noborder" width="100%">'."\n";
 print '<tr class="liste_titre">';
-print '<th class="liste_titre" colspan="2">'.$langs->trans("DolibarrWorkBoard").'</th>';
+print '<th class="liste_titre" colspan="2">'.$langs->trans("PineappleWorkBoard").'</th>';
 print '<th class="liste_titre" align="right">'.$langs->trans("Number").'</th>';
 print '<th class="liste_titre" align="right">'.$langs->trans("Late").'</th>';
 print '<th class="liste_titre">&nbsp;</th>';

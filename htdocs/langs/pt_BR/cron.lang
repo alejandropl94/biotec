@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 About =Sobre
 CronAboutPage =Pagina sobre Cron
 Permission23101 =Leia trabalho Programado
@@ -52,16 +52,16 @@ CronStatusActiveBtn=Ativar
 CronStatusInactiveBtn=Desativar
 CronTaskInactive=Este trabalho foi desativado
 CronClassFile=Classe (nomearquivo.class.php)
-CronModuleHelp=Nome do diretório do módulo Dolibarr (também trabalha com módulo Dolibarr externo). Por exemplo para buscar método do objeto Dolibarr Product /htdocs/<u>produto</u>/class/product.class.php, o valor do módulo é o <i>produto</i>
-CronClassFileHelp=O nome do arquivo a ser carregado.<BR>Por exemplo para buscar método do objeto Dolibarr Product /htdocs/produtos/classe/<u>product.class.php</u>, o valor do nome do arquivo de classe é <i>product.class.php</i>
-CronObjectHelp=O nome do objeto a ser carregado. Por exemplo para buscar método do objeto Dolibarr Product /htdocs/produtos/class/product.class.php, o valor do nome do arquivo da classe é <i>Produtos</i>
-CronMethodHelp=O método de objeto para o lançamento. Por exemplo para buscar método do objeto Dolibarr Product /htdocs/produtos/class/product.class.php, o valor do método é <i>fecth</i>
-CronArgsHelp=Os argumentos do método. Por exemplo para buscar método do objeto Product do Dolibarr /htdocs/produto/class/product.class.php, o valor de paramtetros pode ser <i>0, ProductRef</i>
+CronModuleHelp=Nome do diretório do módulo Pineapple (também trabalha com módulo Pineapple externo). Por exemplo para buscar método do objeto Pineapple Product /htdocs/<u>produto</u>/class/product.class.php, o valor do módulo é o <i>produto</i>
+CronClassFileHelp=O nome do arquivo a ser carregado.<BR>Por exemplo para buscar método do objeto Pineapple Product /htdocs/produtos/classe/<u>product.class.php</u>, o valor do nome do arquivo de classe é <i>product.class.php</i>
+CronObjectHelp=O nome do objeto a ser carregado. Por exemplo para buscar método do objeto Pineapple Product /htdocs/produtos/class/product.class.php, o valor do nome do arquivo da classe é <i>Produtos</i>
+CronMethodHelp=O método de objeto para o lançamento. Por exemplo para buscar método do objeto Pineapple Product /htdocs/produtos/class/product.class.php, o valor do método é <i>fecth</i>
+CronArgsHelp=Os argumentos do método. Por exemplo para buscar método do objeto Product do Pineapple /htdocs/produto/class/product.class.php, o valor de paramtetros pode ser <i>0, ProductRef</i>
 CronCommandHelp=A linha de comando do sistema a se executar.
 CronCreateJob=Criar novo trabalho agendado
 CronInfoPage=Informaçao
 CronType=Tipo de emprego
-CronType_method=Chamar metodo da classe Dolibarr
+CronType_method=Chamar metodo da classe Pineapple
 CronType_command=Comando Shell
 CronCannotLoadClass=Nao e possivel carregar a classe %s ou o objeto %s
 UseMenuModuleToolsToAddCronJobs=Vá ao menu "Principal - Módulo de ferramentas - Lista de trabalhos" para ver e editar a programação dos trabalhos.

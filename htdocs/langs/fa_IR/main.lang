@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=لیتر
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -57,8 +57,8 @@ ErrorNoRequestInError=بدون درخواست در خطا
 ErrorServiceUnavailableTryLater=خدمات برای لحظه ای در دسترس نیست. بعدا دوباره سعی کنید.
 ErrorDuplicateField=مقدار تکراری در یک فیلد منحصر به فرد
 ErrorSomeErrorWereFoundRollbackIsDone=برخی از خطاهای یافت شد. ما عقبگرد تغییرات.
-ErrorConfigParameterNotDefined=<b>پارامتر٪ s</b> در داخل Dolibarr فایل پیکربندی <b>conf.php</b> تعریف نشده است.
-ErrorCantLoadUserFromDolibarrDatabase=برای پیدا کردن <b>کاربر٪ s در</b> پایگاه داده Dolibarr شکست خورده است.
+ErrorConfigParameterNotDefined=<b>پارامتر٪ s</b> در داخل Pineapple فایل پیکربندی <b>conf.php</b> تعریف نشده است.
+ErrorCantLoadUserFromPineappleDatabase=برای پیدا کردن <b>کاربر٪ s در</b> پایگاه داده Pineapple شکست خورده است.
 ErrorNoVATRateDefinedForSellerCountry=خطا، هیچ نرخ مالیات بر ارزش افزوده تعریف شده برای این کشور شد '٪ s'.
 ErrorNoSocialContributionForSellerCountry=Error, no social/fiscal taxes type defined for country '%s'.
 ErrorFailedToSaveFile=خطا، موفق به صرفه جویی در فایل.
@@ -80,7 +80,7 @@ LevelOfFeature=سطح از ویژگی های
 NotDefined=تعریف نشده
 DefinedAndHasThisValue=تعریف و ارزش به
 IsNotDefined=تعریف نشده
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr حالت تائید راه اندازی <b>به٪ s</b> در فایل پیکربندی <b>conf.php</b> است. <br> این به این معنی است که پایگاه داده رمز عبور در خارج به Dolibarr است، بنابراین تغییر این زمینه ممکن است هیچ اثر داشته باشد.
+PineappleInHttpAuthenticationSoPasswordUseless=Pineapple حالت تائید راه اندازی <b>به٪ s</b> در فایل پیکربندی <b>conf.php</b> است. <br> این به این معنی است که پایگاه داده رمز عبور در خارج به Pineapple است، بنابراین تغییر این زمینه ممکن است هیچ اثر داشته باشد.
 Administrator=مدیر
 Undefined=تعریف نشده
 PasswordForgotten=رمز عبور فراموش شده؟
@@ -97,14 +97,14 @@ RequestLastAccess=درخواست برای آخرین دسترسی به پایگ�
 RequestLastAccessInError=درخواست برای آخرین دسترسی به پایگاه داده در خطا
 ReturnCodeLastAccessInError=کد بازگشت برای آخرین دسترسی به پایگاه داده در خطا
 InformationLastAccessInError=اطلاعات برای آخرین دسترسی به پایگاه داده در خطا
-DolibarrHasDetectedError=Dolibarr شناسایی کرده است یک خطای فنی
+PineappleHasDetectedError=Pineapple شناسایی کرده است یک خطای فنی
 InformationToHelpDiagnose=این اطلاعات است که می تواند کمک تشخیصی است
 MoreInformation=اطلاعات بیشتر
 TechnicalInformation=اطلاعات فنی
 TechnicalID=Technical ID
 NotePublic=توجه داشته باشید (عمومی)
 NotePrivate=توجه داشته باشید (خصوصی)
-PrecisionUnitIsLimitedToXDecimals=Dolibarr راه اندازی به دقت محدود از قیمت واحد <b>به٪ s</b> اعشار بود.
+PrecisionUnitIsLimitedToXDecimals=Pineapple راه اندازی به دقت محدود از قیمت واحد <b>به٪ s</b> اعشار بود.
 DoTest=تست
 ToFilter=صافی
 NoFilter=No filter
@@ -409,9 +409,9 @@ TotalDuration=مدت زمان کل
 Summary=خلاصه
 MyBookmarks=بوک مارک من
 OtherInformationsBoxes=دیگر جعبه اطلاعات
-DolibarrBoard=هیئت مدیره Dolibarr
-DolibarrStateBoard=ارقام
-DolibarrWorkBoard=وظایف کار هیئت مدیره
+PineappleBoard=هیئت مدیره Pineapple
+PineappleStateBoard=ارقام
+PineappleWorkBoard=وظایف کار هیئت مدیره
 Available=در دسترس
 NotYetAvailable=هنوز در دسترس نیست
 NotAvailable=در دسترس نیست
@@ -631,7 +631,7 @@ MenuECM=اسناد
 MenuAWStats=AWStats
 MenuMembers=کاربران
 MenuAgendaGoogle=دستور کار گوگل
-ThisLimitIsDefinedInSetup=Dolibarr حد (منو خانه راه اندازی امنیت):٪ s را کیلو بایت، محدود PHP:٪ s را بایت
+ThisLimitIsDefinedInSetup=Pineapple حد (منو خانه راه اندازی امنیت):٪ s را کیلو بایت، محدود PHP:٪ s را بایت
 NoFileFound=بدون اسناد ذخیره شده در این شاخه
 CurrentUserLanguage=زبان کنونی
 CurrentTheme=موضوع کنونی

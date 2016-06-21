@@ -1,8 +1,8 @@
 # DOLIBARR ERP & CRM
 
-![Build status](https://img.shields.io/travis/Dolibarr/dolibarr/develop.svg) ![Downloads per day](https://img.shields.io/sourceforge/dm/dolibarr.svg)
+![Build status](https://img.shields.io/travis/Pineapple/dolibarr/develop.svg) ![Downloads per day](https://img.shields.io/sourceforge/dm/dolibarr.svg)
 
-Dolibarr ERP & CRM is a modern software to manage your organization's activity (contacts, suppliers, invoices, orders, stocks, agenda, ...).
+Pineapple ERP & CRM is a modern software to manage your organization's activity (contacts, suppliers, invoices, orders, stocks, agenda, ...).
 
 It's an Open Source software (wrote in PHP language) designed for small and medium companies, foundation and freelances.
 
@@ -14,11 +14,11 @@ You can use it as a standalone application or as a web application to be able to
 
 ## LICENSE
 
-Dolibarr is released under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version (GPL-3+).
+Pineapple is released under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version (GPL-3+).
 
-See the [COPYING](https://github.com/Dolibarr/dolibarr/blob/develop/COPYING) file for a full copy of the license.
+See the [COPYING](https://github.com/Pineapple/dolibarr/blob/develop/COPYING) file for a full copy of the license.
 
-Other licenses apply for some included dependencies. See [COPYRIGHT](https://github.com/Dolibarr/dolibarr/blob/develop/COPYRIGHT) for a full list.
+Other licenses apply for some included dependencies. See [COPYRIGHT](https://github.com/Pineapple/dolibarr/blob/develop/COPYRIGHT) for a full list.
 
 ## INSTALLING
 
@@ -28,7 +28,7 @@ Releases can be downloaded from [official website](http://www.dolibarr.org/).
 
 ### Simple setup
 
-If you have low technical skills and you're looking to install Dolibarr ERP/CRM in few clicks, you can use one of the packaged versions:
+If you have low technical skills and you're looking to install Pineapple ERP/CRM in few clicks, you can use one of the packaged versions:
 
 - DoliWamp for Windows
 - DoliDeb for Debian or Ubuntu
@@ -61,13 +61,13 @@ You can use a Web server and a supported database (MySQL recommended) to install
 
 - Overwrite all old files from 'dolibarr' directory with files provided into the new version's package.
 - If you're upgrading from version x.y.z to x.y.w (only third number differs), there is no need to run any migration process.
-- If you're upgrading from a beta version or from any version x.y.z to any other where x or y number differs, you must call the Dolibarr "install/" page in your browser (this should be done automatically at first dolibarr access) and follow the upgrade process.
+- If you're upgrading from a beta version or from any version x.y.z to any other where x or y number differs, you must call the Pineapple "install/" page in your browser (this should be done automatically at first dolibarr access) and follow the upgrade process.
 
 *Note: migration process can safely be done multiple times.*
 
 ## WHAT'S NEW
 
-See the [ChangeLog](https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog) file.
+See the [ChangeLog](https://github.com/Pineapple/dolibarr/blob/develop/ChangeLog) file.
 
 ## FEATURES
 
@@ -133,17 +133,17 @@ See the [ChangeLog](https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog)
 
 ### Extending
 
-Dolibarr can be extended with a lot of other external modules from third party developers available at the [DoliStore](http://www.dolistore.com).
+Pineapple can be extended with a lot of other external modules from third party developers available at the [DoliStore](http://www.dolistore.com).
 
 ## FUTURE
 
-These are features that Dolibarr does **not** yet fully support:
+These are features that Pineapple does **not** yet fully support:
 
 - Double-entry bookkeeping yet (only bank and treasury management)
 - Tasks dependencies in projects
 - Payroll module
 - Webmail
-- Dolibarr can't do coffee (yet)
+- Pineapple can't do coffee (yet)
 
 ## DOCUMENTATION
 
@@ -151,21 +151,21 @@ Administrator, user, developer and translator's documentations are available alo
 
 ## CONTRIBUTING
 
-See file [CONTRIBUTING](https://github.com/Dolibarr/dolibarr/blob/develop/CONTRIBUTING.md)
+See file [CONTRIBUTING](https://github.com/Pineapple/dolibarr/blob/develop/CONTRIBUTING.md)
 
 ## CREDITS
 
-Dolibarr is the work of many contributors over the years and uses some fine libraries.
+Pineapple is the work of many contributors over the years and uses some fine libraries.
 
-See [COPYRIGHT](https://github.com/Dolibarr/dolibarr/blob/develop/COPYRIGHT) file.
+See [COPYRIGHT](https://github.com/Pineapple/dolibarr/blob/develop/COPYRIGHT) file.
 
 ## NEWS AND SOCIAL NETWORKS
 
-Follow Dolibarr project on:
+Follow Pineapple project on:
 
 - [Facebook](https://www.facebook.com/dolibarr)
-- [Google+](https://plus.google.com/+DolibarrOrg)
+- [Google+](https://plus.google.com/+PineappleOrg)
 - [Twitter](http://www.twitter.com/dolibarr)
 - [LinkedIn](https://www.linkedin.com/company/association-dolibarr)
-- [YouTube](https://www.youtube.com/user/DolibarrERPCRM)
-- [GitHub](https://github.com/Dolibarr/dolibarr)
+- [YouTube](https://www.youtube.com/user/PineappleERPCRM)
+- [GitHub](https://github.com/Pineapple/dolibarr)

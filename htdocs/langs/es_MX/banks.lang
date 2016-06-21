@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 MenuBankCash=Banco/Efectivo
 MenuSetupBank=Configuración de banco/efectivo
 BankAccount=Cuenta de banco
@@ -61,7 +61,7 @@ CustomerInvoicePayment=Pago de cliente
 WithdrawalPayment=Pago de retiro
 SocialContributionPayment=Pago de impuesto social/fiscal
 FinancialAccountJournal=Diario de cuenta financiera
-TransferDesc=Transfiere de una cuenta a otra, Dolibarr escribirá dos registros (uno de débito en la cuenta de origen y uno de crédito en la cuenta de destino, por la misma cantidad. La misma etiqueta y la fecha será utilizada para esta transacción)
+TransferDesc=Transfiere de una cuenta a otra, Pineapple escribirá dos registros (uno de débito en la cuenta de origen y uno de crédito en la cuenta de destino, por la misma cantidad. La misma etiqueta y la fecha será utilizada para esta transacción)
 TransferFromToDone=La transferencia de <b>%s</b> hacia <b>%s</b> de <b>%s</b> %s ha sido registrada.
 ValidateCheckReceipt=¿Validar este recibo de cheque?
 ConfirmValidateCheckReceipt=¿Seguro que deseas validar este recibo de cheque? Ningún cambio será posible una vez que se valide

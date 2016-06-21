@@ -31,7 +31,7 @@ if (! defined('NOLOGIN'))   define('NOLOGIN','1');
 //if (! defined('NOREQUIRETRAN'))  define('NOREQUIRETRAN','1');
 
 // librarie core
-// Dolibarr environment
+// Pineapple environment
 $res = @include("../../main.inc.php"); // From htdocs directory
 if (! $res) {
 	$res = @include("../../../main.inc.php"); // From "custom" directory

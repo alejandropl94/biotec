@@ -24,8 +24,8 @@
  */
 
 
-// Use its own include to not share the include of Dolibarr
-// This is a standalone feature with no information from Dolibarr to show
+// Use its own include to not share the include of Pineapple
+// This is a standalone feature with no information from Pineapple to show
 // and no database access to do.
 include_once 'inc.php';
 $uri=preg_replace('/^http(s?):\/\//i','',$dolibarr_main_url_root);
@@ -42,7 +42,7 @@ $langs->load("help");
  * View
  */
 
-pHeader($langs->trans("DolibarrHelpCenter"), $_SERVER["PHP_SELF"]);
+pHeader($langs->trans("PineappleHelpCenter"), $_SERVER["PHP_SELF"]);
 
 print $langs->trans("HelpCenterDesc1")."<br>\n";
 print $langs->trans("HelpCenterDesc2")."<br>\n";
@@ -54,7 +54,7 @@ if (GETPOST('dol_hide_toptmenu'))  $homeurl.=(strpos($homeurl,'?')===false?'?':'
 if (GETPOST('dol_hide_leftmenu'))  $homeurl.=(strpos($homeurl,'?')===false?'?':'&').'dol_hide_leftmenu=1';
 if (GETPOST('dol_no_mouse_hover')) $homeurl.=(strpos($homeurl,'?')===false?'?':'&').'dol_no_mouse_hover=1';
 if (GETPOST('dol_use_jmobile'))    $homeurl.=(strpos($homeurl,'?')===false?'?':'&').'dol_use_jmobile=1';
-print $langs->trans("ToGoBackToDolibarr",$homeurl);
+print $langs->trans("ToGoBackToPineapple",$homeurl);
 
 print '<br><br>';
 
@@ -129,10 +129,10 @@ print '<table class="nocellnopadd">';
 print '<tr><td align="center">';
 
 //TODO Create commercial dedicated page into dolibarr.org?
-$urlofficialsupport='http://wiki.dolibarr.org/index.php/Dolibarr_help_and_support';
+$urlofficialsupport='http://wiki.dolibarr.org/index.php/Pineapple_help_and_support';
 
 //TODO Create commercial dedicated page into dolibarr.fr?
-if (preg_match('/fr/i',$langs->defaultlang)) $urlofficialsupport='http://wiki.dolibarr.org/index.php/Assistance_Dolibarr';
+if (preg_match('/fr/i',$langs->defaultlang)) $urlofficialsupport='http://wiki.dolibarr.org/index.php/Assistance_Pineapple';
 
 if (preg_match('/es/i',$langs->defaultlang)) $urlofficialsupport='http://www.dolibarr.es/soporte/';
 print '<br>'.$langs->trans("SeeOfficalSupport",$urlofficialsupport,$langs->transnoentities("ClickHere")).'<br>';
@@ -194,7 +194,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-//$urlwiki='http://wiki.dolibarr.org/index.php/List of Dolibarr partners and providers';
+//$urlwiki='http://wiki.dolibarr.org/index.php/List of Pineapple partners and providers';
 $urlwiki='http://partners.dolibarr.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';
@@ -229,7 +229,7 @@ print '</td></tr></table>';
 
 print '</td>';
 print '</tr><tr>';
-//$urlwiki='http://wiki.dolibarr.org/index.php/List of Dolibarr partners and providers';
+//$urlwiki='http://wiki.dolibarr.org/index.php/List of Pineapple partners and providers';
 $urlwiki='http://partners.dolibarr.org';
 print '<td align="center" valign="top">';
 print '<table class="nocellnopadd">';

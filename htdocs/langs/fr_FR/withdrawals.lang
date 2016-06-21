@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Espace prélèvements
 CustomersStandingOrdersArea=Espace prélèvements clients
 StandingOrders=Prélèvements
@@ -95,7 +95,7 @@ InfoCreditMessage=Le bon de prélèvement %s a été crédité par la banque.<br
 InfoTransSubject=Transmission du prélèvement %s à la banque
 InfoTransMessage=Le bon de prélèvement %s a été transmis à la banque par %s %s.<br><br>
 InfoTransData=Montant : %s<br>Méthode : %s<br>Date : %s
-InfoFoot=Ceci est un message automatique envoyé par Dolibarr
+InfoFoot=Ceci est un message automatique envoyé par Pineapple
 InfoRejectSubject=Prélèvement rejeté
 InfoRejectMessage=Bonjour,<br><br>l'ordre de virement de la facture %s du tiers %s, pour un montant de %s a été refusé par la banque.<br><br>--<br>%s
 ModeWarning=Option mode réel non établi, nous allons arrêter après cette simulation

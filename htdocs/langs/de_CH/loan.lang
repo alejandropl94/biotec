@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - loan
+# Pineapple language file - Source file is en_US - loan
 ErrorLoanCapital=Die Kreditsumme muss eine Nummer sein und grösser als 0
 ErrorLoanLength=Die Kreditdauer muss eine Nummer sein und grösser als 0
 ErrorLoanInterest=Die jährlichen Zinsen müssen eine Nummer sein und grösser als 0

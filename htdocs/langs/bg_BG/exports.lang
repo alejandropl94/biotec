@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Износът площ
 ImportArea=Внос област
 NewExport=Нов износ
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Изберете формат на файла, за �
 ChooseFileToImport=Качване на файл и след това кликнете върху %s икони, за да изберете файл като източник на внос файл ...
 SourceFileFormat=Изходния формат на файла
 FieldsInSourceFile=Полетата в файла източник
-FieldsInTargetDatabase=Target fields in Dolibarr database (bold=mandatory)
+FieldsInTargetDatabase=Target fields in Pineapple database (bold=mandatory)
 Field=Област
 NoFields=Не полета
 MoveField=Преместете поле %s броя на колоните
@@ -102,7 +102,7 @@ NbOfLinesOK=Брой на линии с грешки и без предупре�
 NbOfLinesImported=Брой на линиите успешно внесени: <b>%s.</b>
 DataComeFromNoWhere=Стойност да вмъкнете идва от нищото в изходния файл.
 DataComeFromFileFieldNb=Стойност да вмъкнете идва от <b>%s</b> номер в полето файла източник.
-DataComeFromIdFoundFromRef=Стойност, която идва от <b>%s</b> номер на полето на изходния файл ще бъдат използвани за намиране ID на родител обект да използвате (Така Objet <b>%s,</b> че има код от файла източник трябва да съществува в Dolibarr).
+DataComeFromIdFoundFromRef=Стойност, която идва от <b>%s</b> номер на полето на изходния файл ще бъдат използвани за намиране ID на родител обект да използвате (Така Objet <b>%s,</b> че има код от файла източник трябва да съществува в Pineapple).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Данни, идващи от файла източник, ще се добавя в следните области:
 DataIDSourceIsInsertedInto=Идентификацията на родителския обект, намерен с помощта на данни във файла източник, ще се добавя в следните области:

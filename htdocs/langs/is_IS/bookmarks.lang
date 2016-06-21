@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Bæta síðunni við bókamerki
 Bookmark=Bookmark
 Bookmarks=Bókamerki
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Hegðun þegar slóðin er smellt
 CreateBookmark=Búa til bókamerki
 SetHereATitleForLink=Setja inn titil fyrir bókamerkið
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Notaðu utanáliggjandi http URL eða ættingja Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Notaðu utanáliggjandi http URL eða ættingja Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Veldu hvort á síðu opnar tengil á að birtast á núverandi eða nýr gluggi
 BookmarksManagement=Bókamerki stjórnun
 ListOfBookmarks=Listi yfir bókamerki

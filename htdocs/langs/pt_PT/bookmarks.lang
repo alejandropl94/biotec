@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Adicionar esta página aos Favoritos
 Bookmark=Favorito
 Bookmarks=Favoritos
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Comportamento quando clica num URL
 CreateBookmark=Criar Favorito
 SetHereATitleForLink=Defina um título para o Favorito
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Indicar um URL externo para o URL relativo do Dolibarr
+UseAnExternalHttpLinkOrRelativePineappleLink=Indicar um URL externo para o URL relativo do Pineapple
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Escolha se a página abre na janela actual ou na nova janela
 BookmarksManagement=Gestão de Favoritos
 ListOfBookmarks=Lista de Favoritos

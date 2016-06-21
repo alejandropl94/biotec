@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Moje dokumenty
 DocsGenerated=Wygenerowane dokumenty
 DocsElements=Elementy dokumentów
@@ -25,7 +25,7 @@ ECMNbOfSubDir=ilość podkatalogów
 ECMNbOfFilesInSubDir=Liczba plików w podkatalogach
 ECMCreationUser=Kreator
 ECMArea=Obszar EDM
-ECMAreaDesc=EDM (zarządzanie dokumentami elektronicznymi)  pozwala na zapisywanie, udostępnianie i szybkie wyszukiwanie wszelkiego rodzaju dokumentów w Dolibarr.
+ECMAreaDesc=EDM (zarządzanie dokumentami elektronicznymi)  pozwala na zapisywanie, udostępnianie i szybkie wyszukiwanie wszelkiego rodzaju dokumentów w Pineapple.
 ECMAreaDesc2=* Automatyczne katalogi wypelniane sa automatycznie podczas dodawania dokumentów z karty elementu <br> * Manualne katalogi mogą być używane do zapisywania dokumentów nie powiązanych z żadnym konkretnym elementem.
 ECMSectionWasRemoved=Katalog <b>%s</b> został usunięty.
 ECMDocumentsSection=Katalog dokumentu

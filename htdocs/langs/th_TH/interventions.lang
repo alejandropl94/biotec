@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=การแทรกแซง
 Interventions=การแทรกแซง
 InterventionCard=บัตรแทรกแซง
@@ -31,13 +31,13 @@ RelatedInterventions=การแทรกแซงที่เกี่ยว�
 ShowIntervention=การแทรกแซงการแสดง
 SendInterventionRef=การส่งของการแทรกแซง% s
 SendInterventionByMail=ส่งการแทรกแซงทางอีเมล
-InterventionCreatedInDolibarr=s แทรกแซง% สร้าง
-InterventionValidatedInDolibarr=s% แทรกแซงการตรวจสอบ
-InterventionModifiedInDolibarr=s% แทรกแซงการแก้ไข
-InterventionClassifiedBilledInDolibarr=ชุดแทรกแซง% s เป็นการเรียกเก็บเงิน
-InterventionClassifiedUnbilledInDolibarr=การแทรกแซง% s เป็นชุดยังไม่เรียกเก็บ
+InterventionCreatedInPineapple=s แทรกแซง% สร้าง
+InterventionValidatedInPineapple=s% แทรกแซงการตรวจสอบ
+InterventionModifiedInPineapple=s% แทรกแซงการแก้ไข
+InterventionClassifiedBilledInPineapple=ชุดแทรกแซง% s เป็นการเรียกเก็บเงิน
+InterventionClassifiedUnbilledInPineapple=การแทรกแซง% s เป็นชุดยังไม่เรียกเก็บ
 InterventionSentByEMail=การแทรกแซง% s ส่งทางอีเมล
-InterventionDeletedInDolibarr=s แทรกแซง% ลบ
+InterventionDeletedInPineapple=s แทรกแซง% ลบ
 SearchAnIntervention=ค้นหาแทรกแซง
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

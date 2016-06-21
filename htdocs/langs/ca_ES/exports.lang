@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Àrea exportació
 ImportArea=Àrea importació
 NewExport=Nova exportació
@@ -37,10 +37,10 @@ LibraryUsed=Llibreria utilitzada
 LibraryVersion=Versió
 Step=Pas
 FormatedImport=Assistent d'importació
-FormatedImportDesc1=Aquesta àrea permet realitzar importacions personalitzades de dades mitjançant un ajudant que evita tenir coneixements tècnics de Dolibarr.
+FormatedImportDesc1=Aquesta àrea permet realitzar importacions personalitzades de dades mitjançant un ajudant que evita tenir coneixements tècnics de Pineapple.
 FormatedImportDesc2=El primer pas consisteix a escollir el tipus de dada que ha d'importar, després l'arxiu ia continuació triar els camps que voleu importar.
 FormatedExport=Assistent d'exportació
-FormatedExportDesc1=Aquesta àrea permet realitzar exportacions personalitzades de les dades mitjançant un ajudant que evita tenir coneixements tècnics de Dolibarr.
+FormatedExportDesc1=Aquesta àrea permet realitzar exportacions personalitzades de les dades mitjançant un ajudant que evita tenir coneixements tècnics de Pineapple.
 FormatedExportDesc2=El primer pas consisteix a escollir un dels conjunts de dades predefinits, a continuació triar els camps que voleu exportar a l'arxiu i en què ordre.
 FormatedExportDesc3=Una vegada seleccionats les dades, és possible triar el format de l'arxiu d'exportació generat.
 Sheet=Fulla
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Trieu el format d'arxiu que voleu importar fent en el
 ChooseFileToImport=Trieu el fitxer d'importació i feu clic al picto %s per seleccionar com a fitxer origen d'importació...
 SourceFileFormat=Format de l'arxiu origen
 FieldsInSourceFile=Camps en el fitxer origen
-FieldsInTargetDatabase=Camps destinació a la base de dades Dolibarr (*=obligatori)
+FieldsInTargetDatabase=Camps destinació a la base de dades Pineapple (*=obligatori)
 Field=Camp
 NoFields=Cap camp
 MoveField=Moure camp columna número %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Nombre de línies sense errors ni warnings: <b>%s</b>.
 NbOfLinesImported=Nombre de línies correctament importades: <b>%s</b>.
 DataComeFromNoWhere=El valor a inserir no correspon a cap camp de l'arxiu origen.
 DataComeFromFileFieldNb=El valor a inserir es correspon al camp nombre <<b>%s</b> de l'arxiu origen.
-DataComeFromIdFoundFromRef=El valor donat per el camp <b>%s</b> de l'arxiu origen serà utilitzat per trobar el ID de l'objecte pare a fer servir (l'objecte <b>%s</b> amb la referència de l'arxiu origen ha d'existir a Dolibarr).
+DataComeFromIdFoundFromRef=El valor donat per el camp <b>%s</b> de l'arxiu origen serà utilitzat per trobar el ID de l'objecte pare a fer servir (l'objecte <b>%s</b> amb la referència de l'arxiu origen ha d'existir a Pineapple).
 DataComeFromIdFoundFromCodeId=El codi del camp número <b>%s</b> de l'arxiu d'origen s'utilitzarà per trobar l'id de l'objecte pare a utilitzar (el codi de l'arxiu d'origen ha d'existir en el diccionari <b>%s</b>). Tingueu en compte que si coneix l'id, pot usar-lo en lloc del codi a l'arxiu d'origen. La importació funcionarà en els 2 casos.
 DataIsInsertedInto=Les dades de l'arxiu d'origen s'inseriran en el següent camp:
 DataIDSourceIsInsertedInto=L'ID de l'objecte pare trobat a partir de la dada origen, s'inserirà en el següent camp:

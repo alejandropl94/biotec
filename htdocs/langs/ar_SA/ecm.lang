@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=بلدي وثائق
 DocsGenerated=ولدت وثائق
 DocsElements=عناصر وثائق
@@ -25,7 +25,7 @@ ECMNbOfSubDir=من دون أدلة
 ECMNbOfFilesInSubDir=عدد الملفات في الدلائل الفرعية
 ECMCreationUser=مبدع
 ECMArea=منطقة EDM
-ECMAreaDesc=يسمح للمنطقة EDM (إدارة الوثائق الالكترونية) التي لانقاذ والمشاركة والبحث بسرعة كل نوع من الوثائق في Dolibarr.
+ECMAreaDesc=يسمح للمنطقة EDM (إدارة الوثائق الالكترونية) التي لانقاذ والمشاركة والبحث بسرعة كل نوع من الوثائق في Pineapple.
 ECMAreaDesc2=* أدلة تلقائية تملأ تلقائيا عند إضافة الوثائق من بطاقة عنصر. <br> * دليل أدلة يمكن استخدامها لانقاذ وثائق ليست مرتبطة بشكل خاص عنصر.
 ECMSectionWasRemoved=دليل <b>٪ ق</b> حذفت.
 ECMDocumentsSection=وثيقة من وثائق ودليل

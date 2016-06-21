@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Projekto nuoroda
 ProjectRef=Project ref.
 ProjectId=Projekto ID
@@ -131,10 +131,10 @@ ConfirmCloneProject=Ar tikrai norite klonuoti šį projektą ?
 ProjectReportDate=Pakeisti užduoties datą priklausomai nuo projekto pradžios datos
 ErrorShiftTaskDate=Neįmanoma perkelti užduoties datą į naujo projekto pradžios datą
 ProjectsAndTasksLines=Projektai ir užduotys
-ProjectCreatedInDolibarr=Projektas %s sukurtas
-TaskCreatedInDolibarr=Užduotis %s sukurta
-TaskModifiedInDolibarr=Užduotis %s modifikuota
-TaskDeletedInDolibarr=Užduotis %s ištrinta
+ProjectCreatedInPineapple=Projektas %s sukurtas
+TaskCreatedInPineapple=Užduotis %s sukurta
+TaskModifiedInPineapple=Užduotis %s modifikuota
+TaskDeletedInPineapple=Užduotis %s ištrinta
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

@@ -20,7 +20,7 @@
 /**
  *      \file       htdocs/user/note.php
  *      \ingroup    usergroup
- *      \brief      Fiche de notes sur un utilisateur Dolibarr
+ *      \brief      Fiche de notes sur un utilisateur Pineapple
  */
 
 require '../main.inc.php';

@@ -43,7 +43,7 @@ $codelang=GETPOST('lang', 'alpha');
 print "
 <html>
 <head>
-<title>Dolibarr frame for external web site</title>
+<title>Pineapple frame for external web site</title>
 </head>
 
 <frameset ".(empty($conf->global->MAIN_MENU_INVERT)?"rows":"cols")."=\"".$heightforframes.",*\" border=0 framespacing=0 frameborder=0>

@@ -1281,7 +1281,7 @@ if (empty($reshook))
 	    $ws_ns='http://www.dolibarr.org/ns/';
 	    $ws_authentication=array(
 	        'dolibarrkey'=>$ws_key,
-	        'sourceapplication'=>'DolibarrWebServiceClient',
+	        'sourceapplication'=>'PineappleWebServiceClient',
 	        'login'=>$ws_user,
 	        'password'=>$ws_password,
 	        'entity'=>$ws_entity
@@ -2432,7 +2432,7 @@ elseif (! empty($object->id))
         $ws_ns = 'http://www.dolibarr.org/ns/';
         $ws_authentication = array(
             'dolibarrkey'=>$ws_key,
-            'sourceapplication'=>'DolibarrWebServiceClient',
+            'sourceapplication'=>'PineappleWebServiceClient',
             'login'=>$ws_user,
             'password'=>$ws_password,
             'entity'=>''

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# Pineapple language file - Source file is en_US - printing
 Module64000Name=Impresión Directa
 Module64000Desc=Activa Sistema de Impresión Directa
 PrintingSetup=Configuración de la Impresión Directa

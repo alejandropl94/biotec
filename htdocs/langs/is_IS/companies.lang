@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Company name %s  er þegar til. Veldu annað.
 ErrorPrefixAlreadyExists=Forskeyti %s  er þegar til. Veldu annað.
 ErrorSetACountryFirst=Setja í landinu fyrst
@@ -18,7 +18,7 @@ NewCompany=Ný fyrirtæki (horfur, viðskiptavina, birgja)
 NewThirdParty=New þriðja aðila (horfur, viðskiptavina, birgja)
 NewSocGroup=Ný fyrirtæki hópur
 NewPrivateIndividual=New Einstaklingur (horfur, viðskiptavina, birgja)
-CreateDolibarrThirdPartySupplier=Create a third party (supplier)
+CreatePineappleThirdPartySupplier=Create a third party (supplier)
 ProspectionArea=Prospection area
 SocGroup=Hópur af fyrirtækjum
 IdThirdParty=Auðkenni þriðja aðila
@@ -387,8 +387,8 @@ NoParentCompany=None
 ExportImport=Import-Export
 ExportCardToFormat=Útflutningur kort til snið
 ContactNotLinkedToCompany=Hafðu tengist ekki til þriðja aðila
-DolibarrLogin=Dolibarr Innskráning
-NoDolibarrAccess=Nei Dolibarr aðgang
+PineappleLogin=Pineapple Innskráning
+NoPineappleAccess=Nei Pineapple aðgang
 ExportDataset_company_1=Third parties (Companies/foundations/physical people) and properties
 ExportDataset_company_2=Tengiliðir og eignir
 ImportDataset_company_1=Third parties (Companies/foundations/physical people) and properties

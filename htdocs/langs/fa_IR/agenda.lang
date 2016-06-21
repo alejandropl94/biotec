@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# Pineapple language file - Source file is en_US - agenda
 IdAgenda=رویداد ID
 Actions=رویدادها
 ActionsArea=منطقه رویدادها (عملیات و وظایف)
@@ -40,22 +40,22 @@ ViewPerUser=Per user view
 ViewPerType=Per type view
 ViewWithPredefinedFilters= نمایش با فیلترهای از پیش تعریف شده
 AutoActions= پر کردن خودکار
-AgendaAutoActionDesc= تعریف اینجا رویدادی که می خواهید Dolibarr برای ایجاد به طور خودکار یک رویداد در دستور کار. اگر چیزی (به طور پیش فرض) انتخاب شود، فقط اقدامات تجاری خواهد شد در دستور کار گنجانده شده است.
-AgendaSetupOtherDesc= این صفحه فراهم می کند گزینه اجازه می دهد تا صادرات رویدادی Dolibarr خود را در تقویم های خارجی (تاندربرد، تقویم گوگل، ...)
-AgendaExtSitesDesc=این صفحه اجازه می دهد تا به اعلام منابع خارجی از تقویم برای دیدن رویدادی خود را در دستور کار Dolibarr.
-ActionsEvents=رویدادهای که Dolibarr یک اقدام در دستور کار به طور خودکار ایجاد
-PropalValidatedInDolibarr=پیشنهاد از٪ s معتبر
-InvoiceValidatedInDolibarr=فاکتور٪ بازدید کنندگان اعتبار
-InvoiceValidatedInDolibarrFromPos=Invoice %s validated from POS
-InvoiceBackToDraftInDolibarr=فاکتور٪ s را به بازگشت به پیش نویس وضعیت
-InvoiceDeleteDolibarr=فاکتور٪ s را حذف
-OrderValidatedInDolibarr=منظور از٪ s معتبر
-OrderDeliveredInDolibarr=Order %s classified delivered
-OrderCanceledInDolibarr=منظور از٪ s را لغو
-OrderBilledInDolibarr=Order %s classified billed
-OrderApprovedInDolibarr=منظور از٪ s را تایید
-OrderRefusedInDolibarr=منظور از٪ s را رد کرد
-OrderBackToDraftInDolibarr=منظور از٪ s به بازگشت به پیش نویس وضعیت
+AgendaAutoActionDesc= تعریف اینجا رویدادی که می خواهید Pineapple برای ایجاد به طور خودکار یک رویداد در دستور کار. اگر چیزی (به طور پیش فرض) انتخاب شود، فقط اقدامات تجاری خواهد شد در دستور کار گنجانده شده است.
+AgendaSetupOtherDesc= این صفحه فراهم می کند گزینه اجازه می دهد تا صادرات رویدادی Pineapple خود را در تقویم های خارجی (تاندربرد، تقویم گوگل، ...)
+AgendaExtSitesDesc=این صفحه اجازه می دهد تا به اعلام منابع خارجی از تقویم برای دیدن رویدادی خود را در دستور کار Pineapple.
+ActionsEvents=رویدادهای که Pineapple یک اقدام در دستور کار به طور خودکار ایجاد
+PropalValidatedInPineapple=پیشنهاد از٪ s معتبر
+InvoiceValidatedInPineapple=فاکتور٪ بازدید کنندگان اعتبار
+InvoiceValidatedInPineappleFromPos=Invoice %s validated from POS
+InvoiceBackToDraftInPineapple=فاکتور٪ s را به بازگشت به پیش نویس وضعیت
+InvoiceDeletePineapple=فاکتور٪ s را حذف
+OrderValidatedInPineapple=منظور از٪ s معتبر
+OrderDeliveredInPineapple=Order %s classified delivered
+OrderCanceledInPineapple=منظور از٪ s را لغو
+OrderBilledInPineapple=Order %s classified billed
+OrderApprovedInPineapple=منظور از٪ s را تایید
+OrderRefusedInPineapple=منظور از٪ s را رد کرد
+OrderBackToDraftInPineapple=منظور از٪ s به بازگشت به پیش نویس وضعیت
 ProposalSentByEMail=پیشنهاد تجاری٪ s ارسال با ایمیل
 OrderSentByEMail=سفارش مشتری٪ s ارسال با ایمیل
 InvoiceSentByEMail=صورت حساب به مشتری٪ s ارسال با ایمیل
@@ -64,7 +64,7 @@ SupplierInvoiceSentByEMail=تامین کننده فاکتور٪ s ارسال ب�
 ShippingSentByEMail=Shipment %s sent by EMail
 ShippingValidated= Shipment %s validated
 InterventionSentByEMail=Intervention %s sent by EMail
-NewCompanyToDolibarr= شخص ثالث ایجاد شده
+NewCompanyToPineapple= شخص ثالث ایجاد شده
 DateActionPlannedStart= تاریخ شروع برنامه ریزی شده
 DateActionPlannedEnd= تاریخ پایان برنامه ریزی شده
 DateActionDoneStart= تاریخ شروع واقعی

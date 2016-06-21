@@ -1,15 +1,15 @@
 --------------------------------------------------------------
-English Dolibarr ChangeLog
+English Pineapple ChangeLog
 --------------------------------------------------------------
 
 WARNING: 
 
-Do not try to make any Dolibarr upgrade if you are running Mysql version 5.5.40.
+Do not try to make any Pineapple upgrade if you are running Mysql version 5.5.40.
 Mysql version 5.5.40 has a very critical bug making your data beeing definitely lost.
 You may also experience troubles with Mysql 5.5.41/42/43 with error "Lost connection"
 during migration.
 Upgrading to any other version or any other database system is abolutely required BEFORE trying
-make a Dolibarr upgrade.
+make a Pineapple upgrade.
 
 
 ***** ChangeLog for 3.9.1 compared to 3.9.* *****
@@ -198,7 +198,7 @@ NEW: Introduce a method getDefaultCreateValueForField for developers to get a de
 NEW: A module can add its entries into cron module.
 NEW: Framework feature. To have a page being loaded at same scrollbar level after a click on a href link, just add the class "reposition" on this link.
 NEW: Add exemple of setup for multitail to render dolibarr log files
-NEW: Add restler framework. First step to build REST API into Dolibarr.
+NEW: Add restler framework. First step to build REST API into Pineapple.
 NEW: Add css class and ids on column of detail lines to allow module to easily manipulate fields.
 NEW: Add hook in send mail
 NEW: Add hooks on list of members to allow an external module to add more fields into list view.
@@ -215,12 +215,12 @@ NEW: Prepare database to have agenda able to store more detailed emails events.
 
 WARNING: 
 
-Dolibarr 3.9 is not yet fully compatible with PHP 7 even if most features seems to work.
+Pineapple 3.9 is not yet fully compatible with PHP 7 even if most features seems to work.
 
 Mysql minimum version is now 5.0.3 
 
 Following changes may create regression for some external modules, but were necessary to make
-Dolibarr better:
+Pineapple better:
 - Deprecated Product::setPriceExpression. Use Product::update instead
 - Deprecated hidden option MAIN_USE_CUSTOM_TRANSLATION has been removed. Use table llx_overwrite_trans instead.
 - Trigger LINECONTRACT_INSERT has been renamed into LINECONTRACT_CREATE to match common denomination.
@@ -555,7 +555,7 @@ FIX: #2983 Load gravatar avatar images securely over HTTPS
 FIX: #2987: removed dead function moneyMeter()
 FIX: #3009: Better filtering to prevent SQL injection
 FIX: #3009: Better filtering to prevent SQL injection
-FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Dolibarr
+FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Pineapple
 FIX: #3138 - Too much visible thing when access is denied on public pages
 FIX: #3173 Overlapping of shipment ref
 FIX: Adding 5 more choice link into survey module was not working with chrome
@@ -740,14 +740,14 @@ NEW: Function yn can show a visual checkbox.
 NEW: Introduced select2 jquery plugin.
 NEW: Possibility to add javascript in main login page with "getLoginPageOptions" hook.
 NEW: possibility to defined a tab for all entities in module descriptor.
-NEW: add restler framework First step to build REST API into Dolibarr.
+NEW: add restler framework First step to build REST API into Pineapple.
 NEW: add an explorer for REST API consultation & documentation.
 NEW: script to build API class from existing class.
 NEW: Add function dolCopyDir to copy directory with recursive content.
 NEW: Introduce function dolGetFirstLineOfText.
 
 WARNING: Following changes may create regression for some external modules, but were necessary to make
-Dolibarr better:
+Pineapple better:
 - Removed hook supplierorderdao into supplier order creation. This is a business event, so we must use the 
   trigger ORDER_SUPPLIER_CREATE instead.
 - Hooks 'printLeftBlock' and 'formConfirm' are now compliant with hook development rules. They are
@@ -801,7 +801,7 @@ FIX: Use "WHERE true" instead of "WHERE 1" #4132
 FIX: #2957 : missing $langs object for trigger
 FIX: #2983 Load gravatar avatar images securely over HTTPS
 FIX: #3009: Better filtering to prevent SQL injection
-FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Dolibarr
+FIX: #3091 TotalHT amount in supplier order is bold unlike the rest of Pineapple
 FIX: #3262 Webservice getProductsForCategory()
 FIX: #3318
 FIX: [ #3460 ] Selected bank account was not saved when an error happened when trying to create a customer invoice
@@ -823,7 +823,7 @@ FIX: Bad visualization of suppliers name on Incomes-Expenses mode
 FIX: Better management error into the color conversion functions
 FIX: [ bug 1634 ] Error deleting a project when it had many linked objects
 FIX: [ bug 1925 ] "Link to order" option in supplier invoices is not working properly
-FIX: [ bug #2893 ] Dolibarr error when viewing an invoice after changing invoice mask
+FIX: [ bug #2893 ] Pineapple error when viewing an invoice after changing invoice mask
 FIX: [ bug #3211 ] Error about sold to pay (Montant encours)
 FIX: [ bug #3321 ] Users with certain permissions were shown a "forbidden access" page even if they had the rights
 FIX: [ bug #3358 ] Tasks box does not work with PostgreSQL
@@ -918,11 +918,11 @@ to restore old path and get back working links without having to resubmit images
 
 WARNING:
 
-Do not try to make any Dolibarr upgrade if you are running Mysql version 5.5.40.
+Do not try to make any Pineapple upgrade if you are running Mysql version 5.5.40.
 Mysql version 5.5.40 has a very critical bug making your data beeing definitely lost.
 You may also experience troubles with Mysql 5.5.41 with error "Lost connection" during migration.
 Upgrading to any other version or database system is abolutely required BEFORE trying to
-make a Dolibarr upgrade.
+make a Pineapple upgrade.
 
 ***** ChangeLog for 3.7 compared to 3.6.* *****
 For users:
@@ -1081,16 +1081,16 @@ For developers:
 
 WARNING:
 
-Do not try to make any Dolibarr upgrade if you are running Mysql version 5.5.40.
+Do not try to make any Pineapple upgrade if you are running Mysql version 5.5.40.
 Mysql version 5.5.40 has a very critical bug making your data beeing definitely lost.
 You may also experience troubles with Mysql 5.5.41 with error "Lost connection" during migration.
 Upgrading to any other version or database system is abolutely required BEFORE trying to
-make a Dolibarr upgrade.
+make a Pineapple upgrade.
 
 WARNING: 
 
 Following changes may create regression for some external modules, but was necessary to make
-Dolibarr better:
+Pineapple better:
 
 - Path to save photos of products was moved to match path of other attached files. If you had loose your photo
   on the photo tab of products, you can set the constant "PRODUCT_USE_OLD_PATH_FOR_PHOTO" to 1 (home - setup - other)
@@ -1136,7 +1136,7 @@ FIX: #3928 Creating a Customer order and a Customer invoice from a project, does
 FIX: bad calculation for stock value
 FIX: bad stock valo
 FIX: bad stock valorisation
-FIX: [ bug #2893 ] Dolibarr error when viewing an invoice after changing invoice mask
+FIX: [ bug #2893 ] Pineapple error when viewing an invoice after changing invoice mask
 FIX: button create payment hide if tax amount is less than 1
 FIX: change object statut on close shipping and remove erratic db commit
 FIX: change order date on clone (as everywhere else)
@@ -1164,7 +1164,7 @@ FIX: total amount in tpl linked object are not reset
 FIX: when multicompany was enabled, this function didn't check just on the good entity (problem when both company use same mask)
 
 ***** ChangeLog for 3.6.4 compared to 3.6.3 *****
-- Fix: [ bug #2893 ] Dolibarr error when viewing an invoice after changing invoice mask
+- Fix: [ bug #2893 ] Pineapple error when viewing an invoice after changing invoice mask
 
 ***** ChangeLog for 3.6.3 compared to 3.6.2 *****
 - Fix: ref_ext was not saved when recording a customer order from web service
@@ -1303,7 +1303,7 @@ For users:
 - New: Add categories translation.
 - New: Enable option "clone target emailing".
 - New: Improved tax module: Add specific page for salaries payment	
-- New: Add composer.json file so Dolibarr can be publish onto packagist.org.
+- New: Add composer.json file so Pineapple can be publish onto packagist.org.
 - New: The combo list of juridical status is now sorted
 - New: [ task #926 ] Add extrafield feature on order lines.
 - New: [ task #927 ] Add extrafield feature on Proposal lines.
@@ -1352,7 +1352,7 @@ For developers:
 $result = $this->call_trigger($trigger_name, $user)
 
 WARNING: Following change may create regression for some external modules, but was necessary to make
-Dolibarr better:
+Pineapple better:
 
 - The deprecated way (with 4 parameters) to declare a new tab into a module descriptor file has been
 removed. You must now use the 6 parameters way. See file modMyModule.class.php for example. 
@@ -1711,7 +1711,7 @@ For developers:
 - Qual: All nowrap properties are now using CSS class nowrap.
 - Qual: Move hard coded code of module mailmanspip into trigger.
 - New: Into POST forms, if you can add a parameter DOL_AUTOSET_COOKIE with a value that is list name,
-  separated by a coma, of other POST parameters, Dolibarr will automatically save this parameters
+  separated by a coma, of other POST parameters, Pineapple will automatically save this parameters
   into user cookies.
 - New: Add hook addHomeSetup.
 - New: Add trigger CATEGORY_LINK and CATEGORY_UNLINK.
@@ -1721,10 +1721,10 @@ For developers:
 - Fix also several bugs with old code. 
 
 WARNING: Following change may create regression for some external modules, but was necessary to make
-Dolibarr better:
+Pineapple better:
 
 1) We started to clean hooks code. 
-If your hook want to modify value of $actions, it's role of your hook to modify it. Dolibarr 
+If your hook want to modify value of $actions, it's role of your hook to modify it. Pineapple 
 hook code will no more decide this for your module. If your action class for hook was returning
 a string or an array, instead your module must set $actionclassinstance->results (to return array) 
 or $actionclassinstance->resprints (to return string) to return same thing. The return value must 
@@ -1838,7 +1838,7 @@ For users:
   subscription" (foundation module).
 - New: Add link to check professional id for India.
 - New: [ task #731 ] Uniformize ref generation
-- New: [ task #748 ] Add a link "Dolibarr" into left menu
+- New: [ task #748 ] Add a link "Pineapple" into left menu
 - New: Script email_unpaid_invoices_to_representative accepts now a parameter "test"
   and a "late delay".
 - New: Can define different clicktodial setups for each user.
@@ -1891,7 +1891,7 @@ For developers:
 - New: dol_syslog method accept a suffix to use different log files for log. 
 - New: Type of fields are received by export format handlers.
 - New: when adding an action, we can define a free code to tag it for a specific need.
-- New: Enhance Dolibarr migration process to include migration script of external 
+- New: Enhance Pineapple migration process to include migration script of external 
   modules.
 - New: [ task #811 ] Uniformanize note field.
   
@@ -1950,7 +1950,7 @@ backport commit 384e3812eb73a15adafb472cacfb93397a54459b to fix W3C/edit contrac
 - Fix: [ bug #857 ] Invoice created from shipment does not have the order discount
 - Fix: [ bug #861 ] Impossible to create a new event in agenda
 - Fix: [ bug #827 ] AJAX search does not respect multiprice level
-- Fix: [ bug #865 ] Dolibarr navigation array in project/task do not work
+- Fix: [ bug #865 ] Pineapple navigation array in project/task do not work
 - Fix: [ bug #866 ] Standing order from an invoice suggests invoice total amount instead of remaining to pay
 - Fix: [ bug #788 ] Date of linked interventions are not shown
 - Fix: external users should not see costprice and margin infos
@@ -2081,7 +2081,7 @@ For translators:
 - New: Added bg_BG autotranslated language.
 - New: Translate the donation receipt.
 
-Dolibarr license has also been updated from GPLv2+ to GPLv3+.
+Pineapple license has also been updated from GPLv2+ to GPLv3+.
 
 
 
@@ -2127,7 +2127,7 @@ Dolibarr license has also been updated from GPLv2+ to GPLv3+.
 - Fix: Allows to use a comma decimal separator in supplier invoices payments.
 - Fix: Translation for tr_TR, es_ES, pt_BR.
 - Fix: Products with no prices not visible.
-- Fix: Access to product card created with very old version of Dolibarr.
+- Fix: Access to product card created with very old version of Pineapple.
 - Fix: Delete temporary files after validating an invoice.
 - Fix: preview of supplier order and invoice template.
 - Fix: [ bug #485 ] Configurated amount for public auto-subscription form is not taken into account
@@ -2392,7 +2392,7 @@ For users:
 - New: A lot of enhancements into ECM module:
        Directories can contains special characters,
        Speed enhancements,
-       Directories can be created outside of Dolibarr, refresh button will 
+       Directories can be created outside of Pineapple, refresh button will 
        update database,
        Can rename a file.
 - New: Reordering lines in invoice, orders, commercial proposal is faster (use Ajax
@@ -2488,7 +2488,7 @@ For users:
 - New: Add statistics on trips and expenses module.
 - New: Can reopen a closed customer order.
 - New: Add module externalsite to add a web site/tools inside 
-       menu and a Dolibarr frame.
+       menu and a Pineapple frame.
 - New: Can link trips and fees to a project.
 - New: Add civility title in foundation module.
 - New: Can set accountancy code for product (buy and sell).
@@ -2520,8 +2520,8 @@ For users:
 - New: Can filter on category on third parties, products and members listings.
 - New: A flag is visible before country labels.
 - New: When activating a new module, permissions for admin user are set. This save
-       time when configuring Dolibarr.
-- New: Dolibarr 2.9 is faster than 2.8.
+       time when configuring Pineapple.
+- New: Pineapple 2.9 is faster than 2.8.
 - New: A lot of more predefined VAT values, states, regions for 
        miscelaneous contries.
 - New: Enhance skin engine to make themes easier.
@@ -2529,7 +2529,7 @@ For users:
 - New: Auguria theme is now more modern.
 - New: Update tools refers to www.dolibarr.org but also www.dolistore.com web site.
 - New: Postgresql experimental support seems to work completely. 
-- New: Changes in Dolibarr core to allow to use cache servers (see Memcached module on
+- New: Changes in Pineapple core to allow to use cache servers (see Memcached module on
        dolistore.com).
 - New: Default choice for interactive confirm box is yes by default, and no only for
        delete actions. This reduce number of clicks required to validate actions and 
@@ -2572,13 +2572,13 @@ For developers:
 
 WARNING: 
 - A lot of class files (*.class.php) has moved into subdirectories. So If you use
-  or develop non official modules that includes Dolibarr classes, you will have to rename
+  or develop non official modules that includes Pineapple classes, you will have to rename
   path to thoose classes into the include function.
 - Also, parameters of the "fetch()" method for class "User" has changed to reflect
   other fetch methods.   
 - If you build a personalised themes, you must rename the style sheet into style.css.php.   
 - This version is also the last one to support PHP 4.*, Mysql 3.1, IE6.
-  Dolibarr 3.* will be supported with PHP 5+ and MySql 4.1+ only.
+  Pineapple 3.* will be supported with PHP 5+ and MySql 4.1+ only.
 
 
 ***** ChangeLog for 2.8.1 compared to 2.8 *****
@@ -2679,7 +2679,7 @@ For users:
 - New: Added estimated value for stocks.
 - New: Added module Gravatar to found photo of users or members
        from their email on gravatar.com.
-- New: Include Dolibarr version in suggested dump filename.
+- New: Include Pineapple version in suggested dump filename.
 - New: Enhancement in project module.
 - New: Add log tab on emailing module.
 - New: Minor enhancements in look themes.
@@ -2753,7 +2753,7 @@ For developers:
 
 ***** ChangeLog for 2.6 compared to 2.5.* *****
 For users:
-- New: Add filter on status in emailing selector for Dolibarr users.
+- New: Add filter on status in emailing selector for Pineapple users.
 - New: Can add bookmarks on all pages.
 - New: Enhance bank transactions reporting.
 - New: When creating a contact from a third party, informations from third
@@ -2779,7 +2779,7 @@ For users:
 - New: Can create a third party from a member of foundation module.
 - New: Can set a limit for stock alert to 0.
 - New: Support SMTPS.
-- New: Added a page /support to provide a help center service on Dolibarr.
+- New: Added a page /support to provide a help center service on Pineapple.
 - New: Distinct status "running not expired" from "running expired" in lines 
   contract status.
 - New: Add a first version of a module for Paybox.
@@ -2891,7 +2891,7 @@ For developers:
 - Add more integrity check on database
 - Can disable modules on logon page. This make possible to
   have several profiles of demo with only one demo. Also added a new
-  Dolibarr demo front page (in htdocs/public/demo).
+  Pineapple demo front page (in htdocs/public/demo).
 - Allow modules to add new tabs.
 
    
@@ -2906,10 +2906,10 @@ For users:
 - Reduce memory usage.
 - Now triggers are enabled/disabled according to module they refers to.
 - Fix infinite loop on popup calendar.
-- Change in tanslation to make Dolibarr easier to understand.
+- Change in tanslation to make Pineapple easier to understand.
 - Add a warning when sending a mail from a user with no email defined.
 - Added clicktodial module.
-- Add a property private/public in contact. This allows to user Dolibarr
+- Add a property private/public in contact. This allows to user Pineapple
   for a personnal address book.
 - French NAF code can accept 5 chars.
 - Supplier prices can be input with or without taxe.
@@ -2966,7 +2966,7 @@ For developers:
   to jump several versions to upgrade.
 - Support for webcalendar 1.1 in webcalendar module.
 - Support for menu in database.
-- Better support for using Dolibarr on more WHP.
+- Better support for using Pineapple on more WHP.
 - Removed some deprecated files and clean code.
 - New theme: Auguria
 - Removed PHP warnings.
@@ -2988,7 +2988,7 @@ For developers:
 - Support user and groups permissions.
 - Translation in english and support for several languages.
 - New enhanced look and several new themes.
-- Small search boxes for each Dolibarr elements (invoices, contracts,
+- Small search boxes for each Pineapple elements (invoices, contracts,
   orders, proposals...)
 - Added an export assistant module to export main dolibarr data.
 - Added backup tool to backup database via mysqldump.
@@ -3002,7 +3002,7 @@ For developers:
   to elements of its companies only).
 - Little enhancements to OSCommerce module.
 - Added a second OSCommerce module working through web services.
-- Added a Mantis module to have a Mantis application in Dolibarr menu.
+- Added a Mantis module to have a Mantis application in Pineapple menu.
 - Building a PDF document for invoices works like other modules. You
   can change model just before generating the PDF.
 - Can generate documents (PDF) for customer orders. Can send them by mail.
@@ -3011,9 +3011,9 @@ For developers:
 - Rule to suggests passwords when creating a user are in modules
   allowing to add easily other rules.
 - Option to encrypt passwords in database (MD5).
-- Add Dolibarr triggers support on users creation/change.
-- Add Dolibarr triggers support on payments.
-- Add Dolibarr triggers on supplier and customers orders.
+- Add Pineapple triggers support on users creation/change.
+- Add Pineapple triggers support on payments.
+- Add Pineapple triggers on supplier and customers orders.
 - Webcalendar triggers for actions on Member module.
 - Support optional new javascript popup selector for date fields.
 - Support for several RSS boxes in external RSS module. Setup easier.
@@ -3053,5 +3053,5 @@ Minor bug fixes
 
 
 ***** ChangeLog for 2.0 compared to 1.0.* *****
-ChangeLog file size is so important, that it is not included inside Dolibarr
+ChangeLog file size is so important, that it is not included inside Pineapple
 package. You can find it at www.dolibarr.org

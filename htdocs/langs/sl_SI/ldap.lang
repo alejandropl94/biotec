@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Geslo za domeno
 YouMustChangePassNextLogon=Geslo za uporabnika <b>%s</b> na domeni <b>%s</b> je potrebno spremeniti.
 UserMustChangePassNextLogon=Uporabnik mora spremeniti geslo na domeni %s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Datum prve naročnine
 LDAPFieldFirstSubscriptionAmount=Znesek prve naročnine
 LDAPFieldLastSubscriptionDate=Datum zadnje naročnine
 LDAPFieldLastSubscriptionAmount=Znesek zadnje naročnine
-SynchronizeDolibarr2Ldap=Sinhroniziraj uporabnika (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Sinhroniziraj uporabnika (Pineapple -> LDAP)
 UserSynchronized=Uporabnik sinhroniziran
 GroupSynchronized=Skupina sinhronizirana
 MemberSynchronized=Član sinhroniziran
 ContactSynchronized=Kontakt sinhroniziran
-ForceSynchronize=Vsili sinhronizacijo Dolibarr -> LDAP
+ForceSynchronize=Vsili sinhronizacijo Pineapple -> LDAP
 ErrorFailedToReadLDAP=Branje LDAP baze podatkov ni uspelo. Preverite nastavitev LDAP modula in dostopnost baze podatkov.

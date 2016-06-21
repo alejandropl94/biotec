@@ -44,7 +44,7 @@ class modNotification extends DolibarrModules
 		$this->family = "technic";
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i','',get_class($this));
-		$this->description = "Gestion des notifications (par mail) sur evenement Dolibarr";
+		$this->description = "Gestion des notifications (par mail) sur evenement Pineapple";
 		$this->version = 'dolibarr';	// 'experimental' or 'dolibarr' or version
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
 		$this->special = 1;
@@ -75,7 +75,7 @@ class modNotification extends DolibarrModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

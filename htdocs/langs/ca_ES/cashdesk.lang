@@ -38,4 +38,4 @@ ShowStock=Veure magatzem
 DeleteArticle=Feu clic per treure aquest article
 FilterRefOrLabelOrBC=Cerca (Ref/Etiq.)
 UserNeedPermissionToEditStockToUsePos=Vostè pregunta per disminuir l'estoc en la creació de factures, per aixo l'usuari que utilitzi el TPV ha de tenir permís per editar l'estoc
-DolibarrReceiptPrinter=Impressora de tickets de Dolibarr
+PineappleReceiptPrinter=Impressora de tickets de Pineapple

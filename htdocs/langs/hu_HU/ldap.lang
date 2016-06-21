@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Jelszó a domain-hez
 YouMustChangePassNextLogon=<b>%s</b> felhasználó jelszavát a <b>%s</b> domain-ben meg kell változtatni.
 UserMustChangePassNextLogon=%s domainben a felhasználónak meg kell változtatnia a jelszavát.
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Első feliratkozási dátum
 LDAPFieldFirstSubscriptionAmount=Első feliratkozási mennyiség
 LDAPFieldLastSubscriptionDate=Utolsó feliratkozási dátum
 LDAPFieldLastSubscriptionAmount=Utolsó feliratkozási mennyiség
-SynchronizeDolibarr2Ldap=Felhasználó szinkronizálása (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Felhasználó szinkronizálása (Pineapple -> LDAP)
 UserSynchronized=Felhasználó szinkronizálva
 GroupSynchronized=Csoport szinkronizálva
 MemberSynchronized=Tag szinkronizálva
 ContactSynchronized=Kapcsolat szinkronizálva
-ForceSynchronize=Eröltetett szinkronizáció Dolibarr -> LDAP
+ForceSynchronize=Eröltetett szinkronizáció Pineapple -> LDAP
 ErrorFailedToReadLDAP=Nem sikerült olvasni az LDAP adatbázist. Ellenőrizze az LDAP modul beállítását és az adatbázis hozzáférhetőségét.

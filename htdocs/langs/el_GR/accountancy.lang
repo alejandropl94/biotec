@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Διαχωριστής στηλών για το αρχείο που θα εξαχθεί
 ACCOUNTING_EXPORT_DATE=Μορφή ημερομηνίας για το αρχείο που θα εξαγθεί
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Αριθμός αντικειμένων για
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Ξεκινήστε τη διαλογή της κατανομής των σελίδων "Έχει για κατανομή» από τα πιο πρόσφατα στοιχεία
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Ξεκινήστε τη διαλογή της κατανομής των σελίδων "Ανάλυση" με τα πιο πρόσφατα στοιχεία
 
-AccountLength=Μήκος των λογιστικών λογαριασμών που φαίνονται στο Dolibarr
-AccountLengthDesc=Λειτουργία που επιτρέπει να υποκρίνεαι μήκος του λογιστικού λογαριασμού αντικαθιστώντας χώρους από τον αριθμό μηδέν. Η λειτουργία αυτή αγγίζει μόνο την οθόνη, δεν τροποποιούν τους λογιστικούς λογαριασμούς στο Dolibarr. Για την εξαγωγή, αυτή η λειτουργία είναι απαραίτητη για να είναι συμβατή με το συγκεκριμένο λογισμικό.
+AccountLength=Μήκος των λογιστικών λογαριασμών που φαίνονται στο Pineapple
+AccountLengthDesc=Λειτουργία που επιτρέπει να υποκρίνεαι μήκος του λογιστικού λογαριασμού αντικαθιστώντας χώρους από τον αριθμό μηδέν. Η λειτουργία αυτή αγγίζει μόνο την οθόνη, δεν τροποποιούν τους λογιστικούς λογαριασμούς στο Pineapple. Για την εξαγωγή, αυτή η λειτουργία είναι απαραίτητη για να είναι συμβατή με το συγκεκριμένο λογισμικό.
 ACCOUNTING_LENGTH_DESCRIPTION=Length for displaying product & services description in listings (Best = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Length for displaying product & services account description form in listings (Best = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Μήκος γενικών λογαριασμών

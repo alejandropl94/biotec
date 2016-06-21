@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=البنك
 Banks=المصارف
 MenuBankCash=البنك / النقدية
@@ -117,7 +117,7 @@ SocialContributionPayment=اجتماعي / دفع الضرائب المالية
 FinancialAccountJournal=مجلة الحساب المالي
 BankTransfer=حوالة مصرفية
 BankTransfers=التحويلات المصرفية
-TransferDesc=التحويل من حساب إلى آخر واحد ، وسوف يكتب Dolibarr اثنين من السجلات (أ مصدر في حساب الخصم والائتمان في الاعتبار الهدف من نفس المبلغ. العلامة نفسها وحتى الآن وسيتم استخدام هذه الصفقة)
+TransferDesc=التحويل من حساب إلى آخر واحد ، وسوف يكتب Pineapple اثنين من السجلات (أ مصدر في حساب الخصم والائتمان في الاعتبار الهدف من نفس المبلغ. العلامة نفسها وحتى الآن وسيتم استخدام هذه الصفقة)
 TransferFrom=من
 TransferTo=إلى
 TransferFromToDone=ونقل من هناك إلى ٪ <b>%s ق %s</b> ٪ وقد سجلت ق.

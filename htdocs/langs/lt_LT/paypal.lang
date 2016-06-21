@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal modulio nustatymas
-PaypalDesc=Šis modulis siūlo tinklapius mokėjimui <a href="http://www.paypal.com" target="_blank">per PayPal</a> klientams. Tai gali būti naudojama nemokamam mokėjimui arba tam tikro specifinio Dolibarr objekto mokėjimui (sąskaitos-faktūros, užsakymai, ...)
+PaypalDesc=Šis modulis siūlo tinklapius mokėjimui <a href="http://www.paypal.com" target="_blank">per PayPal</a> klientams. Tai gali būti naudojama nemokamam mokėjimui arba tam tikro specifinio Pineapple objekto mokėjimui (sąskaitos-faktūros, užsakymai, ...)
 PaypalOrCBDoPayment=Mokėkite kreditine kortele arba per Paypal
 PaypalDoPayment=Mokėkite per PayPal
 PaypalCBDoPayment=Mokėkite kreditine kortele

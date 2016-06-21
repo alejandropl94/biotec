@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firmanavnet %s finnes allerede. Velg et annet!
 ErrorPrefixAlreadyExists=Prefiks %s finnes allerede. Velg et annet!
 ErrorSetACountryFirst=Angi land først
@@ -18,7 +18,7 @@ NewCompany=Ny bedrift (prospekt, kunde, leverandør)
 NewThirdParty=Ny tredjepart (prospekt, kunde, lever.)
 NewSocGroup=Ny bedriftsgruppe
 NewPrivateIndividual=Ny privatperson (prospekt, kunde, leverandør)
-CreateDolibarrThirdPartySupplier=Lag en tredjepart (leverandør)
+CreatePineappleThirdPartySupplier=Lag en tredjepart (leverandør)
 ProspectionArea=Prospektområde
 SocGroup=Firmagruppe
 IdThirdParty=Tredjepart-ID
@@ -387,8 +387,8 @@ NoParentCompany=Ingen
 ExportImport=Import-Eksport
 ExportCardToFormat=Eksporter kort til format
 ContactNotLinkedToCompany=Kontaktpersonen er ikke lenket til noen tredjepart
-DolibarrLogin=Dolibarr innlogging
-NoDolibarrAccess=Ingen tilgang til Dolibarr
+PineappleLogin=Pineapple innlogging
+NoPineappleAccess=Ingen tilgang til Pineapple
 ExportDataset_company_1=Tredjeparter (Selskaper/organisasjoner/fysiske personer) og egenskaper
 ExportDataset_company_2=Kontaktpersoner og egenskaper
 ImportDataset_company_1=Tredjeparter (Selskaper/organisasjoner/fysiske personer) og egenskaper

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Interventie
 Interventions=Interventies
 InterventionCard=Interventiedetails
@@ -31,13 +31,13 @@ RelatedInterventions=Interventies
 ShowIntervention=Tonen tussenkomst
 SendInterventionRef=Indiening van de interventie %s
 SendInterventionByMail=Stuur intervemtie per e-mail
-InterventionCreatedInDolibarr=Interventie %s gecreëerd
-InterventionValidatedInDolibarr=Interventie %s gevalideerd
-InterventionModifiedInDolibarr=Interventie %s gewijzigd
-InterventionClassifiedBilledInDolibarr=Interventie %s als gefactureerd geclassificeerd
-InterventionClassifiedUnbilledInDolibarr=Interventie %s als nog niet gefactureerd geclassificeerd
+InterventionCreatedInPineapple=Interventie %s gecreëerd
+InterventionValidatedInPineapple=Interventie %s gevalideerd
+InterventionModifiedInPineapple=Interventie %s gewijzigd
+InterventionClassifiedBilledInPineapple=Interventie %s als gefactureerd geclassificeerd
+InterventionClassifiedUnbilledInPineapple=Interventie %s als nog niet gefactureerd geclassificeerd
 InterventionSentByEMail=Interventie %s per e-mail verstuurd
-InterventionDeletedInDolibarr=Interventie %s verwijderd
+InterventionDeletedInPineapple=Interventie %s verwijderd
 SearchAnIntervention=Zoek een interventie
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Dodaj to stran med zaznamke
 Bookmark=Zaznamek
 Bookmarks=Zaznamki
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Postopek po kliku na URL
 CreateBookmark=Kreiraj zaznamek
 SetHereATitleForLink=Nastavi naziv zaznamka
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Uporabi zunanji http URL ali odvisni Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Uporabi zunanji http URL ali odvisni Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Izberi, če se mora stran, odprta z linkom, prikazati v trenutnem ali novem oknu
 BookmarksManagement=Urejanje zaznamkov
 ListOfBookmarks=Seznam zaznamkov

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# Pineapple language file - Source file is en_US - products
 ProductRef=Vare ref.
 ProductLabel=Vareetikett
 ProductLabelTranslated=Oversatt produktetikett
@@ -291,7 +291,7 @@ ComposedProductIncDecStock=Øk/minsk beholdning ved overordnet endring
 ComposedProduct=Sub-vare
 MinSupplierPrice=Minste leverandørpris
 DynamicPriceConfiguration=Dynamisk pris-konfigurering
-DynamicPriceDesc=På produktkort , med denne modulen aktivert, vil du kunne sette matematiske funksjoner for å beregne kunde- eller leverandørpriser. En slik funksjon kan bruke alle matematiske operatorer , noen konstanter og variabler. Du kan legge inn de variablene du ønsker, og hvis variablene trenger automatisk oppdatering, mot en ekstern nettadresse, kan Dolibarr utføre dette.
+DynamicPriceDesc=På produktkort , med denne modulen aktivert, vil du kunne sette matematiske funksjoner for å beregne kunde- eller leverandørpriser. En slik funksjon kan bruke alle matematiske operatorer , noen konstanter og variabler. Du kan legge inn de variablene du ønsker, og hvis variablene trenger automatisk oppdatering, mot en ekstern nettadresse, kan Pineapple utføre dette.
 AddVariable=Legg til variabel
 AddUpdater=Velg oppdaterer
 GlobalVariables=Globale variabler

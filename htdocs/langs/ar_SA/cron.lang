@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = حول
 CronAbout = حول كرون
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=يعطل
 CronTaskInactive=تم تعطيل هذه الوظائف
 CronId=هوية شخصية
 CronClassFile=فصول (filename.class.php)
-CronModuleHelp=اسم Dolibarr وحدة الدليل (يعمل أيضا مع وحدة Dolibarr الخارجية). <BR> لexemple لجلب طريقة الكائن المنتج Dolibarr / htdocs / <u>المنتج</u> /class/product.class.php، وقيمة الوحدة هي <i>المنتج</i>
-CronClassFileHelp=اسم الملف لتحميل. <BR> لexemple لجلب طريقة الكائن المنتج Dolibarr / htdocs / المنتج / فئة / <u>product.class.php،</u> وقيمة اسم ملف فئة هي <i>product.class.php</i>
-CronObjectHelp=اسم الكائن لتحميل. <BR> لexemple لجلب طريقة Dolibarr /htdocs/product/class/product.class.php الكائن المنتج، وقيمة اسم ملف فئة هي <i>المنتج</i>
-CronMethodHelp=طريقة كائن لإطلاق. <BR> لexemple لجلب طريقة Dolibarr /htdocs/product/class/product.class.php الكائن المنتج، وقيمة الأسلوب هو <i>fecth</i>
-CronArgsHelp=الحجج الأسلوب. <BR> لexemple لجلب طريقة Dolibarr /htdocs/product/class/product.class.php الكائن المنتج، وقيمة paramters يمكن أن يكون <i>0، ProductRef</i>
+CronModuleHelp=اسم Pineapple وحدة الدليل (يعمل أيضا مع وحدة Pineapple الخارجية). <BR> لexemple لجلب طريقة الكائن المنتج Pineapple / htdocs / <u>المنتج</u> /class/product.class.php، وقيمة الوحدة هي <i>المنتج</i>
+CronClassFileHelp=اسم الملف لتحميل. <BR> لexemple لجلب طريقة الكائن المنتج Pineapple / htdocs / المنتج / فئة / <u>product.class.php،</u> وقيمة اسم ملف فئة هي <i>product.class.php</i>
+CronObjectHelp=اسم الكائن لتحميل. <BR> لexemple لجلب طريقة Pineapple /htdocs/product/class/product.class.php الكائن المنتج، وقيمة اسم ملف فئة هي <i>المنتج</i>
+CronMethodHelp=طريقة كائن لإطلاق. <BR> لexemple لجلب طريقة Pineapple /htdocs/product/class/product.class.php الكائن المنتج، وقيمة الأسلوب هو <i>fecth</i>
+CronArgsHelp=الحجج الأسلوب. <BR> لexemple لجلب طريقة Pineapple /htdocs/product/class/product.class.php الكائن المنتج، وقيمة paramters يمكن أن يكون <i>0، ProductRef</i>
 CronCommandHelp=سطر الأوامر لتنفيذ النظام.
 CronCreateJob=إنشاء مهمة مجدولة جديدة
 CronFrom=من عند
@@ -84,7 +84,7 @@ CronFrom=من عند
 CronInfoPage=معلومات
 # Common
 CronType=نوع العمل
-CronType_method=استدعاء الأسلوب من فئة Dolibarr
+CronType_method=استدعاء الأسلوب من فئة Pineapple
 CronType_command=الأمر Shell
 CronMenu=كرون
 CronCannotLoadClass=لا يمكن تحميل الطبقة %s أو الكائن %s

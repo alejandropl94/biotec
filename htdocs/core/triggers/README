@@ -1,6 +1,6 @@
 Directory content
 --------------------------------------------------------
-This directory contains all available Dolibarr triggers.
+This directory contains all available Pineapple triggers.
 
 Trigger file name syntax is:
 > interface_modModule_Mytrigger.php[-NORUN]

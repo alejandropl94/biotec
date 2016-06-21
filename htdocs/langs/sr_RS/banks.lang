@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Banka
 Banks=Banke
 MenuBankCash=Banka/Gotovina
@@ -117,7 +117,7 @@ SocialContributionPayment=Uplate poreza/doprinosa
 FinancialAccountJournal=Finansijski izveštaji
 BankTransfer=Bankovni prenos
 BankTransfers=Bankovni prenosi
-TransferDesc=Prenosom sa jednog računa na drugi, Dolibarr će napraviti dva zapisa (debitni na računu porekla i kreditni na ciljanom računu iste vrednosti). Ista oznaka i datum će biti upotrebljen za ovu transakciju.
+TransferDesc=Prenosom sa jednog računa na drugi, Pineapple će napraviti dva zapisa (debitni na računu porekla i kreditni na ciljanom računu iste vrednosti). Ista oznaka i datum će biti upotrebljen za ovu transakciju.
 TransferFrom=Od
 TransferTo=Za
 TransferFromToDone=Prenos od  <b>%s</b> to <b>%s</b> of <b>%s</b> %s je zabeležen.

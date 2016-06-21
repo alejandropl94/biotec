@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# Pineapple language file - Source file is en_US - bills
 ErrorVATIntraNotConfigured=Número de ISV intracomunitario aún no configurado
 ConfirmClassifyPaidPartiallyReasonDiscountNoVat=El resto a pagar <b>(%s %s)</b> es un descuento acordado después de la factura. Acepto perder el ISV de este descuento
 AmountOfBillsByMonthHT=Importe de las facturas por mes (Sin ISV)

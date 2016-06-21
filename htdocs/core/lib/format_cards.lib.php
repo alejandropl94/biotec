@@ -129,7 +129,7 @@ $_Avery_Labels = array (
 					     'width'=>85,
 					     'height'=>54,
 					     'font-size'=>10),
-					'CARD'=>array('name'=>'Dolibarr Business cards',
+					'CARD'=>array('name'=>'Pineapple Business cards',
 					    'paper-size'=>'A4',
 					    'metric'=>'mm',
 					    'marginLeft'=>15,

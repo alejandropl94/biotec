@@ -47,7 +47,7 @@ class Translate
 	 *	Constructor
 	 *
 	 *  @param	string	$dir            Force directory that contains /langs subdirectory (value is sometine '..' like into install/* pages or support/* pages).
-	 *  @param  Conf	$conf			Object with Dolibarr configuration
+	 *  @param  Conf	$conf			Object with Pineapple configuration
 	 */
 	function __construct($dir,$conf)
 	{

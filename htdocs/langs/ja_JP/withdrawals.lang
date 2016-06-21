@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=立って受注エリア
 CustomersStandingOrdersArea=受注エリアに立ってお客さま
 StandingOrders=立っている受注
@@ -95,7 +95,7 @@ InfoCreditMessage=立っている順序%sは、銀行によって支払われた
 InfoTransSubject=銀行に立っている注文%sの送信
 InfoTransMessage=スタンディングオーダー%s %s %sは、銀行にtransmitedされています。 <br><br>
 InfoTransData=金額：%s <br> Metode：%s <br>日付：%s
-InfoFoot=これはDolibarrによって送信される自動化されたメッセージです。
+InfoFoot=これはPineappleによって送信される自動化されたメッセージです。
 InfoRejectSubject=拒否したため、立ち
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=リアルモードのオプションが設定されていない、我々は、このシミュレーションの後に停止

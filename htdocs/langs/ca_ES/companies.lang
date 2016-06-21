@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nom de l'empresa %s ja existeix. Indiqui altre.
 ErrorPrefixAlreadyExists=El prefix %s ja existeix. Indiqui altre.
 ErrorSetACountryFirst=Indica en primer lloc el país
@@ -18,7 +18,7 @@ NewCompany=Nova empresa (client potencial, client, proveïdor)
 NewThirdParty=Nou tercer (client potencial, client, proveïdor)
 NewSocGroup=Nova agrupació d'empreses
 NewPrivateIndividual=Nou particular (client potencial, client, proveïdor)
-CreateDolibarrThirdPartySupplier=Crear un tercer (proveïdor)
+CreatePineappleThirdPartySupplier=Crear un tercer (proveïdor)
 ProspectionArea=Àrea de pressupostos
 SocGroup=Agrupament d'empreses
 IdThirdParty=ID tercer
@@ -387,8 +387,8 @@ NoParentCompany=Cap
 ExportImport=Import-Export
 ExportCardToFormat=Exporta fitxa a format
 ContactNotLinkedToCompany=Contacte no vinculat a un tercer
-DolibarrLogin=Login usuari
-NoDolibarrAccess=Sense accés d'usuari
+PineappleLogin=Login usuari
+NoPineappleAccess=Sense accés d'usuari
 ExportDataset_company_1=Tercers (empreses/entitats/persones físiques) i propietats
 ExportDataset_company_2=Contactes de tercers i atributs
 ImportDataset_company_1=Tercers (empreses/entitats/persones físiques) i propietats

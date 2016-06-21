@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# Pineapple language file - Source file is en_US - paybox
 PayBoxSetup=Paybox modulis uzstādīšana
-PayBoxDesc=Šis modulis piedāvā lapas, lai ļautu maksājumus par <a href="http://www.paybox.com" target="_blank">Paybox</a> ar klientiem. To var izmantot par brīvu maksājumu vai maksājumu par konkrētu Dolibarr objektu (rēķins, rīkojums, ...)
-FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par Dolibarr objektiem
+PayBoxDesc=Šis modulis piedāvā lapas, lai ļautu maksājumus par <a href="http://www.paybox.com" target="_blank">Paybox</a> ar klientiem. To var izmantot par brīvu maksājumu vai maksājumu par konkrētu Pineapple objektu (rēķins, rīkojums, ...)
+FollowingUrlAreAvailableToMakePayments=Pēc URL ir pieejami, lai piedāvātu lapu, lai klients varētu veikt maksājumu par Pineapple objektiem
 PaymentForm=Maksājuma formu
 WelcomeOnPaymentPage=Laipni lūdzam mūsu tiešsaistes maksājumu pakalpojumu
 ThisScreenAllowsYouToPay=Šis ekrāns ļauj jums veikt tiešsaistes maksājumu %s.

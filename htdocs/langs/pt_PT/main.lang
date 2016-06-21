@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -57,8 +57,8 @@ ErrorNoRequestInError=Nenhuma petição em erro
 ErrorServiceUnavailableTryLater=Serviço não disponivel actualmente. Volte a execução mais tarde.
 ErrorDuplicateField=Duplicado num campo único
 ErrorSomeErrorWereFoundRollbackIsDone=Encontraram-se alguns erros. Modificações desfeitas.
-ErrorConfigParameterNotDefined=O parâmetro <b>%s</b> não está definido ao fichero de configuração Dolibarr <b>conf.php</b>.
-ErrorCantLoadUserFromDolibarrDatabase=Impossivel encontrar o utilizador <b>%s</b> na base de dados do Dolibarr.
+ErrorConfigParameterNotDefined=O parâmetro <b>%s</b> não está definido ao fichero de configuração Pineapple <b>conf.php</b>.
+ErrorCantLoadUserFromPineappleDatabase=Impossivel encontrar o utilizador <b>%s</b> na base de dados do Pineapple.
 ErrorNoVATRateDefinedForSellerCountry=Erro, nenhum tipo de IVA definido para o país '%s'.
 ErrorNoSocialContributionForSellerCountry=Error, no social/fiscal taxes type defined for country '%s'.
 ErrorFailedToSaveFile=Erro, o registo do ficheiro falhou.
@@ -80,7 +80,7 @@ LevelOfFeature=Nivel de funções
 NotDefined=Não Definida
 DefinedAndHasThisValue=Eo valor definido para
 IsNotDefined=indefinido
-DolibarrInHttpAuthenticationSoPasswordUseless=-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr está configurado em modo de autenticação <b>%s</b> ao ficheiro de configuração <b>conf.php</b>.<br> Isto significa que a base de dados das Palavras-Passe é externa ao Dolibarr, por isso toda modificação deste campo pode resultar sem efeito algum.
+PineappleInHttpAuthenticationSoPasswordUseless=-PineappleInHttpAuthenticationSoPasswordUseless=Pineapple está configurado em modo de autenticação <b>%s</b> ao ficheiro de configuração <b>conf.php</b>.<br> Isto significa que a base de dados das Palavras-Passe é externa ao Pineapple, por isso toda modificação deste campo pode resultar sem efeito algum.
 Administrator=Administrador
 Undefined=Não Definido
 PasswordForgotten=Esqueceu-se da sua senha?
@@ -97,14 +97,14 @@ RequestLastAccess=Pedido para o último acesso à base de dados
 RequestLastAccessInError=Pedido errado para o último acesso à base de dados
 ReturnCodeLastAccessInError=Código devolvido último acesso à base de dados errado
 InformationLastAccessInError=informação sobre o último acesso à base de dados errado
-DolibarrHasDetectedError=O Dolibarr detectou um erro técnico
+PineappleHasDetectedError=O Pineapple detectou um erro técnico
 InformationToHelpDiagnose=É aqui que a informação pode ajudar no diagnóstico
 MoreInformation=Mais Informação
 TechnicalInformation=Informação técnica
 TechnicalID=Technical ID
 NotePublic=Nota (pública)
 NotePrivate=Nota (privada)
-PrecisionUnitIsLimitedToXDecimals=Dolibarr está configurado para limitar a precisão dos preços unitarios a <b>%s</b> Decimais.
+PrecisionUnitIsLimitedToXDecimals=Pineapple está configurado para limitar a precisão dos preços unitarios a <b>%s</b> Decimais.
 DoTest=Teste
 ToFilter=Filtrar
 NoFilter=No filter
@@ -409,9 +409,9 @@ TotalDuration=Duração total
 Summary=Resumo
 MyBookmarks=Os Meus Favoritos
 OtherInformationsBoxes=Outras Caixas de informação
-DolibarrBoard=Indicadores
-DolibarrStateBoard=Estatísticas
-DolibarrWorkBoard=Indicadores de Trabalho
+PineappleBoard=Indicadores
+PineappleStateBoard=Estatísticas
+PineappleWorkBoard=Indicadores de Trabalho
 Available=Disponível
 NotYetAvailable=Ainda não disponivel
 NotAvailable=Não disponivel
@@ -631,7 +631,7 @@ MenuECM=Documentos
 MenuAWStats=Estatisticas
 MenuMembers=Membros
 MenuAgendaGoogle=Agenda Google
-ThisLimitIsDefinedInSetup=Límite Dolibarr (menu inicio-configuração-segurança): %s Kb, PHP limit: %s Kb
+ThisLimitIsDefinedInSetup=Límite Pineapple (menu inicio-configuração-segurança): %s Kb, PHP limit: %s Kb
 NoFileFound=Não existem documentos guardados nesta pasta
 CurrentUserLanguage=Idioma Actual
 CurrentTheme=Tema Actual

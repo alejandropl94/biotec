@@ -107,7 +107,7 @@ dol_htmloutput_errors($this->control->tpl['error'],$this->control->tpl['errors']
 </tr>
 
 <tr>
-	<td><?php echo $langs->trans("DolibarrLogin"); ?></td>
+	<td><?php echo $langs->trans("PineappleLogin"); ?></td>
 	<td colspan="3"><?php echo $this->control->tpl['dolibarr_user']; ?></td>
 </tr>
 
@@ -123,7 +123,7 @@ dol_htmloutput_errors($this->control->tpl['error'],$this->control->tpl['errors']
 <?php } ?>
 
 <?php if (! $this->control->tpl['user_id'] && $user->rights->user->user->creer) { ?>
-<a class="butAction" href="<?php echo $_SERVER["PHP_SELF"].'?id='.$this->control->tpl['id'].'&amp;action=create_user&amp;canvas='.$canvas; ?>"><?php echo $langs->trans("CreateDolibarrLogin"); ?></a>
+<a class="butAction" href="<?php echo $_SERVER["PHP_SELF"].'?id='.$this->control->tpl['id'].'&amp;action=create_user&amp;canvas='.$canvas; ?>"><?php echo $langs->trans("CreatePineappleLogin"); ?></a>
 <?php } ?>
 
 <?php if ($user->rights->adherent->supprimer) { ?>

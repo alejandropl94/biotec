@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Tên công ty %s đã tồn tại. Chọn tên khác khác.
 ErrorPrefixAlreadyExists=Tiền tố %s đã tồn tại. Chọn tiền tố khác.
 ErrorSetACountryFirst=Thiết lập quốc gia trước
@@ -18,7 +18,7 @@ NewCompany=Công ty mới (KH tiềm năng, khách hàng, nhà cung cấp)
 NewThirdParty=Bên thứ ba mới (KH tiềm năng, khách hàng, nhà cung cấp)
 NewSocGroup=Nhóm công ty mới
 NewPrivateIndividual=Cá nhân mới (KH tiềm năng, khách hàng, nhà cung cấp)
-CreateDolibarrThirdPartySupplier=Tạo bên thứ ba (nhà cung cấp)
+CreatePineappleThirdPartySupplier=Tạo bên thứ ba (nhà cung cấp)
 ProspectionArea=Khu vực khảo sát
 SocGroup=Nhóm công ty
 IdThirdParty=ID bên thứ ba
@@ -387,8 +387,8 @@ NoParentCompany=Không
 ExportImport=Nhập-Xuất
 ExportCardToFormat=Thẻ xuất để định dạng
 ContactNotLinkedToCompany=Liên lạc không liên quan đến bất kỳ bên thứ ba
-DolibarrLogin=Đăng nhập Dolibarr
-NoDolibarrAccess=Không truy cập Dolibarr
+PineappleLogin=Đăng nhập Pineapple
+NoPineappleAccess=Không truy cập Pineapple
 ExportDataset_company_1=Bên thứ ba (Công ty/Tổ chức/Cá nhân) và các thuộc tính
 ExportDataset_company_2=Liên lạc và các thuộc tính
 ImportDataset_company_1=Bên thứ ba (Công ty/Tổ chức/Cá nhân) và các thuộc tính

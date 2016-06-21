@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Pievienot šo lapu grāmatzīmēm
 Bookmark=Grāmatzīme
 Bookmarks=Grāmatzīmes
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Uzvedība kad URL ir noklikšķinājuši
 CreateBookmark=Izveidot grāmatzīmi
 SetHereATitleForLink=Uzstādīt grāmatzīmes nosaukumu
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Izmantojiet ārējo http URL vai relatīvo Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Izmantojiet ārējo http URL vai relatīvo Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Izvēlieties, ja lapu atvērt saiti jāparādās kārtējā vai jauna loga
 BookmarksManagement=Grāmatzīmju vadība
 ListOfBookmarks=Saraksts grāmatzīmes

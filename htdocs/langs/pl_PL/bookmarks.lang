@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Dodaj tę stronę do zakładek
 Bookmark=Zakładka
 Bookmarks=Zakładki
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Zachowaj po kliknięciu na adres URL
 CreateBookmark=Stwórz zakładkę
 SetHereATitleForLink=Zdefiniuj nazwę zakładki
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Użyj zewnętrznego adresu http lub względnego adresu URL Dolibarr
+UseAnExternalHttpLinkOrRelativePineappleLink=Użyj zewnętrznego adresu http lub względnego adresu URL Pineapple
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Wybierz czy strona ma się otwierać w bieżącym czy w nowym oknie
 BookmarksManagement=Zarządzanie zakładkami
 ListOfBookmarks=Lista zakładek

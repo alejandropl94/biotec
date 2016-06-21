@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = O
 CronAbout = O Cron-u
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Deaktiviraj
 CronTaskInactive=Operacije je deaktivirana
 CronId=Id
 CronClassFile=Klase (filename.class.php)
-CronModuleHelp=Naziv Dolibarr modul foldera (radi i sa eksternim Dolibarr modulima). <BR> Na primer za fetch metodu Dolibarr Product objekta /htdocs/<u>product</u>/class/product.class.php, vrednost modula je <i>product</i>
-CronClassFileHelp=Naziv fajla za učitavanje. <BR> Na primer za fetch metodu Dolibarr Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv fajla za učitavanje je <i>product.class.php</i>
-CronObjectHelp=Naziv objekta za učitavanje. <BR> Na primer za fetch metodu Dolibarr Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv objekta za učitavanje je <i>Product</i>
-CronMethodHelp=Naziv metode za učitavanje. <BR> Na primer za fetch metodu Dolibarr Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv metode je <i>fetch</i>
-CronArgsHelp=Argumenti metode. <BR> Na primer za fetch metodu Dolibarr Product objekta /htdocs/product/class/<u>product.class.php</u>, parametri mogu biti <i>0, ProductRef</i>
+CronModuleHelp=Naziv Pineapple modul foldera (radi i sa eksternim Pineapple modulima). <BR> Na primer za fetch metodu Pineapple Product objekta /htdocs/<u>product</u>/class/product.class.php, vrednost modula je <i>product</i>
+CronClassFileHelp=Naziv fajla za učitavanje. <BR> Na primer za fetch metodu Pineapple Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv fajla za učitavanje je <i>product.class.php</i>
+CronObjectHelp=Naziv objekta za učitavanje. <BR> Na primer za fetch metodu Pineapple Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv objekta za učitavanje je <i>Product</i>
+CronMethodHelp=Naziv metode za učitavanje. <BR> Na primer za fetch metodu Pineapple Product objekta /htdocs/product/class/<u>product.class.php</u>, naziv metode je <i>fetch</i>
+CronArgsHelp=Argumenti metode. <BR> Na primer za fetch metodu Pineapple Product objekta /htdocs/product/class/<u>product.class.php</u>, parametri mogu biti <i>0, ProductRef</i>
 CronCommandHelp=Komandna linija za izvršenje
 CronCreateJob=Kreiraj novu planiranu operaciju
 CronFrom=Od
@@ -84,7 +84,7 @@ CronFrom=Od
 CronInfoPage=Informacija
 # Common
 CronType=Tip operacije
-CronType_method=Metoda poziva Dolibarr klase
+CronType_method=Metoda poziva Pineapple klase
 CronType_command=Komandna linija
 CronMenu=Cron
 CronCannotLoadClass=Nemoguće učitati klasu %s ili objekat %s

@@ -38,4 +38,4 @@ ShowStock=Prikaži magacin
 DeleteArticle=Kliknite da uklonite ovaj atikal
 FilterRefOrLabelOrBC=Pretraži (Ref/Oznaku)
 UserNeedPermissionToEditStockToUsePos=Zatražili ste da smanjite zalihe na kreiranoj fakturi, tako da korisnik koji koristi POS mora da zatraži dozvolu da izmeni zalihe.
-DolibarrReceiptPrinter=Dolibarr štampač računa
+PineappleReceiptPrinter=Pineapple štampač računa

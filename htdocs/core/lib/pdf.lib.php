@@ -96,7 +96,7 @@ function pdf_getInstance($format='',$metric='mm',$pagetype='P')
 		define('PDF_CREATOR', 'TCPDF');
 		define('PDF_AUTHOR', 'TCPDF');
 		define('PDF_HEADER_TITLE', 'TCPDF Example');
-		define('PDF_HEADER_STRING', "by Dolibarr ERP CRM");
+		define('PDF_HEADER_STRING', "by Pineapple ERP CRM");
 		define('PDF_UNIT', 'mm');
 		define('PDF_MARGIN_HEADER', 5);
 		define('PDF_MARGIN_FOOTER', 10);

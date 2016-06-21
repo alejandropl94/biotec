@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Area ordini permanenti
 CustomersStandingOrdersArea=Area ordini permanenti clienti
 StandingOrders=Ordini permanenti
@@ -95,7 +95,7 @@ InfoCreditMessage=La banca ha pagato l'ordine permanente %s.<br/>Dati di pagamen
 InfoTransSubject=Trasmissione dell'ordine permanente %s alla banca
 InfoTransMessage=L'ordine permanente %s è stato trasmesso alla banca da %s %s.<br/><br/>
 InfoTransData=Importo: %s <br> Metodo: %s <br> Data: %s
-InfoFoot=Questo è un messaggio automatico inviato da Dolibarr
+InfoFoot=Questo è un messaggio automatico inviato da Pineapple
 InfoRejectSubject=Ordine permanente rifiutato
 InfoRejectMessage=Salve,<br><br>il mandato di incasso per la fattura %s relativo alla ditta %s, per l'importo di %s, è stato rifiutato dalla banca.<br><br>--<br>%s
 ModeWarning=Non è stata impostata la modalità reale, ci fermiamo dopo questa simulazione

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - contracts
+# Pineapple language file - Source file is en_US - contracts
 ContractsArea=Vertragsübersicht
 ListOfContracts=Liste der Verträge
 LastModifiedContracts=Letzte %s geänderte Verträge

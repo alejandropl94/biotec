@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Export
 ImportArea=Import
 NewExport=New export
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Alegeţi formatul de fişier pentru al utiliza ca for
 ChooseFileToImport=Alegeţi fişier pentru a importa apoi faceţi clic pe picto %s ...
 SourceFileFormat=Sursa Format fişier
 FieldsInSourceFile=Câmpuri  in fişierul sursă
-FieldsInTargetDatabase=Câmpuri-țintă în baza de date Dolibarr (bold = obligatoriu)
+FieldsInTargetDatabase=Câmpuri-țintă în baza de date Pineapple (bold = obligatoriu)
 Field=Câmp
 NoFields=Niciun câmp
 MoveField=Mutare coloana %s domeniul număr
@@ -102,7 +102,7 @@ NbOfLinesOK=Numărul de linii fără erori şi fără avertismente: <b>%s.</b>
 NbOfLinesImported=Numărul de linii cu succes importate: <b>%s.</b>
 DataComeFromNoWhere=Valoare pentru a introduce vine de nicăieri în fişierul sursă.
 DataComeFromFileFieldNb=Valoare pentru a introduce <b>%s</b> vine de la numărul de câmp în fişierul sursă.
-DataComeFromIdFoundFromRef=Valoare care vine de la <b>%s</b> numărul de câmp de fişier sursă vor fi utilizate pentru a găsi ID-ul de mamă obiectul pentru a utiliza (Deci <b>%s</b> Objet care a ref). Sursă de la dosar trebuie să există în Dolibarr.
+DataComeFromIdFoundFromRef=Valoare care vine de la <b>%s</b> numărul de câmp de fişier sursă vor fi utilizate pentru a găsi ID-ul de mamă obiectul pentru a utiliza (Deci <b>%s</b> Objet care a ref). Sursă de la dosar trebuie să există în Pineapple.
 DataComeFromIdFoundFromCodeId=Codul care vine din câmpul numeric <b>%s</b> din fișier sursă va fi utilizat pentru a găsi id obiectului părinte pentru al folosi (Deci codul din fișierul sursă trebuie să existe în dicționarul<b>%s</b>). Rețineți că, dacă știți id ul, îl puteți utiliza, de asemenea în fișierul sursă în loc de cod. Import ar trebui să funcționeze în ambele cazuri.
 DataIsInsertedInto=Datele provin din fişierul sursă va fi inserat în câmpul de următoarele:
 DataIDSourceIsInsertedInto=Id-ul de mamă obiect găsit folosind datele din fişierul sursă, vor fi inserate în câmpul următoarele:

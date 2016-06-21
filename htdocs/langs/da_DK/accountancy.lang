@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Column separator for export file
 ACCOUNTING_EXPORT_DATE=Date format for export file
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Number of elements to be breakdown shown by pa
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Begin the sorting of the breakdown pages "Has to breakdown" by the most recent elements
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Begin the sorting of the breakdown pages "Breakdown" by the most recent elements
 
-AccountLength=Længde af regnskabssystemet konti i Dolibarr
-AccountLengthDesc=Funktion gør det muligt at foregive en længde på regnskabsmæssig konto ved at erstatte mellemrum med tallet nul. Da denne funktion kun vises på skærmen ændrer det ikke ved de bogføring registreret i Dolibarr konti. For eksport, er det nødvendigt denne funktion til at være kompatibel med bestemt software.
+AccountLength=Længde af regnskabssystemet konti i Pineapple
+AccountLengthDesc=Funktion gør det muligt at foregive en længde på regnskabsmæssig konto ved at erstatte mellemrum med tallet nul. Da denne funktion kun vises på skærmen ændrer det ikke ved de bogføring registreret i Pineapple konti. For eksport, er det nødvendigt denne funktion til at være kompatibel med bestemt software.
 ACCOUNTING_LENGTH_DESCRIPTION=Length for displaying product & services description in listings (Best = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Length for displaying product & services account description form in listings (Best = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Længde af det almindelige regnskab

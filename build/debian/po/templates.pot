@@ -41,7 +41,7 @@ msgstr ""
 #. Description
 #: ../dolibarr.templates:2001
 msgid ""
-"Answer if you want to removed the Dolibarr MySQL database and all other "
-"datas (datas related to this question are the Dolibarr DBMS account, all "
-"Dolibarr tables, and all uploaded files)."
+"Answer if you want to removed the Pineapple MySQL database and all other "
+"datas (datas related to this question are the Pineapple DBMS account, all "
+"Pineapple tables, and all uploaded files)."
 msgstr ""

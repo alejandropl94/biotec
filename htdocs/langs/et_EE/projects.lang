@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. projekt
 ProjectRef=Project ref.
 ProjectId=Projekti ID
@@ -131,10 +131,10 @@ ConfirmCloneProject=Kas oled kindel, et soovid selle projekti kloonida?
 ProjectReportDate=Muuda ülesande kuupäeva vastavalt projekti alguskuupäevale
 ErrorShiftTaskDate=Ülesande kuupäeva ei ole võimalik nihutada vastavalt uuele projekti alguskuupäevale
 ProjectsAndTasksLines=Projektid ja ülesanded
-ProjectCreatedInDolibarr=Projekt %s on loodud
-TaskCreatedInDolibarr=Ülesanne %s on loodud
-TaskModifiedInDolibarr=Ülesannet %s on muudetud
-TaskDeletedInDolibarr=Ülesanne %s on kustutatud
+ProjectCreatedInPineapple=Projekt %s on loodud
+TaskCreatedInPineapple=Ülesanne %s on loodud
+TaskModifiedInPineapple=Ülesannet %s on muudetud
+TaskDeletedInPineapple=Ülesanne %s on kustutatud
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

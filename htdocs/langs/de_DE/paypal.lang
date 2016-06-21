@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal Moduleinstellungen
 PaypalDesc=Dieses Modul ermöglicht es Zahlungen von Kunden per <a href="http://www.paypal.com" target="_blank">PayPal</a> zu tätigen.
 PaypalOrCBDoPayment=Zahlen Sie mit Kreditkarte oder Paypal?

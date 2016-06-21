@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=รหัสผ่านสำหรับโดเมน
 YouMustChangePassNextLogon=<b>รหัสผ่านสำหรับผู้ใช้% s% s</b> ในโดเมนต้องมีการเปลี่ยนแปลง
 UserMustChangePassNextLogon=ผู้ใช้ต้องเปลี่ยนรหัสผ่านในโดเมน% s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=วันที่สมัครสมาชิ�
 LDAPFieldFirstSubscriptionAmount=จำนวนการสมัครสมาชิกครั้งแรก
 LDAPFieldLastSubscriptionDate=วันที่สมัครสมาชิกล่าสุด
 LDAPFieldLastSubscriptionAmount=จำนวนการสมัครสมาชิกล่าสุด
-SynchronizeDolibarr2Ldap=ประสานผู้ใช้ (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=ประสานผู้ใช้ (Pineapple -> LDAP)
 UserSynchronized=ผู้ใช้ตรงกัน
 GroupSynchronized=กลุ่มตรงกัน
 MemberSynchronized=สมาชิกตรงกัน
 ContactSynchronized=ติดต่อตรง
-ForceSynchronize=กองทัพตรงกัน Dolibarr -> LDAP
+ForceSynchronize=กองทัพตรงกัน Pineapple -> LDAP
 ErrorFailedToReadLDAP=ไม่สามารถอ่านฐานข้อมูล LDAP ตรวจสอบการติดตั้งโมดูล LDAP และการเข้าถึงฐานข้อมูล

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Hata yok, taahüt ediyoruz
@@ -40,9 +40,9 @@ ErrorBadDateFormat=%s değeri yanlış tarih biçiminde
 ErrorWrongDate=Tarih doğru değil!
 ErrorFailedToWriteInDir=%s dizinine yazılamadı
 ErrorFoundBadEmailInFile=Dosyada %s satır hatalı e-posta sözdizimi bulundu (örneğin eposta=%s teki satır %s)
-ErrorUserCannotBeDelete=Kullanıcı silinemez. Belki Dolibarr öğeleri ile ilişkili olabilir.
+ErrorUserCannotBeDelete=Kullanıcı silinemez. Belki Pineapple öğeleri ile ilişkili olabilir.
 ErrorFieldsRequired=Bazı gerekli alanlar doldurulmamış.
-ErrorFailedToCreateDir=Dizin oluşturulamadı. Web sunucusu kullanıcısının Dolibarr belgeleri dizinine yazma izinlerini denetleyin. Eğer bu parametre <b>guvenli_mod</b> bu PHP üzerinde etkinleştirilmişse, Dolibarr php dosyalarının web sunucusu kullanıcısına (ya da grubuna) sahip olduğunu denetleyin.
+ErrorFailedToCreateDir=Dizin oluşturulamadı. Web sunucusu kullanıcısının Pineapple belgeleri dizinine yazma izinlerini denetleyin. Eğer bu parametre <b>guvenli_mod</b> bu PHP üzerinde etkinleştirilmişse, Pineapple php dosyalarının web sunucusu kullanıcısına (ya da grubuna) sahip olduğunu denetleyin.
 ErrorNoMailDefinedForThisUser=Bu kullanıcı için tanımlı posta yok
 ErrorFeatureNeedJavascript=Bu özelliğin çalışması için JavaScriptin etkinleştirilmesi gerekir. Bunu Kurulum-görünüm menüsünden değiştirebilirsiniz.
 ErrorTopMenuMustHaveAParentWithId0='Üst' menü tipi menünün bir ana menüsü olamaz. Ana menüye 0 koyun ya da 'Sol' menü türünü seçin.
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=<b>%s</b> alanı özel karakterler içe
 ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>%s</b> Alanı özel karakter ve büyük harf içermemeli yalnızca sayı içermelidir.
 ErrorNoAccountancyModuleLoaded=Etkinleştirilmiş muhasebe modülü yok
 ErrorExportDuplicateProfil=Bu profil adı bu dışaaktarma seti için zaten var.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP eşleşmesi tamamlanmamış.
+ErrorLDAPSetupNotComplete=Pineapple-LDAP eşleşmesi tamamlanmamış.
 ErrorLDAPMakeManualTest=A. Ldif dosyası %s dizininde oluşturuldu. Hatalar hakkında daha fazla bilgi almak için komut satırından elle yüklemeyi deneyin.
 ErrorCantSaveADoneUserWithZeroPercentage="Başlamış durumdaki" bir eylem, "yapan" alanı dolu olsa bile kaydedilemez.
 ErrorRefAlreadyExists=Oluşturulması için kullanılan referans zaten var.
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Alan numarası <b>%s</b> için yanlış değer (değer <b>'%s
 ErrorsOnXLines=<b>%</b> kaynak satırlarındaki hatalar
 ErrorFileIsInfectedWithAVirus=Virüs koruma programı dosyayı doğrulayamıyor (dosyaya bir virüs bulaşmış olabilir)
 ErrorSpecialCharNotAllowedForField=%s alanında özel karakterlere izin verilmez
-ErrorDatabaseParameterWrong=Veritabanı kurulum parametresi '<b>%s</b>' Dolibarr'da kullanmak için uyumlu olmayan bir değere sahiptir (değerin '<b>%s</b>' olması gerekir)
+ErrorDatabaseParameterWrong=Veritabanı kurulum parametresi '<b>%s</b>' Pineapple'da kullanmak için uyumlu olmayan bir değere sahiptir (değerin '<b>%s</b>' olması gerekir)
 ErrorNumRefModel=Veritabanına (%s) bir başvuru var ve bu numaralandırma kuralı ile uyumlu değildir. Kaydı kaldırın ya da bu modülü etkinleştirmek için başvurunun adını değiştirin.
 ErrorQtyTooLowForThisSupplier=Bu tedarikçi için miktar çok az ya da bu tedarikçi için bu ürüne tanımlı fiyat yok
 ErrorModuleSetupNotComplete=Modül Kurulumu tamamlanmamış görünüyor. Tamamlamak için Kurulum->Modül menüsüne gidin.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Parola gönderilemedi
 ErrorFailedToLoadRSSFile=RSS beslemesi alınamıyor. Eğer hata mesajları yeterli bilgi sağlamıyorsa MAIN_SIMPLEXMLLOAD_DEBUG değişmezini eklemeyi deneyin.
 ErrorPasswordDiffers=Parolalar farklıdır, bunları tekrar yazın lütfen.
 ErrorForbidden=Erişim reddedildi. <br>Devre dışı bir modül alanına ya da özelliğine veya kimlik doğrulaması yapmadan ya da kullanıcınızın izini olmadan bir sayfaya erişmek istediniz.
-ErrorForbidden2=Bu oturum açma için izin Dolibarr yöneticiniz tarafından %s->%s menüsünden tanımlanabilir.
-ErrorForbidden3=Dolibarr bir kimlik doğrulama oturumu üzerinden kullanılmamış gibi görünüyor. Kimlik doğrulama nasıl yönetileceğini öğrenmek Dolibarr kurulum belgelerine bir göz atın (htaccess, mod_auth veya diğer ...).
+ErrorForbidden2=Bu oturum açma için izin Pineapple yöneticiniz tarafından %s->%s menüsünden tanımlanabilir.
+ErrorForbidden3=Pineapple bir kimlik doğrulama oturumu üzerinden kullanılmamış gibi görünüyor. Kimlik doğrulama nasıl yönetileceğini öğrenmek Pineapple kurulum belgelerine bir göz atın (htaccess, mod_auth veya diğer ...).
 ErrorNoImagickReadimage=Bu PHP Class Imagick yok. Önizleme kullanılır olmayabilir. Yöneticiler Kurulum - Görünüm menüsünde bu sekmeyi devre dışı bırakabilir.
 ErrorRecordAlreadyExists=Kayıt zaten var
 ErrorCantReadFile=Dosya '%s' okunamadı
@@ -119,7 +119,7 @@ ErrorWebServerUserHasNotPermission=Web sunucusunu çalıştırmak için kullanı
 ErrorNoActivatedBarcode=Etkinleştirilmiş barkod türü yok
 ErrUnzipFails=% ZipArchive ile sıkıştırılamıyor
 ErrNoZipEngine=Bu PHP deki %s dosyası ayıklamak için motor yok
-ErrorFileMustBeADolibarrPackage=Bu %s dosyası bir Dolibarr zip paketi olmalıdır
+ErrorFileMustBeAPineapplePackage=Bu %s dosyası bir Pineapple zip paketi olmalıdır
 ErrorFileRequired=Bir Dolibar dosyası paketi alıyor
 ErrorPhpCurlNotInstalled=PHP CURL kurulu değil, Bu PayPal ile iletişim kurmak için gereklidir
 ErrorFailedToAddToMailmanList=Mailman listesine ya da SPIP tabanına kayıt eklenemiyor
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Kişi eklenmesinde hata
 ErrorDateMustBeBeforeToday=Tarih bugünden büyük olamaz
 ErrorPaymentModeDefinedToWithoutSetup=Bir ödeme biçimi %s türüne ayarlanmış, ancak fatura modülü ayarı bu ödeme biçimi için tanımlanan bilgiyi gösterecek tamamlanmamış.
 ErrorPHPNeedModule=Hata, bu özelliği kulanmak için PHP nizde <b>%s</b> modülü kurulu olmalıdır.
-ErrorOpenIDSetupNotComplete=Dolibarr yapılandırma dosyasını OpenID kimlik doğrulamaya izin verecek şekilde ayarladınız, ancak OpenID hizmetine ait URL, %s değişmezine tanımlanmamıştır
+ErrorOpenIDSetupNotComplete=Pineapple yapılandırma dosyasını OpenID kimlik doğrulamaya izin verecek şekilde ayarladınız, ancak OpenID hizmetine ait URL, %s değişmezine tanımlanmamıştır
 ErrorWarehouseMustDiffers=Kaynak ve hedef depo farklı olmalıdır
 ErrorBadFormat=Hatalı biçim!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Hata, bu üye henüz bir üçüncü partiye bağlanmamıştır. Üyeyi varolan bir üçüncü partiye bağlayın ya da faturayla abonelik oluşturmadan önce yeni bir üçüncü parti oluşturun.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=Depo gemi hattı üzerinde gerekli
 ErrorFileMustHaveFormat=Dosya %s biçiminde olmalıdır
 
 # Warnings
-WarningPasswordSetWithNoAccount=Bu üye için bir parola ayarlıdır. Ancak, hiçbir kullanıcı hesabı oluşturulmamıştır. Yani bu şifre saklanır ama Dolibarr'a giriş için kullanılamaz. Dış bir modül/arayüz tarafından kullanılıyor olabilir, ama bir üye için ne bir kullanıcı adı ne de parola tanımlamanız gerekmiyorsa "Her üye için bir kullanıcı adı yönet" seçeneğini devre dışı bırakabilirsiniz. Bir kullanıcı adı yönetmeniz gerekiyorsa ama herhangi bir parolaya gereksinim duymuyorsanız bu uyarıyı engellemek için bu alanı boş bırakabilirsiniz. Not: Eğer bir üye bir kullanıcıya bağlıysa kullanıcı adı olarak eposta adresi de kullanılabilir.
+WarningPasswordSetWithNoAccount=Bu üye için bir parola ayarlıdır. Ancak, hiçbir kullanıcı hesabı oluşturulmamıştır. Yani bu şifre saklanır ama Pineapple'a giriş için kullanılamaz. Dış bir modül/arayüz tarafından kullanılıyor olabilir, ama bir üye için ne bir kullanıcı adı ne de parola tanımlamanız gerekmiyorsa "Her üye için bir kullanıcı adı yönet" seçeneğini devre dışı bırakabilirsiniz. Bir kullanıcı adı yönetmeniz gerekiyorsa ama herhangi bir parolaya gereksinim duymuyorsanız bu uyarıyı engellemek için bu alanı boş bırakabilirsiniz. Not: Eğer bir üye bir kullanıcıya bağlıysa kullanıcı adı olarak eposta adresi de kullanılabilir.
 WarningMandatorySetupNotComplete=Zorunlu kurulum parametreleri henüz tanımlanmamış
 WarningSafeModeOnCheckExecDir=Uyarı, PHP seçeneği <b>güvenli_mode</b> açıktır, böylece komut php parametresi <b>güvenli_mode_exec_dir</b> tarafından bildirilen bir dizine saklanabilir.
 WarningAllowUrlFopenMustBeOn=<b>allow_url_fopen</b> Parametresi <b>php.ini</b> dosyalayıcısında bu modülün tam olarak çalışması için <b>on</b> ye ayarlanmalıdır. Bu dosyayı el ile değiştirmeniz gerekir.

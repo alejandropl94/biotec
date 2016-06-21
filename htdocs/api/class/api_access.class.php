@@ -36,12 +36,12 @@ use \Luracast\Restler\RestException;
 
 
 /**
- * Dolibarr API access class
+ * Pineapple API access class
  *
  */
-class DolibarrApiAccess implements iAuthenticate
+class PineappleApiAccess implements iAuthenticate
 {
-	const REALM = 'Restricted Dolibarr API';
+	const REALM = 'Restricted Pineapple API';
 
 	/**
 	 * @var array $requires	role required by API method		user / external / admin
@@ -121,7 +121,7 @@ class DolibarrApiAccess implements iAuthenticate
 		}
 
         $userClass::setCacheIdentifier(static::$role);
-        Resources::$accessControlFunction = 'DolibarrApiAccess::verifyAccess';
+        Resources::$accessControlFunction = 'PineappleApiAccess::verifyAccess';
         return in_array(static::$role, (array) static::$requires) || static::$role == 'admin';
 	}
 
@@ -147,8 +147,8 @@ class DolibarrApiAccess implements iAuthenticate
 	 */
     public static function verifyAccess(array $m)
     {
-        $requires = isset($m['class']['DolibarrApiAccess']['properties']['requires'])
-                ? $m['class']['DolibarrApiAccess']['properties']['requires']
+        $requires = isset($m['class']['PineappleApiAccess']['properties']['requires'])
+                ? $m['class']['PineappleApiAccess']['properties']['requires']
                 : false;
 
 

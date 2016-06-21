@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=EMailing
 EMailing=EMailing
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Επαφές για όλα τα στοιχεία (πελάτης, προοπτική, προμηθευτής, ...)
-MailingModuleDescDolibarrUsers=All Dolibarr users with emails
+MailingModuleDescPineappleUsers=All Pineapple users with emails
 MailingModuleDescFundationMembers=Foundation members with emails
 MailingModuleDescEmailsFromFile=EMails from a text file (email;name;surname;comments)
 MailingModuleDescEmailsFromUser=E-mail από την είσοδο του χρήστη (email;lastname;firstname;other)
 MailingModuleDescContactsCategories=Στοιχεία με emails (ανά κατηγορία)
-MailingModuleDescDolibarrContractsLinesExpired=Πελ./Προμ. με ληγμένες γραμμές συμβολαίων
+MailingModuleDescPineappleContractsLinesExpired=Πελ./Προμ. με ληγμένες γραμμές συμβολαίων
 MailingModuleDescContactsByCompanyCategory=Επαφές των τρίτων (από τρίτη κατηγορία μέρη)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Τα ιδρυτικά μέλη (ανά κατηγορία)

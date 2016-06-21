@@ -24,10 +24,10 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  */
-class InvoiceApi extends DolibarrApi
+class InvoiceApi extends PineappleApi
 {
     /**
      *
@@ -68,7 +68,7 @@ class InvoiceApi extends DolibarrApi
      */
     function get($id)
     {		
-		if(! DolibarrApiAccess::$user->rights->facture->lire) {
+		if(! PineappleApiAccess::$user->rights->facture->lire) {
 			throw new RestException(401);
 		}
 			
@@ -77,8 +77,8 @@ class InvoiceApi extends DolibarrApi
             throw new RestException(404, 'Facture not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('facture',$this->invoice->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('facture',$this->invoice->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->invoice);
@@ -108,19 +108,19 @@ class InvoiceApi extends DolibarrApi
         
         $obj_ret = array();
         
-        $socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+        $socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
             
         // If the internal user must only see his customers, force searching by him
-        if (! DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = DolibarrApiAccess::$user->id;
+        if (! PineappleApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = PineappleApiAccess::$user->id;
 
         $sql = "SELECT s.rowid";
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
         $sql.= " FROM ".MAIN_DB_PREFIX."facture as s";
         
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
 
         $sql.= ' WHERE s.entity IN ('.getEntity('facture', 1).')';
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
         if ($socid) $sql.= " AND s.fk_soc = ".$socid;
         if ($search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";		// Join for the needed table to filter by sale
         
@@ -188,7 +188,7 @@ class InvoiceApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->facture->creer) {
+        if(! PineappleApiAccess::$user->rights->facture->creer) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -200,7 +200,7 @@ class InvoiceApi extends DolibarrApi
         if(! array_keys($request_data,'date')) {
             $this->invoice->date = dol_now();
         }
-        if( ! $this->invoice->create(DolibarrApiAccess::$user)) {
+        if( ! $this->invoice->create(PineappleApiAccess::$user)) {
             throw new RestException(500);
         }
         return $this->invoice->id;
@@ -217,7 +217,7 @@ class InvoiceApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->facture->creer) {
+        if(! PineappleApiAccess::$user->rights->facture->creer) {
 			throw new RestException(401);
 		}
         
@@ -226,15 +226,15 @@ class InvoiceApi extends DolibarrApi
             throw new RestException(404, 'Facture not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('facture',$this->invoice->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('facture',$this->invoice->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->invoice->$field = $value;
         }
         
-        if($this->invoice->update($id, DolibarrApiAccess::$user))
+        if($this->invoice->update($id, PineappleApiAccess::$user))
             return $this->get ($id);
         
         return false;
@@ -250,7 +250,7 @@ class InvoiceApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->facture->supprimer) {
+        if(! PineappleApiAccess::$user->rights->facture->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->invoice->fetch($id);
@@ -258,8 +258,8 @@ class InvoiceApi extends DolibarrApi
             throw new RestException(404, 'Facture not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('facture',$this->facture->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('facture',$this->facture->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         if( !$this->invoice->delete($id))

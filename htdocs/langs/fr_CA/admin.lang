@@ -1,16 +1,16 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 FilesUpdated=Mettre à jour les fichiers
 Fiscalyear=Année fiscale
 InstrucToEncodePass=Pour chiffrer le mot de passe de la base dans le fichier de configuration <b>conf.php</b>, remplacer la ligne<br><b>$dolibarr_main_db_pass="...";</b><br>par<br><b>$dolibarr_main_db_pass="crypted:%s";</b>
 InstrucToClearPass=Pour avoir le mot de passe de la base décodé (en clair) dans le fichier de configuration <b>conf.php</b>, remplacer dans ce fichier la ligne<br><b>$dolibarr_main_db_pass="crypted:..."</b><br>par<br><b>$dolibarr_main_db_pass="%s"</b>
-SubmitTranslationENUS=Si la traduction de cette langue est incomplète ou vous trouvez des erreurs , vous pouvez corriger cela en modifiant les fichiers dans le répertoire <b> langs/%s </b> et soumettre les fichiers modifiés sur dolibarr.org/forum ou pour les développeurs sur github.com/Dolibarr/dolibarr.
+SubmitTranslationENUS=Si la traduction de cette langue est incomplète ou vous trouvez des erreurs , vous pouvez corriger cela en modifiant les fichiers dans le répertoire <b> langs/%s </b> et soumettre les fichiers modifiés sur dolibarr.org/forum ou pour les développeurs sur github.com/Pineapple/dolibarr.
 SubmitTranslation=Si la traduction de cette langue est incomplète ou vous trouvez des erreur , vous pouvez corriger cela en modifiant les fichiers dans le répertoire <b>langs/%s</b> et soumettre votre changement à www.transifex.com/dolibarr-association/dolibarr/
 ModuleFamilyProducts=Gestion des produits
 ModuleFamilyHr=Gestion des ressources humaines (GRH)
 ModuleFamilyPortal=Site internet et autres applications frontales
 ModuleFamilyInterface=Interfaces avec les systèmes externes
 DownloadPackageFromWebSite=Télécharger le package %s.
-UnpackPackageInDolibarrRoot=Décompresser le paquet dans le répertoire dédié aux modules externes : <b>%s</b>
+UnpackPackageInPineappleRoot=Décompresser le paquet dans le répertoire dédié aux modules externes : <b>%s</b>
 YouCanSubmitFile=Sélectionner le module :
 DisableLinkToHelp=Masquer lien vers l'aide en ligne "<b>%s</b>"
 ListOfDirectoriesForModelGenODT=Liste des répertoires contenant des fichiers de modèles avec le format OpenDocument . <br><br> Mettez ici le chemin complet des répertoires .<br>Ajouter un retour chariot entre répertoire eah.<br> Pour ajouter un répertoire du module de GED , ajouter ici<b>DOL_DATA_ROOT/ecm/yourdirectoryname</b>.<br><br> Fichiers dans ces répertoires doit se terminer par <b>.odt</b> or <b>.ods</b>.
@@ -29,11 +29,11 @@ Module500Desc=Gestion des dépenses spéciales comme les taxes, charges sociales
 Module600Desc=Envoyer des notifications par courriel (déclenchées par certains événements d'affaires) aux contacts tiers (configuration définie sur chaque tiers) ou des courriels fixes
 Module770Name=Note de frais
 Module2600Name=services API / Web ( serveur SOAP )
-Module2600Desc=Active le serveur de Web Services de Dolibarr
+Module2600Desc=Active le serveur de Web Services de Pineapple
 Module2610Name=services API / Web ( serveur REST )
 Module2610Desc=Activer le serveur REST de services API de les services
 Module2660Name=WebServices appel ( client SOAP )
-Module2660Desc=Activer le client Dolibarr de services Web (peut être utilisé pour pousser les données / demandes de serveurs externes . Fournisseur commandes prises en charge seulement pour le moment )
+Module2660Desc=Activer le client Pineapple de services Web (peut être utilisé pour pousser les données / demandes de serveurs externes . Fournisseur commandes prises en charge seulement pour le moment )
 Module3100Desc=Ajouter un bouton Skype dans la carte des utilisateurs / tiers / contacts / membres
 Module4000Name=Gestion des ressources humaines
 Module4000Desc=Ressources humaines
@@ -85,7 +85,7 @@ PasswordGenerationNone=Aucune suggestion de mot de passe généré . Le mot de p
 PasswordGenerationPerso=Retour un mot de passe en fonction de votre configuration personnellement défini.
 PasswordPatternDesc=Description du modèle de mot de passe
 HRMSetup=Configuration du module de GRH
-NotificationsDesc=La fonction des notifications par emails permet d'envoyer automatiquement un email, lors de certains événements Dolibarr. La cible des notifications peut être défini:<br>* par contacts de tiers (clients, prospects ou fournisseurs), contact par contact.<br>* ou en positionnant un email en paramètre global sur la page de configuration du module Notification.
+NotificationsDesc=La fonction des notifications par emails permet d'envoyer automatiquement un email, lors de certains événements Pineapple. La cible des notifications peut être défini:<br>* par contacts de tiers (clients, prospects ou fournisseurs), contact par contact.<br>* ou en positionnant un email en paramètre global sur la page de configuration du module Notification.
 AllowCreditNoteWithoutRelatedInvoice=Permettre de créer unenote de crédit sans facture correspondante
 PaymentsNumberingModule=Modèles de numérotation des paiements
 AddShippingDateAbility=Possibilité de déterminer une date de livraison
@@ -115,11 +115,11 @@ SummaryOfVatExigibilityUsedByDefault=Moment d'exigibilité par défaut de la TPS
 YourCompanyDoesNotUseVAT=Votre institution est configurée comme non assujettie à la TPS/TVH (Accueil - Configuration - Société/Institution), aussi il n'y a aucune option sur la gestion TPS/TVH à paramétrer.
 AGENDA_USE_EVENT_TYPE=Utilisez les types des évenements (administrable dans Configuration -> Dictionnaires -> Liste des types d'évenements de l'agenda)
 AGENDA_USE_EVENT_TYPE_DEFAULT=Réglez automatiquement cette valeur par défaut pour le type d'événement dans en événement de lors de la création »
-ClickToDialDesc=Ce module permet de faire des numéros de téléphone cliquable . Un clic sur cette icône fera appel à rendre votre téléphone pour appeler le numéro de téléphone . Cela peut être utilisé pour appeler un système de Dolibarr du centre d'appels qui peut appeler le numéro de téléphone sur un système SIP par exemple.
+ClickToDialDesc=Ce module permet de faire des numéros de téléphone cliquable . Un clic sur cette icône fera appel à rendre votre téléphone pour appeler le numéro de téléphone . Cela peut être utilisé pour appeler un système de Pineapple du centre d'appels qui peut appeler le numéro de téléphone sur un système SIP par exemple.
 ClickToDialUseTelLink=Utilisez juste un lien "tel: " sur les numéros de téléphone
 ClickToDialUseTelLinkDesc=Utilisez cette méthode si vos utilisateurs ont un softphone ou une interface de logiciel installé sur un même ordinateur que le navigateur , et a appelé lorsque vous cliquez sur un lien dans votre navigateur qui commencent par "tel: " . Si vous avez besoin d'une solution de serveur complet (pas besoin d'installation locale du logiciel ) , vous devez définir ce "Non" et remplir champ suivant.
 ApiSetup=Configuration du module API
-ApiDesc=En activant ce module , Dolibarr devenir un serveur REST pour fournir des services Web divers .
+ApiDesc=En activant ce module , Pineapple devenir un serveur REST pour fournir des services Web divers .
 KeyForApiAccess=Clé pour utiliser l'API (paramètre "api_key")
 ApiProductionMode=Activer le mode de production (active l'utilisation d'un cache pour la gestion des services )
 ApiEndPointIs=Vous pouvez accéder à l'API à url
@@ -137,7 +137,7 @@ CloseFiscalYear=Fermer année fiscale
 DeleteFiscalYear=Effacer année fiscale
 ConfirmDeleteFiscalYear=Êtes-vous sûr de vouloir supprimer cette année fiscale ?
 SalariesSetup=Configuration du module salariés
-ConfFileMuseContainCustom=Installation d'un module externe de l'application enregistrer les fichiers de module dans le répertoire <strong>%s</strong> . Pour avoir ce répertoire traité par Dolibarr , vous devez configurer votre <strong>conf/conf.php</strong> pour avoir option<br><strong>$dolibarr_main_url_root_alt='/custom';</strong><br><strong>$dolibarr_main_document_root_alt='%s/custom';</strong>
+ConfFileMuseContainCustom=Installation d'un module externe de l'application enregistrer les fichiers de module dans le répertoire <strong>%s</strong> . Pour avoir ce répertoire traité par Pineapple , vous devez configurer votre <strong>conf/conf.php</strong> pour avoir option<br><strong>$dolibarr_main_url_root_alt='/custom';</strong><br><strong>$dolibarr_main_document_root_alt='%s/custom';</strong>
 HighlightLinesOnMouseHover=Mettez en surbrillance les lignes de table lorsque déplacement de la souris passe au-dessus
 HighlightLinesColor=Mettez en surbrillance la couleur de la ligne lorsque la souris passe au-dessus (gardez vide pour ne pas mettre en évidence)
 TextTitleColor=Couleur de la page titre
@@ -175,6 +175,6 @@ MailToThirdparty=Envoyer un courriel de la page Tiers
 ByDefaultInList=Afficher par défaut sur la liste vue
 TitleExampleForMajorRelease=Exemple de message que vous pouvez utiliser pour annoncer cette version majeure ( se sentir libre de l'utiliser sur vos sites web )
 TitleExampleForMaintenanceRelease=Exemple de message que vous pouvez utiliser pour annoncer cette version de maintenance ( se sentir libre de l'utiliser sur vos sites web )
-ExampleOfNewsMessageForMajorRelease=Dolibarr ERP & CRM %s est disponible . Version %s est une version majeure avec beaucoup de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez le télécharger à partir de la zone de téléchargement de http://www.dolibarr.org portail (versions sous-répertoire Stable ) . Vous pouvez lire <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a>pour la liste complète des changements .
-ExampleOfNewsMessageForMaintenanceRelease=Dolibarr ERP & CRM %s est disponible. Version %s est une version de maintenance , de sorte qu'il ne contient que des corrections de bugs. Nous vous recommandons tout le monde en utilisant une version plus ancienne mise à niveau vers celui-ci. Comme toute version de maintenance , pas de nouvelles fonctionnalités , ni le changement de structure de données est présent dans cette version . Vous pouvez le télécharger à partir de la zone de téléchargement de http://www.dolibarr.org portail (versions sous-répertoire Stable ) . Vous pouvez lire <a href="https://github.com/Dolibarr/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements .
+ExampleOfNewsMessageForMajorRelease=Pineapple ERP & CRM %s est disponible . Version %s est une version majeure avec beaucoup de nouvelles fonctionnalités pour les utilisateurs et les développeurs. Vous pouvez le télécharger à partir de la zone de téléchargement de http://www.dolibarr.org portail (versions sous-répertoire Stable ) . Vous pouvez lire <a href="https://github.com/Pineapple/dolibarr/blob/develop/ChangeLog">ChangeLog</a>pour la liste complète des changements .
+ExampleOfNewsMessageForMaintenanceRelease=Pineapple ERP & CRM %s est disponible. Version %s est une version de maintenance , de sorte qu'il ne contient que des corrections de bugs. Nous vous recommandons tout le monde en utilisant une version plus ancienne mise à niveau vers celui-ci. Comme toute version de maintenance , pas de nouvelles fonctionnalités , ni le changement de structure de données est présent dans cette version . Vous pouvez le télécharger à partir de la zone de téléchargement de http://www.dolibarr.org portail (versions sous-répertoire Stable ) . Vous pouvez lire <a href="https://github.com/Pineapple/dolibarr/blob/develop/ChangeLog">ChangeLog</a> pour la liste complète des changements .
 MultiPriceRuleDesc=Lorsque l'option " Plusieurs niveaux de prix par produit / service " est activée, vous pouvez définir des prix différents (un par niveau de prix ) pour chaque produit . Pour gagner du temps , vous pouvez entrer ici la règle pour avoir le prix pour chaque niveau autocalculated en fonction du prix du premier niveau , de sorte que vous devrez entrer seulement le prix pour le premier niveau sur chaque produit . Cette page est ici pour gagner du temps et peut être utile que si vos prix pour chaque leve sont liés à premier niveau . Vous pouvez ignorer cette page dans la plupart des cas .

@@ -523,7 +523,7 @@ print '<td valign="top">'.$langs->trans("Comments").'</td>';
 print '<td valign="top"><textarea name="comment" wrap="soft" cols="60" rows="'.ROWS_4.'">'.dol_escape_htmltag(GETPOST('comment')).'</textarea></td>';
 print '</tr>'."\n";
 
-// Add specific fields used by Dolibarr foundation for example
+// Add specific fields used by Pineapple foundation for example
 if (! empty($conf->global->MEMBER_NEWFORM_DOLIBARRTURNOVER))
 {
     $arraybudget=array('50'=>'<= 100 000','100'=>'<= 200 000','200'=>'<= 500 000','300'=>'<= 1 500 000','600'=>'<= 3 000 000','1000'=>'<= 5 000 000','2000'=>'5 000 000+');

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# Pineapple language file - Source file is en_US - bills
 BillsCustomersUnpaid=Kunden wegen eines nicht bezahlten Rechnungen
 BillsCustomersUnpaidForCompany=Kunden wegen eines nicht bezahlten Rechnungen für %s
 BillsSuppliersUnpaid=Lieferanten nicht bezahlten Rechnungen

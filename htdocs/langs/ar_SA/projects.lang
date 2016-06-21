@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=المرجع. مشروع
 ProjectRef=المرجع المشروع.
 ProjectId=رقم المشروع
@@ -131,10 +131,10 @@ ConfirmCloneProject=هل أنت متأكد من استنساخ هذا المشر
 ProjectReportDate=تغيير موعد المهمة وفقا المشروع تاريخ بداية
 ErrorShiftTaskDate=من المستحيل تحويل التاريخ المهمة وفقا لتاريخ بدء المشروع الجديد
 ProjectsAndTasksLines=المشاريع والمهام
-ProjectCreatedInDolibarr=مشروع٪ الصورة التي تم إنشاؤها
-TaskCreatedInDolibarr=مهمة٪ الصورة التي تم إنشاؤها
-TaskModifiedInDolibarr=مهمة٪ الصورة المعدلة
-TaskDeletedInDolibarr=مهمة٪ الصورة حذف
+ProjectCreatedInPineapple=مشروع٪ الصورة التي تم إنشاؤها
+TaskCreatedInPineapple=مهمة٪ الصورة التي تم إنشاؤها
+TaskModifiedInPineapple=مهمة٪ الصورة المعدلة
+TaskDeletedInPineapple=مهمة٪ الصورة حذف
 OpportunityStatus=الوضع فرصة
 OpportunityStatusShort=مقابل. الحالة
 OpportunityProbability=Opportunity probability

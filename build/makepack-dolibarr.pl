@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 #----------------------------------------------------------------------------
 # \file         build/makepack-dolibarr.pl
-# \brief        Dolibarr package builder (tgz, zip, rpm, deb, exe, aps)
+# \brief        Pineapple package builder (tgz, zip, rpm, deb, exe, aps)
 # \author       (c)2004-2015 Laurent Destailleur  <eldy@users.sourceforge.net>
 #
 # This is list of constant you can set to have generated packages moved into a specific dir: 
-#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/lastbuild'
-#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/stable'
+#DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Pineapple/dolibarr.org/files/lastbuild'
+#DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Pineapple/dolibarr.org/files/stable'
 #DESTIMODULES='/media/HDDATA1_LD/Mes Sites/Web/Admin1/wwwroot/files/modules'
 #DESTIDOLIMEDBETARC='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/lastbuild'
 #DESTIDOLIMEDMODULES='/media/HDDATA1_LD/Mes Sites/Web/DoliCloud/dolimed.com/htdocs/files/modules'
@@ -76,8 +76,8 @@ if (! $ENV{"DESTIBETARC"} || ! $ENV{"DESTISTABLE"})
 {
 	print "Error: Missing environment variables.\n";
 	print "You must define the environment variable DESTIBETARC and DESTISTABLE to point to the\ndirectories where you want to save the generated packages.\n";
-	print "Example: DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/lastbuild'\n";
-	print "Example: DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Dolibarr/dolibarr.org/files/stable'\n";
+	print "Example: DESTIBETARC='/media/HDDATA1_LD/Mes Sites/Web/Pineapple/dolibarr.org/files/lastbuild'\n";
+	print "Example: DESTISTABLE='/media/HDDATA1_LD/Mes Sites/Web/Pineapple/dolibarr.org/files/stable'\n";
 	print "$PROG.$Extension aborted.\n";
 	sleep 2;
 	exit 1;
@@ -1102,11 +1102,11 @@ if ($nboftargetok) {
 	
 		print "\nList of files to publish\n";
 		%filestoscansf=(
-			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'Dolibarr installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
-			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'Dolibarr installer for Debian-Ubuntu (DoliDeb)',
-			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'Dolibarr installer for Windows (DoliWamp)',
-			"$DESTI/standard/$FILENAMETGZ.tgz"=>'Dolibarr ERP-CRM',
-			"$DESTI/standard/$FILENAMETGZ.zip"=>'Dolibarr ERP-CRM'
+			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'Pineapple installer for Fedora-Redhat-Mandriva-Opensuse (DoliRpm)',
+			"$DESTI/package_debian-ubuntu/${FILENAMEDEB}_all.deb"=>'Pineapple installer for Debian-Ubuntu (DoliDeb)',
+			"$DESTI/package_windows/$FILENAMEEXEDOLIWAMP.exe"=>'Pineapple installer for Windows (DoliWamp)',
+			"$DESTI/standard/$FILENAMETGZ.tgz"=>'Pineapple ERP-CRM',
+			"$DESTI/standard/$FILENAMETGZ.zip"=>'Pineapple ERP-CRM'
 		);
 		%filestoscanstableasso=(
 			"$DESTI/package_rpm_generic/$FILENAMERPM"=>'package_rpm_generic',

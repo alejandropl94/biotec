@@ -610,7 +610,7 @@ if (($action == 'create') || ($action == 'adduserldap'))
     {
         /*
          * Affiche formulaire d'ajout d'un compte depuis LDAP
-         * si on est en synchro LDAP vers Dolibarr
+         * si on est en synchro LDAP vers Pineapple
          */
 
         $ldap = new Ldap();
@@ -1228,7 +1228,7 @@ else
             print '<tr><td class="titlefield">'.$langs->trans("Login").'</td>';
             if (! empty($object->ldap_sid) && $object->statut==0)
             {
-                print '<td class="error">'.$langs->trans("LoginAccountDisableInDolibarr").'</td>';
+                print '<td class="error">'.$langs->trans("LoginAccountDisableInPineapple").'</td>';
             }
             else
             {
@@ -1456,7 +1456,7 @@ else
             if (! empty($conf->adherent->enabled))
             {
                 $langs->load("members");
-                print '<tr><td>'.$langs->trans("LinkedToDolibarrMember").'</td>';
+                print '<tr><td>'.$langs->trans("LinkedToPineappleMember").'</td>';
                 print '<td>';
                 if ($object->fk_member)
                 {
@@ -1844,7 +1844,7 @@ else
                 $text='<input size="12" maxlength="32" type="password" class="flat" name="password" value="'.$object->pass.'" autocomplete="off">';
                 if ($dolibarr_main_authentication && $dolibarr_main_authentication == 'http')
                 {
-                    $text=$form->textwithpicto($text,$langs->trans("DolibarrInHttpAuthenticationSoPasswordUseless",$dolibarr_main_authentication),1,'warning');
+                    $text=$form->textwithpicto($text,$langs->trans("PineappleInHttpAuthenticationSoPasswordUseless",$dolibarr_main_authentication),1,'warning');
                 }
             }
             else
@@ -2221,7 +2221,7 @@ else
             if (! empty($conf->adherent->enabled))
             {
                 $langs->load("members");
-                print '<tr><td width="25%">'.$langs->trans("LinkedToDolibarrMember").'</td>';
+                print '<tr><td width="25%">'.$langs->trans("LinkedToPineappleMember").'</td>';
                 print '<td>';
                 if ($object->fk_member)
                 {

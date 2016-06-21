@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# Pineapple language file - Source file is en_US - products
 ProductRef=Ürün ref.
 ProductLabel=Ürün etiketi
 ProductLabelTranslated=Çevirilmiş ürün etiketi
@@ -291,7 +291,7 @@ ComposedProductIncDecStock=Ana değişimde stok Arttır/Eksilt
 ComposedProduct=Yan ürün
 MinSupplierPrice=En düşük tedarikçi fiyatı
 DynamicPriceConfiguration=Dinamik fiyat yapılandırması
-DynamicPriceDesc=Ürün kartında bu modülü etkinleştirirseniz, Müşteri ve Tedarikçi fiyatlarını hesaplamak için matematik işlevlerini ayarlayabilirsiniz. Böyle bir işlev tüm matematik işlemlerini, bazı değişmezleri ve değişkenleri kullanabilir. Burada kullanabileceğiz değişkenleri ayarlayabilirsiniz ve eğer değişkenin otomatik güncellenmesi gerekirse dış URL Dolibarr'ın değeri otomatik güncellemesini istemek için kullanılabilir.
+DynamicPriceDesc=Ürün kartında bu modülü etkinleştirirseniz, Müşteri ve Tedarikçi fiyatlarını hesaplamak için matematik işlevlerini ayarlayabilirsiniz. Böyle bir işlev tüm matematik işlemlerini, bazı değişmezleri ve değişkenleri kullanabilir. Burada kullanabileceğiz değişkenleri ayarlayabilirsiniz ve eğer değişkenin otomatik güncellenmesi gerekirse dış URL Pineapple'ın değeri otomatik güncellemesini istemek için kullanılabilir.
 AddVariable=Değişken ekle
 AddUpdater=Güncellemeci ekle
 GlobalVariables=Genel değişkenler

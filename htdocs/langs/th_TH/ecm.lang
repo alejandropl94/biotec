@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=เอกสารของฉัน
 DocsGenerated=เอกสารที่สร้างขึ้น
 DocsElements=เอกสารองค์ประกอบ
@@ -25,7 +25,7 @@ ECMNbOfSubDir=จำนวนไดเรกทอรีย่อย
 ECMNbOfFilesInSubDir=จำนวนของไฟล์ในไดเรกทอรีย่อย
 ECMCreationUser=ผู้สร้าง
 ECMArea=พื้นที่ EDM
-ECMAreaDesc=EDM (Electronic Document Management) พื้นที่ช่วยให้คุณสามารถบันทึกแบ่งปันและค้นหาได้อย่างรวดเร็วชนิดของเอกสารใน Dolibarr ทั้งหมด
+ECMAreaDesc=EDM (Electronic Document Management) พื้นที่ช่วยให้คุณสามารถบันทึกแบ่งปันและค้นหาได้อย่างรวดเร็วชนิดของเอกสารใน Pineapple ทั้งหมด
 ECMAreaDesc2=* ไดเรกทอรีอัตโนมัติจะเต็มไปโดยอัตโนมัติเมื่อมีการเพิ่มเอกสารจากบัตรขององค์ประกอบ <br> * ไดเรกทอรีคู่มือการใช้งานสามารถใช้ในการบันทึกเอกสารไม่เชื่อมโยงกับองค์ประกอบโดยเฉพาะอย่างยิ่ง
 ECMSectionWasRemoved=<b>สารบบ% s</b> ได้ถูกลบออก
 ECMDocumentsSection=เอกสารของไดเรกทอรี

@@ -22,7 +22,7 @@
 /**
  *	\file       htdocs/install/step4.php
  *	\ingroup	install
- *	\brief      Ask login and password of Dolibarr admin user
+ *	\brief      Ask login and password of Pineapple admin user
  */
 
 
@@ -74,7 +74,7 @@ $db=getDoliDBInstance($conf->db->type,$conf->db->host,$conf->db->user,$conf->db-
 
 if ($db->ok)
 {
-    print '<tr><td>'.$langs->trans("DolibarrAdminLogin").' :</td><td>';
+    print '<tr><td>'.$langs->trans("PineappleAdminLogin").' :</td><td>';
     print '<input name="login" type="text" value="'.(! empty($_GET["login"])?$_GET["login"]:(isset($force_install_dolibarrlogin)?$force_install_dolibarrlogin:'')).'"></td></tr>';
     print '<tr><td>'.$langs->trans("Password").' :</td><td>';
     print '<input type="password" name="pass"></td></tr>';

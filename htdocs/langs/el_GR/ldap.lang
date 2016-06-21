@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Κωδικός πρόσβασης για το Domain
 YouMustChangePassNextLogon=Κωδικός πρόσβασης για <b>%s</b> χρήστη στο <b>%s</b> Domain πρέπει να αλλάξει.
 UserMustChangePassNextLogon=Ο χρήστης πρέπει να αλλάξει τον κωδικό πρόσβασης για το %s Domain
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Πρώτη ημερομηνία εγγραφής
 LDAPFieldFirstSubscriptionAmount=Πρώτο ποσό εγγραφής
 LDAPFieldLastSubscriptionDate=Τελευταία ημερομηνία εγγραφής
 LDAPFieldLastSubscriptionAmount=Τελευταίο ποσό συνδρομής
-SynchronizeDolibarr2Ldap=Συγχρονισμός χρήστη (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Συγχρονισμός χρήστη (Pineapple -> LDAP)
 UserSynchronized=Συγχρονισμένος χρήστης
 GroupSynchronized=Συγχρονισμένη ομάδα
 MemberSynchronized=Συγχρονισμένο μέλος
 ContactSynchronized=Επικοινωνία συγχρονισμένη
-ForceSynchronize=Δυναμικός συγχρονισμός Dolibarr -> LDAP
+ForceSynchronize=Δυναμικός συγχρονισμός Pineapple -> LDAP
 ErrorFailedToReadLDAP=Αποτυχία ανάγνωσης LDAP βάση δεδομένων. Ελέγξτε LDAP εγκατάσταση module και την προσβασιμότητα της βάσης δεδομένων.

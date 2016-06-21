@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Посредничество
 Interventions=Мероприятия
 InterventionCard=Карточка посредничества
@@ -31,13 +31,13 @@ RelatedInterventions=Связанные с ней мероприятия
 ShowIntervention=Показать посредничества
 SendInterventionRef=Submission of intervention %s
 SendInterventionByMail=Send intervention by Email
-InterventionCreatedInDolibarr=Посредничество %s создано
-InterventionValidatedInDolibarr=Посредничество %s проверено
-InterventionModifiedInDolibarr=Посредничество %s изменено
-InterventionClassifiedBilledInDolibarr=Посредничество %s готово к созданию счёта.
-InterventionClassifiedUnbilledInDolibarr=Посредничество %s не готово к созданию счёта.
+InterventionCreatedInPineapple=Посредничество %s создано
+InterventionValidatedInPineapple=Посредничество %s проверено
+InterventionModifiedInPineapple=Посредничество %s изменено
+InterventionClassifiedBilledInPineapple=Посредничество %s готово к созданию счёта.
+InterventionClassifiedUnbilledInPineapple=Посредничество %s не готово к созданию счёта.
 InterventionSentByEMail=Посредничество %s отправлено по электронной почте.
-InterventionDeletedInDolibarr=Посредничество %s  удалено
+InterventionDeletedInPineapple=Посредничество %s  удалено
 SearchAnIntervention=Поиск посредничества
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

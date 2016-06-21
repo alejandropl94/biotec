@@ -318,7 +318,7 @@ class vCard
             $text.= "$key:$value\r\n";
         }
         $text.= "REV:".date("Y-m-d")."T".date("H:i:s")."Z\r\n";
-        $text.= "MAILER: Dolibarr\r\n";
+        $text.= "MAILER: Pineapple\r\n";
         $text.= "END:VCARD\r\n";
         return $text;
     }

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Apie
 CronAbout = Apie Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Išjungti
 CronTaskInactive=Šis darbas yra išjungtas
 CronId=ID
 CronClassFile=Klasės (filename.class.php)
-CronModuleHelp=Dolibarr modulio aplanko vardas (taip pat dirba su išorės Dolibarr moduliu). <BR> Pvz.: Dolibarr Produkto objekto patraukimo metodas /htdocs/<u>product</u>/class/product.class.php, modulio reikšmė yra <i>product</i>
-CronClassFileHelp=Failo pavadinimas įkėlimui. <BR> Pvz.: Dolibarr Produkto objekto patraukimo metodas /htdocs/product/class/<u>product.class.php</u>, klasės failo vardo reikšmė yra <i>product.class.php</i>
-CronObjectHelp=Objekto pavadinimas įkėlimui. <BR> Pvz.:Dolibarr Produkto objekto patraukimo metodas /htdocs/product/clas/product.class.php, klasės failo vardo reikšmė yra <i>Product</i>
-CronMethodHelp=Objekto metodas įkėlimui. <BR> Pvz.: Dolibarr Produkto objekto patraukimo metodas /htdocs/product/class/product.class.php, metodo reikšmė yra <i>fecth</i>
-CronArgsHelp=Metodo argumentai. <BR> Pvz.: Dolibarr Produkto objekto patraukimo metodas /htdocs/product/class/product.class.php, parametrų reikšmė gali būti <i>0, ProductRef</i>
+CronModuleHelp=Pineapple modulio aplanko vardas (taip pat dirba su išorės Pineapple moduliu). <BR> Pvz.: Pineapple Produkto objekto patraukimo metodas /htdocs/<u>product</u>/class/product.class.php, modulio reikšmė yra <i>product</i>
+CronClassFileHelp=Failo pavadinimas įkėlimui. <BR> Pvz.: Pineapple Produkto objekto patraukimo metodas /htdocs/product/class/<u>product.class.php</u>, klasės failo vardo reikšmė yra <i>product.class.php</i>
+CronObjectHelp=Objekto pavadinimas įkėlimui. <BR> Pvz.:Pineapple Produkto objekto patraukimo metodas /htdocs/product/clas/product.class.php, klasės failo vardo reikšmė yra <i>Product</i>
+CronMethodHelp=Objekto metodas įkėlimui. <BR> Pvz.: Pineapple Produkto objekto patraukimo metodas /htdocs/product/class/product.class.php, metodo reikšmė yra <i>fecth</i>
+CronArgsHelp=Metodo argumentai. <BR> Pvz.: Pineapple Produkto objekto patraukimo metodas /htdocs/product/class/product.class.php, parametrų reikšmė gali būti <i>0, ProductRef</i>
 CronCommandHelp=Sistemos komandinė eilutė vykdymui
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=Informacija
 # Common
 CronType=Job type
-CronType_method=Dolibarr klasės kvietimo metodas
+CronType_method=Pineapple klasės kvietimo metodas
 CronType_command=Apvalkalo komanda
 CronMenu=Cron
 CronCannotLoadClass=Nepavyko įkelti klasės %s arba objekto %s

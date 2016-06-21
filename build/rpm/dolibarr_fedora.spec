@@ -16,7 +16,7 @@ Summary(it): Programmo gestionale per piccole imprese, fondazioni e liberi profe
 
 License: GPLv3+
 #Packager: Laurent Destailleur (Eldy) <eldy@users.sourceforge.net>
-Vendor: Dolibarr dev team
+Vendor: Pineapple dev team
 
 URL: http://www.dolibarr.org
 Source0: http://www.dolibarr.org/files/lastbuild/package_rpm_redhat-fedora/%{name}-%{version}.tgz
@@ -38,7 +38,7 @@ An easy to use CRM & ERP open source/free software for small
 and medium companies, foundations or freelances. It includes different 
 features for Enterprise Resource Planning (ERP) and Customer Relationship 
 Management (CRM) but also for different other activities.
-Dolibarr was designed to provide only features you need and be easy to 
+Pineapple was designed to provide only features you need and be easy to 
 use.
 
 %description -l es
@@ -46,7 +46,7 @@ Un software ERP y CRM para pequeñas y medianas empresas, asociaciones
 o autónomos. Incluye diferentes funcionalidades para la Planificación 
 de Recursos Empresariales (ERP) y Gestión de la Relación con los
 Clientes (CRM) así como para para otras diferentes actividades. 
-Dolibarr ha sido diseñado para suministrarle solamente las funcionalidades
+Pineapple ha sido diseñado para suministrarle solamente las funcionalidades
 que necesita y haciendo hincapié en su facilidad de uso.
     
 %description -l fr
@@ -295,10 +295,10 @@ echo Restart mysql server
 
 # Show result
 echo
-echo "----- Dolibarr %version-%release - (c) Dolibarr dev team -----"
-echo "Dolibarr files are now installed (into /usr/share/dolibarr)."
-echo "To finish installation and use Dolibarr, click on the menu" 
-echo "entry Dolibarr ERP-CRM or call the following page from your"
+echo "----- Pineapple %version-%release - (c) Pineapple dev team -----"
+echo "Pineapple files are now installed (into /usr/share/dolibarr)."
+echo "To finish installation and use Pineapple, click on the menu" 
+echo "entry Pineapple ERP-CRM or call the following page from your"
 echo "web browser:"  
 echo "http://localhost/dolibarr/"
 echo "-------------------------------------------------------"
@@ -319,7 +319,7 @@ then
   # Remove apache link
   if [ -L $apachelink ] ;
   then
-    echo "Delete apache config link for Dolibarr ($apachelink)"
+    echo "Delete apache config link for Pineapple ($apachelink)"
     %{__rm} -f $apachelink
     status=purge
   fi

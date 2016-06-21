@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=區人大常委會訂單
 CustomersStandingOrdersArea=站在客戶的訂單面積
 StandingOrders=常年訂單
@@ -95,7 +95,7 @@ InfoCreditMessage=站在為了%s銀行已支付<br>付款資料：%s
 InfoTransSubject=傳輸到銀行的長期訂單%s
 InfoTransMessage=%s %s銀行長期訂單的%s已被transmited。 <br><br>
 InfoTransData=金額：%s <br> metode：%s <br>日期：%s
-InfoFoot=這是一個自動發送的消息由Dolibarr
+InfoFoot=這是一個自動發送的消息由Pineapple
 InfoRejectSubject=站在為了拒絕
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=實模式下的選項沒有設置，我們停止後，這個模擬

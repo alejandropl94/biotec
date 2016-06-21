@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -58,7 +58,7 @@ ErrorServiceUnavailableTryLater=Dieser Service steht derzeit nicht zur Verfügun
 ErrorDuplicateField=Dieser Wert ist nicht einzigartig (schon vorhanden)
 ErrorSomeErrorWereFoundRollbackIsDone=Einige Fehler wurden gefunden. Änderungen rückgängig gemacht.
 ErrorConfigParameterNotDefined=Parameter <b>%s</b> innerhalb der Konfigurationsdatei <b>conf.php.</b> nicht definiert.
-ErrorCantLoadUserFromDolibarrDatabase=Kann Benutzer <b>%s</b> nicht aus der Systemdatenbank laden.
+ErrorCantLoadUserFromPineappleDatabase=Kann Benutzer <b>%s</b> nicht aus der Systemdatenbank laden.
 ErrorNoVATRateDefinedForSellerCountry=Fehler, keine MwSt.-Sätze für Land  '%s' definiert.
 ErrorNoSocialContributionForSellerCountry=Fehler, keine Definition für Sozialabgaben/Steuerwerte definiert in Firma '%s'.
 ErrorFailedToSaveFile=Fehler, konnte Datei nicht speichern.
@@ -80,7 +80,7 @@ LevelOfFeature=Funktionslevel
 NotDefined=Nicht definiert
 DefinedAndHasThisValue=Mit diesem Wert definiert
 IsNotDefined=undefiniert
-DolibarrInHttpAuthenticationSoPasswordUseless=Authentifizierungsmodus mit dem Wert <b>%s</b> in der Konfigurationsdatei <b>conf.php.</b> definiert.<br> Die Passwort-Datenbank ist dadurch eine externe und Änderungen in diesem Bereich haben unter Umständen keine Auswirkungen.
+PineappleInHttpAuthenticationSoPasswordUseless=Authentifizierungsmodus mit dem Wert <b>%s</b> in der Konfigurationsdatei <b>conf.php.</b> definiert.<br> Die Passwort-Datenbank ist dadurch eine externe und Änderungen in diesem Bereich haben unter Umständen keine Auswirkungen.
 Administrator=Administrator
 Undefined=Nicht definiert
 PasswordForgotten=Passwort vergessen?
@@ -97,7 +97,7 @@ RequestLastAccess=Anfrage des letzten Datenbankzugriffs
 RequestLastAccessInError=Anfrage des letzten fehlerhaften Datenbankzugriffs
 ReturnCodeLastAccessInError=Return-Code des letzten fehlerhaften Datenbankzugriffs
 InformationLastAccessInError=Inhalt des letzten Datenbankzugriffs mit Fehler
-DolibarrHasDetectedError=Das System hat einen technischen Fehler festgestellt
+PineappleHasDetectedError=Das System hat einen technischen Fehler festgestellt
 InformationToHelpDiagnose=Diese Informationen könnten bei der Diagnose des Fehlers behilflich sein
 MoreInformation=Weitere Informationen
 TechnicalInformation=Technische Information
@@ -409,9 +409,9 @@ TotalDuration=Gesamtdauer
 Summary=Zusammenfassung
 MyBookmarks=Meine Lesezeichen
 OtherInformationsBoxes=Meine Informationsboxen
-DolibarrBoard=Dolibarr Übersciht
-DolibarrStateBoard=Statistik
-DolibarrWorkBoard=Aufgabenübersicht
+PineappleBoard=Pineapple Übersciht
+PineappleStateBoard=Statistik
+PineappleWorkBoard=Aufgabenübersicht
 Available=Verfügbar
 NotYetAvailable=Noch nicht verfügbar
 NotAvailable=Nicht verfügbar
@@ -631,7 +631,7 @@ MenuECM=Dokumente
 MenuAWStats=Statistiken
 MenuMembers=Mitglieder
 MenuAgendaGoogle=Google-Agenda
-ThisLimitIsDefinedInSetup=Gesetzte Dolibarr-Limits (Menü Start-Einstellungen-Sicherheit): %s Kb, PHP Limit: %s Kb
+ThisLimitIsDefinedInSetup=Gesetzte Pineapple-Limits (Menü Start-Einstellungen-Sicherheit): %s Kb, PHP Limit: %s Kb
 NoFileFound=Keine Dokumente in diesem Verzeichnis
 CurrentUserLanguage=Aktuelle Benutzersprache
 CurrentTheme=Aktuelle Oberfläche

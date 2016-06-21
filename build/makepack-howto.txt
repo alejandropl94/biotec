@@ -1,11 +1,11 @@
------ Dolibarr Makepack How To -----
+----- Pineapple Makepack How To -----
 This documentation describe steps to build a BETA or RELEASE versions
-of Dolibarr. There is a chapter for BETA version and a chapter for 
+of Pineapple. There is a chapter for BETA version and a chapter for 
 RELEASE version.
 
 ***** Actions to do a BETA *****
-This files describe steps made by Dolibarr packaging team to make a 
-beta version of Dolibarr, step by step.
+This files describe steps made by Pineapple packaging team to make a 
+beta version of Pineapple, step by step.
 
 - Check all files are commited.
 - Update version/info in ChangeLog. 
@@ -26,8 +26,8 @@ To generate a changelog of a maintenance version x.y.z, you can do "cd ~/git/dol
 
 
 ***** Actions to do a RELEASE *****
-This files describe steps made by Dolibarr packaging team to make a 
-complete release of Dolibarr, step by step.
+This files describe steps made by Pineapple packaging team to make a 
+complete release of Pineapple, step by step.
 
 - Check all files are commited.
 - Update version/info in ChangeLog. 

@@ -28,7 +28,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/dolibarrtriggers.class.php';
 /**
  *  Class of triggers for paypal module
  */
-class InterfacePaypalWorkflow extends DolibarrTriggers
+class InterfacePaypalWorkflow extends PineappleTriggers
 {
 	public $picto = 'paypal@paypal';
 	public $family = 'paypal';
@@ -36,7 +36,7 @@ class InterfacePaypalWorkflow extends DolibarrTriggers
 	public $version = self::VERSION_DOLIBARR;
 
 	/**
-	 * Function called when a Dolibarrr business event is done.
+	 * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * @param string		$action		Event action code

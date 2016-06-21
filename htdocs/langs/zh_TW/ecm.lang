@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=我的文件
 DocsGenerated=生成的文件
 DocsElements=元素文件
@@ -25,7 +25,7 @@ ECMNbOfSubDir=數子目錄
 ECMNbOfFilesInSubDir=Number of files in sub-directories
 ECMCreationUser=創造者
 ECMArea=EDM area
-ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Dolibarr.
+ECMAreaDesc=The EDM (Electronic Document Management) area allows you to save, share and search quickly all kind of documents in Pineapple.
 ECMAreaDesc2=*自動填寫目錄時自動加入一個元素從卡的文件。 <br> *手動目錄可以用來保存未鏈接到一個特定元素的文件。
 ECMSectionWasRemoved=目錄<b>%s</b>已被刪除。
 ECMDocumentsSection=文件的目錄

@@ -456,7 +456,7 @@ if ($id > 0)
     {
         $langs->load("members");
         $langs->load("users");
-        print '<tr><td width="25%">'.$langs->trans("LinkedToDolibarrMember").'</td>';
+        print '<tr><td width="25%">'.$langs->trans("LinkedToPineappleMember").'</td>';
         print '<td colspan="3">';
         $adh=new Adherent($db);
         $result=$adh->fetch('','',$object->id);

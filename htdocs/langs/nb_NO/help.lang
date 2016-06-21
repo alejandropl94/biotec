@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - help
+# Pineapple language file - Source file is en_US - help
 CommunitySupport=Forum/Wiki-support
 EMailSupport=Epostsupport
 RemoteControlSupport=Online support
@@ -6,8 +6,8 @@ OtherSupport=Annen support
 ToSeeListOfAvailableRessources=For å se tilgjengelige ressurser:
 ClickHere=Klikk her
 HelpCenter=Brukerstøtte
-DolibarrHelpCenter=Dolibarr hjelp og support
-ToGoBackToDolibarr=Ellers, klikk <a href="%s">her for å bruke Dolibarr</a>
+PineappleHelpCenter=Pineapple hjelp og support
+ToGoBackToPineapple=Ellers, klikk <a href="%s">her for å bruke Pineapple</a>
 TypeOfSupport=Kilde til support
 TypeSupportCommunauty=Brukergruppe (gratis)
 TypeSupportCommercial=Kommersiell
@@ -18,11 +18,11 @@ TypeHelpOnly=Kun hjelp
 TypeHelpDev=Hjelp + Utvikling
 TypeHelpDevForm=Hjelp + utvikling + Dannelse
 ToGetHelpGoOnSparkAngels1=Noen selskaper kan gi en rask (av og til umiddelbar) og mer effektiv online-support ved å ta kontroll over datamaskinen. Slik hjelp kan bli funnet på <b>%s</b> nettsted:
-ToGetHelpGoOnSparkAngels3=Du kan også gå til listen over alle tilgjengelig support for Dolibarr. For dette, klikk på knappen
+ToGetHelpGoOnSparkAngels3=Du kan også gå til listen over alle tilgjengelig support for Pineapple. For dette, klikk på knappen
 ToGetHelpGoOnSparkAngels2=Noen ganger er det ingen selskap tilgjengelig når du søker. Endre filteret for å se etter "alle tilgjengelige". Du vil da kunne sende flere forespørsler.
 BackToHelpCenter=Ellers, klikk her for å gå <a href="%s">tilbake til hjemmesiden for brukerstøtte</a> .
-LinkToGoldMember=Du kan ringe forhåndsvalgt support fra Dolibarr for ditt språk (%s) ved å klikke dennes Widget (status og maksimumspris blir automatisk oppdatert):
+LinkToGoldMember=Du kan ringe forhåndsvalgt support fra Pineapple for ditt språk (%s) ved å klikke dennes Widget (status og maksimumspris blir automatisk oppdatert):
 PossibleLanguages=Støttede språk
-MakeADonation=Hjelp Dolibarr prosjektet, gjør en donasjon
-SubscribeToFoundation=Hjelp Dolibarr prosjektet, gi en donasjon
-SeeOfficalSupport=For offisiell Dolibarr support på ditt språk: <br><b><a href="%s" target="_blank">%s</a></b>
+MakeADonation=Hjelp Pineapple prosjektet, gjør en donasjon
+SubscribeToFoundation=Hjelp Pineapple prosjektet, gi en donasjon
+SeeOfficalSupport=For offisiell Pineapple support på ditt språk: <br><b><a href="%s" target="_blank">%s</a></b>

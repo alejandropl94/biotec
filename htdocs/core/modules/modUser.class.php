@@ -208,7 +208,7 @@ class modUser extends DolibarrModules
 
 		$r++;
 		$this->export_code[$r]=$this->rights_class.'_'.$r;
-		$this->export_label[$r]='Liste des utilisateurs Dolibarr et attributs';
+		$this->export_label[$r]='Liste des utilisateurs Pineapple et attributs';
 		$this->export_permission[$r]=array(array("user","user","export"));
 		$this->export_fields_array[$r]=array('u.rowid'=>"Id",'u.login'=>"Login",'u.lastname'=>"Lastname",'u.firstname'=>"Firstname",'u.office_phone'=>'Phone','u.office_fax'=>'Fax','u.email'=>'EMail','u.datec'=>"DateCreation",'u.tms'=>"DateLastModification",'u.admin'=>"Administrator",'u.statut'=>'Status','u.note'=>"Note",'u.datelastlogin'=>'LastConnexion','u.datepreviouslogin'=>'PreviousConnexion','u.fk_socpeople'=>"IdContact",'u.fk_soc'=>"IdCompany",'u.fk_member'=>"MemberId");
 		$this->export_TypeFields_array[$r]=array('u.login'=>"Text",'u.lastname'=>"Text",'u.firstname'=>"Text",'u.office_phone'=>'Text','u.office_fax'=>'Text','u.email'=>'Text','u.datec'=>"Date",'u.tms'=>"Date",'u.admin'=>"Boolean",'u.statut'=>'Status','u.note'=>"Text",'u.datelastlogin'=>'Date','u.datepreviouslogin'=>'Date','u.fk_soc'=>"List:societe:nom:rowid",'u.fk_member'=>"List:adherent:firstname");
@@ -226,7 +226,7 @@ class modUser extends DolibarrModules
 
     /**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

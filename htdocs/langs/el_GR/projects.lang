@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Κωδ. έργου
 ProjectRef=Project ref.
 ProjectId=Id Έργου
@@ -131,10 +131,10 @@ ConfirmCloneProject=Are you sure to clone this project ?
 ProjectReportDate=Change task date according project start date
 ErrorShiftTaskDate=Impossible to shift task date according to new project start date
 ProjectsAndTasksLines=Projects and tasks
-ProjectCreatedInDolibarr=Έργο %s δημιουργήθηκε
-TaskCreatedInDolibarr=Εργασία %s δημιουργήθηκε
-TaskModifiedInDolibarr=Εργασία %s τροποποιήθηκε
-TaskDeletedInDolibarr=Εργασία %s διαγράφηκε
+ProjectCreatedInPineapple=Έργο %s δημιουργήθηκε
+TaskCreatedInPineapple=Εργασία %s δημιουργήθηκε
+TaskModifiedInPineapple=Εργασία %s τροποποιήθηκε
+TaskDeletedInPineapple=Εργασία %s διαγράφηκε
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

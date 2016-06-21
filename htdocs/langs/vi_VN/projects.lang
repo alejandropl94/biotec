@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Tham chiếu dự án
 ProjectRef=Project ref.
 ProjectId=ID dự án
@@ -131,10 +131,10 @@ ConfirmCloneProject=Bạn có chắc muốn nhân bản dự án này ?
 ProjectReportDate=Thay đổi ngày tác vụ theo ngày bắt đầu dự án
 ErrorShiftTaskDate=Không thể dịch chuyển ngày của tác vụ theo ngày bắt đầu của dự án mới
 ProjectsAndTasksLines=Các dự án và tác vụ
-ProjectCreatedInDolibarr=Dự án %s đã được tạo
-TaskCreatedInDolibarr=Tác vụ %s được tạo
-TaskModifiedInDolibarr=Tác vụ %s đã chỉnh sửa
-TaskDeletedInDolibarr=Tác vụ %s đã xóa
+ProjectCreatedInPineapple=Dự án %s đã được tạo
+TaskCreatedInPineapple=Tác vụ %s được tạo
+TaskModifiedInPineapple=Tác vụ %s đã chỉnh sửa
+TaskDeletedInPineapple=Tác vụ %s đã xóa
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

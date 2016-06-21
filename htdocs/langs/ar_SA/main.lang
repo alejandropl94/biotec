@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 # Note for Chinese:
 # msungstdlight or cid0ct are for traditional Chinese (traditional does not render with Ubuntu pdf reader)
@@ -57,8 +57,8 @@ ErrorNoRequestInError=أي طلب في الخطأ
 ErrorServiceUnavailableTryLater=الخدمة غير متوفرة في الوقت الراهن. حاول مجددا لاحقا.
 ErrorDuplicateField=قيمة مكررة في حقل فريد
 ErrorSomeErrorWereFoundRollbackIsDone=تم العثور على بعض الأخطاء. نحن التراجع التغييرات.
-ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined inside Dolibarr config file <b>conf.php</b>.
-ErrorCantLoadUserFromDolibarrDatabase=Failed to find user <b>%s</b> in Dolibarr database.
+ErrorConfigParameterNotDefined=Parameter <b>%s</b> is not defined inside Pineapple config file <b>conf.php</b>.
+ErrorCantLoadUserFromPineappleDatabase=Failed to find user <b>%s</b> in Pineapple database.
 ErrorNoVATRateDefinedForSellerCountry=Error, no vat rates defined for country '%s'.
 ErrorNoSocialContributionForSellerCountry=Error, no social/fiscal taxes type defined for country '%s'.
 ErrorFailedToSaveFile=خطأ، فشل في حفظ الملف.
@@ -80,7 +80,7 @@ LevelOfFeature=مستوى ميزات
 NotDefined=غير معرف
 DefinedAndHasThisValue=تعريف وقيمة ل
 IsNotDefined=غير محدد
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr authentication mode is setup to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that password database is extern to Dolibarr, so changing this field may have no effects.
+PineappleInHttpAuthenticationSoPasswordUseless=Pineapple authentication mode is setup to <b>%s</b> in configuration file <b>conf.php</b>.<br>This means that password database is extern to Pineapple, so changing this field may have no effects.
 Administrator=مدير
 Undefined=غير محدد
 PasswordForgotten=نسيت كلمة المرور؟
@@ -97,14 +97,14 @@ RequestLastAccess=طلب الوصول إلى قاعدة البيانات الم�
 RequestLastAccessInError=طلب الأخير الوصول إلى قاعدة البيانات في الخطأ
 ReturnCodeLastAccessInError=العودة رمز لآخر الوصول إلى قاعدة البيانات في الخطأ
 InformationLastAccessInError=معلومات عن الماضي الوصول إلى قاعدة البيانات في الخطأ
-DolibarrHasDetectedError=كشف Dolibarr خطأ فني
+PineappleHasDetectedError=كشف Pineapple خطأ فني
 InformationToHelpDiagnose=هذا هو المعلومات التي يمكن أن تساعد في التشخيص
 MoreInformation=المزيد من المعلومات
 TechnicalInformation=المعلومات التقنية
 TechnicalID=ID الفني
 NotePublic=ملاحظة (الجمهور)
 NotePrivate=ملاحظة (خاص)
-PrecisionUnitIsLimitedToXDecimals=Dolibarr was setup to limit precision of unit prices to <b>%s</b> decimals.
+PrecisionUnitIsLimitedToXDecimals=Pineapple was setup to limit precision of unit prices to <b>%s</b> decimals.
 DoTest=اختبار
 ToFilter=فلتر
 NoFilter=No filter
@@ -409,9 +409,9 @@ TotalDuration=المدة الإجمالية
 Summary=ملخص
 MyBookmarks=المواقع المفضلة
 OtherInformationsBoxes=صناديق غيرها من المعلومات
-DolibarrBoard=Dolibarr مجلس
-DolibarrStateBoard=إحصائيات
-DolibarrWorkBoard=مهام العمل متنها
+PineappleBoard=Pineapple مجلس
+PineappleStateBoard=إحصائيات
+PineappleWorkBoard=مهام العمل متنها
 Available=متاح
 NotYetAvailable=لم تتوفر بعد
 NotAvailable=غير متوفر

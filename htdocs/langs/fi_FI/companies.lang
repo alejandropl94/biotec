@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Yrityksen nimi %s on jo olemassa. Valitse toinen.
 ErrorPrefixAlreadyExists=Etunumero %s on jo olemassa. Valitse toinen.
 ErrorSetACountryFirst=Aseta ensin maa
@@ -18,7 +18,7 @@ NewCompany=Uusi yhtiö (mahdollisuus, asiakas, toimittaja)
 NewThirdParty=Uusi kolmas osapuoli (mahdollisuus, asiakas, toimittaja)
 NewSocGroup=Uusi yritysryhmä
 NewPrivateIndividual=Uusi yksityishenkilö (mahdollisuus, asiakas, toimittaja)
-CreateDolibarrThirdPartySupplier=Create a third party (supplier)
+CreatePineappleThirdPartySupplier=Create a third party (supplier)
 ProspectionArea=Uusien mahdollisuuksien alue
 SocGroup=Yritysryhmät
 IdThirdParty=Kolmannen osapuolen tunnus
@@ -387,8 +387,8 @@ NoParentCompany=Ei mitään
 ExportImport=Import-Export
 ExportCardToFormat=Vienti kortin muodossa
 ContactNotLinkedToCompany=Yhteystiedot eivät liity minkään kolmannen osapuolen
-DolibarrLogin=Dolibarr sisäänkirjoittautumissivuksesi
-NoDolibarrAccess=N: o Dolibarr pääsy
+PineappleLogin=Pineapple sisäänkirjoittautumissivuksesi
+NoPineappleAccess=N: o Pineapple pääsy
 ExportDataset_company_1=Third parties (Companies/foundations/physical people) and properties
 ExportDataset_company_2=Yhteystiedot ja ominaisuudet
 ImportDataset_company_1=Third parties (Companies/foundations/physical people) and properties

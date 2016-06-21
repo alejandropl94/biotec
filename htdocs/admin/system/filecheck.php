@@ -20,7 +20,7 @@
 
 /**
  *  \file       htdocs/admin/system/filecheck.php
- *  \brief      Page to check Dolibarr files integrity
+ *  \brief      Page to check Pineapple files integrity
  */
 
 require '../../main.inc.php';
@@ -40,7 +40,7 @@ $error=0;
 
 llxHeader();
 
-print load_fiche_titre($langs->trans("FileCheckDolibarr"),'','title_setup');
+print load_fiche_titre($langs->trans("FileCheckPineapple"),'','title_setup');
 
 // Version
 $var = true;

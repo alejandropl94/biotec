@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervenţie
 Interventions=Intervenţii
 InterventionCard=Fişă intervenţie
@@ -31,13 +31,13 @@ RelatedInterventions=Intervenţii asociate
 ShowIntervention=Afişează  intervenţie
 SendInterventionRef=Trimiterea intervenţiei %s
 SendInterventionByMail=Trimite intervenţie prin Email
-InterventionCreatedInDolibarr=Intervenţia %s creată
-InterventionValidatedInDolibarr=Intervenţia %s validată
-InterventionModifiedInDolibarr=Intervenţia %s modificată
-InterventionClassifiedBilledInDolibarr=Intervenţia %s setată ca facturată
-InterventionClassifiedUnbilledInDolibarr=Intervenţia %s setată ca nefacturată
+InterventionCreatedInPineapple=Intervenţia %s creată
+InterventionValidatedInPineapple=Intervenţia %s validată
+InterventionModifiedInPineapple=Intervenţia %s modificată
+InterventionClassifiedBilledInPineapple=Intervenţia %s setată ca facturată
+InterventionClassifiedUnbilledInPineapple=Intervenţia %s setată ca nefacturată
 InterventionSentByEMail=Intervenţia %s trimisă pe Email
-InterventionDeletedInDolibarr=Intervenţia %s ştearsă
+InterventionDeletedInPineapple=Intervenţia %s ştearsă
 SearchAnIntervention=Caută o intervenţie
 InterventionsArea=Intervenţii
 DraftFichinter=Intervenții schita

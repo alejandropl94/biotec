@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nie ma błędu, zobowiązujemy
@@ -40,9 +40,9 @@ ErrorBadDateFormat=Wartość '%s' ma zły format daty
 ErrorWrongDate=Data nie jest poprawna!
 ErrorFailedToWriteInDir=Nie można zapisać w katalogu %s
 ErrorFoundBadEmailInFile=Found incorrect email syntax for %s lines in file (example line %s with email=Znaleziono nieprawidłowy adres e-mail składni %s linii w pliku (np. z linii email %s= %s)
-ErrorUserCannotBeDelete=Użytkownik nie może być usunięty. Może być to związane jest na Dolibarr podmiotów.
+ErrorUserCannotBeDelete=Użytkownik nie może być usunięty. Może być to związane jest na Pineapple podmiotów.
 ErrorFieldsRequired=Niektóre pola wymagane nie były uzupełnione.
-ErrorFailedToCreateDir=Nie można utworzyć katalogu. Sprawdź, czy serwer WWW użytkownik ma uprawnienia do zapisu do katalogu dokumentów Dolibarr. Jeśli parametr <b>safe_mode</b> jest włączona w tym PHP, czy posiada Dolibarr php pliki do serwera internetowego użytkownika (lub grupy).
+ErrorFailedToCreateDir=Nie można utworzyć katalogu. Sprawdź, czy serwer WWW użytkownik ma uprawnienia do zapisu do katalogu dokumentów Pineapple. Jeśli parametr <b>safe_mode</b> jest włączona w tym PHP, czy posiada Pineapple php pliki do serwera internetowego użytkownika (lub grupy).
 ErrorNoMailDefinedForThisUser=Nie określono adresu email dla tego użytkownika
 ErrorFeatureNeedJavascript=Ta funkcja wymaga do pracy aktywowanego JavaScript. Zmień to w konfiguracji - wyświetlanie.
 ErrorTopMenuMustHaveAParentWithId0=Menu typu "góry" nie może mieć dominującej menu. Umieść 0 dominującej w menu lub wybrać z menu typu "Lewy".
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=<b>Pole %s</b> nie zawiera znaki specja
 ErrorFieldCanNotContainSpecialNorUpperCharacters=<b>Pole% s nie</b> może zawierać znaków specjalnych, ani wielkich liter i nie może zawierać tylko liczby.
 ErrorNoAccountancyModuleLoaded=Nie aktywowano modułu księgowości
 ErrorExportDuplicateProfil=Ta nazwa profil już istnieje dla tego zestawu eksportu.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP dopasowywania nie jest kompletna.
+ErrorLDAPSetupNotComplete=Pineapple-LDAP dopasowywania nie jest kompletna.
 ErrorLDAPMakeManualTest=A. LDIF plik został wygenerowany w katalogu %s. Spróbuj załadować go ręcznie z wiersza polecenia, aby mieć więcej informacji na temat błędów.
 ErrorCantSaveADoneUserWithZeroPercentage=Nie można zapisać działania z "Statut nie rozpocznie", jeśli pole "wykonana przez" jest wypełniona.
 ErrorRefAlreadyExists=Numer identyfikacyjny używany do tworzenia już istnieje.
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Nieprawidłowa wartość dla <b>%s</b> liczba pól (wartość
 ErrorsOnXLines=Błędów na linii źródło <b>%s</b>
 ErrorFileIsInfectedWithAVirus=Program antywirusowy nie był w stanie potwierdzić (plik może być zainfekowany przez wirusa)
 ErrorSpecialCharNotAllowedForField=Znaki specjalne nie są dozwolone dla pola "%s"
-ErrorDatabaseParameterWrong=parametr konfiguracji bazy danych <b>&quot;%s&quot;</b> ma wartość nie jest zgodna korzystać Dolibarr (musi mieć wartość <b>&quot;%s&quot;).</b>
+ErrorDatabaseParameterWrong=parametr konfiguracji bazy danych <b>&quot;%s&quot;</b> ma wartość nie jest zgodna korzystać Pineapple (musi mieć wartość <b>&quot;%s&quot;).</b>
 ErrorNumRefModel=Odniesienia nie istnieje w bazie danych (%s) i nie jest zgodna z tą zasadą numeracji. Zmiana nazwy lub usuwanie zapisu w odniesieniu do aktywacji tego modułu.
 ErrorQtyTooLowForThisSupplier=Zbyt mała ilość tego dostawcy lub ceny nie określono tego produktu dla tego dostawca
 ErrorModuleSetupNotComplete=Instalacja modułu wygląda na uncomplete. Idź na instalacji - Moduły do ​​wykonania.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Nie można wysłać hasła
 ErrorFailedToLoadRSSFile=Nie dostać kanału RSS. Spróbuj dodać stałą MAIN_SIMPLEXMLLOAD_DEBUG czy komunikaty o błędach nie zawiera wystarczających informacji.
 ErrorPasswordDiffers=Różne hasła, wprowadź je ponownie.
 ErrorForbidden=Brak dostępu. <br> Próby uzyskania dostępu do strony, strefy lub funkcji modułu niepełnosprawnej lub bez w uwierzytelnionej sesji lub że nie jest dozwolone do użytkownika.
-ErrorForbidden2=Wykorzystanie tej nazwie może być zdefiniowana przez administratora z menu Dolibarr %s-> %s.
-ErrorForbidden3=Wydaje się, że Dolibarr nie jest używany przez uwierzytelniane sesji. Rzuć okiem na Dolibarr konfiguracji dokumentacji wiedzieć, jak zarządzać authentications (htaccess, mod_auth lub innych ...).
+ErrorForbidden2=Wykorzystanie tej nazwie może być zdefiniowana przez administratora z menu Pineapple %s-> %s.
+ErrorForbidden3=Wydaje się, że Pineapple nie jest używany przez uwierzytelniane sesji. Rzuć okiem na Pineapple konfiguracji dokumentacji wiedzieć, jak zarządzać authentications (htaccess, mod_auth lub innych ...).
 ErrorNoImagickReadimage=Funkcja imagick_readimage nie jest w tej PHP. Podgląd może być dostępny. Administratorzy mogą wyłączyć tę zakładkę z menu Ustawienia - Ekran.
 ErrorRecordAlreadyExists=Wpis już istnieje
 ErrorCantReadFile=Nie można odczytać pliku '%s'
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=Konto użytkownika <b>%s</b> wykorzystywane d
 ErrorNoActivatedBarcode=Nie Typ aktywny kodów kreskowych
 ErrUnzipFails=Nie udało się rozpakować% s ZipArchive
 ErrNoZipEngine=Nie silnika rozpakować% s plik w PHP
-ErrorFileMustBeADolibarrPackage=Plik% s musi być pakiet zip Dolibarr
-ErrorFileRequired=To zajmuje plik pakietu Dolibarr
+ErrorFileMustBeAPineapplePackage=Plik% s musi być pakiet zip Pineapple
+ErrorFileRequired=To zajmuje plik pakietu Pineapple
 ErrorPhpCurlNotInstalled=PHP CURL nie jest zainstalowany, to jest niezbędne, aby porozmawiać z Paypal
 ErrorFailedToAddToMailmanList=Nie udało się dodać% s do% s listy Mailman lub podstawy SPIP
 ErrorFailedToRemoveToMailmanList=Nie udało się usunąć rekord% s do% s listy Mailman lub podstawy SPIP
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Nie udało się dodać kontaktu
 ErrorDateMustBeBeforeToday=Data nie może być nowsza niż dzisiejsza
 ErrorPaymentModeDefinedToWithoutSetup=Tryb płatność została ustawiona na typ% s, ale konfiguracja modułu faktury nie została zakończona do określenia informacji, aby pokazać tym trybie płatności.
 ErrorPHPNeedModule=Błąd, PHP musi mieć zainstalowany moduł <b>%s</b>, aby korzystać z tej funkcji.
-ErrorOpenIDSetupNotComplete=Ty konfiguracji Dolibarr plik konfiguracyjny, aby umożliwić uwierzytelnianie OpenID, ale adres URL usługi OpenID nie jest zdefiniowany w stałej% s
+ErrorOpenIDSetupNotComplete=Ty konfiguracji Pineapple plik konfiguracyjny, aby umożliwić uwierzytelnianie OpenID, ale adres URL usługi OpenID nie jest zdefiniowany w stałej% s
 ErrorWarehouseMustDiffers=magazyn źródłowy i docelowy musi być różny
 ErrorBadFormat=Zły format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Błąd, członek ten nie jest jeszcze związana z żadnymi thirdparty. Członkiem Link do istniejącej strony trzeciej lub utworzyć nowy thirdparty przed utworzeniem subskrypcji z faktury.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=Warehouse is required on the line to ship
 ErrorFileMustHaveFormat=File must have format %s
 
 # Warnings
-WarningPasswordSetWithNoAccount=Hasło zostało ustawione dla tego użytkownika. Jednakże nie Konto użytkownika zostało utworzone. Więc to hasło jest przechowywane, ale nie mogą być używane do logowania do Dolibarr. Może być stosowany przez zewnętrzny moduł / interfejsu, ale jeśli nie trzeba definiować dowolną logowania ani hasła do członka, można wyłączyć opcję "Zarządzaj login dla każdego członka" od konfiguracji modułu użytkownika. Jeśli potrzebujesz zarządzać logowanie, ale nie wymagają hasła, możesz zachować to pole puste, aby uniknąć tego ostrzeżenia. Uwaga: E może być również stosowany jako login, jeśli element jest połączony do użytkownika.
+WarningPasswordSetWithNoAccount=Hasło zostało ustawione dla tego użytkownika. Jednakże nie Konto użytkownika zostało utworzone. Więc to hasło jest przechowywane, ale nie mogą być używane do logowania do Pineapple. Może być stosowany przez zewnętrzny moduł / interfejsu, ale jeśli nie trzeba definiować dowolną logowania ani hasła do członka, można wyłączyć opcję "Zarządzaj login dla każdego członka" od konfiguracji modułu użytkownika. Jeśli potrzebujesz zarządzać logowanie, ale nie wymagają hasła, możesz zachować to pole puste, aby uniknąć tego ostrzeżenia. Uwaga: E może być również stosowany jako login, jeśli element jest połączony do użytkownika.
 WarningMandatorySetupNotComplete=Parametry konfiguracyjne obowiązkowe nie są jeszcze określone
 WarningSafeModeOnCheckExecDir=Uwaga, opcja <b>safe_mode</b> w PHP jest więc polecenia muszą być przechowywane wewnątrz katalogu <b>safe_mode_exec_dir</b> parametrów deklarowanych przez php.
 WarningAllowUrlFopenMustBeOn=<b>Allow_url_fopen</b> Parametr musi być ustawiony <b>w</b> Filer <b>php.ini</b> za ten moduł pracy całkowicie. Należy zmodyfikować ten plik ręcznie.

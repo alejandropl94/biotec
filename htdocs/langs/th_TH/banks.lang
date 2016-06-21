@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=ธนาคาร
 Banks=ธนาคาร
 MenuBankCash=ธนาคาร / เงินสด
@@ -117,7 +117,7 @@ SocialContributionPayment=สังคม / ชำระภาษีการค
 FinancialAccountJournal=วารสารบัญชีการเงิน
 BankTransfer=โอนเงินผ่านธนาคาร
 BankTransfers=ธนาคารโอน
-TransferDesc=โอนเงินจากบัญชีหนึ่งไปยังอีกที่หนึ่ง Dolibarr จะเขียนบันทึกสอง (เดบิตในบัญชีของแหล่งที่มาและเครดิตในบัญชีเป้าหมายของปริมาณที่เท่ากัน. ป้ายชื่อเดียวกันและวันที่จะใช้สำหรับการทำธุรกรรมนี้)
+TransferDesc=โอนเงินจากบัญชีหนึ่งไปยังอีกที่หนึ่ง Pineapple จะเขียนบันทึกสอง (เดบิตในบัญชีของแหล่งที่มาและเครดิตในบัญชีเป้าหมายของปริมาณที่เท่ากัน. ป้ายชื่อเดียวกันและวันที่จะใช้สำหรับการทำธุรกรรมนี้)
 TransferFrom=จาก
 TransferTo=ไปยัง
 TransferFromToDone=<b>การถ่ายโอนจาก% s% s% s%</b> s ได้รับการบันทึก

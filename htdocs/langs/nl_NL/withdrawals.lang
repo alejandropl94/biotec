@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Periodieke overboekingenoverzicht
 CustomersStandingOrdersArea=Periodieke afnemersoverboekingenoverzicht
 StandingOrders=Periodieke overboekingen
@@ -95,7 +95,7 @@ InfoCreditMessage=De periodieke overboeking %s is betaald door de bank<br>Gegeve
 InfoTransSubject=Transmissie van de periodieke overboeking %s naar bank
 InfoTransMessage=De periodieke overboeking %s is vernzonden naar de bank door %s %s.<br><br>
 InfoTransData=Bedrag: %s<br>Wijze: %s<br>Datum: %s
-InfoFoot=Dit is een geautomatiseerd bericht verzonden door Dolibarr
+InfoFoot=Dit is een geautomatiseerd bericht verzonden door Pineapple
 InfoRejectSubject=Periodieke overboeking geweigerd
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=Optie voor echte modus was niet ingesteld, we stoppen na deze simulatie

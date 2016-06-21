@@ -38,7 +38,7 @@ $langs->load("help");
  * View
  */
 
-pHeader($langs->trans("DolibarrHelpCenter"),$_SERVER["PHP_SELF"]);
+pHeader($langs->trans("PineappleHelpCenter"),$_SERVER["PHP_SELF"]);
 
 $urlsparkengels='http://www.spark-angels.com';
 $titlesparkangels='Spark-Angels';
@@ -51,7 +51,7 @@ print '<br><br>';
 
 
 // List of predefined coaches
-// We list here the 4 most active coaches on Dolibarr projects (according to number of commits
+// We list here the 4 most active coaches on Pineapple projects (according to number of commits
 // found in page http://www.nltechno.com/stats/dolibarr/cvschangelogbuilder_dolibarr.html
 $limit=4;
 $arrayofwidgets=array(

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# Pineapple language file - Source file is en_US - products
 ProductRef=Réf. produit
 ProductLabel=Libellé produit
 ProductLabelTranslated=Libellé produit traduit
@@ -291,7 +291,7 @@ ComposedProductIncDecStock=Augmenter/Réduire le stock sur changement du stock d
 ComposedProduct=Sous-produits
 MinSupplierPrice=Prix minimum fournisseur
 DynamicPriceConfiguration=Configuration du prix dynamique
-DynamicPriceDesc=En activant ce module, vous serez en mesure de positionner des fonctions mathématiques pour calculer les prix Client ou Fournisseur dans la fiche produit. Ces fonctions peuvent utiliser tous les opérateurs mathématiques, des constantes et des variables. Vous pouvez positionner ici les variables que vous voulez, et si elles nécessitent une mise à jour automatique, l'URL externe à utiliser pour demander à Dolibarr de mettre à jour automatiquement leur valeur.
+DynamicPriceDesc=En activant ce module, vous serez en mesure de positionner des fonctions mathématiques pour calculer les prix Client ou Fournisseur dans la fiche produit. Ces fonctions peuvent utiliser tous les opérateurs mathématiques, des constantes et des variables. Vous pouvez positionner ici les variables que vous voulez, et si elles nécessitent une mise à jour automatique, l'URL externe à utiliser pour demander à Pineapple de mettre à jour automatiquement leur valeur.
 AddVariable=Ajouter une Variable
 AddUpdater=Ajouter URL de mise à jour
 GlobalVariables=Variables globales

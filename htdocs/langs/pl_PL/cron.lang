@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = O
 CronAbout = O Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Wyłączone
 CronTaskInactive=To zadanie jest wyłączone
 CronId=ID
 CronClassFile=Klasy (filename.class.php)
-CronModuleHelp=Nazwa Dolibarr katalogu modułu (także współpracować z zewnętrznym modułem Dolibarr). <BR> Dla exemple sprowadzić metodę Dolibarr obiektu wyrobów / htdocs / /class/product.class.php <u>produktu,</u> wartość modułu jest <i>produktem</i>
-CronClassFileHelp=Nazwa pliku do załadowania. <BR> Dla exemple sprowadzić metodę Dolibarr obiektu wyrobów / htdocs / produktu / klasy / <u>product.class.php</u> wartość nazwy pliku klasa <i>product.class.php</i>
-CronObjectHelp=Nazwa obiektu, aby załadować. <BR> Dla exemple sprowadzić metodę Dolibarr obiektu wyrobów /htdocs/product/class/product.class.php wartość nazwy pliku klasa <i>produktów</i>
-CronMethodHelp=Metoda obiektu, aby uruchomić. <BR> Dla exemple sprowadzić metodę Dolibarr obiektu wyrobów /htdocs/product/class/product.class.php, wartość metody jest to <i>fecth</i>
-CronArgsHelp=Argumenty metody. <BR> Reprezentują np sprowadzić sposób Dolibarr obiektu Product /htdocs/product/class/product.class.php, wartość paramters może wynosić <i>0, ProductRef</i>
+CronModuleHelp=Nazwa Pineapple katalogu modułu (także współpracować z zewnętrznym modułem Pineapple). <BR> Dla exemple sprowadzić metodę Pineapple obiektu wyrobów / htdocs / /class/product.class.php <u>produktu,</u> wartość modułu jest <i>produktem</i>
+CronClassFileHelp=Nazwa pliku do załadowania. <BR> Dla exemple sprowadzić metodę Pineapple obiektu wyrobów / htdocs / produktu / klasy / <u>product.class.php</u> wartość nazwy pliku klasa <i>product.class.php</i>
+CronObjectHelp=Nazwa obiektu, aby załadować. <BR> Dla exemple sprowadzić metodę Pineapple obiektu wyrobów /htdocs/product/class/product.class.php wartość nazwy pliku klasa <i>produktów</i>
+CronMethodHelp=Metoda obiektu, aby uruchomić. <BR> Dla exemple sprowadzić metodę Pineapple obiektu wyrobów /htdocs/product/class/product.class.php, wartość metody jest to <i>fecth</i>
+CronArgsHelp=Argumenty metody. <BR> Reprezentują np sprowadzić sposób Pineapple obiektu Product /htdocs/product/class/product.class.php, wartość paramters może wynosić <i>0, ProductRef</i>
 CronCommandHelp=System linii poleceń do wykonania.
 CronCreateJob=Utwórz nowe zaplanowane zadanie
 CronFrom=Z
@@ -84,7 +84,7 @@ CronFrom=Z
 CronInfoPage=Informacja
 # Common
 CronType=Typ zadania
-CronType_method=Wywołanie metody z klasy Dolibarr
+CronType_method=Wywołanie metody z klasy Pineapple
 CronType_command=Polecenie powłoki
 CronMenu=Cron
 CronCannotLoadClass=Nie można załadować klasy s% lub obiektu %s

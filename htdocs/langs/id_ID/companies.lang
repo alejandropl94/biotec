@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Nama Perusahaan %s telah terdaftar. Silahkan masukan nama lain.
 ErrorPrefixAlreadyExists=Prefix %s already exists. Choose another one.
 ErrorSetACountryFirst=Set Negara dulu
@@ -18,7 +18,7 @@ NewCompany=New company (prospect, customer, supplier)
 NewThirdParty=New third party (prospect, customer, supplier)
 NewSocGroup=New company group
 NewPrivateIndividual=New private individual (prospect, customer, supplier)
-CreateDolibarrThirdPartySupplier=Create a third party (supplier)
+CreatePineappleThirdPartySupplier=Create a third party (supplier)
 ProspectionArea=Prospection area
 SocGroup=Group of companies
 IdThirdParty=ID Pihak Ketiga
@@ -387,8 +387,8 @@ NoParentCompany=None
 ExportImport=Import-Export
 ExportCardToFormat=Export card to format
 ContactNotLinkedToCompany=Contact not linked to any third party
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=No Dolibarr access
+PineappleLogin=Pineapple login
+NoPineappleAccess=No Pineapple access
 ExportDataset_company_1=Third parties (Companies/foundations/physical people) and properties
 ExportDataset_company_2=Contacts and properties
 ImportDataset_company_1=Third parties (Companies/foundations/physical people) and properties

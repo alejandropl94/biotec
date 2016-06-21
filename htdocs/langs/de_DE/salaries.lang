@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# Pineapple language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Standard Buchhaltungskonto für die Zahlung der Löhne/Gehälter
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Standard Buchhaltungskonto für Finanzaufwendungen
 Salary=Lohn

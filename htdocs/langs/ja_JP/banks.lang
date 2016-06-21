@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=バンク
 Banks=銀行
 MenuBankCash=銀行/現金
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=金融口座のジャーナル
 BankTransfer=銀行の転送
 BankTransfers=銀行振込
-TransferDesc=1つのアカウントから別の転送、Dolibarrは、2つのレコードを（同じ量のソースアカウントの借方とターゲットのアカウントにクレジット、同じラベルと日付がこのトランザクションに使用される）書き込みます。
+TransferDesc=1つのアカウントから別の転送、Pineappleは、2つのレコードを（同じ量のソースアカウントの借方とターゲットのアカウントにクレジット、同じラベルと日付がこのトランザクションに使用される）書き込みます。
 TransferFrom=からの
 TransferTo=への
 TransferFromToDone=<b>%s %s</b> %sからの<b>%s</b>への転送が記録されています。

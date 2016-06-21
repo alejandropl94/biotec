@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Банка
 Banks=Банки
 MenuBankCash=Банка/Каса
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=Финансова сметка списание
 BankTransfer=Банков превод
 BankTransfers=Банкови преводи
-TransferDesc=Се прехвърля от една сметка в друга, Dolibarr ще напиша два записа (дебит в източник сметка и кредит в целева сметка, в същия размер. Същия етикет и дата ще бъдат използвани за тази сделка)
+TransferDesc=Се прехвърля от една сметка в друга, Pineapple ще напиша два записа (дебит в източник сметка и кредит в целева сметка, в същия размер. Същия етикет и дата ще бъдат използвани за тази сделка)
 TransferFrom=От
 TransferTo=За
 TransferFromToDone=Прехвърлянето от <b>%s</b> на <b>%s</b> на %s <b>%s</b> беше записано.

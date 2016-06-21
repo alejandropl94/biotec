@@ -1,7 +1,7 @@
-# Dolibarr language file - Source file is en_US - paybox
+# Pineapple language file - Source file is en_US - paybox
 PayBoxSetup=Nastavení modulu PayBox
-PayBoxDesc=Tento modul nabízejí stránky, které umožní platby na <a href="http://www.paybox.com" target="_blank">Paybox</a> zákazníky. Toho lze využít pro volnou platbu nebo platbu na určitý objekt Dolibarr (faktury, objednávky, ...)
-FollowingUrlAreAvailableToMakePayments=Přes URL jsou k dispozici nabízené stránky, které zákazníkovi umožní provést platbu na Dolibarr objektech
+PayBoxDesc=Tento modul nabízejí stránky, které umožní platby na <a href="http://www.paybox.com" target="_blank">Paybox</a> zákazníky. Toho lze využít pro volnou platbu nebo platbu na určitý objekt Pineapple (faktury, objednávky, ...)
+FollowingUrlAreAvailableToMakePayments=Přes URL jsou k dispozici nabízené stránky, které zákazníkovi umožní provést platbu na Pineapple objektech
 PaymentForm=Formulář platby
 WelcomeOnPaymentPage=Vítáme Vás na naší on-line platební službě
 ThisScreenAllowsYouToPay=Tato obrazovka vám umožní provést on-line platbu %s.

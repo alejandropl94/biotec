@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Stały dziedzinie zamówień
 CustomersStandingOrdersArea=Klienci stałych zleceń obszarze
 StandingOrders=Zlecenia stałe
@@ -95,7 +95,7 @@ InfoCreditMessage=Stojąc %s zamówienie zostało wypłacone przez bank <br> Dat
 InfoTransSubject=Przekazywanie %s rzędu stojących na brzegu
 InfoTransMessage=Stojąc %s zamówienie zostało przesłanych do banku przez %s %s. <br><br>
 InfoTransData=Kwota: %s <br> Metode: %s <br> Data: %s
-InfoFoot=Jest to zautomatyzowany wiadomość wysłana przez Dolibarr
+InfoFoot=Jest to zautomatyzowany wiadomość wysłana przez Pineapple
 InfoRejectSubject=Zlecenie stałe odmówił
 InfoRejectMessage=Witaj, <br><br> zlecenie stałe z faktury% s związany z firmą% s, z kwoty% s zostało odrzucone przez bank. <br><br> - <br> % S
 ModeWarning=Opcja dla trybu rzeczywistego nie był ustawiony, zatrzymujemy po tej symulacji

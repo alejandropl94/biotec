@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=La società %s esiste già. Scegli un altro nome.
 ErrorPrefixAlreadyExists=Prefisso %s già esistente. Scegline un altro.
 ErrorSetACountryFirst=Imposta prima il paese
@@ -18,7 +18,7 @@ NewCompany=Nuova società (cliente, cliente potenziale, fornitore)
 NewThirdParty=Nuovo soggetto terzo (cliente, cliente potenziale, fornitore)
 NewSocGroup=Nuovo gruppo di società
 NewPrivateIndividual=Nuovo privato (cliente, cliente potenziale, fornitore)
-CreateDolibarrThirdPartySupplier=Crea una terza parte (fornitore)
+CreatePineappleThirdPartySupplier=Crea una terza parte (fornitore)
 ProspectionArea=Area clienti potenziali
 SocGroup=Gruppo di società
 IdThirdParty=Id soggetto terzo
@@ -387,8 +387,8 @@ NoParentCompany=Nessuno
 ExportImport=Importazione-Esportazione
 ExportCardToFormat=Esportazione scheda nel formato
 ContactNotLinkedToCompany=Contatto non collegato ad alcuna società
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=Senza accesso a Dolibarr
+PineappleLogin=Pineapple login
+NoPineappleAccess=Senza accesso a Pineapple
 ExportDataset_company_1=Terze parti (Aziende/fondazioni/persone fisiche) e proprietà
 ExportDataset_company_2=Contatti e attributi
 ImportDataset_company_1=Terze parti (Aziende/fondazioni/persone fisiche) e proprietà

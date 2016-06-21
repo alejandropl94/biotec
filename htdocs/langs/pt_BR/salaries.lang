@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# Pineapple language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Codigo contabilidade para pagamentos de salarios
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Codigo contabilidade para despesas financeiras
 NewSalaryPayment=Novo pagamento de salário

@@ -78,7 +78,7 @@ class ImportCsv extends ModeleImports
 		$this->version='1.34';         // Driver version
 
 		// If driver use an external library, put its name here
-		$this->label_lib='Dolibarr';
+		$this->label_lib='Pineapple';
 		$this->version_lib=DOL_VERSION;
 
 		$this->datatoimport=$datatoimport;
@@ -633,7 +633,7 @@ class ImportCsv extends ModeleImports
 						if ($sql)
 						{
 							$resql=$this->db->query($sql);
-							$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that dependent tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Dolibarr).
+							$last_insert_id_array[$tablename] = $this->db->last_insert_id($tablename); // store the last inserted auto_increment id for each table, so that dependent tables can be inserted with the appropriate id. This must be done just after the INSERT request, else we risk losing the id (because another sql query will be issued somewhere in Pineapple).
 							if ($resql)
 							{
 								//print '.';

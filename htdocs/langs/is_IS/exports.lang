@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Útflutningur area
 ImportArea=Innflutningur area
 NewExport=New útflutningur
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Veldu skráarsnið til að nota sem flytja inn skrá 
 ChooseFileToImport=Hlaða inn skrá smelltu síðan á picto %s  til að velja skrá sem innflutningur frumskrár ...
 SourceFileFormat=Heimild skráarsnið
 FieldsInSourceFile=Reitir í frumskrár
-FieldsInTargetDatabase=Target fields in Dolibarr database (bold=mandatory)
+FieldsInTargetDatabase=Target fields in Pineapple database (bold=mandatory)
 Field=Field
 NoFields=Engin svæði
 MoveField=Færa sviði dálki númer %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Fjöldi lína með engar villur og engar <b>viðvaranir: %s .</b>
 NbOfLinesImported=Fjöldi lína flutt með góðum <b>árangri: %s .</b>
 DataComeFromNoWhere=Gildi til að setja inn koma frá hvergi í skrá uppspretta.
 DataComeFromFileFieldNb=Gildi til að setja inn kemur af akri <b>númer %s </b> í skrá uppspretta.
-DataComeFromIdFoundFromRef=Gildi sem koma frá svæði <b>númer %s </b> af skrá fengið verða notaðar til að finna kt foreldris andmæla notkun (Svo <b>objet %s </b> sem hefur dómari. Frá frumskrár verða til staðar í Dolibarr).
+DataComeFromIdFoundFromRef=Gildi sem koma frá svæði <b>númer %s </b> af skrá fengið verða notaðar til að finna kt foreldris andmæla notkun (Svo <b>objet %s </b> sem hefur dómari. Frá frumskrár verða til staðar í Pineapple).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Gögn sem koma frá skrá fengið mun vera sett inn í eftirfarandi svæði:
 DataIDSourceIsInsertedInto=The kt foreldris mótmæla fannst með gögnin í skrá uppspretta, verður sett inn í eftirfarandi svæði:

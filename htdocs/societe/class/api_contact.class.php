@@ -24,10 +24,10 @@ require_once DOL_DOCUMENT_ROOT . '/contact/class/contact.class.php';
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  */
-class ContactApi extends DolibarrApi
+class ContactApi extends PineappleApi
 {
 	/**
 	 *
@@ -66,7 +66,7 @@ class ContactApi extends DolibarrApi
 	 * @throws 	RestException
 	 */
 	function get($id) {
-		if (!DolibarrApiAccess::$user->rights->societe->contact->lire)
+		if (!PineappleApiAccess::$user->rights->societe->contact->lire)
 		{
 			throw new RestException(401);
 		}
@@ -77,9 +77,9 @@ class ContactApi extends DolibarrApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
+		if (!PineappleApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
 		{
-			throw new RestException(401, 'Access not allowed for login ' . DolibarrApiAccess::$user->login);
+			throw new RestException(401, 'Access not allowed for login ' . PineappleApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->contact);
@@ -110,16 +110,16 @@ class ContactApi extends DolibarrApi
 
 		if (!$socid)
 		{
-			$socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+			$socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
 		}
 
 		// If the internal user must only see his customers, force searching by him
-		if (!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid)
-			$search_sale = DolibarrApiAccess::$user->id;
+		if (!PineappleApiAccess::$user->rights->societe->client->voir && !$socid)
+			$search_sale = PineappleApiAccess::$user->id;
 
 		$sql = "SELECT c.rowid";
 		$sql.= " FROM " . MAIN_DB_PREFIX . "socpeople as c";
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
+		if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) {
 			// We need this table joined to the select in order to filter by sale
 			$sql.= ", " . MAIN_DB_PREFIX . "societe_commerciaux as sc"; 
 		}
@@ -128,7 +128,7 @@ class ContactApi extends DolibarrApi
 		if ($socid)
 			$sql.= " AND c.fk_soc = " . $socid;
 
-		if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0)
+		if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0)
 			$sql.= " AND c.fk_soc = sc.fk_soc";
 		if ($search_sale > 0)
 			$sql.= " AND s.rowid = sc.fk_soc";  // Join for the needed table to filter by sale
@@ -194,7 +194,7 @@ class ContactApi extends DolibarrApi
 	 * @url	POST contact/
 	 */
 	function post($request_data = NULL) {
-		if (!DolibarrApiAccess::$user->rights->societe->contact->creer)
+		if (!PineappleApiAccess::$user->rights->societe->contact->creer)
 		{
 			throw new RestException(401);
 		}
@@ -205,7 +205,7 @@ class ContactApi extends DolibarrApi
 		{
 			$this->contact->$field = $value;
 		}
-		return $this->contact->create(DolibarrApiAccess::$user);
+		return $this->contact->create(PineappleApiAccess::$user);
 	}
 
 	/**
@@ -218,7 +218,7 @@ class ContactApi extends DolibarrApi
 	 * @url	PUT contact/{id}
 	 */
 	function put($id, $request_data = NULL) {
-		if (!DolibarrApiAccess::$user->rights->societe->contact->creer)
+		if (!PineappleApiAccess::$user->rights->societe->contact->creer)
 		{
 			throw new RestException(401);
 		}
@@ -229,9 +229,9 @@ class ContactApi extends DolibarrApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
+		if (!PineappleApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
 		{
-			throw new RestException(401, 'Access not allowed for login ' . DolibarrApiAccess::$user->login);
+			throw new RestException(401, 'Access not allowed for login ' . PineappleApiAccess::$user->login);
 		}
 
 		foreach ($request_data as $field => $value)
@@ -239,7 +239,7 @@ class ContactApi extends DolibarrApi
 			$this->contact->$field = $value;
 		}
 
-		if ($this->contact->update($id, DolibarrApiAccess::$user, 1, '', '', 'update'))
+		if ($this->contact->update($id, PineappleApiAccess::$user, 1, '', '', 'update'))
 			return $this->get($id);
 
 		return false;
@@ -254,7 +254,7 @@ class ContactApi extends DolibarrApi
 	 * @url	DELETE contact/{id}
 	 */
 	function delete($id) {
-		if (!DolibarrApiAccess::$user->rights->contact->supprimer)
+		if (!PineappleApiAccess::$user->rights->contact->supprimer)
 		{
 			throw new RestException(401);
 		}
@@ -264,9 +264,9 @@ class ContactApi extends DolibarrApi
 			throw new RestException(404, 'Contact not found');
 		}
 
-		if (!DolibarrApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
+		if (!PineappleApi::_checkAccessToResource('contact', $this->contact->id, 'socpeople&societe'))
 		{
-			throw new RestException(401, 'Access not allowed for login ' . DolibarrApiAccess::$user->login);
+			throw new RestException(401, 'Access not allowed for login ' . PineappleApiAccess::$user->login);
 		}
 
 		return $this->contact->delete($id);

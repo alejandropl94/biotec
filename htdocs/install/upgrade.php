@@ -36,7 +36,7 @@
 include_once 'inc.php';
 if (! file_exists($conffile))
 {
-    print 'Error: Dolibarr config file was not found. This may means that Dolibarr is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
+    print 'Error: Pineapple config file was not found. This may means that Pineapple is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
 }
 require_once $conffile; if (! isset($dolibarr_main_db_type)) $dolibarr_main_db_type='mysql';	// For backward compatibility
 require_once $dolibarr_main_document_root.'/core/lib/admin.lib.php';
@@ -462,7 +462,7 @@ if (! GETPOST("action") || preg_match('/upgrade/i',GETPOST('action')))
 	            	print '<tr><td class="nowrap">'.$langs->trans("ChoosedMigrateScript").' (external modules)</td><td align="right">'.$modulefileshort.'</td></tr>'."\n";
 
 		            // Run sql script
-	            	$okmodule=run_sql($modulefilelong, 0, '', 1);	// Note: Result of migration of external module should not decide if we continue migration of Dolibarr or not.
+	            	$okmodule=run_sql($modulefilelong, 0, '', 1);	// Note: Result of migration of external module should not decide if we continue migration of Pineapple or not.
 	            }
 
 	        }

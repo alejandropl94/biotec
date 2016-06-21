@@ -60,7 +60,7 @@ $httpClient = new \OAuth\Common\Http\Client\CurlClient();
 //$httpClient->setCurlParameters($params);
 $serviceFactory->setHttpClient($httpClient);
 
-// Dolibarr storage
+// Pineapple storage
 $storage = new DoliStorage($db, $conf);
 
 // Setup the credentials for the requests

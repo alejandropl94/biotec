@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal mooduli seadistamine
-PaypalDesc=See moodul pakub lehti, mis võimaldavad <a href="http://www.paypal.com" target="_blank">PayPali</a> abil maksmist. Seda võib kasutada nii suvalise maksena kui maksena teatud Dolibarri objekti jaoks (arve, tellimus jne)
+PaypalDesc=See moodul pakub lehti, mis võimaldavad <a href="http://www.paypal.com" target="_blank">PayPali</a> abil maksmist. Seda võib kasutada nii suvalise maksena kui maksena teatud Pineapplei objekti jaoks (arve, tellimus jne)
 PaypalOrCBDoPayment=Maksa krediitkaardiga või Paypaliga
 PaypalDoPayment=Maksa Paypaliga
 PaypalCBDoPayment=Maksa krediitkaardiga

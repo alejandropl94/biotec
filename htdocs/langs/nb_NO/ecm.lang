@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Mine dokumenter
 DocsGenerated=Opprettede dokumenter
 DocsElements=Dokumenter elementer
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Antall undermapper
 ECMNbOfFilesInSubDir=Antall filer i undermapper 
 ECMCreationUser=Opprettet av
 ECMArea=EDM-område
-ECMAreaDesc=EDM (Electronic Document Management)-området gjør at du raskt kan lagre, dele og søke alle typer dokumenter i Dolibarr
+ECMAreaDesc=EDM (Electronic Document Management)-området gjør at du raskt kan lagre, dele og søke alle typer dokumenter i Pineapple
 ECMAreaDesc2=* Automatiske mapper fylles automatisk når du legger til dokumenter fra et elementkort.<br>* Manuelle mapper kan du bruke til å lagre dokumenter som ikke er lenket til et spesielt element.
 ECMSectionWasRemoved=Mappen <b>%s</b> er slettet.
 ECMDocumentsSection=Dokument i mappen

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# Pineapple language file - Source file is en_US - agenda
 IdAgenda=رمز الحدث
 Actions=الأحداث
 ActionsArea=منطقة الأحداث (الأنشطة و المهام)
@@ -44,18 +44,18 @@ AgendaAutoActionDesc= عرف الأحداث التي تريد من دوليبا�
 AgendaSetupOtherDesc= تسمح لك هذه الصفحة بنقل الأحداث إلى تقويم خارجي مثل جوجل, تندربيرد وغيرها, وذلك بإستخدام الخيارات في هذه الصفحة
 AgendaExtSitesDesc=تسمح لك هذه الصفحة بتعريف مصادر خارجية للتقويم وذلك لرؤية الأحداث الخاصة بالتقويم الخاص بهم في تقويم دوليبار
 ActionsEvents=الأحداث التي ستمكن دوليبار من إنشاء أعمال تلقائية في جدول الأعمال
-PropalValidatedInDolibarr=تم تفعيل %s من الإقتراح
-InvoiceValidatedInDolibarr=تم توثيق %s من الفاتورة
-InvoiceValidatedInDolibarrFromPos=فاتورة%s التأكد من صلاحيتها من نقاط البيع
-InvoiceBackToDraftInDolibarr=الفاتورة %s للذهاب بها إلى حالة المسودة
-InvoiceDeleteDolibarr=تم حذف %s من الفاتورة
-OrderValidatedInDolibarr=تم توثيق %s من الطلب
-OrderDeliveredInDolibarr=ترتيب %s حسب التسليم
-OrderCanceledInDolibarr=تم إلغاء %s من الطلب
-OrderBilledInDolibarr=ترتيب %s  حسب التبويب 
-OrderApprovedInDolibarr=تم الموافقة على %s من الطلب
-OrderRefusedInDolibarr=ترتيب %s رفض
-OrderBackToDraftInDolibarr=الطلب %s للذهاب بها إلى حالة المسودة
+PropalValidatedInPineapple=تم تفعيل %s من الإقتراح
+InvoiceValidatedInPineapple=تم توثيق %s من الفاتورة
+InvoiceValidatedInPineappleFromPos=فاتورة%s التأكد من صلاحيتها من نقاط البيع
+InvoiceBackToDraftInPineapple=الفاتورة %s للذهاب بها إلى حالة المسودة
+InvoiceDeletePineapple=تم حذف %s من الفاتورة
+OrderValidatedInPineapple=تم توثيق %s من الطلب
+OrderDeliveredInPineapple=ترتيب %s حسب التسليم
+OrderCanceledInPineapple=تم إلغاء %s من الطلب
+OrderBilledInPineapple=ترتيب %s  حسب التبويب 
+OrderApprovedInPineapple=تم الموافقة على %s من الطلب
+OrderRefusedInPineapple=ترتيب %s رفض
+OrderBackToDraftInPineapple=الطلب %s للذهاب بها إلى حالة المسودة
 ProposalSentByEMail=تم إرسال العرض الرسمي %s بواسطة البريد الإلكتروني
 OrderSentByEMail=تم إرسال طلبية العميل %s بواسطة البريد الإلكتروني
 InvoiceSentByEMail=تم إرسال فاتروة العميل %s بواسطة البريد الإلكتروني
@@ -64,7 +64,7 @@ SupplierInvoiceSentByEMail=تم إرسال فاتروة المزود%s بواس�
 ShippingSentByEMail=شحنة%s إرسالها عن طريق البريد الإلكتروني
 ShippingValidated= شحنة %sالتأكد من صلاحيتها
 InterventionSentByEMail=التدخل%s إرسالها عن طريق البريد الإلكتروني
-NewCompanyToDolibarr= تم إنشاء طرف ثالث أو خارجي
+NewCompanyToPineapple= تم إنشاء طرف ثالث أو خارجي
 DateActionPlannedStart= التاريخ المخطط للبدء
 DateActionPlannedEnd= التاريخ المخطط للإنهاء
 DateActionDoneStart= تاريخ البداية الفعلية

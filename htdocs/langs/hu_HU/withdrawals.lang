@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Házszabályok terület
 CustomersStandingOrdersArea=Vásárlói házszabályok terület
 StandingOrders=Házszabályok
@@ -95,7 +95,7 @@ InfoCreditMessage=A folyamatos rendelés %s fizettek a bank által <br> Adatok f
 InfoTransSubject=Továbbítása érdekében %s álló banki
 InfoTransMessage=A folyamatos rendelés %s már transmited a bank %s %s. <br><br>
 InfoTransData=Összeg: %s <br> Metode: %s <br> Dátum: %s
-InfoFoot=Ez egy automatikus üzenetet küldött Dolibarr
+InfoFoot=Ez egy automatikus üzenetet küldött Pineapple
 InfoRejectSubject=Állandó érdekében hajlandó
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=Opció a valós módban nem volt beállítva, akkor hagyja abba ezt követően szimuláció

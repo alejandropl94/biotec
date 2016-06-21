@@ -29,15 +29,15 @@ require_once DOL_DOCUMENT_ROOT.'/core/triggers/dolibarrtriggers.class.php';
 /**
  *  Class of triggers for security events
  */
-class InterfaceLogevents extends DolibarrTriggers
+class InterfaceLogevents extends PineappleTriggers
 {
 	public $picto = 'technic';
 	public $family = 'core';
-	public $description = "Triggers of this module allows to add security event records inside Dolibarr.";
+	public $description = "Triggers of this module allows to add security event records inside Pineapple.";
 	public $version = self::VERSION_DOLIBARR;
 
 	/**
-	 * Function called when a Dolibarrr business event is done.
+	 * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * @param string		$action		Event action code

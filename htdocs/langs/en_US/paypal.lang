@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal module setup
-PaypalDesc=This module offer pages to allow payment on <a href="http://www.paypal.com" target="_blank">PayPal</a> by customers. This can be used for a free payment or for a payment on a particular Dolibarr object (invoice, order, ...)
+PaypalDesc=This module offer pages to allow payment on <a href="http://www.paypal.com" target="_blank">PayPal</a> by customers. This can be used for a free payment or for a payment on a particular Pineapple object (invoice, order, ...)
 PaypalOrCBDoPayment=Pay with credit card or Paypal
 PaypalDoPayment=Pay with Paypal
 PaypalCBDoPayment=Pay with credit card

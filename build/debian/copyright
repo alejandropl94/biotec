@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Dolibarr
+Upstream-Name: Pineapple
 Upstream-Contact: Laurent Destailleur <eldy@users.sourceforge.net>
 Source: http://www.dolibarr.org/files/stable/standard/
 
@@ -157,7 +157,7 @@ License: other
  fonts at gnome dot org.
 Comments:
  Those files are not shipped in the binary package as we
- configure Dolibarr to use Dejavu fonts from "fonts-dejavu-core".
+ configure Pineapple to use Dejavu fonts from "fonts-dejavu-core".
   
 Files: doc/images/*
 Copyright: Laurent Destailleur 
@@ -199,7 +199,7 @@ License: GPL-2+
  `/usr/share/common-licenses/GPL-2'.
 Comment:
  Those files are not shipped in the binary package as we
- configure Dolibarr to use the library packaged in "libfpdi-php".
+ configure Pineapple to use the library packaged in "libfpdi-php".
 
 Files: htdocs/includes/geoip/*
 Copyright: 2007 MaxMind LLC
@@ -265,7 +265,7 @@ License: GPL-2+ or MIT
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 Comment:
- JQuery itself is not shipped in the binary package, instead Dolibarr is
+ JQuery itself is not shipped in the binary package, instead Pineapple is
  configured to use the packaged version from "libjs-jquery" and
  "libjs-jquery-ui". Most of the plugins are shipped though.
 
@@ -276,7 +276,7 @@ License: Public-Domain
  This work is not subject to copyright in any jurisdiction
 Comment:
  Those files are not shipped in the binary package because we configure
- Dolibarr to use the files provided by "libjs-flot".
+ Pineapple to use the files provided by "libjs-flot".
 
 Files: htdocs/includes/jsgantt/*
 Copyright: JSGantt team
@@ -321,7 +321,7 @@ License: LGPL-2.1+
  `/usr/share/common-licenses/LGPL-2.1'.
 Comment:
  Those files are not shipped in the binary package since we
- configure Dolibarr to use the library provided in "libnusoap-php".
+ configure Pineapple to use the library provided in "libnusoap-php".
 
 Files: htdocs/includes/odtphp/*
 Copyright: 2008, Julien Pauli
@@ -387,4 +387,4 @@ License: LGPL-3.0+
  Public License version 3 can be found in "/usr/share/common-licenses/LGPL-3".
 Comment:
  Those files are not shipped in the binary package since we configure
- Dolibarr to use the library provided by "php-tcpdf".
+ Pineapple to use the library provided by "php-tcpdf".

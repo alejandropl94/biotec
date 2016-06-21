@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Obszar exportu
 ImportArea=Obszar importu
 NewExport=Nowy eksport
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Wybierz format pliku do wykorzystania jako format pli
 ChooseFileToImport=Wybierz plik do zaimportowania, a następnie kliknij przycisk picto %s ...
 SourceFileFormat=Format pliku źródłowego
 FieldsInSourceFile=Pola w pliku źródłowym
-FieldsInTargetDatabase=Pola docelowe w bazie danych Dolibarr (wytłuszczenie = obowiązkowe)
+FieldsInTargetDatabase=Pola docelowe w bazie danych Pineapple (wytłuszczenie = obowiązkowe)
 Field=Pole
 NoFields=Brak pól
 MoveField=Przenieś %s kolumnie polu numeru
@@ -102,7 +102,7 @@ NbOfLinesOK=Liczba linii bez błędów i żadnych ostrzeżeń: <b>%s.</b>
 NbOfLinesImported=Liczba linii zaimportowany: <b>%s.</b>
 DataComeFromNoWhere=Wartości, aby dodać pochodzi z nigdzie w pliku źródłowym.
 DataComeFromFileFieldNb=Wartości, aby dodać pochodzi z <b>%s</b> numer pola w pliku źródłowym.
-DataComeFromIdFoundFromRef=Wartość, która pochodzi z <b>%s</b> numer dziedzinie pliku źródłowego zostaną wykorzystane w celu znalezienia id rodzica obiektu do użytkowania (So <b>%s</b> objet że ma ref. Od pliku źródłowego musi istnieć w Dolibarr).
+DataComeFromIdFoundFromRef=Wartość, która pochodzi z <b>%s</b> numer dziedzinie pliku źródłowego zostaną wykorzystane w celu znalezienia id rodzica obiektu do użytkowania (So <b>%s</b> objet że ma ref. Od pliku źródłowego musi istnieć w Pineapple).
 DataComeFromIdFoundFromCodeId=Kod, który pochodzi z numeru <b>pola% s</b> w pliku źródłowym zostaną wykorzystane, aby znaleźć identyfikator obiektu nadrzędnego w użyciu (Tak Kod z pliku źródłowego musi istnieje w <b>słowniku% s).</b> Zauważ, że jeśli wiesz, id, można również użyć go do pliku źródłowego zamiast kodu. Import powinien pracować w obu przypadkach.
 DataIsInsertedInto=Dane pochodzące z pliku źródłowego zostaną wstawione w następujące pola:
 DataIDSourceIsInsertedInto=Id rodzica znalezionego obiektu na podstawie danych w pliku źródłowym, zostaną włączone do następujących dziedzinach:

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Ekspordi ala
 ImportArea=Impordi ala
 NewExport=Uus eksport
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Vali kasutatav impordi faili formaat, klõpsates pild
 ChooseFileToImport=Lae fail üles, seejärel klõpsa pildil %s faili kasutamiseks impordi failina...
 SourceFileFormat=Lähtefaili formaat
 FieldsInSourceFile=Lähtefailis olevad väljad
-FieldsInTargetDatabase=Dolibarri andmebaasi sihtväljad (rasvane=kohustuslik)
+FieldsInTargetDatabase=Pineapplei andmebaasi sihtväljad (rasvane=kohustuslik)
 Field=Väli
 NoFields=Väljasid ei ole
 MoveField=Liiguta väli veergu nr %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Hoiatuste ja vigadeta ridu: <b>%s</b>.
 NbOfLinesImported=Edukalt imporditud ridu: <b>%s</b>.
 DataComeFromNoWhere=Sisestavat väärtust ei ole mitte kuskil lähtefailis.
 DataComeFromFileFieldNb=Sisestav väärtus pärineb lähtefaili <b>%s</b>. väljalt.
-DataComeFromIdFoundFromRef=Väärtust, mis pärineb lähtefaili <b>%s</b>. realt, kasutatakse emaobjekti ID leidmiseks (selle kindlustamiseks, et objekt <b>%s</b>, millel on lähtefaili viide, oleks Dolibarris olemas).
+DataComeFromIdFoundFromRef=Väärtust, mis pärineb lähtefaili <b>%s</b>. realt, kasutatakse emaobjekti ID leidmiseks (selle kindlustamiseks, et objekt <b>%s</b>, millel on lähtefaili viide, oleks Pineappleis olemas).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Lähtefailist pärinevad andmed sisestatakse järgmisse välja:
 DataIDSourceIsInsertedInto=Lähtefailis leitud emaobjekti ID sisestatakse järgmisse välja:

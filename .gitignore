@@ -1,0 +1,7 @@
+htdocs/conf/conf.php
+documents/
+
+nbproject/private/
+nbproject/
+
+*.sublime-*

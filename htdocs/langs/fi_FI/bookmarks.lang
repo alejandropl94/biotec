@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Lisää tämä sivu kirjanmerkkeihin
 Bookmark=Lempparit
 Bookmarks=Kirjanmerkit
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Käyttäytyminen klikkaa URL
 CreateBookmark=Luo kirjanmerkki
 SetHereATitleForLink=Aseta tässä otsikon kirjanmerkki
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Käytä ulkoista http URL tai suhteellisen Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Käytä ulkoista http URL tai suhteellisen Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Valitse jos sivu avattu yhteys on oltava nykyiseen tai uuteen ikkunaan
 BookmarksManagement=Kirjanmerkkien hallinta
 ListOfBookmarks=Luetteloosi

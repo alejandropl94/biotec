@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Oblast exportu
 ImportArea=Oblast importu
 NewExport=Nový export
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Zvolte si formát souboru jako formát souboru pro im
 ChooseFileToImport=Pro nahrání souboru klepněte na ikonku %s pro výběr souboru jako zdrojový soubor importu ...
 SourceFileFormat=Zdrojový soubor
 FieldsInSourceFile=Pole ve zdrojovém souboru
-FieldsInTargetDatabase=Cílové pole v Dolibarr databázi (tučně = povinná)
+FieldsInTargetDatabase=Cílové pole v Pineapple databázi (tučně = povinná)
 Field=Pole
 NoFields=Žádné položky
 MoveField=Přesuňte pole na číslo sloupce %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Počet řádků bez chyb a bez varování: <b>%s.</b>
 NbOfLinesImported=Počet řádků úspěšně importovaných: <b>%s.</b>
 DataComeFromNoWhere=Hodnota vložit pochází z ničeho nic ve zdrojovém souboru.
 DataComeFromFileFieldNb=Hodnota vložit pochází z <b>%s</b> číslo pole ve zdrojovém souboru.
-DataComeFromIdFoundFromRef=Hodnota, která pochází z <b>%s</b> číslo pole zdrojový soubor bude použit k nalezení id nadřazený objekt používat (tedy objet <b>%s</b> který má čj. Ze zdrojového souboru musí být do Dolibarr existuje).
+DataComeFromIdFoundFromRef=Hodnota, která pochází z <b>%s</b> číslo pole zdrojový soubor bude použit k nalezení id nadřazený objekt používat (tedy objet <b>%s</b> který má čj. Ze zdrojového souboru musí být do Pineapple existuje).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Data přicházející ze zdrojového souboru budou vloženy do následujícího pole:
 DataIDSourceIsInsertedInto=Id z nadřazeného objektu zjištěné na základě údajů ve zdrojovém souboru, se vloží do následujícího pole:

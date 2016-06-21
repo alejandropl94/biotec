@@ -964,15 +964,15 @@ else
                 print '</td></tr>';
             }
 
-            // Login Dolibarr
-            print '<tr><td>'.$langs->trans("DolibarrLogin").'</td><td colspan="3">';
+            // Login Pineapple
+            print '<tr><td>'.$langs->trans("PineappleLogin").'</td><td colspan="3">';
             if ($object->user_id)
             {
                 $dolibarr_user=new User($db);
                 $result=$dolibarr_user->fetch($object->user_id);
                 print $dolibarr_user->getLoginUrl(1);
             }
-            else print $langs->trans("NoDolibarrAccess");
+            else print $langs->trans("NoPineappleAccess");
             print '</td></tr>';
 
             // Photo
@@ -1044,7 +1044,7 @@ else
                 if ($object->socid > 0) $text.=$langs->trans("UserWillBeExternalUser");
                 else $text.=$langs->trans("UserWillBeInternalUser");
             }
-            print $form->formconfirm($_SERVER["PHP_SELF"]."?id=".$object->id,$langs->trans("CreateDolibarrLogin"),$text,"confirm_create_user",$formquestion,'yes');
+            print $form->formconfirm($_SERVER["PHP_SELF"]."?id=".$object->id,$langs->trans("CreatePineappleLogin"),$text,"confirm_create_user",$formquestion,'yes');
 
         }
 
@@ -1179,14 +1179,14 @@ else
             print '</td></tr>';
         }
 
-        print '<tr><td>'.$langs->trans("DolibarrLogin").'</td><td colspan="3">';
+        print '<tr><td>'.$langs->trans("PineappleLogin").'</td><td colspan="3">';
         if ($object->user_id)
         {
             $dolibarr_user=new User($db);
             $result=$dolibarr_user->fetch($object->user_id);
             print $dolibarr_user->getLoginUrl(1);
         }
-        else print $langs->trans("NoDolibarrAccess");
+        else print $langs->trans("NoPineappleAccess");
         print '</td></tr>';
 
         print '<tr><td>';
@@ -1218,7 +1218,7 @@ else
 
             if (! $object->user_id && $user->rights->user->user->creer)
             {
-                print '<a class="butAction" href="'.$_SERVER['PHP_SELF'].'?id='.$object->id.'&action=create_user">'.$langs->trans("CreateDolibarrLogin").'</a>';
+                print '<a class="butAction" href="'.$_SERVER['PHP_SELF'].'?id='.$object->id.'&action=create_user">'.$langs->trans("CreatePineappleLogin").'</a>';
             }
 
             // Activer

@@ -71,7 +71,7 @@ class modGeoIPMaxmind extends DolibarrModules
 		$this->requiredby = array();
 		$this->phpmin = array(4,2,0);
 		$this->phpmax = array();
-		$this->need_dolibarr_version = array(2,7,-1);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(2,7,-1);	// Minimum version of Pineapple required by module
 		$this->need_javascript_ajax = 1;
 
 		// Constants

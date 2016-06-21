@@ -18,10 +18,10 @@
 
 /**
  *       \file       htdocs/webservices/demo_wsclient_category.php
- *       \brief      Demo page to make a category call to Dolibarr WebServices "server_category"
+ *       \brief      Demo page to make a category call to Pineapple WebServices "server_category"
  */
 
-// This is to make Dolibarr working with Plesk
+// This is to make Pineapple working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once("../master.inc.php");

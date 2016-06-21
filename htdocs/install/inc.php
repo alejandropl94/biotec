@@ -113,13 +113,13 @@ if (! defined('DONOTLOADCONF') && file_exists($conffile) && filesize($conffile) 
                 $result=include_once $dolibarr_main_document_root . "/core/db/".$dolibarr_main_db_type.'.class.php';
                 if (! $result)
                 {
-                    $includeconferror='ErrorBadValueForDolibarrMainDBType';
+                    $includeconferror='ErrorBadValueForPineappleMainDBType';
                 }
             }
         }
         else
         {
-            $includeconferror='ErrorBadValueForDolibarrMainDocumentRoot';
+            $includeconferror='ErrorBadValueForPineappleMainDocumentRoot';
         }
     }
     else
@@ -170,7 +170,7 @@ if (preg_match('/install.lock/i',$_SERVER["SCRIPT_FILENAME"]))
     {
         print 'Click on following link. ';
         print '<a href="'.$dolibarr_main_url_root .'/admin/index.php?mainmenu=home&leftmenu=setup'.(isset($_POST["login"])?'&username='.urlencode($_POST["login"]):'').'">';
-        print 'Click here to go to Dolibarr';
+        print 'Click here to go to Pineapple';
         print '</a>';
     }
     exit;
@@ -184,7 +184,7 @@ if (constant('DOL_DATA_ROOT') && file_exists($lockfile))
         print 'Click on following link. ';
         print 'If you always reach this page, you must remove install.lock file manually.<br>';
         print '<a href="'.$dolibarr_main_url_root .'/admin/index.php?mainmenu=home&leftmenu=setup'.(isset($_POST["login"])?'&username='.urlencode($_POST["login"]):'').'">';
-        print 'Click here to go to Dolibarr';
+        print 'Click here to go to Pineapple';
         print '</a>';
     }
     else
@@ -262,7 +262,7 @@ $bc[true]=' class="bg2"';
 /**
  * Load conf file (file must exists)
  *
- * @param	string		$dolibarr_main_document_root		Root directory of Dolibarr bin files
+ * @param	string		$dolibarr_main_document_root		Root directory of Pineapple bin files
  * @return	int												<0 if KO, >0 if OK
  */
 function conf($dolibarr_main_document_root)
@@ -386,17 +386,17 @@ function pHeader($subtitle,$next,$action='set',$param='',$forcejqueryurl='')
     if ($jQueryUiCustomPath) print '<script type="text/javascript" src="'.$jQueryUiCustomPath.'jquery-ui.min.js"></script>'."\n";
     else print '<script type="text/javascript" src="../includes/jquery/js/jquery-ui.min.js"></script>'."\n";
 
-    print '<title>'.$langs->trans("DolibarrSetup").'</title>'."\n";
+    print '<title>'.$langs->trans("PineappleSetup").'</title>'."\n";
     print '</head>'."\n";
 
     print '<body>'."\n";
 
     print '<div style="text-align:center">';
-    print '<img src="../theme/dolibarr_logo.png" alt="Dolibarr logo"><br>';
+    print '<img src="../theme/dolibarr_logo.png" alt="Pineapple logo"><br>';
     print DOL_VERSION;
     print '</div><br><br>';
 
-    print '<span class="titre">'.$langs->trans("DolibarrSetup");
+    print '<span class="titre">'.$langs->trans("PineappleSetup");
     if ($subtitle) {
         print ' - '.$subtitle;
     }

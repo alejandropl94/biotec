@@ -641,12 +641,12 @@ if ($rowid > 0)
 		print $object->showOptionals($extrafields, 'view', $parameters);
 	}
 
-	// Third party Dolibarr
+	// Third party Pineapple
 	if (! empty($conf->societe->enabled))
 	{
 		print '<tr><td>';
 		print '<table class="nobordernopadding" width="100%"><tr><td>';
-		print $langs->trans("LinkedToDolibarrThirdParty");
+		print $langs->trans("LinkedToPineappleThirdParty");
 		print '</td>';
 		if ($action != 'editthirdparty' && $user->rights->adherent->creer) print '<td align="right"><a href="'.$_SERVER["PHP_SELF"].'?action=editthirdparty&amp;rowid='.$object->id.'">'.img_edit($langs->trans('SetLinkToThirdParty'),1).'</a></td>';
 		print '</tr></table>';
@@ -681,10 +681,10 @@ if ($rowid > 0)
 		print '</td></tr>';
 	}
 
-	// Login Dolibarr
+	// Login Pineapple
 	print '<tr><td>';
 	print '<table class="nobordernopadding" width="100%"><tr><td>';
-	print $langs->trans("LinkedToDolibarrUser");
+	print $langs->trans("LinkedToPineappleUser");
 	print '</td>';
 	if ($action != 'editlogin' && $user->rights->adherent->creer)
 	{
@@ -707,7 +707,7 @@ if ($rowid > 0)
 		{
 			$form->form_users($_SERVER['PHP_SELF'].'?rowid='.$object->id,$object->user_id,'none');
 		}
-		else print $langs->trans("NoDolibarrAccess");
+		else print $langs->trans("NoPineappleAccess");
 	}
 	print '</td></tr>';
 
@@ -929,7 +929,7 @@ if ($rowid > 0)
 			// Create a form array
 			$formquestion=array(array('label' => $langs->trans("NameToCreate"), 'type' => 'text', 'name' => 'companyname', 'value' => $name));
 
-			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreateDolibarrThirdParty"),$langs->trans("ConfirmCreateThirdParty"),"confirm_create_thirdparty",$formquestion,1);
+			print $form->formconfirm($_SERVER["PHP_SELF"]."?rowid=".$object->id,$langs->trans("CreatePineappleThirdParty"),$langs->trans("ConfirmCreateThirdParty"),"confirm_create_thirdparty",$formquestion,1);
 		}
 
 
@@ -1037,7 +1037,7 @@ if ($rowid > 0)
                     	if (empty($object->fk_soc)) print img_warning($langs->trans("NoThirdPartyAssociatedToMember"));
                     	print $langs->trans("NoThirdPartyAssociatedToMember");
                     	print ' - <a href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_thirdparty">';
-                    	print $langs->trans("CreateDolibarrThirdParty");
+                    	print $langs->trans("CreatePineappleThirdParty");
                     	print '</a>)';
                     }
                     if (empty($conf->global->ADHERENT_VAT_FOR_SUBSCRIPTIONS) || $conf->global->ADHERENT_VAT_FOR_SUBSCRIPTIONS != 'defaultforfoundationcountry') print '. '.$langs->trans("NoVatOnSubscription",0);
@@ -1062,7 +1062,7 @@ if ($rowid > 0)
                     	if (empty($object->fk_soc)) print img_warning($langs->trans("NoThirdPartyAssociatedToMember"));
                     	print $langs->trans("NoThirdPartyAssociatedToMember");
                     	print ' - <a href="'.$_SERVER["PHP_SELF"].'?rowid='.$object->id.'&amp;action=create_thirdparty">';
-                    	print $langs->trans("CreateDolibarrThirdParty");
+                    	print $langs->trans("CreatePineappleThirdParty");
                     	print '</a>)';
                     }
                     if (empty($conf->global->ADHERENT_VAT_FOR_SUBSCRIPTIONS) || $conf->global->ADHERENT_VAT_FOR_SUBSCRIPTIONS != 'defaultforfoundationcountry') print '. '.$langs->trans("NoVatOnSubscription",0);

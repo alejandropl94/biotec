@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=列分隔符的导出文件
 ACCOUNTING_EXPORT_DATE=日期格式导出文件
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=元素个数是逐页显示击穿（最大推�
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=开始故障页的排序“有击穿”由最近的元素
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=由最近的元素开始破裂页“故障”的分类
 
-AccountLength=会计长度账户显示在的Dolibarr
-AccountLengthDesc=功能允许由零的数字代替空格假装会计账户的长度。这个函数只接触了显示屏，它不修改的Dolibarr登记的会计科目。为出口，这个功能是必要的，以与特定的软件兼容。
+AccountLength=会计长度账户显示在的Pineapple
+AccountLengthDesc=功能允许由零的数字代替空格假装会计账户的长度。这个函数只接触了显示屏，它不修改的Pineapple登记的会计科目。为出口，这个功能是必要的，以与特定的软件兼容。
 ACCOUNTING_LENGTH_DESCRIPTION=长度在房源展示产品及服务介绍（最佳= 50）
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=长度在列表显示的产品与服务帐户说明的形式（最佳= 50）
 ACCOUNTING_LENGTH_GACCOUNT=一般账户长度

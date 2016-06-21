@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervention
 Interventions=Insatser
 InterventionCard=Intervention kort
@@ -31,13 +31,13 @@ RelatedInterventions=Insatserna
 ShowIntervention=Visar ingripande
 SendInterventionRef=Inlämning av ingrepp %s
 SendInterventionByMail=Skicka ingripa Email
-InterventionCreatedInDolibarr=Ingrepp %s skapad
-InterventionValidatedInDolibarr=Ingrepp %s validerade
-InterventionModifiedInDolibarr=Ingrepp %s modifierade
-InterventionClassifiedBilledInDolibarr=Ingrepp %s uppsättning som faktureras
-InterventionClassifiedUnbilledInDolibarr=Ingrepp %s uppsättning som ofakturerade
+InterventionCreatedInPineapple=Ingrepp %s skapad
+InterventionValidatedInPineapple=Ingrepp %s validerade
+InterventionModifiedInPineapple=Ingrepp %s modifierade
+InterventionClassifiedBilledInPineapple=Ingrepp %s uppsättning som faktureras
+InterventionClassifiedUnbilledInPineapple=Ingrepp %s uppsättning som ofakturerade
 InterventionSentByEMail=Ingrepp %s skickas via e-post
-InterventionDeletedInDolibarr=Ingrepp %s raderad
+InterventionDeletedInPineapple=Ingrepp %s raderad
 SearchAnIntervention=Sök en intervention
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

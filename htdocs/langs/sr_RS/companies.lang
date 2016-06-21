@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Ime kompanije %s već postoji. Izaberite drugo ime.
 ErrorPrefixAlreadyExists=Prefiks %s Već postoji. Izaberite drugi.
 ErrorSetACountryFirst=Prvo izaberi državu
@@ -18,7 +18,7 @@ NewCompany=Nova kompanija (kandidat, klijent, dobavljač)
 NewThirdParty=Novi subjekt (kandidat, klijent, dobavljač)
 NewSocGroup=Nova grupa kompanija
 NewPrivateIndividual=Novo fizičko lice (kandidat, klijent, dobavljač)
-CreateDolibarrThirdPartySupplier=Kreiraj subjekt (dobavljača)
+CreatePineappleThirdPartySupplier=Kreiraj subjekt (dobavljača)
 ProspectionArea=Oblast istraživanja
 SocGroup=Grupa kompanija
 IdThirdParty=Id subjekta
@@ -387,8 +387,8 @@ NoParentCompany=Nema
 ExportImport=Uvoz-Izvoz
 ExportCardToFormat=Izvozna kartica za formatiranje
 ContactNotLinkedToCompany=Kontakt nije povezan ni sa jednim subjektom
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=Nemoguć pristup Dolibarr-u
+PineappleLogin=Pineapple login
+NoPineappleAccess=Nemoguć pristup Pineapple-u
 ExportDataset_company_1=Subjekti (Kompanije/fondacije/fizička lica) i podešavanja
 ExportDataset_company_2=Kontakti i podešavanja
 ImportDataset_company_1=Subjekti (Kompanije/fondacije/fizička lica) i podešavanja

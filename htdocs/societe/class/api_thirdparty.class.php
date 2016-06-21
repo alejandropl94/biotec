@@ -23,10 +23,10 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  */
-class ThirdpartyApi extends DolibarrApi
+class ThirdpartyApi extends PineappleApi
 {
     /**
      *
@@ -71,7 +71,7 @@ class ThirdpartyApi extends DolibarrApi
      */
     function get($id)
     {		
-		if(! DolibarrApiAccess::$user->rights->societe->lire) {
+		if(! PineappleApiAccess::$user->rights->societe->lire) {
 			throw new RestException(401);
 		}
 			
@@ -80,8 +80,8 @@ class ThirdpartyApi extends DolibarrApi
             throw new RestException(404, 'Thirdparty not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('societe',$this->company->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('societe',$this->company->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->company);
@@ -109,23 +109,23 @@ class ThirdpartyApi extends DolibarrApi
         
         $obj_ret = array();
         
-        $socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+        $socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
             
         // If the internal user must only see his customers, force searching by him
-        if (! DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = DolibarrApiAccess::$user->id;
+        if (! PineappleApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = PineappleApiAccess::$user->id;
 
         $sql = "SELECT s.rowid";
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
         $sql.= " FROM ".MAIN_DB_PREFIX."societe as s";
         
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
         $sql.= ", ".MAIN_DB_PREFIX."c_stcomm as st";
         $sql.= " WHERE s.fk_stcomm = st.id";
         if ($mode == 1) $sql.= " AND s.client IN (1, 3)";
         if ($mode == 2) $sql.= " AND s.client IN (2, 3)";
         if ($mode == 3) $sql.= " AND s.client IN (0)";
         $sql.= ' AND s.entity IN ('.getEntity('societe', 1).')';
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";
         if ($socid) $sql.= " AND s.rowid = ".$socid;
         if ($search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";		// Join for the needed table to filter by sale
         
@@ -220,7 +220,7 @@ class ThirdpartyApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->societe->creer) {
+        if(! PineappleApiAccess::$user->rights->societe->creer) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -229,7 +229,7 @@ class ThirdpartyApi extends DolibarrApi
         foreach($request_data as $field => $value) {
             $this->company->$field = $value;
         }
-        return $this->company->create(DolibarrApiAccess::$user);
+        return $this->company->create(PineappleApiAccess::$user);
     }
 
     /**
@@ -243,7 +243,7 @@ class ThirdpartyApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->societe->creer) {
+        if(! PineappleApiAccess::$user->rights->societe->creer) {
 			throw new RestException(401);
 		}
         
@@ -252,15 +252,15 @@ class ThirdpartyApi extends DolibarrApi
             throw new RestException(404, 'Thirdparty not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('societe',$this->company->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('societe',$this->company->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->company->$field = $value;
         }
         
-        if($this->company->update($id, DolibarrApiAccess::$user,1,'','','update'))
+        if($this->company->update($id, PineappleApiAccess::$user,1,'','','update'))
             return $this->get ($id);
         
         return false;
@@ -276,7 +276,7 @@ class ThirdpartyApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->societe->supprimer) {
+        if(! PineappleApiAccess::$user->rights->societe->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->company->fetch($id);
@@ -284,8 +284,8 @@ class ThirdpartyApi extends DolibarrApi
             throw new RestException(404, 'Thirdparty not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('societe',$this->company->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('societe',$this->company->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         return $this->company->delete($id);

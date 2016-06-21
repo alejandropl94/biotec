@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Područje za trajne naloge
 CustomersStandingOrdersArea=Područje za trajne naloge kupaca
 StandingOrders=Trajni nalozi
@@ -95,7 +95,7 @@ InfoCreditMessage=Stalni nalog %s je plaćen od strane banke <br> Podaci od pla�
 InfoTransSubject=Prenos trajnog naloga %s na banku
 InfoTransMessage=Stalni nalog %s je poslan na banku od strane %s %s. <br><br>
 InfoTransData=Amount: %s<br>Method: %s<br>Date: %s
-InfoFoot=This is an automated message sent by Dolibarr
+InfoFoot=This is an automated message sent by Pineapple
 InfoRejectSubject=Trajni nalog odbijen
 InfoRejectMessage=Zdravo, <br><br> trajni nalog fakture %s se odnosi na kompaniju %s, u iznosu od %s je odbijen od strane banke. <br><br> -- <br> %s
 ModeWarning=Option for real mode was not set, we stop after this simulation

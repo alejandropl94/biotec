@@ -21,13 +21,13 @@
 
 /**
  *	\file       htdocs/core/db/sqlite.class.php
- *	\brief      Class file to manage Dolibarr database access for a Sqlite database
+ *	\brief      Class file to manage Pineapple database access for a Sqlite database
  */
 
 require_once DOL_DOCUMENT_ROOT .'/core/db/DoliDB.class.php';
 
 /**
- *	Class to manage Dolibarr database access for a Sqlite database
+ *	Class to manage Pineapple database access for a Sqlite database
  */
 class DoliDBSqlite extends DoliDB
 {
@@ -541,7 +541,7 @@ class DoliDBSqlite extends DoliDB
             return 'DB_ERROR_FAILED_TO_CONNECT';
         }
         else {
-            // Constants to convert error code to a generic Dolibarr error code
+            // Constants to convert error code to a generic Pineapple error code
             /*$errorcode_map = array(
             1004 => 'DB_ERROR_CANNOT_CREATE',
             1005 => 'DB_ERROR_CANNOT_CREATE',

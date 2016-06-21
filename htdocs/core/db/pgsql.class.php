@@ -31,7 +31,7 @@
 require_once DOL_DOCUMENT_ROOT .'/core/db/DoliDB.class.php';
 
 /**
- *	Class to drive a Postgresql database for Dolibarr
+ *	Class to drive a Postgresql database for Pineapple
  */
 class DoliDBPgsql extends DoliDB
 {
@@ -678,7 +678,7 @@ class DoliDBPgsql extends DoliDB
 			return 'DB_ERROR_FAILED_TO_CONNECT';
 		}
 		else {
-			// Constants to convert error code to a generic Dolibarr error code
+			// Constants to convert error code to a generic Pineapple error code
 			$errorcode_map = array(
 			1004 => 'DB_ERROR_CANNOT_CREATE',
 			1005 => 'DB_ERROR_CANNOT_CREATE',

@@ -31,7 +31,7 @@
 
 /**
  *	\file			htdocs/core/lib/functions.lib.php
- *	\brief			A set of functions for Dolibarr
+ *	\brief			A set of functions for Pineapple
  *					This file contains all frequently used functions.
  */
 
@@ -45,7 +45,7 @@ include_once DOL_DOCUMENT_ROOT .'/core/lib/json.lib.php';
  * @param	string 	$class		Class name
  * @param 	string 	$member		Name of property
  * @return 	mixed				Return value of static property
- * @deprecated Dolibarr now requires 5.3.0+, use $class::$property syntax
+ * @deprecated Pineapple now requires 5.3.0+, use $class::$property syntax
  * @see https://php.net/manual/language.oop5.static.php
  */
 function getStaticMember($class, $member)
@@ -282,7 +282,7 @@ function GETPOST($paramname,$check='',$method=0,$filter=NULL,$options=NULL)
 
 
 /**
- *  Return a prefix to use for this Dolibarr instance for session or cookie names.
+ *  Return a prefix to use for this Pineapple instance for session or cookie names.
  *  This prefix is unique for instance and avoid conflict between multi-instances,
  *  even when having two instances with one root dir or two instances in virtual servers
  *
@@ -395,7 +395,7 @@ function dol_buildpath($path, $type=0)
  *
  * 	@param	object	$object		Object to clone
  *	@return object				Object clone
- *  @deprecated Dolibarr no longer supports PHP4, use PHP5 native clone construct
+ *  @deprecated Pineapple no longer supports PHP4, use PHP5 native clone construct
  *  @see https://php.net/manual/language.oop5.cloning.php
  */
 function dol_clone($object)
@@ -2664,12 +2664,12 @@ function dol_print_error($db='',$error='',$errors=null)
 
 	if ($_SERVER['DOCUMENT_ROOT'])    // Mode web
 	{
-		$out.=$langs->trans("DolibarrHasDetectedError").".<br>\n";
+		$out.=$langs->trans("PineappleHasDetectedError").".<br>\n";
 		if (! empty($conf->global->MAIN_FEATURES_LEVEL)) $out.="You use an experimental or develop level of features, so please do NOT report any bugs, except if problem is confirmed moving option MAIN_FEATURES_LEVEL back to 0.<br>\n";
 		$out.=$langs->trans("InformationToHelpDiagnose").":<br>\n";
 
 		$out.="<b>".$langs->trans("Date").":</b> ".dol_print_date(time(),'dayhourlog')."<br>\n";
-		$out.="<b>".$langs->trans("Dolibarr").":</b> ".DOL_VERSION."<br>\n";
+		$out.="<b>".$langs->trans("Pineapple").":</b> ".DOL_VERSION."<br>\n";
 		if (isset($conf->global->MAIN_FEATURES_LEVEL)) $out.="<b>".$langs->trans("LevelOfFeature").":</b> ".$conf->global->MAIN_FEATURES_LEVEL."<br>\n";
 		if (function_exists("phpversion"))
 		{
@@ -3259,7 +3259,7 @@ function price2num($amount,$rounding='',$alreadysqlnb=0)
 		//print 'PP'.$amount.' - '.$dec.' - '.$thousand.' - '.intval($amount).'<br>';
 
 		// Convert amount to format with dolibarr dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by Dolibarr setup.
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be like defined by Pineapple setup.
 		if (is_numeric($amount))
 		{
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
@@ -3291,7 +3291,7 @@ function price2num($amount,$rounding='',$alreadysqlnb=0)
 		//print 'SS'.$amount.' - '.$nbofdec.' - '.$dec.' - '.$thousand.' - '.$nbofdectoround.'<br>';
 
 		// Convert amount to format with dolibarr dec and thousand (this is because PHP convert a number
-		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by Dolibarr setup.
+		// to format defined by LC_NUMERIC after a calculation and we want source format to be defined by Pineapple setup.
 		if (is_numeric($amount))
 		{
 			// We put in temps value of decimal ("0.00001"). Works with 0 and 2.0E-5 and 9999.10
@@ -4339,7 +4339,7 @@ function dol_nboflines_bis($text,$maxlinesize=0,$charset='UTF-8')
  *	 Same function than microtime in PHP 5 but compatible with PHP4
  *
  * @return		float		Time (millisecondes) with microsecondes in decimal part
- * @deprecated Dolibarr does not support PHP4, you should use native function
+ * @deprecated Pineapple does not support PHP4, you should use native function
  * @see microtime()
  */
 function dol_microtime_float()

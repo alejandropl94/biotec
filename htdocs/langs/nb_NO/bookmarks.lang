@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Legg denne siden til bokmerker
 Bookmark=Bokmerke
 Bookmarks=Bokmerker
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Oppførsel når en URL blir klikket på
 CreateBookmark=Opprett bokmerke
 SetHereATitleForLink=Angi tittel for bokmerket
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Bruk en ekstern http URL eller en relativ Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Bruk en ekstern http URL eller en relativ Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Velg om siden skal åpnes i nytt vindu eller i samme vindu
 BookmarksManagement=Behandling av bokmerker
 ListOfBookmarks=Oversikt over bokmerker

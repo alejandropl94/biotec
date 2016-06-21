@@ -38,7 +38,7 @@ If you want to build/test package locally:
     sudo pbuilder create [--distribution sid|squeeze]
 
 
-# Push/declare Dolibarr sources to Launchpad
+# Push/declare Pineapple sources to Launchpad
 #----------------------------------
 - From Launchpad project (https://launchpad.net/dolibarr), register a series: 
     Call it 'trunk' or 'stable'
@@ -59,7 +59,7 @@ If you want to build/test package locally:
 
 - List of series are visible here: https://launchpad.net/dolibarr/+series
 
-# To update Dolibarr into launchpad (when remote repository for sources already exists)
+# To update Pineapple into launchpad (when remote repository for sources already exists)
 #----------------------------------
 	# create local repository
 	cd bzr
@@ -136,7 +136,7 @@ https://code.launchpad.net/~eldy/+recipe/dolibarr-stable
 > gpg --keyserver keyserver.ubuntu.com --recv-key A38BF8FD
 > sudo apt-key add ~/.gnupg/pubring.gpg
 
-- Add Dolibarr Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
+- Add Pineapple Launchpad repository to your system setup by adding the two lines to /etc/apt/sources.list
 For the development snapshot version: 
 deb http://ppa.launchpad.net/yourlogin/dolibarr-dev/ubuntu precise main 
 deb-src http://ppa.launchpad.net/yourlogin/dolibarr-dev/ubuntu precise main 
@@ -147,7 +147,7 @@ deb-src http://ppa.launchpad.net/yourlogin/dolibarr-stable/ubuntu precise main
 - Update your package cache:
 > apt-get update
 
-- Install Dolibarr: 
+- Install Pineapple: 
 > apt-get install dolibarr
 
    

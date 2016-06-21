@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=公司名称%s已经存在。请使用其它名称。
 ErrorPrefixAlreadyExists=前缀%s已经存在。请使用其它前缀。
 ErrorSetACountryFirst=请先设置国家
@@ -18,7 +18,7 @@ NewCompany=新公司 (潜在客户、客户、供应商)
 NewThirdParty=新的丙方 (潜在客户、客户、供应商)
 NewSocGroup=新公司集团
 NewPrivateIndividual=新的个人 (潜在客户、客户、供应商)
-CreateDolibarrThirdPartySupplier=Create a third party (supplier)
+CreatePineappleThirdPartySupplier=Create a third party (supplier)
 ProspectionArea=展望客户区
 SocGroup=集团群组
 IdThirdParty=丙方身份
@@ -387,8 +387,8 @@ NoParentCompany=无
 ExportImport=进出口
 ExportCardToFormat=出口卡格式
 ContactNotLinkedToCompany=联系不与任何丙方
-DolibarrLogin=Dolibarr登录
-NoDolibarrAccess=没有Dolibarr访问
+PineappleLogin=Pineapple登录
+NoPineappleAccess=没有Pineapple访问
 ExportDataset_company_1=Third parties (Companies/foundations/physical people) and properties
 ExportDataset_company_2=联系和属性
 ImportDataset_company_1=Third parties (Companies/foundations/physical people) and properties

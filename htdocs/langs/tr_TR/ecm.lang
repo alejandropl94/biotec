@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Belgelerim
 DocsGenerated=Oluşturulan belgeler
 DocsElements=Belge öğeleri
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Alt-dizin sayısı
 ECMNbOfFilesInSubDir=Alt dizilerdeki dosya sayısı
 ECMCreationUser=Oluşturan
 ECMArea=EBY alanı
-ECMAreaDesc=EDM (Elektronik Belge Yönetimi) alanı, Dolibarr'da her çeşit belgeyi hızlıca kaydetmenizi, paylaşmanızı ve aramanızı sağlar.
+ECMAreaDesc=EDM (Elektronik Belge Yönetimi) alanı, Pineapple'da her çeşit belgeyi hızlıca kaydetmenizi, paylaşmanızı ve aramanızı sağlar.
 ECMAreaDesc2=* Otomatik dizinler, bir öğenin kartından belge eklenirken otomatikman doldurulur.<br> * Manuel dizinler, belirli bir öğeye bağlı olmayan belgelerin saklanması için kullanılabilir.
 ECMSectionWasRemoved=<b>%s</b>Dizini silindi.
 ECMDocumentsSection=Dizin belgesi

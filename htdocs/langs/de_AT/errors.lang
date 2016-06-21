@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 ErrorBadEMail=E-Mail %s ist ungültig
 ErrorBadUrl=Url %s ist ungültig
 ErrorRecordNotFound=Eintrag nicht gefunden.

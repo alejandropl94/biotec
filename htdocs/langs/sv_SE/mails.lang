@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=E-post
 EMailing=E-post
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kontakter av alla tredje parter (kund, prospekt, leverantör, ...)
-MailingModuleDescDolibarrUsers=Alla Dolibarr användare med e-post
+MailingModuleDescPineappleUsers=Alla Pineapple användare med e-post
 MailingModuleDescFundationMembers=Stiftelsen medlemmar med e-post
 MailingModuleDescEmailsFromFile=E-post från en textfil (email, namn, efternamn, kommentarer)
 MailingModuleDescEmailsFromUser=E-post från användarens input (email, efternamn, förnamn, andra)
 MailingModuleDescContactsCategories=Tredje part med e-post (per kategori)
-MailingModuleDescDolibarrContractsLinesExpired=Tredje part med utgångna avtalets linjer
+MailingModuleDescPineappleContractsLinesExpired=Tredje part med utgångna avtalets linjer
 MailingModuleDescContactsByCompanyCategory=Kontakter med tredje part (av tredje part kategori)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Foundation medlemmar (per kategori)

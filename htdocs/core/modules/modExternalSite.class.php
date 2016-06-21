@@ -19,7 +19,7 @@
 
 /**
  * \defgroup   externalsite     Module externalsite
- * \brief      Module to include an external web site/tools into Dolibarr menu and into a frame page.
+ * \brief      Module to include an external web site/tools into Pineapple menu and into a frame page.
  * \file       htdocs/core/modules/modExternalSite.class.php
  * \ingroup    externalsite
  * \brief      Description and activation file for module ExternalSite
@@ -53,7 +53,7 @@ class modExternalSite extends DolibarrModules
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i','',get_class($this));
 		// Module description used if translation string 'ModuleXXXDesc' not found (XXX is id value)
-		$this->description = "This module include an external web site or page into Dolibarr menus and view it into a Dolibarr frame.";
+		$this->description = "This module include an external web site or page into Pineapple menus and view it into a Pineapple frame.";
 		// Possible values for version are: 'development', 'experimental', 'dolibarr' or version
 		$this->version = 'dolibarr';
 		// Key used in llx_const table to save module status enabled/disabled (XXX is id value)

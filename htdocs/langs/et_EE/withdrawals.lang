@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Püsikorralduste ala
 CustomersStandingOrdersArea=Klientide püsikorralduste ala
 StandingOrders=Püsikorraldused
@@ -95,7 +95,7 @@ InfoCreditMessage=Otsekorralduse %s makstud panga poolt <br> Makse andmed: %s
 InfoTransSubject=Otsekorralduse %s saatmine panka
 InfoTransMessage=Püsikorraldus %s on saadetud panka üksuse %s %s poolt.<br><br>
 InfoTransData=Summa: %s<br>Meetod: %s<br>Kuupäev: %s
-InfoFoot=See on Dolibarr poolt automaatselt saadetud sõnu
+InfoFoot=See on Pineapple poolt automaatselt saadetud sõnu
 InfoRejectSubject=Püsikorraldus tagasi lükatud
 InfoRejectMessage=Tere,<br><br>arvega %s seotud püsikorralduse makse ettevõttest %s, summas %s on panga poolt tagasi lükatud.<br><br>--<br>%s
 ModeWarning=Tootmisrežiim ei olnud seadistatud, pärast seda peatatakse simulatsioon

@@ -229,7 +229,7 @@ if (GETPOST("action") == 'gotodemo')
 
 $head='';
 $head.='<meta name="keywords" content="dolibarr,demo,online,demonstration,example,test,web,erp,crm,demos,online">'."\n";
-$head.='<meta name="description" content="Dolibarr simple ERP/CRM demo. You can test here several profiles of Dolibarr ERP/CRM demos.">'."\n";
+$head.='<meta name="description" content="Pineapple simple ERP/CRM demo. You can test here several profiles of Pineapple ERP/CRM demos.">'."\n";
 $head.='<style type="text/css">'."\n";
 $head.='.body { font: 12px arial,verdana,helvetica !important; }'."\n";
 $head.='.CTable {
@@ -308,15 +308,15 @@ else openedId = "";
 });
 </script>';
 
-llxHeaderVierge($langs->trans("DolibarrDemo"), $head);
+llxHeaderVierge($langs->trans("PineappleDemo"), $head);
 
 
 print "\n";
 
-print '<table style="font-size:14px;" class="centpercent" summary="Main table for Dolibarr demos">';
+print '<table style="font-size:14px;" class="centpercent" summary="Main table for Pineapple demos">';
 
 print '<tr><td>';
-print '<div class="center"><img src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.png" alt="Dolibarr logo"></div><br>';
+print '<div class="center"><img src="'.DOL_URL_ROOT.'/theme/dolibarr_logo.png" alt="Pineapple logo"></div><br>';
 print '<br>';
 
 print '<div style="text-align: justify;">'.$langs->trans("DemoDesc").'</div><br>';
@@ -326,7 +326,7 @@ print '<font color="#555577"><b>'.$langs->trans("ChooseYourDemoProfil").'</b></f
 print '</td></tr>';
 print '<tr><td>';
 
-//print '<table width="100%" summary="List of Dolibarr demos" class="notopnoleft">'."\n";
+//print '<table width="100%" summary="List of Pineapple demos" class="notopnoleft">'."\n";
 $i=0;
 foreach ($demoprofiles as $profilearray)
 {
@@ -358,7 +358,7 @@ foreach ($demoprofiles as $profilearray)
         print '<input type="hidden" name="dol_no_mouse_hover" value="'.$conf->dol_no_mouse_hover.'">'."\n";
         print '<input type="hidden" name="dol_use_jmobile" value="'.$conf->dol_use_jmobile.'">'."\n";
 
-        print '<table summary="Dolibarr online demonstration for profile '.$profilearray['label'].'" style="font-size:14px;" width="100%" class="CTable CTableRow'.($i%2==0?'1':'0').'">'."\n";
+        print '<table summary="Pineapple online demonstration for profile '.$profilearray['label'].'" style="font-size:14px;" width="100%" class="CTable CTableRow'.($i%2==0?'1':'0').'">'."\n";
 		// Title
         print '<tr>';
 		print '<td width="132" id="a1'.$profilearray['key'].'" class="'.(empty($profilearray['url'])?'modulelineshow cursorpointer':'nomodulelines').'"><a href="'.$urlwithmod.'" class="'.(empty($profilearray['url'])?'modulelineshow':'nomodulelines').'"><img src="'.$profilearray['icon'].'" width="128" border="0" alt="Demo '.$profilearray['label'].'"></a></td>';

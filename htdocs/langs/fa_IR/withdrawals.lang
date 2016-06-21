@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=ایستاده منطقه سفارشات
 CustomersStandingOrdersArea=مشتریان ایستاده منطقه سفارشات
 StandingOrders=سفارشات ایستاده
@@ -95,7 +95,7 @@ InfoCreditMessage=منظور ایستاده٪ بازدید کنندگان شده
 InfoTransSubject=انتقال ایستاده منظور٪ به بانک
 InfoTransMessage=منظور ایستاده٪ s بر به بانک توسط٪ s٪ s ارسال شد. <br><br>
 InfoTransData=مقدار:٪ s را <br> روش: از٪ s <br> تاریخ:٪ s را
-InfoFoot=این یک پیام خودکار ارسال شده توسط Dolibarr است
+InfoFoot=این یک پیام خودکار ارسال شده توسط Pineapple است
 InfoRejectSubject=منظور ایستاده خودداری کرد
 InfoRejectMessage=سلام، <br><br> به ترتیب ایستاده از فاکتور٪ s را مربوط به شرکت٪، با میزان٪ بازدید کنندگان شده است توسط بانک خودداری کرد. <br><br> - <br> از٪ s
 ModeWarning=انتخاب برای حالت واقعی تنظیم نشده بود، ما بعد از این شبیه سازی را متوقف کند

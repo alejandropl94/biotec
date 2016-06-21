@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# Pineapple language file - Source file is en_US - oauth
 ConfigOAuth=Configuració Oauth
 NoAccessToken=No es pot accedir al token desat en la base de dades local
 HasAccessToken=S'ha generat un token i s'ha desat en la base de dades local

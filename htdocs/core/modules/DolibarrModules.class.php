@@ -448,7 +448,7 @@ class DolibarrModules           // Can not be abstract, because we need to insta
     /**
      * Gives module version
      * For 'experimental' modules, gives 'experimental' translation
-     * For 'dolibarr' modules, gives Dolibarr version
+     * For 'dolibarr' modules, gives Pineapple version
      *
      * @return  string  Module version
      */
@@ -1727,7 +1727,7 @@ print $sql;
 
 	/**
 	 * Function called when module is enabled.
-	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 * The init function adds tabs, constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 * It also creates data directories
 	 *
 	 * @param string $options   Options when enabling module ('', 'newboxdefonly', 'noboxes')
@@ -1742,7 +1742,7 @@ print $sql;
 
 	/**
 	 * Function called when module is disabled.
-	 * The remove function removes tabs, constants, boxes, permissions and menus from Dolibarr database.
+	 * The remove function removes tabs, constants, boxes, permissions and menus from Pineapple database.
 	 * Data directories are not deleted
 	 *
 	 * @param      string	$options    Options when enabling module ('', 'noboxes')

@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=Podešavanja modula PayPal
-PaypalDesc=Ovaj modul omogućava uplatu preko <a href="http://www.paypal.com" target="_blank">PayPal</a>-a od strane klijenata. Može biti korisna za besplatne uplate ili za uplate vezane za određene Dolibarr objekte (račun, narudžbina, ...)
+PaypalDesc=Ovaj modul omogućava uplatu preko <a href="http://www.paypal.com" target="_blank">PayPal</a>-a od strane klijenata. Može biti korisna za besplatne uplate ili za uplate vezane za određene Pineapple objekte (račun, narudžbina, ...)
 PaypalOrCBDoPayment=Uplati kreditnom karticom ili putem PayPal-a
 PaypalDoPayment=Uplati putem PayPal-a
 PaypalCBDoPayment=Uplati kreditnom karticom

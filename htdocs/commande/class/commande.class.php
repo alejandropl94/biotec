@@ -327,7 +327,7 @@ class Commande extends CommonOrder
                         $mouvP = new MouvementStock($this->db);
 						$mouvP->origin = &$this;
                         // We decrement stock of product (and sub-products)
-                        $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("OrderValidatedInDolibarr",$num));
+                        $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("OrderValidatedInPineapple",$num));
                         if ($result < 0)
                         {
                         	$error++;
@@ -449,7 +449,7 @@ class Commande extends CommonOrder
                     {
                         $mouvP = new MouvementStock($this->db);
                         // We increment stock of product (and sub-products)
-                        $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("OrderBackToDraftInDolibarr",$this->ref));
+                        $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("OrderBackToDraftInPineapple",$this->ref));
                         if ($result < 0) { $error++; }
                     }
                 }
@@ -633,7 +633,7 @@ class Commande extends CommonOrder
 					{
 						$mouvP = new MouvementStock($this->db);
 						// We increment stock of product (and sub-products)
-						$result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("OrderCanceledInDolibarr",$this->ref));  // price is 0, we don't want WAP to be changed
+						$result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("OrderCanceledInPineapple",$this->ref));  // price is 0, we don't want WAP to be changed
 						if ($result < 0)
 						{
 							$error++;

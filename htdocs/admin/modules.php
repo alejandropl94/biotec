@@ -386,7 +386,7 @@ if ($mode != 'marketplace')
         // Picto
         print '  <td valign="top" width="14" align="center">';
         $alttext='';
-        //if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'Dolibarr >= '.join('.',$objMod->need_dolibarr_version);
+        //if (is_array($objMod->need_dolibarr_version)) $alttext.=($alttext?' - ':'').'Pineapple >= '.join('.',$objMod->need_dolibarr_version);
         //if (is_array($objMod->phpmin)) $alttext.=($alttext?' - ':'').'PHP >= '.join('.',$objMod->phpmin);
         if (! empty($objMod->picto))
         {

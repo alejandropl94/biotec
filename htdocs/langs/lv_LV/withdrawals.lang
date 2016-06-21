@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Pastāvīgā pasūtījumus platība
 CustomersStandingOrdersArea=Klientu pasūtījumu sadaļa
 StandingOrders=Regulārie maksājumi
@@ -95,7 +95,7 @@ InfoCreditMessage=Stāvot rīkojums %s ir samaksāta banka <br> Dati par maksāj
 InfoTransSubject=Nosūtīšana pastāvīgā rīkojuma %s uz banku
 InfoTransMessage=Regulārais maksājums %s ir nosūtītjis uz banku %s %s.<br><br>
 InfoTransData=Daudzums: %s<br>Metode: %s<br>Datums: %s
-InfoFoot=Tas ir automatizēts ziņojums nosūtīts pa Dolibarr
+InfoFoot=Tas ir automatizēts ziņojums nosūtīts pa Pineapple
 InfoRejectSubject=Pastāvīgā lai atteicās
 InfoRejectMessage=Sveiki, <br><br> stāvot rīkojums faktūrā %s, kas saistīti ar uzņēmuma %s, ar summu %s ir atteikta banka. <br><br> - <br> %s
 ModeWarning=Iespēja reālā režīmā nav noteikts, mēs pārtraucam pēc šīs simulācijas

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Mina dokument
 DocsGenerated=Skapade dokument
 DocsElements=Elements dokument
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Antal underkataloger
 ECMNbOfFilesInSubDir=Antalet filer i underkataloger
 ECMCreationUser=Creator
 ECMArea=EDM område
-ECMAreaDesc=EDM (Electronic Document Management) området kan du spara, dela och snabbt söka alla typer av dokument i Dolibarr.
+ECMAreaDesc=EDM (Electronic Document Management) området kan du spara, dela och snabbt söka alla typer av dokument i Pineapple.
 ECMAreaDesc2=* Automatisk kataloger fylls automatiskt när man lägger till dokument från kort av ett element. <br> * Manuell kataloger kan användas för att spara dokument inte är knutna till ett visst element.
 ECMSectionWasRemoved=Nummer <b>%s</b> har tagits bort.
 ECMDocumentsSection=Dokument om katalogen

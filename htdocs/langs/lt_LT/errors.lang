@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nėra klaidos, mes įsipareigojame
@@ -40,9 +40,9 @@ ErrorBadDateFormat=Reikšmė '%s' turi neteisingą datos formatą
 ErrorWrongDate=Data yra neteisinga !
 ErrorFailedToWriteInDir=Nepavyko įrašyti į katalogą %s
 ErrorFoundBadEmailInFile=Rasta neteisinga elektroninio pašto sintaksė failo eilutėje %s (eilutės pavyzdys %s su e-paštas=%s)
-ErrorUserCannotBeDelete=Vartotojas negali būti ištrintas. Gali būti, kad jis susijęs su Dolibarr subjektais.
+ErrorUserCannotBeDelete=Vartotojas negali būti ištrintas. Gali būti, kad jis susijęs su Pineapple subjektais.
 ErrorFieldsRequired=Kai kurie privalomi laukai nėra užpildyti.
-ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į Dolibarr dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar Dolibarr PHP failai priklauso web serverio vartotojui (ar jų grupei).
+ErrorFailedToCreateDir=Nepavyko sukurti aplanko. Įsitikinkite, kad web serverio vartotojas turi teisę rašyti į Pineapple dokumentų aplanką. Jei parametras <b>safe_mode</b> yra įjungtas šio PHP, patikrinkite, ar Pineapple PHP failai priklauso web serverio vartotojui (ar jų grupei).
 ErrorNoMailDefinedForThisUser=Šiam klientui neapibrėžtas paštas
 ErrorFeatureNeedJavascript=Šiai funkcijai turi būti aktyvuotas Javascript, kad galėtumėte dirbti. Pakeiskite tai meniu Nustatymai-Ekranas.
 ErrorTopMenuMustHaveAParentWithId0=Meniu tipas "Pagrindinis" negali turėti patronuojančio meniu. Įrašyti 0 patronuojančiame meniu arba pasirinkti meniu tipą "Kairysis".
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=Laukelyje <b>%s</b> neturi būti specia
 ErrorFieldCanNotContainSpecialNorUpperCharacters=Field <b>%s</b> must not contain special characters, nor upper case characters and cannot contain only numbers.
 ErrorNoAccountancyModuleLoaded=Nėra aktyvaus apskaitos modulio
 ErrorExportDuplicateProfil=Profilio vardas jau egzistuoja šiam eksporto rinkiniui
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP derinimas nėra pilnas
+ErrorLDAPSetupNotComplete=Pineapple-LDAP derinimas nėra pilnas
 ErrorLDAPMakeManualTest=.ldif failas buvo sukurtas aplanke: %s. Pabandykite įkelti jį rankiniu būdu per komandinę eilutę, kad gauti daugiau informacijos apie klaidas
 ErrorCantSaveADoneUserWithZeroPercentage=Negalima išsaugoti veiksmo su "Būklė nepradėta", jei laukelis "atliktas" taip pat užpildytas.
 ErrorRefAlreadyExists=Nuoroda, naudojama sukūrimui, jau egzistuoja.
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Neteisinga reikšmė laukelio numeriui <b>%s</b> (reikšmė '
 ErrorsOnXLines=Klaidos <b>%s</b> šaltinio įraše (-uose)
 ErrorFileIsInfectedWithAVirus=Antivirusinė programa negali patvirtinti failo (failas gali būti užkrėstas virusu)
 ErrorSpecialCharNotAllowedForField=Specialūs simboliai neleidžiami laukelyje "%s"
-ErrorDatabaseParameterWrong=Duomenų bazės nustatymo parametras '<b>%s</b>' turi reikšmę, netinkamą naudoti Dolibarr (turi turėti reikšmę '<b>%s</b>').
+ErrorDatabaseParameterWrong=Duomenų bazės nustatymo parametras '<b>%s</b>' turi reikšmę, netinkamą naudoti Pineapple (turi turėti reikšmę '<b>%s</b>').
 ErrorNumRefModel=Nuoroda yra į duomenų bazę (%s) ir yra nesuderinama su šiomis numeravimo tasyklėmis. Pašalinkite įrašą arba pervadinkite nuorodą, kad aktyvuoti šį modulį.
 ErrorQtyTooLowForThisSupplier=Kiekis per maža šiam tiekėjui arba nėra nustatytos šio produkto apibrėžtos kainos šiam tiekėjui
 ErrorModuleSetupNotComplete=Modulio nustatymai, atrodo nepilni. Eiti į Nustatymai - Moduliai ir užpildyti.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Nepavyko išsiųsti slaptažodžio
 ErrorFailedToLoadRSSFile=Nepavyksta gauti RSS feed. Pabandykite pridėti konstantą MAIN_SIMPLEXMLLOAD_DEBUG, jei klaidų pranešimai nesuteikia pakankamai informacijos.
 ErrorPasswordDiffers=Slaptažodžiai skiriasi, įrašykite jį dar kartą.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų Dolibarr administratoriaus iš meniu %s>%s.
-ErrorForbidden3=Atrodo, kad Dolibarr nenaudojamas per patvirtintą sesiją. Pažvelkite į Dolibarr nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
+ErrorForbidden2=Leidimas šiam prisijungimo vardui gali būti nustatomas Jūsų Pineapple administratoriaus iš meniu %s>%s.
+ErrorForbidden3=Atrodo, kad Pineapple nenaudojamas per patvirtintą sesiją. Pažvelkite į Pineapple nustatymų dokumentus, norėdami sužinoti, kaip valdyti patvirtinimus (htaccess, mod_auth ar kitas ...).
 ErrorNoImagickReadimage=Klasė Imagick nerasta šiame PHP. Peržiūra negalima. Administratoriai gali išjungti šią kortelę iš meniu Nustatymai - Ekranas.
 ErrorRecordAlreadyExists=Įrašas jau egzistuoja
 ErrorCantReadFile=Nepavyko perskaityti failo '%s'
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=Vartotojo sąskaita <b>%s</b> naudojama web s
 ErrorNoActivatedBarcode=Nėra įjungta brūkšninio kodo tipo
 ErrUnzipFails=Nepavyko išpakuoti %s su ZipArchive
 ErrNoZipEngine=Nėra programos išpakuoti failui %s šiame PHP
-ErrorFileMustBeADolibarrPackage=Failas %s turi būti Dolibarr zip paketas
-ErrorFileRequired=Tai apima Dolibarr failo paketą
+ErrorFileMustBeAPineapplePackage=Failas %s turi būti Pineapple zip paketas
+ErrorFileRequired=Tai apima Pineapple failo paketą
 ErrorPhpCurlNotInstalled=PHP CURL nėra įdiegta, tai yra būtina kalbantis su PayPal
 ErrorFailedToAddToMailmanList=Nepavyko pridėti įrašo %s į Paštininko sąrašą %s arba SPIP bazę
 ErrorFailedToRemoveToMailmanList=Nepavyko pašalinti įrašo %s iš Paštininko sąrašo %s arba SPIP bazės
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Nepavyko pridėti kontakto
 ErrorDateMustBeBeforeToday=Data negali būti didesnė nei šiandien
 ErrorPaymentModeDefinedToWithoutSetup=Mokėjimo būdo tipas buvo nustatytas %s, bet modulio Sąskaita faktūra nustatymas nebuvo pilnai baigtas mokėjimo būdo informacijos parodymui.
 ErrorPHPNeedModule=Klaida, Jūsų PHP turi turėti modulį <b>%s</b> įdiegtą šios funkcijos naudojimui.
-ErrorOpenIDSetupNotComplete=Nustatyti Dolibarr config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
+ErrorOpenIDSetupNotComplete=Nustatyti Pineapple config failą, kad būtų leidžiama OpenID patvirtinimas, bet OpenID paslaugos URL nėra apibrėžtas kaip konstanta %s.
 ErrorWarehouseMustDiffers=Šaltinio ir paskirties sandėliai privalo skirtis
 ErrorBadFormat=Blogas formatas !
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Klaida, šis narys nėra susijęs su jokia trečiąja šalimi. Prijungti narį prie esamos trečiosios šalies arba sukurti naują trečiąją šalį prieš kuriant pasirašymą su sąskaita-faktūra.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=Warehouse is required on the line to ship
 ErrorFileMustHaveFormat=File must have format %s
 
 # Warnings
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Pineapple. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=Privalomi nustatymų parametrai dar nėra apibrėžti
 WarningSafeModeOnCheckExecDir=Įspėjimas, PHP opcija <b>safe_mode</b> yra įjungta, todėl komanda turi būti saugoma viduje aplanko deklaruota php parametro <b>safe_mode_exec_dir</b>.
 WarningAllowUrlFopenMustBeOn=Parametras <b>allow_url_fopen</b> turi būti nustatytas <b>on</b> faile <b>php.ini</b>, kad šis modulis pilnai dirbtų. Jūs turite modifikuoti šį failą rankiniu būdu.

@@ -25,6 +25,6 @@ create table llx_links
   datea             DATETIME NOT NULL,              -- date start
   url               VARCHAR(255) NOT NULL,          -- link url
   label             VARCHAR(255) NOT NULL,          -- link label
-  objecttype        VARCHAR(255) NOT NULL,          -- object type in Dolibarr
+  objecttype        VARCHAR(255) NOT NULL,          -- object type in Pineapple
   objectid          INTEGER NOT NULL
 )ENGINE=innodb;
