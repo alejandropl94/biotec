@@ -44,7 +44,7 @@ $forcedfile="./install.forced.php";
 if ($conffile == "/etc/dolibarr/conf.php") $forcedfile="/etc/dolibarr/install.forced.php";
 if (@file_exists($forcedfile)) { $useforcedwizard=true; include_once $forcedfile; }
 
-dolibarr_install_syslog("--- check: Dolibarr install/upgrade process started");
+dolibarr_install_syslog("--- check: Pineapple install/upgrade process started");
 
 
 /*

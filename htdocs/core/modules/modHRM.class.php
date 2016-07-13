@@ -78,7 +78,7 @@ class modHRM extends DolibarrModules
 		$this->need_dolibarr_version = array (
 			3,
 			8 
-		); // Minimum version of Dolibarr required by module
+		); // Minimum version of Pineapple required by module
 		$this->langfiles = array (
 			"hrm" 
 		);
@@ -171,7 +171,7 @@ class modHRM extends DolibarrModules
 	/**
 	 * Function called when module is enabled.
 	 * The init function add constants, boxes, permissions and menus
-	 * (defined in constructor) into Dolibarr database.
+	 * (defined in constructor) into Pineapple database.
 	 * It also creates data directories
 	 *
 	 * @param string $options Enabling module ('', 'noboxes')

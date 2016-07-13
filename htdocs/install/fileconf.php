@@ -23,7 +23,7 @@
 /**
  *       \file       htdocs/install/fileconf.php
  *       \ingroup    install
- *       \brief      Ask all informations required to build Dolibarr htdocs/conf/conf.php file (will be wrote on disk on next page)
+ *       \brief      Ask all informations required to build Pineapple htdocs/conf/conf.php file (will be wrote on disk on next page)
  */
 
 include_once 'inc.php';
@@ -38,7 +38,7 @@ $langs->load("errors");
 
 dolibarr_install_syslog("--- fileconf: entering fileconf.php page");
 
-// You can force preselected values of the config step of Dolibarr by adding a file
+// You can force preselected values of the config step of Pineapple by adding a file
 // install.forced.php into directory htdocs/install (This is the case with some wizard
 // installer like DoliWamp, DoliMamp or DoliBuntu).
 // We first init "forced values" to nothing.
@@ -256,11 +256,11 @@ if (! empty($force_install_message))
 	}
 	?>
 
-	<!-- Dolibarr database -->
+	<!-- Pineapple database -->
 
 	<tr>
 		<td colspan="3" class="label" align="center"><br>
-		<h3><?php echo $langs->trans("DolibarrDatabase"); ?></h3>
+		<h3><?php echo $langs->trans("PineappleDatabase"); ?></h3>
 		</td>
 	</tr>
 

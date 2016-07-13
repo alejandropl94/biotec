@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# Pineapple language file - Source file is en_US - printing
 Module64000Name=พิมพ์โดยตรง
 Module64000Desc=การเปิดใช้งานระบบการพิมพ์โดยตรง
 PrintingSetup=การติดตั้งระบบการพิมพ์โดยตรง

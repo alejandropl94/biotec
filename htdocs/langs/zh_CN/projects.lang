@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. project
 ProjectRef=Project ref.
 ProjectId=Project Id
@@ -131,10 +131,10 @@ ConfirmCloneProject=你一定要克隆这个项目？
 ProjectReportDate=更改任务的日期，根据项目的开始日期
 ErrorShiftTaskDate=根据新项目的开始日期，不可能的改变任务日期
 ProjectsAndTasksLines=项目和任务
-ProjectCreatedInDolibarr=项目 %s  创建
-TaskCreatedInDolibarr=Task %s created
-TaskModifiedInDolibarr=Task %s modified
-TaskDeletedInDolibarr=Task %s deleted
+ProjectCreatedInPineapple=项目 %s  创建
+TaskCreatedInPineapple=Task %s created
+TaskModifiedInPineapple=Task %s modified
+TaskDeletedInPineapple=Task %s deleted
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

@@ -183,7 +183,7 @@ class modSupplierProposal extends DolibarrModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')
@@ -226,7 +226,7 @@ class modSupplierProposal extends DolibarrModules
 
 	/**
 	 * Function called when module is disabled.
-	 * Remove from database constants, boxes and permissions from Dolibarr database.
+	 * Remove from database constants, boxes and permissions from Pineapple database.
 	 * Data directories are not deleted
 	 *
 	 * @param      string	$options    Options when enabling module ('', 'noboxes')

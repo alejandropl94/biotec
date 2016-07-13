@@ -38,4 +38,4 @@ ShowStock=Покажи склад
 DeleteArticle=Кликнете, за да се премахне тази статия
 FilterRefOrLabelOrBC=Търсене (Номер/Заглавие)
 UserNeedPermissionToEditStockToUsePos=Запитвате за намаляване на стоки при създаване на фактура, така че потребителя използващ ТП трябва да е с привилегии да редактира стоки. 
-DolibarrReceiptPrinter=Dolibarr принтер за квитанции
+PineappleReceiptPrinter=Pineapple принтер за квитанции

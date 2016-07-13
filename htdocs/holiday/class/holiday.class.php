@@ -1109,19 +1109,19 @@ class Holiday extends CommonObject
      *    Get list of Users or list of vacation balance.
      *
      *    @param      boolean			$stringlist	    If true return a string list of id. If false, return an array
-     *    @param      boolean   		$type			If true, read Dolibarr user list, if false, return vacation balance list.
+     *    @param      boolean   		$type			If true, read Pineapple user list, if false, return vacation balance list.
      *    @return     array|string|int      			Return an array
      */
     function fetchUsers($stringlist=true,$type=true)
     {
     	global $conf;
 
-        // Si vrai donc pour user Dolibarr
+        // Si vrai donc pour user Pineapple
         if ($stringlist)
         {
             if ($type)
             {
-                // Si utilisateur de Dolibarr
+                // Si utilisateur de Pineapple
 
                 $sql = "SELECT u.rowid";
                 $sql.= " FROM ".MAIN_DB_PREFIX."user as u";
@@ -1216,7 +1216,7 @@ class Holiday extends CommonObject
         else
         { // Si faux donc user Congés Payés
 
-            // List for Dolibarr users
+            // List for Pineapple users
             if ($type)
             {
                 $sql = "SELECT u.rowid, u.lastname, u.firstname";
@@ -1314,7 +1314,7 @@ class Holiday extends CommonObject
     }
 
     /**
-     *	Compte le nombre d'utilisateur actifs dans Dolibarr
+     *	Compte le nombre d'utilisateur actifs dans Pineapple
      *
      *  @return     int      retourne le nombre d'utilisateur
      */
@@ -1330,7 +1330,7 @@ class Holiday extends CommonObject
         return $objet->compteur;
     }
     /**
-     *	Compte le nombre d'utilisateur actifs dans Dolibarr sans CP
+     *	Compte le nombre d'utilisateur actifs dans Pineapple sans CP
      *
      *  @return     int      retourne le nombre d'utilisateur
      */
@@ -1347,23 +1347,23 @@ class Holiday extends CommonObject
     }
 
     /**
-     *  Compare le nombre d'utilisateur actif de Dolibarr à celui des utilisateurs des congés payés
+     *  Compare le nombre d'utilisateur actif de Pineapple à celui des utilisateurs des congés payés
      *
-     *  @param    int	$userDolibarrWithoutCP	Number of active users in Dolibarr without holidays
+     *  @param    int	$userPineappleWithoutCP	Number of active users in Pineapple without holidays
      *  @param    int	$userCP    				Number of active users into table of holidays
      *  @return   int							<0 if KO, >0 if OK
      */
-    function verifNbUsers($userDolibarrWithoutCP, $userCP)
+    function verifNbUsers($userPineappleWithoutCP, $userCP)
     {
     	if (empty($userCP)) $userCP=0;
-    	dol_syslog(get_class($this).'::verifNbUsers userDolibarr='.$userDolibarrWithoutCP.' userCP='.$userCP);
+    	dol_syslog(get_class($this).'::verifNbUsers userPineapple='.$userPineappleWithoutCP.' userCP='.$userCP);
 /*
-        // On vérifie les users Dolibarr sans CP
-        if ($userDolibarrWithoutCP > 0)
+        // On vérifie les users Pineapple sans CP
+        if ($userPineappleWithoutCP > 0)
         {
         	$this->db->begin();
 
-            //$this->updateConfCP('nbUser',$userDolibarrWithoutCP);
+            //$this->updateConfCP('nbUser',$userPineappleWithoutCP);
 
             $listUsersCP = $this->fetchUsers(true,false);
 
@@ -1405,16 +1405,16 @@ class Holiday extends CommonObject
        {
         	$this->db->begin();
 
-        	// Si il y a moins d'utilisateur Dolibarr que dans le module CP
+        	// Si il y a moins d'utilisateur Pineapple que dans le module CP
 
-            $this->updateConfCP('nbUser',$userDolibarrWithoutCP);
+            $this->updateConfCP('nbUser',$userPineappleWithoutCP);
 
-            $listUsersDolibarr = $this->fetchUsers(true,true);
+            $listUsersPineapple = $this->fetchUsers(true,true);
 
             // On séléctionne les utilisateurs qui ne sont pas déjà dans le module
             $sql = "SELECT u.fk_user";
             $sql.= " FROM ".MAIN_DB_PREFIX."holiday_users as u";
-            $sql.= " WHERE u.fk_user NOT IN (".$listUsersDolibarr.")";
+            $sql.= " WHERE u.fk_user NOT IN (".$listUsersPineapple.")";
 
             $resql = $this->db->query($sql);
 

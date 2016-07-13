@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 WorkflowSetup=سير العمل وحدة الإعداد
 WorkflowDesc=تم تصميم هذه الوحدة لتعديل السلوك من الإجراءات الآلية إلى التطبيق. افتراضيا، سير العمل مفتوح (يمكنك أن تفعل أشياء في النظام الذي تريد). يمكنك تفعيل الإجراءات الآلية كنت مهتما في.
 ThereIsNoWorkflowToModify=لا يوجد أي تعديلات سير العمل المتاحة مع وحدات تفعيلها.

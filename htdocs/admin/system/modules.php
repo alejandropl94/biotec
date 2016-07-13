@@ -19,7 +19,7 @@
 
 /**
  *  \file       htdocs/admin/system/modules.php
- *  \brief      File to list all Dolibarr modules
+ *  \brief      File to list all Pineapple modules
  */
 
 require '../../main.inc.php';

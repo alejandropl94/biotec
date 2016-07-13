@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Mật khẩu cho tên miền
 YouMustChangePassNextLogon=Mật khẩu cho người <b>dùng% s</b> trên <b>miền% s</b> phải được thay đổi.
 UserMustChangePassNextLogon=Người dùng phải thay đổi mật khẩu trên các tên miền% s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Ngày đăng ký đầu tiên
 LDAPFieldFirstSubscriptionAmount=Số lượng thuê bao đầu tiên
 LDAPFieldLastSubscriptionDate=Cuối ngày đăng ký
 LDAPFieldLastSubscriptionAmount=Số lượng đăng ký cuối cùng
-SynchronizeDolibarr2Ldap=Đồng bộ hóa sử dụng (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Đồng bộ hóa sử dụng (Pineapple -> LDAP)
 UserSynchronized=Sử dụng đồng bộ
 GroupSynchronized=Nhóm đồng bộ
 MemberSynchronized=Thành viên đồng bộ
 ContactSynchronized=Liên hệ đồng bộ
-ForceSynchronize=Lực lượng đồng bộ hóa Dolibarr -> LDAP
+ForceSynchronize=Lực lượng đồng bộ hóa Pineapple -> LDAP
 ErrorFailedToReadLDAP=Không thể đọc cơ sở dữ liệu LDAP. Kiểm tra thiết lập mô-đun LDAP và khả năng tiếp cận cơ sở dữ liệu.

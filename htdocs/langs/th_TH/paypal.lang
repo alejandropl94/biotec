@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal การติดตั้งโมดูล
-PaypalDesc=หน้าเสนอโมดูลนี้จะอนุญาตให้มีการชำระเงินใน <a href="http://www.paypal.com" target="_blank">PayPal</a> โดยลูกค้า นี้สามารถใช้สำหรับการชำระเงินฟรีหรือการชำระเงินบนวัตถุโดยเฉพาะอย่างยิ่ง Dolibarr (ใบแจ้งหนี้การสั่งซื้อ ... )
+PaypalDesc=หน้าเสนอโมดูลนี้จะอนุญาตให้มีการชำระเงินใน <a href="http://www.paypal.com" target="_blank">PayPal</a> โดยลูกค้า นี้สามารถใช้สำหรับการชำระเงินฟรีหรือการชำระเงินบนวัตถุโดยเฉพาะอย่างยิ่ง Pineapple (ใบแจ้งหนี้การสั่งซื้อ ... )
 PaypalOrCBDoPayment=ชำระเงินด้วยบัตรเครดิตหรือ Paypal
 PaypalDoPayment=ชำระเงินด้วย PayPal
 PaypalCBDoPayment=ชำระเงินด้วยบัตรเครดิต

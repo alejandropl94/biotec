@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Referans Proje
 ProjectRef=Proje ref.
 ProjectId=Proje Kimliği
@@ -131,10 +131,10 @@ ConfirmCloneProject=Bu projeyi klonlamak istediğinizden emin misiniz?
 ProjectReportDate=Görevi proje başlama tarihine göre değiştir
 ErrorShiftTaskDate=Görev tarihini yeni proje başlama tarihine göre kaydırmak olası değil
 ProjectsAndTasksLines=Projeler ve görevler
-ProjectCreatedInDolibarr=%s projesi oluşturuldu
-TaskCreatedInDolibarr=%s görev oluşturuldu
-TaskModifiedInDolibarr=%s görev değiştirildi
-TaskDeletedInDolibarr=%s görev silindi
+ProjectCreatedInPineapple=%s projesi oluşturuldu
+TaskCreatedInPineapple=%s görev oluşturuldu
+TaskModifiedInPineapple=%s görev değiştirildi
+TaskDeletedInPineapple=%s görev silindi
 OpportunityStatus=Fırsat durumu
 OpportunityStatusShort=Fırs. durumu
 OpportunityProbability=Fırsat olabilirliği

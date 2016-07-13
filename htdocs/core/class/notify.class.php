@@ -356,7 +356,7 @@ class Notify
 							$filepdf = $pdf_path;
 						}
 
-	    				$subject = '['.$application.'] '.$outputlangs->transnoentitiesnoconv("DolibarrNotification");
+	    				$subject = '['.$application.'] '.$outputlangs->transnoentitiesnoconv("PineappleNotification");
 
 	                	$message = $outputlangs->transnoentities("YouReceiveMailBecauseOfNotification",$application,$mysoc->name)."\n";
 	                	$message.= $outputlangs->transnoentities("YouReceiveMailBecauseOfNotification2",$application,$mysoc->name)."\n";
@@ -511,7 +511,7 @@ class Notify
 					$filepdf = $pdf_path;
 				}
 
-		        $subject = '['.$application.'] '.$langs->transnoentitiesnoconv("DolibarrNotification");
+		        $subject = '['.$application.'] '.$langs->transnoentitiesnoconv("PineappleNotification");
 
 		        $message = $langs->transnoentities("YouReceiveMailBecauseOfNotification",$application,$mysoc->name)."\n";
 		        $message.= $langs->transnoentities("YouReceiveMailBecauseOfNotification2",$application,$mysoc->name)."\n";

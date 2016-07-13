@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Về
 CronAbout = Về Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Vô hiệu hoá
 CronTaskInactive=Công việc này bị vô hiệu hóa
 CronId=Id
 CronClassFile=Lớp học (filename.class.php)
-CronModuleHelp=Tên của thư mục module Dolibarr (cũng làm việc với mô-đun Dolibarr bên ngoài). <BR> Đối với exemple phương pháp của Dolibarr đối tượng sản phẩm / htdocs / <u>sản phẩm</u> /class/product.class.php lấy, giá trị của mô-đun là <i>sản phẩm</i>
-CronClassFileHelp=Tên tập tin để tải. <BR> Đối với exemple phương pháp của Dolibarr đối tượng sản phẩm / htdocs / sản phẩm / lớp / <u>product.class.php</u> lấy, giá trị của tên tập tin lớp học là <i>product.class.php</i>
-CronObjectHelp=Tên đối tượng để tải. <BR> Đối với exemple phương pháp của Dolibarr đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của tên tập tin lớp học là <i>sản phẩm</i>
-CronMethodHelp=Phương pháp đối tượng để khởi động. <BR> Đối với exemple phương pháp của Dolibarr đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của phương pháp là <i>fecth</i>
-CronArgsHelp=Các đối số phương pháp. <BR> Đối với exemple phương pháp của Dolibarr đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của paramters có thể là <i>0, ProductRef</i>
+CronModuleHelp=Tên của thư mục module Pineapple (cũng làm việc với mô-đun Pineapple bên ngoài). <BR> Đối với exemple phương pháp của Pineapple đối tượng sản phẩm / htdocs / <u>sản phẩm</u> /class/product.class.php lấy, giá trị của mô-đun là <i>sản phẩm</i>
+CronClassFileHelp=Tên tập tin để tải. <BR> Đối với exemple phương pháp của Pineapple đối tượng sản phẩm / htdocs / sản phẩm / lớp / <u>product.class.php</u> lấy, giá trị của tên tập tin lớp học là <i>product.class.php</i>
+CronObjectHelp=Tên đối tượng để tải. <BR> Đối với exemple phương pháp của Pineapple đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của tên tập tin lớp học là <i>sản phẩm</i>
+CronMethodHelp=Phương pháp đối tượng để khởi động. <BR> Đối với exemple phương pháp của Pineapple đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của phương pháp là <i>fecth</i>
+CronArgsHelp=Các đối số phương pháp. <BR> Đối với exemple phương pháp của Pineapple đối tượng sản phẩm /htdocs/product/class/product.class.php lấy, giá trị của paramters có thể là <i>0, ProductRef</i>
 CronCommandHelp=Các dòng lệnh hệ thống để thực thi.
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=Thông tin
 # Common
 CronType=Job type
-CronType_method=Gọi phương thức của một lớp Dolibarr
+CronType_method=Gọi phương thức của một lớp Pineapple
 CronType_command=Shell lệnh
 CronMenu=Cron
 CronCannotLoadClass=Không thể tải lớp% s hoặc đối tượng% s

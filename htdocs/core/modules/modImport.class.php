@@ -46,7 +46,7 @@ class modImport extends DolibarrModules
 		$this->family = "technic";
 		// Module label (no space allowed), used if translation string 'ModuleXXXName' not found (where XXX is value of numeric property 'numero' of module)
 		$this->name = preg_replace('/^mod/i','',get_class($this));
-		$this->description = "Outils d'imports de donnees Dolibarr (via un assistant)";
+		$this->description = "Outils d'imports de donnees Pineapple (via un assistant)";
 		// Possible values for version are: 'experimental' or 'dolibarr' or version
 		$this->version = 'dolibarr';                        // 'experimental' or 'dolibarr' or version
 		$this->const_name = 'MAIN_MODULE_'.strtoupper($this->name);
@@ -64,7 +64,7 @@ class modImport extends DolibarrModules
 		$this->requiredby = array();
 		$this->phpmin = array(4,3,0);	// Need auto_detect_line_endings php option to solve MAC pbs.
 		$this->phpmax = array();
-		$this->need_dolibarr_version = array(2,7,-1);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(2,7,-1);	// Minimum version of Pineapple required by module
 		$this->need_javascript_ajax = 1;
 
 		// Constants

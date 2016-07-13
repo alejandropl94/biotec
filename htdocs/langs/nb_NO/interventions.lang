@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervensjon
 Interventions=Intervensjoner
 InterventionCard=Intervensjonskort
@@ -31,13 +31,13 @@ RelatedInterventions=Relaterte intervensjoner
 ShowIntervention=Vis intervensjon
 SendInterventionRef=Send intervensjon %s
 SendInterventionByMail=Send intervensjon med e-post
-InterventionCreatedInDolibarr=Intervensjon %s opprettet
-InterventionValidatedInDolibarr=Intervensjon %s validert
-InterventionModifiedInDolibarr=Intervensjon %s endret
-InterventionClassifiedBilledInDolibarr=Intervensjon %s satt til fakturert
-InterventionClassifiedUnbilledInDolibarr=Intervensjon %s satt til ufakturert
+InterventionCreatedInPineapple=Intervensjon %s opprettet
+InterventionValidatedInPineapple=Intervensjon %s validert
+InterventionModifiedInPineapple=Intervensjon %s endret
+InterventionClassifiedBilledInPineapple=Intervensjon %s satt til fakturert
+InterventionClassifiedUnbilledInPineapple=Intervensjon %s satt til ufakturert
 InterventionSentByEMail=Intervensjon %s sendt med e-post
-InterventionDeletedInDolibarr=Intervensjon %s ble slettet
+InterventionDeletedInPineapple=Intervensjon %s ble slettet
 SearchAnIntervention=Søk etter intervensjon
 InterventionsArea=Område for intervensjoner
 DraftFichinter=Intervensjonskladder

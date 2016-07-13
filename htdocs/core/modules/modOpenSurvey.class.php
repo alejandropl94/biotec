@@ -44,7 +44,7 @@ class modOpenSurvey extends DolibarrModules
 		$this->db = $db;
 
 		// Id for module (must be unique).
-		// Use here a free id (See in Home -> System information -> Dolibarr for list of used module id).
+		// Use here a free id (See in Home -> System information -> Pineapple for list of used module id).
 		$this->numero = 55000;
 		// Key text used to identify module (for permission, menus, etc...)
 		$this->rights_class = 'opensurvey';
@@ -77,7 +77,7 @@ class modOpenSurvey extends DolibarrModules
 		$this->depends = array();		// List of modules id that must be enabled if this module is enabled
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->phpmin = array(4,1);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(3,4,0);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(3,4,0);	// Minimum version of Pineapple required by module
 
 		// Constants
 		$this->const = array();			// List of parameters
@@ -181,7 +181,7 @@ class modOpenSurvey extends DolibarrModules
 
 	/**
 	 *	Function called when module is enabled.
-	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *	The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *	It also creates data directories
 	 *
      *  @param      string	$options    Options when enabling module ('', 'noboxes')

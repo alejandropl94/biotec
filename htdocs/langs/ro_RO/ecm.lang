@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Documentele mele
 DocsGenerated=Documente Generate
 DocsElements=Elemente  documente
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Număr sub-directoare
 ECMNbOfFilesInSubDir=Număr fișiere în sub-directoare
 ECMCreationUser=Creator
 ECMArea=EDM
-ECMAreaDesc=Zona EDM (Electronic Document Management), vă permite să salvați, partajaţi și să căutați rapid tot felul de documente în Dolibarr.
+ECMAreaDesc=Zona EDM (Electronic Document Management), vă permite să salvați, partajaţi și să căutați rapid tot felul de documente în Pineapple.
 ECMAreaDesc2=* Directoarele automate sunt completate în mod automat atunci când se adaugă documentele din fişa acelui element. <br> * Directoarele manuale poate fi folosite pentru a salva documente ce nu sunt legate de un anumit element.
 ECMSectionWasRemoved=Directorul <b>%s</b> a fost ştears.
 ECMDocumentsSection=Document director

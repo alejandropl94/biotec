@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Área ordens permanentes
 CustomersStandingOrdersArea=Área de Débitos Diretos de Clientes
 NewStandingOrder=Novo Débito Direto
@@ -68,7 +68,7 @@ InfoCreditMessage=O pedido pendente foi pago pelo banco <br> Dados de pagamento:
 InfoTransSubject=Transmissão de pedido pendente para o banco
 InfoTransMessage=O pedido pendente foi enviada ao banco por% s% s. <br><br>
 InfoTransData=Valor:% s <br> Método:% s <br> Data:% s
-InfoFoot=Esta é uma mensagem automática enviada por Dolibarr
+InfoFoot=Esta é uma mensagem automática enviada por Pineapple
 InfoRejectSubject=Pedido pedente recusado
 InfoRejectMessage=Olá, <br><br> a ordem permanente da fatura% s relacionadas à companhia% s, com um montante de% s foi recusado pelo banco. <br><br> - <br> % S
 ModeWarning=Opção para modo real não foi definido, paramos depois desta simulação

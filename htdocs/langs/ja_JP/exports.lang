@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=輸出地域
 ImportArea=インポートエリア
 NewExport=新しいエクスポート
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=それを選択するにはピクトの%sをクリッ
 ChooseFileToImport=ソースのインポートファイルとしてファイルを選択するピクトの%s]をクリックしてファイルをアップロード...
 SourceFileFormat=ソースファイルの形式
 FieldsInSourceFile=ソースファイル内のフィールド
-FieldsInTargetDatabase=Target fields in Dolibarr database (bold=mandatory)
+FieldsInTargetDatabase=Target fields in Pineapple database (bold=mandatory)
 Field=フィールド
 NoFields=Noフィールド
 MoveField=フィールドの列番号%sを移動
@@ -102,7 +102,7 @@ NbOfLinesOK=エラーや警告なしなしで行数<b>：%s。</b>
 NbOfLinesImported=正常にインポート行数<b>：%s。</b>
 DataComeFromNoWhere=挿入する値は、ソース·ファイル内のどこから来ている。
 DataComeFromFileFieldNb=挿入する値は、ソースファイル内のフィールド番号<b>%s</b>から来ています。
-DataComeFromIdFoundFromRef=ソース·ファイルのフィールド番号<b>%s</b>から来ている値が（だからrefを持つオブジェ<b>%s。</b>ソースファイルからはDolibarrに存在する必要があります）を使用して、親オブジェクトのIDを見つけるために使用されます。
+DataComeFromIdFoundFromRef=ソース·ファイルのフィールド番号<b>%s</b>から来ている値が（だからrefを持つオブジェ<b>%s。</b>ソースファイルからはPineappleに存在する必要があります）を使用して、親オブジェクトのIDを見つけるために使用されます。
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=ソースファイルからのデータは、次のフィールドに挿入されます。
 DataIDSourceIsInsertedInto=ソースファイル内のデータを使用して見つかった親オブジェクトのIDは、次のフィールドに挿入されます。

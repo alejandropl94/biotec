@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=Имейл
 EMailing=Имейл
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Контакти на всички контрагенти (клиенти, потенциални, доставчици, ...)
-MailingModuleDescDolibarrUsers=Dolibarr потребители
+MailingModuleDescPineappleUsers=Pineapple потребители
 MailingModuleDescFundationMembers=Членове на организацията с имейли
 MailingModuleDescEmailsFromFile=Имейли от текстов файл (e-mail, име, фамилия, друго)
 MailingModuleDescEmailsFromUser=EMails from user input (e-mail, име, фамилия, друго)
 MailingModuleDescContactsCategories=Контрагенти (по категории)
-MailingModuleDescDolibarrContractsLinesExpired=Контрагенти с изтекъл срок на договора
+MailingModuleDescPineappleContractsLinesExpired=Контрагенти с изтекъл срок на договора
 MailingModuleDescContactsByCompanyCategory=Контакти с трети страни (от трети страни категория)
 MailingModuleDescContactsByCategory=Контакти/адреси на трети лица (по категория)
 MailingModuleDescMembersCategories=Членове на организацията (по категории)

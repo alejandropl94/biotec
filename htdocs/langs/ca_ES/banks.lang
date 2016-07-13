@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Banc
 Banks=Bancs
 MenuBankCash=Bancs/Caixes
@@ -117,7 +117,7 @@ SocialContributionPayment=Pagament d'impostos varis
 FinancialAccountJournal=Diari de tresoreria del compte
 BankTransfer=Transferència bancària
 BankTransfers=Transferències bancàries
-TransferDesc=En crear una transferència d'un dels seus comptes bancaris cap a una altre, Dolibarr crea dos registres comptables (un dèbit en un compte i un altre de crèdit, del mateix import, en l'altre compte. S'utilitza per als dos registres la mateixa etiqueta de transferència i la mateixa data)
+TransferDesc=En crear una transferència d'un dels seus comptes bancaris cap a una altre, Pineapple crea dos registres comptables (un dèbit en un compte i un altre de crèdit, del mateix import, en l'altre compte. S'utilitza per als dos registres la mateixa etiqueta de transferència i la mateixa data)
 TransferFrom=De
 TransferTo=Cap a
 TransferFromToDone=La transferència de <b>%s</b> cap a <b>%s</b> de <b>%s</b> %s s'ha creat.

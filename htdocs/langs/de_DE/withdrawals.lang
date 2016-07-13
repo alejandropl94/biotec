@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Lastschriftverfahren SEPA Übersicht
 CustomersStandingOrdersArea=SEPA-Lastschriftverfahren-Übersicht
 StandingOrders=Lastschriftverfahren
@@ -95,7 +95,7 @@ InfoCreditMessage=Der Abbucher %s wurde von der Bank gebucht<br>Zahlungsdatum: %
 InfoTransSubject=Übertragung des Abbucher %s zu Bank
 InfoTransMessage=Der Abbucher %s wurde von %s %s an die Bank übertragen.<br><br>
 InfoTransData=Betrag: %s<br>Verwendungszweck: %s<br>Datum: %s
-InfoFoot=Dies ist eine automatisierte Nachricht von Dolibarr
+InfoFoot=Dies ist eine automatisierte Nachricht von Pineapple
 InfoRejectSubject=Lastschriftverfahren abgelehnt
 InfoRejectMessage=Hallo,<br><br>das Lastschriftverfahren für die Rechnung %s von der Firma %s, mit einem Betrag von %s wurde von der Bank abgelehnt.<br><br>--<br>%s
 ModeWarning=Echtzeit-Modus wurde nicht aktiviert, wir stoppen nach der Simulation.

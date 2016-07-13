@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Par
 CronAbout = Par Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Izslēgt
 CronTaskInactive=Šis darbs ir izslēgts
 CronId=Id
 CronClassFile=Klases (filename.class.php)
-CronModuleHelp=Nosaukums Dolibarr moduļa direktoriju (arī strādāt ar ārējo Dolibarr moduli). <BR> Par exemple atnest metodi Dolibarr Produkta objekts / htdocs / <u>produktu</u> / klase / product.class.php, moduļa vērtība ir <i>produkts</i>
-CronClassFileHelp=Faila nosaukumu, lai slodze. <BR> Par exemple atnest metodi Dolibarr Produkta objekts / htdocs / produktu / klase / <u>product.class.php,</u> klases faila nosaukuma vērtība ir <i>product.class.php</i>
-CronObjectHelp=Objekta nosaukums, lai slodze. <BR> Par exemple atnest metodi Dolibarr Produkta objekts / htdocs / produktu / klase / product.class.php, klases faila nosaukuma vērtība ir <i>produktu</i>
-CronMethodHelp=Objekts metode, lai palaistu. <BR> Par exemple atnest metodi Dolibarr Produkta objekts / htdocs / produktu / klase / product.class.php, metodes vērtība ir ir <i>fecth</i>
-CronArgsHelp=Šī metode argumentus. <BR> Par exemple atnest metodi Dolibarr Produkta objekts / htdocs / produktu / klase / product.class.php, no paramters vērtība var būt <i>0, ProductRef</i>
+CronModuleHelp=Nosaukums Pineapple moduļa direktoriju (arī strādāt ar ārējo Pineapple moduli). <BR> Par exemple atnest metodi Pineapple Produkta objekts / htdocs / <u>produktu</u> / klase / product.class.php, moduļa vērtība ir <i>produkts</i>
+CronClassFileHelp=Faila nosaukumu, lai slodze. <BR> Par exemple atnest metodi Pineapple Produkta objekts / htdocs / produktu / klase / <u>product.class.php,</u> klases faila nosaukuma vērtība ir <i>product.class.php</i>
+CronObjectHelp=Objekta nosaukums, lai slodze. <BR> Par exemple atnest metodi Pineapple Produkta objekts / htdocs / produktu / klase / product.class.php, klases faila nosaukuma vērtība ir <i>produktu</i>
+CronMethodHelp=Objekts metode, lai palaistu. <BR> Par exemple atnest metodi Pineapple Produkta objekts / htdocs / produktu / klase / product.class.php, metodes vērtība ir ir <i>fecth</i>
+CronArgsHelp=Šī metode argumentus. <BR> Par exemple atnest metodi Pineapple Produkta objekts / htdocs / produktu / klase / product.class.php, no paramters vērtība var būt <i>0, ProductRef</i>
 CronCommandHelp=Sistēma komandrindas izpildīt.
 CronCreateJob=Create new Scheduled Job
 CronFrom=No
@@ -84,7 +84,7 @@ CronFrom=No
 CronInfoPage=Informācija
 # Common
 CronType=Job type
-CronType_method=Zvanu metode ir Dolibarr klases
+CronType_method=Zvanu metode ir Pineapple klases
 CronType_command=Shell komandu
 CronMenu=Cron
 CronCannotLoadClass=Nevar ielādēt klases %s vai objektu %s

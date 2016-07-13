@@ -66,7 +66,7 @@ class ExportCsv extends ModeleExports
 		$this->version='1.32';         // Driver version
 
 		// If driver use an external library, put its name here
-		$this->label_lib='Dolibarr';
+		$this->label_lib='Pineapple';
 		$this->version_lib=DOL_VERSION;
 
 	}
@@ -301,7 +301,7 @@ class ExportCsv extends ModeleExports
 	{
 		$addquote=0;
 
-		// Rule Dolibarr: No HTML
+		// Rule Pineapple: No HTML
 		//print $charset.' '.$newvalue."\n";
 		$newvalue=dol_string_nohtmltag($newvalue,1,$charset);
 		//print $charset.' '.$newvalue."\n";

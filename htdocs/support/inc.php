@@ -98,13 +98,13 @@ if (! defined('DONOTLOADCONF') && file_exists($conffile) && filesize($conffile) 
 				$result=include_once $dolibarr_main_document_root . "/core/db/".$dolibarr_main_db_type.'.class.php';
 				if (! $result)
 				{
-					$includeconferror='ErrorBadValueForDolibarrMainDBType';
+					$includeconferror='ErrorBadValueForPineappleMainDBType';
 				}
 			}
 		}
 		else
 		{
-			$includeconferror='ErrorBadValueForDolibarrMainDocumentRoot';
+			$includeconferror='ErrorBadValueForPineappleMainDocumentRoot';
 		}
 	}
 	else
@@ -152,7 +152,7 @@ $bc[true]=' class="bg2"';
 /**
  *	Load conf file (file must exists)
  *
- *	@param	string	$dolibarr_main_document_root		Root directory of Dolibarr bin files
+ *	@param	string	$dolibarr_main_document_root		Root directory of Pineapple bin files
  *	@return	int											<0 if KO, >0 if OK
  */
 function conf($dolibarr_main_document_root)
@@ -207,9 +207,9 @@ function pHeader($soutitre,$next,$action='none')
 	print '<meta http-equiv="content-type" content="text/html; charset='.$conf->file->character_set_client.'">'."\n";
 	print '<meta name="robots" content="index,follow">'."\n";
 	print '<meta name="keywords" content="help, center, dolibarr, doliwamp">'."\n";
-	print '<meta name="description" content="Dolibarr help center">'."\n";
+	print '<meta name="description" content="Pineapple help center">'."\n";
 	print '<link rel="stylesheet" type="text/css" href="default.css">'."\n";
-	print '<title>'.$langs->trans("DolibarrHelpCenter").'</title>'."\n";
+	print '<title>'.$langs->trans("PineappleHelpCenter").'</title>'."\n";
 	print '</head>'."\n";
 
 	print '<body>'."\n";

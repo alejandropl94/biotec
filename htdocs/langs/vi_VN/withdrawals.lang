@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Đơn đặt hàng thường trực khu vực
 CustomersStandingOrdersArea=Khách hàng đứng đơn đặt hàng khu vực
 StandingOrders=Đứng đơn đặt hàng
@@ -95,7 +95,7 @@ InfoCreditMessage=Trình tự đứng% s đã được thanh toán của ngân h
 InfoTransSubject=Truyền tải đứng thứ tự% s cho ngân hàng
 InfoTransMessage=Trình tự đứng% s đã được gửi đến ngân hàng bởi% s% s. <br><br>
 InfoTransData=Số tiền:% s <br> Phương pháp:% s <br> Ngày:% s
-InfoFoot=Đây là một thông báo tự động gửi Dolibarr
+InfoFoot=Đây là một thông báo tự động gửi Pineapple
 InfoRejectSubject=Lệnh chuyển tiền định từ chối
 InfoRejectMessage=Xin chào, <br><br> thứ tự đứng hóa đơn% s liên quan đến công ty% s, với số tiền% s đã bị từ chối bởi các ngân hàng. <br><br> - <br> % S
 ModeWarning=Lựa chọn cho chế độ thực sự không được thiết lập, chúng tôi dừng lại sau khi mô phỏng này

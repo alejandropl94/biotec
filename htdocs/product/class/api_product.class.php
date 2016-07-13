@@ -24,10 +24,10 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  */
-class ProductApi extends DolibarrApi
+class ProductApi extends PineappleApi
 {
     /**
      * @var array   $FIELDS     Mandatory fields, checked when create and update object 
@@ -70,7 +70,7 @@ class ProductApi extends DolibarrApi
      */
     function get($id='', $ref='', $ref_ext='')
     {		
-		if(! DolibarrApiAccess::$user->rights->produit->lire) {
+		if(! PineappleApiAccess::$user->rights->produit->lire) {
 			throw new RestException(401);
 		}
 			
@@ -79,8 +79,8 @@ class ProductApi extends DolibarrApi
             throw new RestException(404, 'Product not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('product',$this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('product',$this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         $this->product->load_stock();
@@ -110,7 +110,7 @@ class ProductApi extends DolibarrApi
         
         $obj_ret = array();
         
-        $socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+        $socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
 
         $sql ="SELECT rowid, ref, ref_ext";
         $sql.= " FROM ".MAIN_DB_PREFIX."product as p";
@@ -176,7 +176,7 @@ class ProductApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->produit->creer) {
+        if(! PineappleApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -185,7 +185,7 @@ class ProductApi extends DolibarrApi
         foreach($request_data as $field => $value) {
             $this->product->$field = $value;
         }
-        $result = $this->product->create(DolibarrApiAccess::$user);
+        $result = $this->product->create(PineappleApiAccess::$user);
         if($result < 0) {
             throw new RestException(503,'Error when creating product : '.$this->product->error);
         }
@@ -205,7 +205,7 @@ class ProductApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->produit->creer) {
+        if(! PineappleApiAccess::$user->rights->produit->creer) {
 			throw new RestException(401);
 		}
         
@@ -214,15 +214,15 @@ class ProductApi extends DolibarrApi
             throw new RestException(404, 'Product not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('product',$this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('product',$this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->product->$field = $value;
         }
         
-        if($this->product->update($id, DolibarrApiAccess::$user,1,'','','update'))
+        if($this->product->update($id, PineappleApiAccess::$user,1,'','','update'))
             return $this->get ($id);
         
         return false;
@@ -238,7 +238,7 @@ class ProductApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->product->supprimer) {
+        if(! PineappleApiAccess::$user->rights->product->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->product->fetch($id);
@@ -246,8 +246,8 @@ class ProductApi extends DolibarrApi
             throw new RestException(404, 'Product not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('product',$this->product->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('product',$this->product->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         return $this->product->delete($id);

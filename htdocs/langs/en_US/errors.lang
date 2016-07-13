@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=No error, we commit
@@ -40,9 +40,9 @@ ErrorBadDateFormat=Value '%s' has wrong date format
 ErrorWrongDate=Date is not correct!
 ErrorFailedToWriteInDir=Failed to write in directory %s
 ErrorFoundBadEmailInFile=Found incorrect email syntax for %s lines in file (example line %s with email=%s)
-ErrorUserCannotBeDelete=User can not be deleted. May be it is associated on Dolibarr entities.
+ErrorUserCannotBeDelete=User can not be deleted. May be it is associated on Pineapple entities.
 ErrorFieldsRequired=Some required fields were not filled.
-ErrorFailedToCreateDir=Failed to create a directory. Check that Web server user has permissions to write into Dolibarr documents directory. If parameter <b>safe_mode</b> is enabled on this PHP, check that Dolibarr php files owns to web server user (or group).
+ErrorFailedToCreateDir=Failed to create a directory. Check that Web server user has permissions to write into Pineapple documents directory. If parameter <b>safe_mode</b> is enabled on this PHP, check that Pineapple php files owns to web server user (or group).
 ErrorNoMailDefinedForThisUser=No mail defined for this user
 ErrorFeatureNeedJavascript=This feature need javascript to be activated to work. Change this in setup - display.
 ErrorTopMenuMustHaveAParentWithId0=A menu of type 'Top' can't have a parent menu. Put 0 in parent menu or choose a menu of type 'Left'.
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=Field <b>%s</b> must not contains speci
 ErrorFieldCanNotContainSpecialNorUpperCharacters=Field <b>%s</b> must not contain special characters, nor upper case characters and cannot contain only numbers.
 ErrorNoAccountancyModuleLoaded=No accountancy module activated
 ErrorExportDuplicateProfil=This profile name already exists for this export set.
-ErrorLDAPSetupNotComplete=Dolibarr-LDAP matching is not complete.
+ErrorLDAPSetupNotComplete=Pineapple-LDAP matching is not complete.
 ErrorLDAPMakeManualTest=A .ldif file has been generated in directory %s. Try to load it manually from command line to have more information on errors.
 ErrorCantSaveADoneUserWithZeroPercentage=Can't save an action with "statut not started" if field "done by" is also filled.
 ErrorRefAlreadyExists=Ref used for creation already exists.
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Wrong value for field number <b>%s</b> (value '<b>%s</b>' is 
 ErrorsOnXLines=Errors on <b>%s</b> source record(s)
 ErrorFileIsInfectedWithAVirus=The antivirus program was not able to validate the file (file might be infected by a virus)
 ErrorSpecialCharNotAllowedForField=Special characters are not allowed for field "%s"
-ErrorDatabaseParameterWrong=Database setup parameter '<b>%s</b>' has a value not compatible to use Dolibarr (must have value '<b>%s</b>').
+ErrorDatabaseParameterWrong=Database setup parameter '<b>%s</b>' has a value not compatible to use Pineapple (must have value '<b>%s</b>').
 ErrorNumRefModel=A reference exists into database (%s) and is not compatible with this numbering rule. Remove record or renamed reference to activate this module.
 ErrorQtyTooLowForThisSupplier=Quantity too low for this supplier or no price defined on this product for this supplier
 ErrorModuleSetupNotComplete=Setup of module looks to be uncomplete. Go on Setup - Modules to complete.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Failed to send password
 ErrorFailedToLoadRSSFile=Fails to get RSS feed. Try to add constant MAIN_SIMPLEXMLLOAD_DEBUG if error messages does not provide enough information.
 ErrorPasswordDiffers=Passwords differs, please type them again.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=Permission for this login can be defined by your Dolibarr administrator from menu %s->%s.
-ErrorForbidden3=It seems that Dolibarr is not used through an authenticated session. Take a look at Dolibarr setup documentation to know how to manage authentications (htaccess, mod_auth or other...).
+ErrorForbidden2=Permission for this login can be defined by your Pineapple administrator from menu %s->%s.
+ErrorForbidden3=It seems that Pineapple is not used through an authenticated session. Take a look at Pineapple setup documentation to know how to manage authentications (htaccess, mod_auth or other...).
 ErrorNoImagickReadimage=Class Imagick is not found in this PHP. No preview can be available. Administrators can disable this tab from menu Setup - Display.
 ErrorRecordAlreadyExists=Record already exists
 ErrorCantReadFile=Failed to read file '%s'
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=User account <b>%s</b> used to execute web se
 ErrorNoActivatedBarcode=No barcode type activated
 ErrUnzipFails=Failed to unzip %s with ZipArchive
 ErrNoZipEngine=No engine to unzip %s file in this PHP
-ErrorFileMustBeADolibarrPackage=The file %s must be a Dolibarr zip package
-ErrorFileRequired=It takes a package Dolibarr file
+ErrorFileMustBeAPineapplePackage=The file %s must be a Pineapple zip package
+ErrorFileRequired=It takes a package Pineapple file
 ErrorPhpCurlNotInstalled=The PHP CURL is not installed, this is essential to talk with Paypal
 ErrorFailedToAddToMailmanList=Failed to add record %s to Mailman list %s or SPIP base
 ErrorFailedToRemoveToMailmanList=Failed to remove record %s to Mailman list %s or SPIP base
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Failed to add contact
 ErrorDateMustBeBeforeToday=The date can not be greater than today
 ErrorPaymentModeDefinedToWithoutSetup=A payment mode was set to type %s but setup of module Invoice was not completed to define information to show for this payment mode.
 ErrorPHPNeedModule=Error, your PHP must have module <b>%s</b> installed to use this feature.
-ErrorOpenIDSetupNotComplete=You setup Dolibarr config file to allow OpenID authentication, but URL of OpenID service is not defined into constant %s
+ErrorOpenIDSetupNotComplete=You setup Pineapple config file to allow OpenID authentication, but URL of OpenID service is not defined into constant %s
 ErrorWarehouseMustDiffers=Source and target warehouses must differs
 ErrorBadFormat=Bad format!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, this member is not yet linked to any thirdparty. Link member to an existing third party or create a new thirdparty before creating subscription with invoice.
@@ -175,7 +175,7 @@ ErrorSavingChanges=An error has ocurred when saving the changes
 ErrorWarehouseRequiredIntoShipmentLine=Warehouse is required on the line to ship
 
 # Warnings
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.  
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Pineapple. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.  
 WarningMandatorySetupNotComplete=Mandatory setup parameters are not yet defined
 WarningSafeModeOnCheckExecDir=Warning, PHP option <b>safe_mode</b> is on so command must be stored inside a directory declared by php parameter <b>safe_mode_exec_dir</b>.
 WarningAllowUrlFopenMustBeOn=Parameter <b>allow_url_fopen</b> must be set to <b>on</b> in filer <b>php.ini</b> for having this module working completely. You must modify this file manually.

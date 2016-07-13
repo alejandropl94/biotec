@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Постоянни нареждания област
 CustomersStandingOrdersArea=Клиентите постоянни нареждания област
 StandingOrders=Постоянните поръчки
@@ -95,7 +95,7 @@ InfoCreditMessage=Постоянната за %s е била платена от
 InfoTransSubject=Предаване на %s постоянно нареждане до банката
 InfoTransMessage=Постоянната за %s е предавана до банката от %s %s. <br><br>
 InfoTransData=Размер: %s <br> Metode: %s <br> Дата: %s
-InfoFoot=Това е автоматично съобщение, изпратено от Dolibarr
+InfoFoot=Това е автоматично съобщение, изпратено от Pineapple
 InfoRejectSubject=Постоянния за отказа
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=Възможност за реален режим не е създаден, спираме след тази симулация

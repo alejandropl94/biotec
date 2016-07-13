@@ -38,4 +38,4 @@ ShowStock=Rodyti sandėlį
 DeleteArticle=Spustelėkite pašalinti šį straipsnį
 FilterRefOrLabelOrBC=Paieška (Nuoroda/Etiketė)
 UserNeedPermissionToEditStockToUsePos=Jūs prašote sumažinti atsargų kiekį sąskaitoje-faktūroje, todėl vartotojas, naudojantis POS turi turėti teisę redaguoti atsargas.
-DolibarrReceiptPrinter=Dolibarr Receipt Printer
+PineappleReceiptPrinter=Pineapple Receipt Printer

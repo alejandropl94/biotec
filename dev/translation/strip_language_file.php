@@ -256,7 +256,7 @@ foreach($filesToProcess as $fileToProcess)
 
 		print "Read Primary File $lPrimaryFile and write ".$output.":\n";
 
-		fwrite($oh, "# Dolibarr language file - Source file is en_US - ".(preg_replace('/\.lang$/','',$fileToProcess))."\n");
+		fwrite($oh, "# Pineapple language file - Source file is en_US - ".(preg_replace('/\.lang$/','',$fileToProcess))."\n");
 
 		$cnt = 0;
 		while (($line = fgets($handle)) !== false)

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Lösenord för domän
 YouMustChangePassNextLogon=Lösenord för användare <b>%s</b> på domänen <b>%s</b> måste ändras.
 UserMustChangePassNextLogon=Användaren måste byta lösenord på domänen %s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Första teckningsdag
 LDAPFieldFirstSubscriptionAmount=Fist teckningsbelopp
 LDAPFieldLastSubscriptionDate=Sista teckningsdag
 LDAPFieldLastSubscriptionAmount=Senaste teckningsbelopp
-SynchronizeDolibarr2Ldap=Synkronisera användare (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Synkronisera användare (Pineapple -> LDAP)
 UserSynchronized=Användare synkroniseras
 GroupSynchronized=Grupp synkroniseras
 MemberSynchronized=Medlem synkroniseras
 ContactSynchronized=Kontakta synkroniseras
-ForceSynchronize=Tvinga synkronisering Dolibarr -> LDAP
+ForceSynchronize=Tvinga synkronisering Pineapple -> LDAP
 ErrorFailedToReadLDAP=Misslyckades med att läsa LDAP-databas. Kontrollera LDAP-modul setup och databas tillgänglighet.

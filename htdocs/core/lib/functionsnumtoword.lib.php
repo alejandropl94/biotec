@@ -18,7 +18,7 @@
  */
 /**
  *	\file			htdocs/core/lib/functionsnumbertoword.lib.php
- *	\brief			A set of functions for Dolibarr
+ *	\brief			A set of functions for Pineapple
  *					This file contains all frequently used functions.
  */
 /**

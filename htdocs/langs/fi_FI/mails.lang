@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=Sähköpostituksen
 EMailing=Sähköpostituksen
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Yhteystiedot kaikista kolmansien osapuolten (asiakas, näkymä, toimittaja, ...)
-MailingModuleDescDolibarrUsers=Kaikki Dolibarr käyttäjien sähköpostit
+MailingModuleDescPineappleUsers=Kaikki Pineapple käyttäjien sähköpostit
 MailingModuleDescFundationMembers=Säätiön jäsenten sähköpostit
 MailingModuleDescEmailsFromFile=Sähköpostit tekstitiedosto (sähköposti, nimi, sukunimi)
 MailingModuleDescEmailsFromUser=EMails from user input (email;lastname;firstname;other)
 MailingModuleDescContactsCategories=Yhteystiedot kaikista kolmansien osapuolten (luokittain)
-MailingModuleDescDolibarrContractsLinesExpired=Kolmannen osapuolen kanssa lakkaa sopimuksen linjat
+MailingModuleDescPineappleContractsLinesExpired=Kolmannen osapuolen kanssa lakkaa sopimuksen linjat
 MailingModuleDescContactsByCompanyCategory=Yhteydet kolmansien osapuolten (kolmansien osapuolten ryhmä)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Säätiön jäsenet (kategoria)

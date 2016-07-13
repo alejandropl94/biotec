@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. proiect
 ProjectRef=Project ref.
 ProjectId=ID proiect
@@ -131,10 +131,10 @@ ConfirmCloneProject=Sigur vreţi să clonaţi acest proiect?
 ProjectReportDate=Schimbă data taskului conform cu data de debut a proiectului
 ErrorShiftTaskDate=Imposibil de schimbat data taskului conform cu noua data de debut a proiectului
 ProjectsAndTasksLines=Proiecte şi taskuri
-ProjectCreatedInDolibarr=Proiect %s creat
-TaskCreatedInDolibarr=Task %s creat
-TaskModifiedInDolibarr=Task %s modificat
-TaskDeletedInDolibarr=Task %s sters
+ProjectCreatedInPineapple=Proiect %s creat
+TaskCreatedInPineapple=Task %s creat
+TaskModifiedInPineapple=Task %s modificat
+TaskDeletedInPineapple=Task %s sters
 OpportunityStatus=Opportunity status
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

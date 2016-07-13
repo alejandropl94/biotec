@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 ProjectRef=Ref projeto.
 ProjectId=Id do projeto
 ProjectLabel=Etiqueta projeto
@@ -83,9 +83,9 @@ CloneTaskFiles=Copia(s) do(s) arquivo(s) do projeto(s) finalizado
 CloneMoveDate=Atualizar projeto / tarefas com lançamento a partir de agora?
 ConfirmCloneProject=Tem certeza que deseja copiar este projeto?
 ErrorShiftTaskDate=Impossível mudar data da tarefa de acordo com a nova data de início do projeto
-TaskCreatedInDolibarr=Tarefa %s criada
-TaskModifiedInDolibarr=Tarefa %s alterada
-TaskDeletedInDolibarr=Tarefa %s excluída
+TaskCreatedInPineapple=Tarefa %s criada
+TaskModifiedInPineapple=Tarefa %s alterada
+TaskDeletedInPineapple=Tarefa %s excluída
 TypeContact_project_internal_PROJECTLEADER=Chefe de projeto
 TypeContact_project_external_PROJECTLEADER=Chefe de projeto
 TypeContact_project_task_internal_TASKEXECUTIVE=Tarefa executada

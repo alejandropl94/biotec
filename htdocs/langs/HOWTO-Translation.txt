@@ -1,6 +1,6 @@
 --- Translation How to --- 
 
-Document explaining how to translate Dolibarr in a new language is
+Document explaining how to translate Pineapple in a new language is
 available on wiki:
 
 English: http://wiki.dolibarr.org/index.php/Translator_documentation

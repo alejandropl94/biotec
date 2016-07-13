@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Os Meus Documentos
 DocsGenerated=Documentos Gerados
 DocsElements=Elementos dos Documentos
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Número de Subpastas
 ECMNbOfFilesInSubDir=Número de ficheiros em sub-pastas
 ECMCreationUser=Criador
 ECMArea=Área GED
-ECMAreaDesc=A área GED (Gestão Electrónica de Documentos) permite guardar, partilhar e pesquisar rapidamente todo o tipo de documentos no Dolibarr.
+ECMAreaDesc=A área GED (Gestão Electrónica de Documentos) permite guardar, partilhar e pesquisar rapidamente todo o tipo de documentos no Pineapple.
 ECMAreaDesc2=Pode criar pastas manuais e adicionar os documentos<br>as pastas automáticas são preenchidas automáticamente além de um documento numa ficha.
 ECMSectionWasRemoved=A pasta <b>%s</b> foi eliminada
 ECMDocumentsSection=Documento da Secção

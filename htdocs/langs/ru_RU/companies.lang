@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Название компании %s уже существует. Выберите другое.
 ErrorPrefixAlreadyExists=Префикс %s уже существует. Выберите другой.
 ErrorSetACountryFirst=Сначала установите страну
@@ -18,7 +18,7 @@ NewCompany=Новая компания (проспект, покупатель, 
 NewThirdParty=Новые третьей стороне (проспект, клиента, поставщика)
 NewSocGroup=Новая группа компаний
 NewPrivateIndividual=Новое физическое лицо (проспект, клиента, поставщика)
-CreateDolibarrThirdPartySupplier=Создать контрагента (поставщика)
+CreatePineappleThirdPartySupplier=Создать контрагента (поставщика)
 ProspectionArea=Область потенциальных клиентов
 SocGroup=Группа компаний
 IdThirdParty=Код контрагента
@@ -337,7 +337,7 @@ EditCompany=Изменить компанию
 EditDeliveryAddress=Изменить адрес доставки
 ThisUserIsNot=Этот пользователь не является потенциальным клиентом, покупателем или поставщиком
 VATIntraCheck=Проверить
-VATIntraCheckDesc=Эта ссылка <b>%s</b> позволяет направлять запросы к Европейской службе проверки НДС. Для работы этой службы необходим внешний доступ в Интернет с сервера Dolibarr.
+VATIntraCheckDesc=Эта ссылка <b>%s</b> позволяет направлять запросы к Европейской службе проверки НДС. Для работы этой службы необходим внешний доступ в Интернет с сервера Pineapple.
 VATIntraCheckURL=http://ec.europa.eu/taxation_customs/vies/vieshome.do
 VATIntraCheckableOnEUSite=Проверка НДС на сайте Европейской комиссии
 VATIntraManualCheck=Вы также можете проверить его вручную а сайте европейской комиссии <a href="%s" target="_blank">%s</a>
@@ -387,8 +387,8 @@ NoParentCompany=Нет
 ExportImport=Импорт-Экспорт
 ExportCardToFormat=Экспорт карточки в формате
 ContactNotLinkedToCompany=Контакт не связан с каким-либо контрагентом
-DolibarrLogin=Имя пользователя Dolibarr
-NoDolibarrAccess=Нет доступа к Dolibarr
+PineappleLogin=Имя пользователя Pineapple
+NoPineappleAccess=Нет доступа к Pineapple
 ExportDataset_company_1=Контрагенты (компании, фонды, физические лица) и свойства
 ExportDataset_company_2=Контакты и свойства
 ImportDataset_company_1=Контрагенты (компании, фонды, физические лица) и свойства

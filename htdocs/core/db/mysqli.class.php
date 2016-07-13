@@ -21,13 +21,13 @@
 
 /**
  *	\file       htdocs/core/db/mysqli.class.php
- *	\brief      Class file to manage Dolibarr database access for a MySQL database
+ *	\brief      Class file to manage Pineapple database access for a MySQL database
  */
 
 require_once DOL_DOCUMENT_ROOT .'/core/db/DoliDB.class.php';
 
 /**
- *	Class to manage Dolibarr database access for a MySQL database using the MySQLi extension
+ *	Class to manage Pineapple database access for a MySQL database using the MySQLi extension
  */
 class DoliDBMysqli extends DoliDB
 {
@@ -111,7 +111,7 @@ class DoliDBMysqli extends DoliDB
                 $this->database_name = $name;
                 $this->ok = true;
 
-                // If client connected with different charset than Dolibarr HTML output
+                // If client connected with different charset than Pineapple HTML output
                 $clientmustbe='';
                 if (preg_match('/UTF-8/i',$conf->file->character_set_client))      $clientmustbe='utf8';
                 if (preg_match('/ISO-8859-1/i',$conf->file->character_set_client)) $clientmustbe='latin1';
@@ -137,7 +137,7 @@ class DoliDBMysqli extends DoliDB
 
             if ($this->connected)
             {
-                // If client connected with different charset than Dolibarr HTML output
+                // If client connected with different charset than Pineapple HTML output
                 $clientmustbe='';
                 if (preg_match('/UTF-8/i',$conf->file->character_set_client))      $clientmustbe='utf8';
                 if (preg_match('/ISO-8859-1/i',$conf->file->character_set_client)) $clientmustbe='latin1';
@@ -395,7 +395,7 @@ class DoliDBMysqli extends DoliDB
             // Si il y a eu echec de connexion, $this->db n'est pas valide.
             return 'DB_ERROR_FAILED_TO_CONNECT';
         } else {
-            // Constants to convert a MySql error code to a generic Dolibarr error code
+            // Constants to convert a MySql error code to a generic Pineapple error code
             $errorcode_map = array(
             1004 => 'DB_ERROR_CANNOT_CREATE',
             1005 => 'DB_ERROR_CANNOT_CREATE',

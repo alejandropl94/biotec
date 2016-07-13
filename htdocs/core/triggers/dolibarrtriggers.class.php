@@ -18,7 +18,7 @@
 /**
  * Class that all the triggers must extend
  */
-abstract class DolibarrTriggers
+abstract class PineappleTriggers
 {
 
 	/**
@@ -134,7 +134,7 @@ abstract class DolibarrTriggers
 	}
 
 	/**
-	 * Function called when a Dolibarrr business event is done.
+	 * Function called when a Pineappler business event is done.
 	 * All functions "runTrigger" are triggered if file is inside directory htdocs/core/triggers or htdocs/module/code/triggers (and declared)
 	 *
 	 * @param string		$action		Event action code

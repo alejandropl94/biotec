@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=EMailing
 EMailing=EMailing
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Br poslatih
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kontaktišadrese svih subjekata (klijenti, kandidati, dobavljači, ...)
-MailingModuleDescDolibarrUsers=Dolibarr korisnici
+MailingModuleDescPineappleUsers=Pineapple korisnici
 MailingModuleDescFundationMembers=Članovi fondacije sa mailovima
 MailingModuleDescEmailsFromFile=Email-ovi iz tekst fajla (email;prezime;ime;ostalo)
 MailingModuleDescEmailsFromUser=Email-ovi koje je uneo korisnik (email;prezime;ime;ostalo)
 MailingModuleDescContactsCategories=Subjekti (po kategoriji)
-MailingModuleDescDolibarrContractsLinesExpired=Subjekti sa isteklim linijama ugovora
+MailingModuleDescPineappleContractsLinesExpired=Subjekti sa isteklim linijama ugovora
 MailingModuleDescContactsByCompanyCategory=Kontakti/adrese subjekata (po kategoriji subjekta)
 MailingModuleDescContactsByCategory=Kontakti/adrese subjekata (po kategoriji)
 MailingModuleDescMembersCategories=Članovi fondacije (po kategorijama)

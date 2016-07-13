@@ -24,7 +24,7 @@
  *		\ingroup    cron
  */
 
-// Dolibarr environment
+// Pineapple environment
 $res = @include("../../main.inc.php"); // From htdocs directory
 require_once DOL_DOCUMENT_ROOT.'/core/lib/admin.lib.php';
 require_once DOL_DOCUMENT_ROOT.'/core/lib/cron.lib.php';

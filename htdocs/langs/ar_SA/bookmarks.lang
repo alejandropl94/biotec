@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=أضف هذه الصفحة إلى المفضلة
 Bookmark=احفظ
 Bookmarks=العناوين
@@ -13,7 +13,7 @@ UrlOrLink=العنوان
 BehaviourOnClick=السلوك على الضغط على العنوان
 CreateBookmark=إيجاد المرجعية
 SetHereATitleForLink=مجموعة هنا عنوان المرجعية
-UseAnExternalHttpLinkOrRelativeDolibarrLink=استخدام خارجي عنوان النص المتشعب أو قريب Dolibarr عنوان
+UseAnExternalHttpLinkOrRelativePineappleLink=استخدام خارجي عنوان النص المتشعب أو قريب Pineapple عنوان
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=إذا كان الاختيار قد فتحت صفحة ويجب أن تظهر على وصلة الحالية أو نافذة جديدة
 BookmarksManagement=إدارة العناوين
 ListOfBookmarks=قائمة العناوين

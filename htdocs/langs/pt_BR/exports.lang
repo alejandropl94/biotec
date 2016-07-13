@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Área Exportações
 ImportableDatas=Conjunto de dados importaveis
 SelectExportDataSet=Escolha um conjunto predefinido de dados que deseja exportar...
@@ -37,7 +37,7 @@ DownloadEmptyExample=Baixar exemplo de arquivo de origem vazio
 ChooseFormatOfFileToImport=Escolha o formato de arquivo a ser usado como formato de arquivo de importação clicando no para selecioná-lo ...
 ChooseFileToImport=Carregar arquivo e clique no picto% s para selecionar o arquivo como arquivo de importação de fonte ...
 FieldsInSourceFile=Campos em arquivo de origem
-FieldsInTargetDatabase=Campos de destino no banco de dados Dolibarr (negrito = obrigatório)
+FieldsInTargetDatabase=Campos de destino no banco de dados Pineapple (negrito = obrigatório)
 MoveField=Mover campo número da colunas
 ExampleOfImportFile=Exemplo de arquivo de importação
 SaveImportProfile=Guardar este perfil de importação
@@ -67,7 +67,7 @@ NbOfLinesOK=Número de linhas sem erros e sem avisos:
 NbOfLinesImported=Número de linhas de importados com sucesso:
 DataComeFromNoWhere=Valor para inserir vem do erro,no arquivo de origem.
 DataComeFromFileFieldNb=Valor para inserir vem do campo de número do arquivo de origem.
-DataComeFromIdFoundFromRef=Valor que vem do campo de número do arquivo de origem, será usado para encontrar id do objeto. (Então o objeto que tem a ref. De arquivo de origem deve existir em Dolibarr).
+DataComeFromIdFoundFromRef=Valor que vem do campo de número do arquivo de origem, será usado para encontrar id do objeto. (Então o objeto que tem a ref. De arquivo de origem deve existir em Pineapple).
 DataComeFromIdFoundFromCodeId=O código que vem de número do campo do arquivo de origem será usado para encontrar id do objeto pai de usar (Assim, o código do arquivo de origem deve existe no dicionário).  Note que, se você sabe id, você também pode usá-lo em arquivo de origem em vez de código. Importação deve trabalhar em ambos os casos.
 DataIsInsertedInto=Dados provenientes do arquivo de origem será inserido o seguinte campo:
 DataIDSourceIsInsertedInto=O id do objeto pai encontrado usando os dados em arquivo de origem, será inserido o seguinte campo:

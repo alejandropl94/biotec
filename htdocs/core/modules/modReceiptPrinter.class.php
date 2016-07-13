@@ -71,7 +71,7 @@ class modReceiptPrinter extends DolibarrModules
         $this->depends = array();
         $this->requiredby = array();
         $this->phpmin = array(5,1);                     // Minimum version of PHP required by module
-        $this->need_dolibarr_version = array(3,9,-2);   // Minimum version of Dolibarr required by module
+        $this->need_dolibarr_version = array(3,9,-2);   // Minimum version of Pineapple required by module
         $this->conflictwith = array();
         $this->langfiles = array("receiptprinter");
 
@@ -125,7 +125,7 @@ class modReceiptPrinter extends DolibarrModules
 
     /**
      *      Function called when module is enabled.
-     *      The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+     *      The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
      *      It also creates data directories
      *
      *      @param      string  $options    Options when enabling module ('', 'noboxes')

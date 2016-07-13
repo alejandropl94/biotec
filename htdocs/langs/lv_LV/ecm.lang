@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Mani dokumenti
 DocsGenerated=Izveidotie dokumenti
 DocsElements=Elements dokumenti
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Apakšsadaļu skaits
 ECMNbOfFilesInSubDir=Failu skaits apakšsadaļās
 ECMCreationUser=Autors
 ECMArea=EDM platība
-ECMAreaDesc=EDM (Electronic Document Management) platība ļauj saglabāt, koplietot un meklēt ātri visa veida dokumentus Dolibarr.
+ECMAreaDesc=EDM (Electronic Document Management) platība ļauj saglabāt, koplietot un meklēt ātri visa veida dokumentus Pineapple.
 ECMAreaDesc2=* Automātiska katalogi tiek aizpildītas automātiski pievienojot dokumentus no kartes elementa. <br> * Manual abonentu var tikt izmantoti, lai saglabātu dokumentus nav saistītas ar noteiktu elementa.
 ECMSectionWasRemoved=Katalogs <b>%s</b> ir dzēsts.
 ECMDocumentsSection=Dokuments katalogs

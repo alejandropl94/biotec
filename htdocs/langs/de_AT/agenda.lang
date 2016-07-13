@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# Pineapple language file - Source file is en_US - agenda
 Actions=Termine
 ActionsArea=Ereignisse (Akrtionen und Aufgaben)
 Calendar=Kalender
@@ -16,13 +16,13 @@ ActionsForUsersGroup=Termine für alle
 ActionAssignedTo=Termin zugwiesen von
 ViewCal=Kalender anzeigen
 ViewDay=Tag anzeigen
-PropalValidatedInDolibarr=Angebot %s verifiziert
-InvoiceValidatedInDolibarr=Rechung %s verifiziert
-InvoiceBackToDraftInDolibarr=Rechnung %s zurück zum provisorischen Status
-OrderValidatedInDolibarr=Bestellung freigegeben
-OrderCanceledInDolibarr=Bestellung %s storiniert
-OrderApprovedInDolibarr=Bestellung %s wurde validiert
-OrderBackToDraftInDolibarr=Bestellung %s zurück zum provisorischen Status
+PropalValidatedInPineapple=Angebot %s verifiziert
+InvoiceValidatedInPineapple=Rechung %s verifiziert
+InvoiceBackToDraftInPineapple=Rechnung %s zurück zum provisorischen Status
+OrderValidatedInPineapple=Bestellung freigegeben
+OrderCanceledInPineapple=Bestellung %s storiniert
+OrderApprovedInPineapple=Bestellung %s wurde validiert
+OrderBackToDraftInPineapple=Bestellung %s zurück zum provisorischen Status
 ProposalSentByEMail=Angebot %s per Email versandt
 OrderSentByEMail=Bestellung %s per Email versandt
 InvoiceSentByEMail=Rechnung %s per Email versandt

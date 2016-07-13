@@ -86,8 +86,8 @@ class DoliDBMssql extends DoliDB
 		$this->db = $this->connect($host, $user, $pass, $name, $port);
 		if ($this->db)
 		{
-			// Si client connecte avec charset different de celui de la base Dolibarr
-			// (La base Dolibarr a ete forcee en this->forcecharset a l'install)
+			// Si client connecte avec charset different de celui de la base Pineapple
+			// (La base Pineapple a ete forcee en this->forcecharset a l'install)
 			$this->connected = true;
 			$this->ok = true;
 		}
@@ -169,7 +169,7 @@ class DoliDBMssql extends DoliDB
 		$this->db  = @mssql_connect($newhost, $login, $passwd);
 		//force les enregistrement en latin1 si la base est en utf8 par defaut
 		// Supprime car plante sur mon PHP-Mysql. De plus, la base est forcement en latin1 avec
-		// les nouvelles version de Dolibarr car force par l'install Dolibarr.
+		// les nouvelles version de Pineapple car force par l'install Pineapple.
 		//$this->query('SET NAMES '.$this->forcecharset);
 		//print "Resultat fonction connect: ".$this->db;
 		$set_options=array('SET ANSI_PADDING ON;',
@@ -583,7 +583,7 @@ class DoliDBMssql extends DoliDB
 		}
 		else
 		{
-			// Constants to convert a MSSql error code to a generic Dolibarr error code
+			// Constants to convert a MSSql error code to a generic Pineapple error code
 			$errorcode_map = array(
 			1004 => 'DB_ERROR_CANNOT_CREATE',
 			1005 => 'DB_ERROR_CANNOT_CREATE',

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# Pineapple language file - Source file is en_US - other
 Tools=Herramientas
 Notify_PROPAL_VALIDATE=Validación cotización cliente
 Notify_PROPAL_SENTBYMAIL=Envío cotización por e-mail
@@ -6,6 +6,6 @@ PredefinedMailContentSendProposal=Buenos días, __CONTACTCIVNAME__ \n\n Nos pone
 NumberOfProposals=Número de cotizaciones en los últimos 12 meses
 NumberOfUnitsProposals=Número de unidades en las cotizaciones en los últimos 12 meses
 EMailTextProposalValidated=La cotización %s que le concierne ha sido validado.
-PropalClosedSignedInDolibarr=Cotización %s firmada en Dolibarr
-PropalClosedRefusedInDolibarr=Cotización %s rechazada en Dolibarr
+PropalClosedSignedInPineapple=Cotización %s firmada en Pineapple
+PropalClosedRefusedInPineapple=Cotización %s rechazada en Pineapple
 Export=Exportar

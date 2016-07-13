@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. prosjekt
 ProjectRef=Prosjektsref.
 ProjectId=Prosjekt-ID
@@ -131,10 +131,10 @@ ConfirmCloneProject=Er du sikker på at du vil klone dette prosjektet?
 ProjectReportDate=Endre oppgave-dato til prosjekt-startdato
 ErrorShiftTaskDate=Kan ikke skifte oppgave-dato etter nytt prosjekt-startdato
 ProjectsAndTasksLines=Prosjekter og oppgaver
-ProjectCreatedInDolibarr=Prosjekt %s opprettet
-TaskCreatedInDolibarr=Oppgave %s opprettet
-TaskModifiedInDolibarr=Oppgave %s endret
-TaskDeletedInDolibarr=Oppgave %s slettet
+ProjectCreatedInPineapple=Prosjekt %s opprettet
+TaskCreatedInPineapple=Oppgave %s opprettet
+TaskModifiedInPineapple=Oppgave %s endret
+TaskDeletedInPineapple=Oppgave %s slettet
 OpportunityStatus=Mulighet-status
 OpportunityStatusShort=Tilbudsstatus
 OpportunityProbability=Mulighet - sannsynlighet

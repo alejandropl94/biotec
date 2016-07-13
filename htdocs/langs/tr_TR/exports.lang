@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Dışaaktarım alanı
 ImportArea=İçeaktarım alanı
 NewExport=Yeni dışaaktarım
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=%s görseline tıklayarak içeaktarılacak dosya biç
 ChooseFileToImport=Dosyayı yükledikten sonra %s görseline tıklayarak içeaktarılacak dosya biçimi olarak kullanılacak dosya biçimini seçin...
 SourceFileFormat=Kaynak dosya biçimi
 FieldsInSourceFile=Kaynak dosyadaki alanlar
-FieldsInTargetDatabase=Dolibarr veritabanındaki hedef alanlar (koyu=zorunlu)
+FieldsInTargetDatabase=Pineapple veritabanındaki hedef alanlar (koyu=zorunlu)
 Field=Alan
 NoFields=Alan sayısı
 MoveField=%s numaralı alan sütununu taşıyın
@@ -102,7 +102,7 @@ NbOfLinesOK=Hatasız ve uyarı içermeyen satır sayısı:<b>%s</b>.
 NbOfLinesImported=Sorunsuz içeaktarılan satır sayısı:<b>%s</b>.
 DataComeFromNoWhere=Eklenecek değer kaynak dosyada hiç bir yerden gelmiyor.
 DataComeFromFileFieldNb=Eklenecek değer kaynak dosyada <b>%s</b> numaralı alandan geliyor.
-DataComeFromIdFoundFromRef=Kaynak dosyanın <b>%s</b> numaralı alanından gelen değer, üst nesne kodunun bulunması için kullanılacak (yani kaynak dosyadaki ilgili <b>%s</b> nesnesi önceden Dolibarr içinde bulunmalıdır).
+DataComeFromIdFoundFromRef=Kaynak dosyanın <b>%s</b> numaralı alanından gelen değer, üst nesne kodunun bulunması için kullanılacak (yani kaynak dosyadaki ilgili <b>%s</b> nesnesi önceden Pineapple içinde bulunmalıdır).
 DataComeFromIdFoundFromCodeId=Kaynak dosyanın <b>%s</b> alan numarasından  gelen kod, ana öğenin id'inin bulunmasında kullanılacaktır (Yani kaynak dosyadan gelen kod <b>%s</b> sözlüğü içinde mutlaka bulunmalıdır). Id'i biliyorsanız, ayrıca kod yerine kaynak dosyası içinde onu kullanabileceğinizi unutmayın. İçeaktarımın her iki durumda da çalışması gerekir.
 DataIsInsertedInto=Kaynak dosyadan gelen veri şu alana eklenecek:
 DataIDSourceIsInsertedInto=Kaynak dosyadaki, veriyi kullanan üst nesne kodu, şu alana eklenecek:

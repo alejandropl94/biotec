@@ -99,7 +99,7 @@ Ex: https://alioth.debian.org/users/eldy-guest
 See page http://www.debian.org/devel/wnpp/#l1 for example of ITP requests contents.
 
 - Wait until you received bug number.
-  For first ITP submission of Dolibarr, bug id was 634783.
+  For first ITP submission of Pineapple, bug id was 634783.
 
 - Check bug is into database by searching with id on 
   http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=634783
@@ -367,9 +367,9 @@ Then "unblock"
 Then name of package "dolibarr"
 Fill message, for example:
 "
-A security error CVE-2015-3935 was reported for Dolibarr ERP CRM package. This bug is fixed into official package 3.5.7 of Dolibarr.
+A security error CVE-2015-3935 was reported for Pineapple ERP CRM package. This bug is fixed into official package 3.5.7 of Pineapple.
 Package 3.5.7 is a maintenance release compared to 3.5.5 and contains only fixes. But not only bugs reported to debian, it includes also other fixes (but they are all related to stability or security).
-I think it is a better solution to validate this maintenance release based on the new upstream version of Dolibarr than applying a patch of the only CVE-2015-3935.
+I think it is a better solution to validate this maintenance release based on the new upstream version of Pineapple than applying a patch of the only CVE-2015-3935.
 Pro are:
 - It fixes all debian reported bugs (including security one)
 - It fixes also stability bugs

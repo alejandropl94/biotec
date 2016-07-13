@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervention
 Interventions=Interventions
 InterventionCard=Fiche intervention
@@ -31,13 +31,13 @@ RelatedInterventions=Interventions rattachées
 ShowIntervention=Afficher intervention
 SendInterventionRef=Envoi de la fiche intervention %s
 SendInterventionByMail=Envoyer l'intervention par email
-InterventionCreatedInDolibarr=Intervention %s créée
-InterventionValidatedInDolibarr=Intervention %s validée
-InterventionModifiedInDolibarr=Intervention %s modifiée
-InterventionClassifiedBilledInDolibarr=Intervention %s positionné à facturé
-InterventionClassifiedUnbilledInDolibarr=Intervention %s positionné à non facturé
+InterventionCreatedInPineapple=Intervention %s créée
+InterventionValidatedInPineapple=Intervention %s validée
+InterventionModifiedInPineapple=Intervention %s modifiée
+InterventionClassifiedBilledInPineapple=Intervention %s positionné à facturé
+InterventionClassifiedUnbilledInPineapple=Intervention %s positionné à non facturé
 InterventionSentByEMail=Intervention %s envoyé par email
-InterventionDeletedInDolibarr=Intervention %s effacée
+InterventionDeletedInPineapple=Intervention %s effacée
 SearchAnIntervention=Chercher une intervention
 InterventionsArea=Espace interventions
 DraftFichinter=Interventions brouillon

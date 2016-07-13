@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = เกี่ยวกับ
 CronAbout = เกี่ยวกับ Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=ปิดการใช้งาน
 CronTaskInactive=งานนี้ถูกปิดใช้งาน
 CronId=Id
 CronClassFile=การเรียนการสอน (filename.class.php)
-CronModuleHelp=ชื่อของไดเรกทอรีโมดูล Dolibarr (ยังทำงานร่วมกับโมดูล Dolibarr ภายนอก) <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Dolibarr วัตถุสินค้า / htdocs / <u>ผลิตภัณฑ์</u> /class/product.class.php <i>ค่าของโมดูลเป็นผลิตภัณฑ์</i>
-CronClassFileHelp=ชื่อไฟล์ที่จะโหลด <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Dolibarr วัตถุสินค้า / htdocs / สินค้า / ระดับ / <u>product.class.php</u> ค่าของชื่อไฟล์ระดับคือ <i>product.class.php</i>
-CronObjectHelp=ชื่อวัตถุที่จะโหลด <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Dolibarr วัตถุสินค้า /htdocs/product/class/product.class.php <i>ค่าของชื่อไฟล์ระดับเป็นสินค้า</i>
-CronMethodHelp=วิธีวัตถุที่จะเปิดตัว <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Dolibarr วัตถุสินค้า /htdocs/product/class/product.class.php ค่าของวิธีการที่เป็น <i>fecth</i>
-CronArgsHelp=วิธีการขัดแย้ง <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Dolibarr วัตถุสินค้า /htdocs/product/class/product.class.php ค่าของพารามิเตอร์สามารถ <i>0, ProductRef</i>
+CronModuleHelp=ชื่อของไดเรกทอรีโมดูล Pineapple (ยังทำงานร่วมกับโมดูล Pineapple ภายนอก) <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Pineapple วัตถุสินค้า / htdocs / <u>ผลิตภัณฑ์</u> /class/product.class.php <i>ค่าของโมดูลเป็นผลิตภัณฑ์</i>
+CronClassFileHelp=ชื่อไฟล์ที่จะโหลด <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Pineapple วัตถุสินค้า / htdocs / สินค้า / ระดับ / <u>product.class.php</u> ค่าของชื่อไฟล์ระดับคือ <i>product.class.php</i>
+CronObjectHelp=ชื่อวัตถุที่จะโหลด <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Pineapple วัตถุสินค้า /htdocs/product/class/product.class.php <i>ค่าของชื่อไฟล์ระดับเป็นสินค้า</i>
+CronMethodHelp=วิธีวัตถุที่จะเปิดตัว <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Pineapple วัตถุสินค้า /htdocs/product/class/product.class.php ค่าของวิธีการที่เป็น <i>fecth</i>
+CronArgsHelp=วิธีการขัดแย้ง <BR> สำหรับ exemple สามารถดึงข้อมูลวิธีการ Pineapple วัตถุสินค้า /htdocs/product/class/product.class.php ค่าของพารามิเตอร์สามารถ <i>0, ProductRef</i>
 CronCommandHelp=บรรทัดคำสั่งระบบที่จะดำเนินการ
 CronCreateJob=สร้างงานใหม่กำหนด
 CronFrom=จาก
@@ -84,7 +84,7 @@ CronFrom=จาก
 CronInfoPage=ข้อมูล
 # Common
 CronType=หมวดงาน
-CronType_method=วิธีการเรียกร้องของชั้น Dolibarr
+CronType_method=วิธีการเรียกร้องของชั้น Pineapple
 CronType_command=คำสั่งเชลล์
 CronMenu=Cron
 CronCannotLoadClass=ไม่สามารถโหลดระดับ s% หรือวัตถุ% s

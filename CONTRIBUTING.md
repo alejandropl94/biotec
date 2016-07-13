@@ -1,4 +1,4 @@
-How to contribute to Dolibarr
+How to contribute to Pineapple
 =============================
 
 Bug reports and feature requests
@@ -6,7 +6,7 @@ Bug reports and feature requests
 
 <a name="not-a-support-forum"></a>*Note*: Issues are not a support forum. If you need help using the software, please use [the forums](http://www.dolibarr.org/forum).
 
-Issues are managed on [GitHub](https://github.com/Dolibarr/dolibarr/Issues).
+Issues are managed on [GitHub](https://github.com/Pineapple/dolibarr/Issues).
 
 1. Please [use the search engine](https://help.github.com/articles/searching-issues) to check if nobody's already reported your problem.
 2. [Create an issue](https://help.github.com/articles/creating-an-issue). Choose an appropriate title. Prepend appropriately with Bug or Feature Request.
@@ -20,7 +20,7 @@ Issues are managed on [GitHub](https://github.com/Dolibarr/dolibarr/Issues).
 
 ### Basic workflow
 
-1. [Fork](https://help.github.com/articles/fork-a-repo) the [GitHub repository](https://github.com/Dolibarr/dolibarr).
+1. [Fork](https://help.github.com/articles/fork-a-repo) the [GitHub repository](https://github.com/Pineapple/dolibarr).
 2. Clone your fork.
 3. Choose a branch(See the [Branches](#branches) section below).
 4. Commit and push your changes.

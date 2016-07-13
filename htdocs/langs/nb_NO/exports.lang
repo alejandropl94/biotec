@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Eksportområde
 ImportArea=Importområde
 NewExport=Ny eksport
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Velg filformatet du vil bruke som importere filformat
 ChooseFileToImport=Last opp fil klikk picto %s å velge filen som kilde importfil ...
 SourceFileFormat=Kildefil-format
 FieldsInSourceFile=Felt i kildefilen
-FieldsInTargetDatabase=Målfelt i Dolibarr-databasen (uthevet=obligatorisk)
+FieldsInTargetDatabase=Målfelt i Pineapple-databasen (uthevet=obligatorisk)
 Field=Felt
 NoFields=Ingen felt
 MoveField=Flytt feltet med kolonnenummer %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Antall linjer uten feil og ingen advarsler: <b>%s.</b>
 NbOfLinesImported=Antall linjer importert: <b>%s</b>.
 DataComeFromNoWhere=Verdi for å sette inn har ingen kilde.
 DataComeFromFileFieldNb=Verdi for å sette inn kommer fra felt nummer <b>%s</b> i kildefilen.
-DataComeFromIdFoundFromRef=Verdi som kommer fra feltetnummer <b>%s</b> i kildefilen vil bli brukt til å finne ID av overordnede objektet som skal brukes (Objekt <b>%s</b> som er referanse i kildefilen må finnes i Dolibarr).
+DataComeFromIdFoundFromRef=Verdi som kommer fra feltetnummer <b>%s</b> i kildefilen vil bli brukt til å finne ID av overordnede objektet som skal brukes (Objekt <b>%s</b> som er referanse i kildefilen må finnes i Pineapple).
 DataComeFromIdFoundFromCodeId=Koden som kommer fra feltnummer <b>%s</b> i kildefilen vil bli brukt til å finne id til overordnet objekt som skal brukes (koden fra kildefilen må finnes i ordlisten <b>%s</b>). Merk at hvis du kjenner id'en, kan du også bruke den i kildefilen i stedet for koden. Import skal fungere i begge tilfeller.
 DataIsInsertedInto=Data fra kildefil blir satt inn på følgende felt:
 DataIDSourceIsInsertedInto=IDen til overordnet objekt som ble funnet ved hjelp av dataene i kildefilen, vil bli satt inn på følgende felt:

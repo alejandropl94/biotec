@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Moje dokumenty
 DocsGenerated=Generované dokumenty
 DocsElements=Prvky dokumenty
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Počet podadresárov
 ECMNbOfFilesInSubDir=Počet súborov v podadresároch
 ECMCreationUser=Tvorca
 ECMArea=EDM oblasť
-ECMAreaDesc=EDM (Electronic Document Management) plocha umožňuje uložiť, zdieľať a rýchlo vyhľadávať všetky druhy dokumentov v Dolibarr.
+ECMAreaDesc=EDM (Electronic Document Management) plocha umožňuje uložiť, zdieľať a rýchlo vyhľadávať všetky druhy dokumentov v Pineapple.
 ECMAreaDesc2=* Automatické adresáre sú vyplnené automaticky pri pridávaní dokumentov z karty prvku. <br> * Manuálne adresára možno použiť na uloženie dokladov, ktoré nie sú spojené s konkrétnou prvok.
 ECMSectionWasRemoved=Register <b>%s</b> bol vymazaný.
 ECMDocumentsSection=Dokument z adresára

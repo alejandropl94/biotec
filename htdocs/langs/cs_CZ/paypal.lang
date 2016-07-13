@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=Nastavení modulu PayPal
-PaypalDesc=Tento modul nabízejí stránky, které umožní zákazníkům platby prostřednictvím <a href="http://www.paypal.com" target="_blank">PayPal</a>. Toho lze využít pro snadnou platbu nebo platbu na určitý objekt Dolibarr (faktury, objednávky, ...)
+PaypalDesc=Tento modul nabízejí stránky, které umožní zákazníkům platby prostřednictvím <a href="http://www.paypal.com" target="_blank">PayPal</a>. Toho lze využít pro snadnou platbu nebo platbu na určitý objekt Pineapple (faktury, objednávky, ...)
 PaypalOrCBDoPayment=Platit přes PayPal nebo kreditní kartou
 PaypalDoPayment=Plaťte s PayPal
 PaypalCBDoPayment=Platit kreditní kartou

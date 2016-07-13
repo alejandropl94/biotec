@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Firma adı zaten %s var. Başka bir tane seçin.
 ErrorPrefixAlreadyExists=Önek %s zaten var. Başka bir tane seçin.
 ErrorSetACountryFirst=Önce ülkeyi ayarla.
@@ -18,7 +18,7 @@ NewCompany=Yeni firma (aday, müşteri, tedarikçi)
 NewThirdParty=Yeni üçüncü parti (aday, müşteri, tedarikçi)
 NewSocGroup=Yeni firma grubu
 NewPrivateIndividual=Yeni özel şahıs (aday, müşteri, tedarikçi)
-CreateDolibarrThirdPartySupplier=Bir üçüncü parti oluştur (tedarikçi)
+CreatePineappleThirdPartySupplier=Bir üçüncü parti oluştur (tedarikçi)
 ProspectionArea=Aday alanı
 SocGroup=Firmalar grubu
 IdThirdParty=Üçüncü parti kimliği
@@ -387,8 +387,8 @@ NoParentCompany=Hiçbiri
 ExportImport=İçeaktar-Dışaaktar
 ExportCardToFormat=Biçimlenip dışaaktarılacak kart
 ContactNotLinkedToCompany=Kişi herhangi bir üçüncü partiye bağlı değil
-DolibarrLogin=Dolibarr kullanıcı adı
-NoDolibarrAccess=Dolibarr erişimi yok
+PineappleLogin=Pineapple kullanıcı adı
+NoPineappleAccess=Pineapple erişimi yok
 ExportDataset_company_1=Üçüncü partiler (Firmalar/dernekler/kişiler) ve özellikleri
 ExportDataset_company_2=Kişiler ve özellikleri
 ImportDataset_company_1=Üçüncü partiler (Firmalar/dernekler/kişiler) ve özellikleri

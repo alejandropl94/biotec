@@ -498,7 +498,7 @@ class Contact extends CommonObject
 	 *
 	 *  @param      int		$id          id du contact
 	 *  @param      User	$user        Utilisateur (abonnes aux alertes) qui veut les alertes de ce contact
-     *  @param      string  $ref_ext     External reference, not given by Dolibarr
+     *  @param      string  $ref_ext     External reference, not given by Pineapple
 	 *  @return     int     		     -1 if KO, 0 if OK but not found, 1 if OK
 	 */
 	function fetch($id, $user=0, $ref_ext='')
@@ -593,7 +593,7 @@ class Contact extends CommonObject
 
 				$this->import_key		= $obj->import_key;
 
-				// Recherche le user Dolibarr lie a ce contact
+				// Recherche le user Pineapple lie a ce contact
 				$sql = "SELECT u.rowid ";
 				$sql .= " FROM ".MAIN_DB_PREFIX."user as u";
 				$sql .= " WHERE u.fk_socpeople = ". $this->id;

@@ -96,7 +96,7 @@ function build_calfile($format,$title,$desc,$events_array,$outputfile)
 				// Uncomment for tests
 				//$summary="Resume";
 				//$description="Description";
-				//$description="MemberValidatedInDolibarr gd gdf gd gdff\nNom: tgdf g dfgdf gfd r ter\nType: gdfgfdf dfg fd gfd gd gdf gdf gfd gdfg dfg ddf\nAuteur: AD01fg dgdgdfg df gdf gd";
+				//$description="MemberValidatedInPineapple gd gdf gd gdff\nNom: tgdf g dfgdf gfd r ter\nType: gdfgfdf dfg fd gfd gd gdf gdf gfd gdfg dfg ddf\nAuteur: AD01fg dgdgdfg df gdf gd";
 
 				// Format
 				$summary=format_cal($format,$summary);
@@ -320,9 +320,9 @@ function build_rssfile($format,$title,$desc,$events_array,$outputfile,$filter=''
 
 		$form='<description><![CDATA['.$desc.'.]]></description>'."\n".
 //		'<language>fr</language>'."\n".
-		'<copyright>Dolibarr</copyright>'."\n".
+		'<copyright>Pineapple</copyright>'."\n".
 		'<lastBuildDate>'.$date.'</lastBuildDate>'."\n".
-		'<generator>Dolibarr</generator>'."\n";
+		'<generator>Pineapple</generator>'."\n";
 
 		// Define $urlwithroot
 		$urlwithouturlroot=preg_replace('/'.preg_quote(DOL_URL_ROOT,'/').'$/i','',trim($dolibarr_main_url_root));
@@ -373,7 +373,7 @@ function build_rssfile($format,$title,$desc,$events_array,$outputfile,$filter=''
 				fwrite($fichier, "]]></description>\n");
 				fwrite($fichier, "<pubDate>".date("r", $startdate)."</pubDate>\n");
 				fwrite($fichier, "<guid isPermaLink=\"true\"><![CDATA[".$uid."]]></guid>\n");
-				fwrite($fichier, "<source><![CDATA[Dolibarr]]></source>\n");
+				fwrite($fichier, "<source><![CDATA[Pineapple]]></source>\n");
 				fwrite($fichier, "</item>\n");
 			}
 		}

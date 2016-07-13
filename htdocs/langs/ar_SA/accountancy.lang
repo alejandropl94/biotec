@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=فاصل العمود لملف التصدير
 ACCOUNTING_EXPORT_DATE=تنسيق التاريخ لملف التصدير
 ACCOUNTING_EXPORT_PIECE=تصدير عدد القطعة

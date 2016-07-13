@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# Pineapple language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=Code comptable pour les paiements des salaires
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=Code comptable pour les charges de personnel
 Salary=Salaire

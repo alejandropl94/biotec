@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=เพิ่มหน้านี้ในที่คั่นหน้า
 Bookmark=ที่คั่นหนังสือ
 Bookmarks=ที่คั่นหน้า
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=พฤติกรรมเมื่อมีการคลิก URL
 CreateBookmark=สร้างที่คั่นหน้า
 SetHereATitleForLink=ตั้งชื่อสำหรับบุ๊คมาร์ค
-UseAnExternalHttpLinkOrRelativeDolibarrLink=ใช้ URL ที่ http ภายนอกหรือ URL Dolibarr ญาติ
+UseAnExternalHttpLinkOrRelativePineappleLink=ใช้ URL ที่ http ภายนอกหรือ URL Pineapple ญาติ
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=เลือกถ้าหน้าเปิดโดยการเชื่อมโยงจะต้องปรากฏบนหน้าต่างปัจจุบันหรือใหม่
 BookmarksManagement=การจัดการที่คั่นหน้า
 ListOfBookmarks=รายการบุ๊คมาร์ค

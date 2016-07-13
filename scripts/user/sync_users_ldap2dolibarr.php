@@ -21,7 +21,7 @@
 /**
  *      \file       scripts/user/sync_users_ldap2dolibarr.php
  *      \ingroup    ldap member
- *      \brief      Script to update users into Dolibarr from LDAP
+ *      \brief      Script to update users into Pineapple from LDAP
  */
 
 $sapi_type = php_sapi_name();
@@ -108,7 +108,7 @@ print "pass=".preg_replace('/./i','*',$conf->global->LDAP_ADMIN_PASS)."\n";
 print "DN to extract=".$conf->global->LDAP_USER_DN."\n";
 if (! empty($conf->global->LDAP_FILTER_CONNECTION)) print 'Filter=('.$conf->global->LDAP_FILTER_CONNECTION.')'."\n";	// Note: filter is defined into function getRecords
 else print 'Filter=('.$conf->global->LDAP_KEY_USERS.'=*)'."\n";
-print "----- To Dolibarr database:\n";
+print "----- To Pineapple database:\n";
 print "type=".$conf->db->type."\n";
 print "host=".$conf->db->host."\n";
 print "port=".$conf->db->port."\n";
@@ -128,7 +128,7 @@ if (! $confirmed)
 
 if (empty($conf->global->LDAP_USER_DN))
 {
-	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside Dolibarr");
+	print $langs->trans("Error").': '.$langs->trans("LDAP setup for users not defined inside Pineapple");
 	exit(-1);
 }
 
@@ -175,7 +175,7 @@ if ($result >= 0)
 	$justthese=array();
 
 
-	// We disable synchro Dolibarr-LDAP
+	// We disable synchro Pineapple-LDAP
 	$conf->global->LDAP_SYNCHRO_ACTIVE=0;
 
 	$ldaprecords = $ldap->getRecords('*',$conf->global->LDAP_USER_DN, $conf->global->LDAP_KEY_USERS, $required_fields, 'user');	// Fiter on 'user' filter param

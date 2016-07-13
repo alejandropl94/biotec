@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Oblast izvoza
 ImportArea=Oblast uvoza
 NewExport=Novi izvoz
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Izaberite format fajla za importovanje klikom na ikon
 ChooseFileToImport=Uploadujte fajl i kliknite na ikonu %s da biste ga izabrali kao izvorni fajl za import...
 SourceFileFormat=Format izvornog fajla
 FieldsInSourceFile=Polja u izvornom fajlu
-FieldsInTargetDatabase=Ciljana polja u Dolibarr bazi (bold=obavezna)
+FieldsInTargetDatabase=Ciljana polja u Pineapple bazi (bold=obavezna)
 Field=Polje
 NoFields=Nema polja
 MoveField=Pomeri polje broj %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Broj linija bez grešaka i upozorenja: <b>%s</b>.
 NbOfLinesImported=Broj uspešno importovanih linija: <b>%s</b>.
 DataComeFromNoWhere=Vrednost ne dolazi iz izvornog fajla.
 DataComeFromFileFieldNb=Vrednost dolazi iz polja broj <b>%s</b> u izvornom fajlu.
-DataComeFromIdFoundFromRef=Vrednost koja je u polju broj <b>%s</b> u izvornom fajlu će biti korišćena za pronalaženje matičnog objekta (tako da objekat <b>%s</b> koji je naznačen u tom polju mora već postojati u Dolibarr-u)
+DataComeFromIdFoundFromRef=Vrednost koja je u polju broj <b>%s</b> u izvornom fajlu će biti korišćena za pronalaženje matičnog objekta (tako da objekat <b>%s</b> koji je naznačen u tom polju mora već postojati u Pineapple-u)
 DataComeFromIdFoundFromCodeId=Kod koji dolazi iz polja broj <b>%s</b> u izvornom fajlu će biti korišćen za pronalaženje matičnog objekta (tako da taj kod mora postojati u rečniku <b>%s</b>). Ukoliko znate Id matičnog objekta, možete ga koristiti umesto koda. Import funkcioniše u oba slučaja.
 DataIsInsertedInto=Data iz izvornog fajla će biti sačuvana u sledećem polju:
 DataIDSourceIsInsertedInto=Id matičnog objekta iz izvornog fajla će biti sačuvan u sledeće polje:

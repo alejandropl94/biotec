@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# Pineapple language file - Source file is en_US - oauth
 ConfigOAuth=Oauth Konfiguration
 NoAccessToken=Kein Zugriffstoken in der lokalen Datenbank gespeichert
 HasAccessToken=Ein Token wurde erstellt und in der lokalen Datenbank gespeichert

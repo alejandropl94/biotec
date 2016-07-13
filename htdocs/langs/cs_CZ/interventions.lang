@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervence
 Interventions=Intervence
 InterventionCard=Karta intervence
@@ -31,13 +31,13 @@ RelatedInterventions=Související intervence
 ShowIntervention=Zobrazit intervenci
 SendInterventionRef=Předložení intervenčního %s
 SendInterventionByMail=Poslat intervenci e-mailem
-InterventionCreatedInDolibarr=Intervence %s vytvořena
-InterventionValidatedInDolibarr=Intervence %s ověřena
-InterventionModifiedInDolibarr=Intervence %s upravena
-InterventionClassifiedBilledInDolibarr=Intervenční %s nastavena jako zaúčtovaná
-InterventionClassifiedUnbilledInDolibarr=Intervence %s nastavená jako nezaúčtovaná
+InterventionCreatedInPineapple=Intervence %s vytvořena
+InterventionValidatedInPineapple=Intervence %s ověřena
+InterventionModifiedInPineapple=Intervence %s upravena
+InterventionClassifiedBilledInPineapple=Intervenční %s nastavena jako zaúčtovaná
+InterventionClassifiedUnbilledInPineapple=Intervence %s nastavená jako nezaúčtovaná
 InterventionSentByEMail=Intervence %s odeslána e-mailem
-InterventionDeletedInDolibarr=Intervence %s odstraněna
+InterventionDeletedInPineapple=Intervence %s odstraněna
 SearchAnIntervention=Hledat intervenci
 InterventionsArea=Interventions area
 DraftFichinter=Draft interventions

@@ -21,6 +21,6 @@ $dolibarr_main_authentication
 parameter to set it to :
 mypasschecker
 
-Once this is done, when you log in to Dolibarr, the function 
+Once this is done, when you log in to Pineapple, the function 
 check_user_mypasschecker in this file is called.
 If the function return true and login exists, login is accepted.

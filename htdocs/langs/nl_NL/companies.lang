@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=De bedrijfsnaam %s bestaat al. kies een andere.
 ErrorPrefixAlreadyExists=De prefix %s bestaat al. kies een andere.
 ErrorSetACountryFirst=Stel eerst het land in
@@ -18,7 +18,7 @@ NewCompany=Nieuwe bedrijf (prospect, afnemer, leverancier)
 NewThirdParty=Nieuwe Klant (prospect, afnemer, leverancier)
 NewSocGroup=Nieuwe bedrijfsgroep
 NewPrivateIndividual=Nieuwe particulier (prospect, afnemer, leverancier)
-CreateDolibarrThirdPartySupplier=Creëer een relatie (leverancier)
+CreatePineappleThirdPartySupplier=Creëer een relatie (leverancier)
 ProspectionArea=Prospectenoverzicht
 SocGroup=Bedrijfsgroep
 IdThirdParty=ID Klant
@@ -387,8 +387,8 @@ NoParentCompany=Geen
 ExportImport=Import - Export
 ExportCardToFormat=Export details naar formaat
 ContactNotLinkedToCompany=Contact niet gekoppeld aan enige Klant
-DolibarrLogin=Dolibarr login
-NoDolibarrAccess=Geen Dolibarr toegang
+PineappleLogin=Pineapple login
+NoPineappleAccess=Geen Pineapple toegang
 ExportDataset_company_1=Derde partijen (Bedrijf/stichting/fysieke personen) en eigenschappen
 ExportDataset_company_2=Contactpersonen en eigenschappen
 ImportDataset_company_1=Derde partijen (Bedrijven/stichtingen/fysieke mensen) en eigenschappen

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Orrialde hau laster-marketara gehitu
 Bookmark=Laster-marka
 Bookmarks=Laster-markak
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Behaviour when a URL is clicked
 CreateBookmark=Laster-marka sortu
 SetHereATitleForLink=Laster-markaren izenburua ezarri
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Use an external http URL or a relative Dolibarr URL
+UseAnExternalHttpLinkOrRelativePineappleLink=Use an external http URL or a relative Pineapple URL
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Choose if a page opened by link must appear on current or new window
 BookmarksManagement=Laster-marken kudeaketa
 ListOfBookmarks=Laster-marken zerrenda

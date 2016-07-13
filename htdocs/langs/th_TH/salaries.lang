@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - salaries
+# Pineapple language file - Source file is en_US - salaries
 SALARIES_ACCOUNTING_ACCOUNT_PAYMENT=รหัสบัญชีสำหรับการชำระเงินเงินเดือน
 SALARIES_ACCOUNTING_ACCOUNT_CHARGE=รหัสบัญชีสำหรับค่าใช้จ่ายทางการเงิน
 Salary=เงินเดือน

@@ -38,4 +38,4 @@ ShowStock=عرض مستودع
 DeleteArticle=انقر لإزالة هذه المادة
 FilterRefOrLabelOrBC=بحث (المرجع / تسمية)
 UserNeedPermissionToEditStockToUsePos=كنت أسأل أن ينخفض ​​المخزون على إنشاء الفاتورة، لذلك المستخدم التي تستخدم POS تحتاج إلى تملك الصلاحيات لتعديل الأسهم.
-DolibarrReceiptPrinter=طابعة استلام Dolibarr
+PineappleReceiptPrinter=طابعة استلام Pineapple

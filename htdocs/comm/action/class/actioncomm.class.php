@@ -1294,15 +1294,15 @@ class ActionComm extends CommonObject
             if ($logind) $more=$langs->transnoentities("ActionsDoneBy").' '.$logind;
             if ($more)
             {
-                $title='Dolibarr actions '.$mysoc->name.' - '.$more;
+                $title='Pineapple actions '.$mysoc->name.' - '.$more;
                 $desc=$more;
-                $desc.=' ('.$mysoc->name.' - built by Dolibarr)';
+                $desc.=' ('.$mysoc->name.' - built by Pineapple)';
             }
             else
             {
-                $title='Dolibarr actions '.$mysoc->name;
+                $title='Pineapple actions '.$mysoc->name;
                 $desc=$langs->transnoentities('ListOfActions');
-                $desc.=' ('.$mysoc->name.' - built by Dolibarr)';
+                $desc.=' ('.$mysoc->name.' - built by Pineapple)';
             }
 
             // Create temp file

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = Om
 CronAbout = Om Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Inaktivera
 CronTaskInactive=Det här jobbet är avaktiverat
 CronId=Id
 CronClassFile=Klasser (filename.class.php)
-CronModuleHelp=Namn på Dolibarr modul katalog (även arbeta med extern Dolibarr modul). <BR> För exemple att hämta metod för Dolibarr Produkt objektet / htdocs / <u>produkt</u> /class/product.class.php, värdet av modulen är <i>produkten</i>
-CronClassFileHelp=Filnamnet för att ladda. <BR> För exemple att hämta metod för Dolibarr Produkt objektet / htdocs / produkt / klass / <u>product.class.php,</u> är värdet av klass filnamn <i>product.class.php</i>
-CronObjectHelp=Det objektnamn som ska läsas in. <BR> För exemple att hämta metod för Dolibarr Produktobjekt /htdocs/product/class/product.class.php, är värdet av klass filnamn <i>Produkt</i>
-CronMethodHelp=Objektet metod för att starta. <BR> För exemple att hämta metod för Dolibarr Produktobjekt /htdocs/product/class/product.class.php, värdet av metoden är är <i>fecth</i>
-CronArgsHelp=Metoden argument. <BR> Till exemple att hämta förfarande för Dolibarr Produkt objekt /htdocs/product/class/product.class.php kan värdet av paramters vara <i>0, ProductRef</i>
+CronModuleHelp=Namn på Pineapple modul katalog (även arbeta med extern Pineapple modul). <BR> För exemple att hämta metod för Pineapple Produkt objektet / htdocs / <u>produkt</u> /class/product.class.php, värdet av modulen är <i>produkten</i>
+CronClassFileHelp=Filnamnet för att ladda. <BR> För exemple att hämta metod för Pineapple Produkt objektet / htdocs / produkt / klass / <u>product.class.php,</u> är värdet av klass filnamn <i>product.class.php</i>
+CronObjectHelp=Det objektnamn som ska läsas in. <BR> För exemple att hämta metod för Pineapple Produktobjekt /htdocs/product/class/product.class.php, är värdet av klass filnamn <i>Produkt</i>
+CronMethodHelp=Objektet metod för att starta. <BR> För exemple att hämta metod för Pineapple Produktobjekt /htdocs/product/class/product.class.php, värdet av metoden är är <i>fecth</i>
+CronArgsHelp=Metoden argument. <BR> Till exemple att hämta förfarande för Pineapple Produkt objekt /htdocs/product/class/product.class.php kan värdet av paramters vara <i>0, ProductRef</i>
 CronCommandHelp=Systemet kommandoraden som ska köras.
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=Information
 # Common
 CronType=Job type
-CronType_method=Call metod för en Dolibarr klass
+CronType_method=Call metod för en Pineapple klass
 CronType_command=Skalkommando
 CronMenu=Cron
 CronCannotLoadClass=Det går inte att läsa in klassen% s eller objekt% s

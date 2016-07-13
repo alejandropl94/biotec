@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Pysyvän tilaukset alueella
 CustomersStandingOrdersArea=Asiakkaat pysyvän tilaukset alueella
 StandingOrders=Pysyvän tilaukset
@@ -95,7 +95,7 @@ InfoCreditMessage=Kestotilaus %s on maksanut pankille <br> Tiedot maksu: %s
 InfoTransSubject=Toimittaminen kestotilaus %s pankkiin
 InfoTransMessage=Kestotilaus %s on transmited sen pankkiin %s %s. <br><br>
 InfoTransData=Määrä: %s <br> Metode: %s <br> Date: %s
-InfoFoot=Tämä on automaattinen viesti lähetetään Dolibarr
+InfoFoot=Tämä on automaattinen viesti lähetetään Pineapple
 InfoRejectSubject=Pysyvä järjestyksessä kieltäytyi
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=Vaihtoehto todellista tilaa ei ole asetettu, pysähdymme jälkeen simulointi

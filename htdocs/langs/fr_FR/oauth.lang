@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# Pineapple language file - Source file is en_US - oauth
 ConfigOAuth=Configuration OAuth
 NoAccessToken=Aucun jeton d'accès sauvegardé dans la base de donnée locale
 HasAccessToken=Un jeton a été généré et sauvegardé dans la base de donnée locale

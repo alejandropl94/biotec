@@ -43,7 +43,7 @@ function versiontostring($versionarray)
 
 /**
  *	Compare 2 versions (stored into 2 arrays).
- *  For example, to check if Dolibarr version is lower than (x,y,z), do "if versioncompare(versiondolibarrarray(), array(x.y.z)) <= 0"
+ *  For example, to check if Pineapple version is lower than (x,y,z), do "if versioncompare(versiondolibarrarray(), array(x.y.z)) <= 0"
  *
  *	@param      array		$versionarray1      Array of version (vermajor,verminor,patch)
  *	@param      array		$versionarray2		Array of version (vermajor,verminor,patch)
@@ -93,7 +93,7 @@ function versionphparray()
 }
 
 /**
- *	Return version Dolibarr
+ *	Return version Pineapple
  *
  *	@return     array               Tableau de version (vermajeur,vermineur,autre)
  */
@@ -709,13 +709,13 @@ function activateModule($value,$withdeps=1)
         return $langs->trans("ErrorModuleRequirePHPVersion",versiontostring($vermin));
     }
 
-    // Test if Dolibarr version ok
+    // Test if Pineapple version ok
     $verdol=versiondolibarrarray();
     $vermin=isset($objMod->need_dolibarr_version)?$objMod->need_dolibarr_version:0;
     //print 'eee '.versioncompare($verdol,$vermin).' - '.join(',',$verdol).' - '.join(',',$vermin);exit;
     if (is_array($vermin) && versioncompare($verdol,$vermin) < 0)
     {
-        return $langs->trans("ErrorModuleRequireDolibarrVersion",versiontostring($vermin));
+        return $langs->trans("ErrorModuleRequirePineappleVersion",versiontostring($vermin));
     }
 
     // Test if javascript requirement ok

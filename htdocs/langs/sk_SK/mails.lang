@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=E-mailom
 EMailing=E-mailom
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kontakty / adresy všetkých tretích strán (zákazník, vyhliadka, dodávateľ, ...)
-MailingModuleDescDolibarrUsers=Dolibarr užívatelia
+MailingModuleDescPineappleUsers=Pineapple užívatelia
 MailingModuleDescFundationMembers=Členmi Nadácia s e-mailami
 MailingModuleDescEmailsFromFile=E-maily z textového súboru (e-mail, priezvisko, krstné meno, ostatné)
 MailingModuleDescEmailsFromUser=E-maily z užívateľského vstupu (e-mail, priezvisko, krstné meno, ostatné)
 MailingModuleDescContactsCategories=Tretie strany (podľa kategórie)
-MailingModuleDescDolibarrContractsLinesExpired=Tretie strany skončí zadávacích linky
+MailingModuleDescPineappleContractsLinesExpired=Tretie strany skončí zadávacích linky
 MailingModuleDescContactsByCompanyCategory=Kontakty / adresy tretích strán (tretími stranami kategórie)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Členmi Nadácia (podľa kategórií)

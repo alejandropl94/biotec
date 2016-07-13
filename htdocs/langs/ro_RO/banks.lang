@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Banca
 Banks=Banci
 MenuBankCash=Banca / Casa
@@ -117,7 +117,7 @@ SocialContributionPayment=Plata taxe sociale sau fiscale și tva
 FinancialAccountJournal=Jurnal Cont Financiar
 BankTransfer=Virament bancar
 BankTransfers=Viramente 
-TransferDesc=Viramentul de la un cont la altul, Dolibarr va creea două înregistrări (una de debit în cont sursă şi una de credit în contul destinaţie, cu aceeaşi valoare. Aceeaşi etichetă şi data vor fi utilizate pentru această tranzacţie)
+TransferDesc=Viramentul de la un cont la altul, Pineapple va creea două înregistrări (una de debit în cont sursă şi una de credit în contul destinaţie, cu aceeaşi valoare. Aceeaşi etichetă şi data vor fi utilizate pentru această tranzacţie)
 TransferFrom=De la
 TransferTo=La
 TransferFromToDone=Un viramentr de la  <b>%s</b> la <b> %s </b>  de<b> %s</b> %s a fost creată.

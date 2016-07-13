@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Bank
 Banks=Banki
 MenuBankCash=Bank / Finanse
@@ -117,7 +117,7 @@ SocialContributionPayment=Płatność za ZUS/podatek
 FinancialAccountJournal=Dziennik rachunku finansowego
 BankTransfer=Przelew bankowy
 BankTransfers=Przelewy bankowe
-TransferDesc=Przy przelewie z jednego konta do drugiego, Dolibarr napisze dwa rekordy (ujemne dla konta źródłowego i kredytu na rachunku docelowym, o tej samej kwocie. Te same etykiety i daty będą stosowane w odniesieniu do tej transakcji)
+TransferDesc=Przy przelewie z jednego konta do drugiego, Pineapple napisze dwa rekordy (ujemne dla konta źródłowego i kredytu na rachunku docelowym, o tej samej kwocie. Te same etykiety i daty będą stosowane w odniesieniu do tej transakcji)
 TransferFrom=Od
 TransferTo=Do
 TransferFromToDone=Transfer z <b>%s</b> do <b>%s</b> <b>%s</b> %s został zapisany.

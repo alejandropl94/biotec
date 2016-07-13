@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervencija
 Interventions=Intervencije
 InterventionCard=Kartica intervencije
@@ -31,13 +31,13 @@ RelatedInterventions=Povezane intervencije
 ShowIntervention=Prikaži intervenciju
 SendInterventionRef=Predaja intervencije %s
 SendInterventionByMail=Pošalji intervenciju mailom
-InterventionCreatedInDolibarr=Intervencija %s je kreirana
-InterventionValidatedInDolibarr=Intervencija %s je odobrena
-InterventionModifiedInDolibarr=Intervencija %s je izmenjena
-InterventionClassifiedBilledInDolibarr=Intervencija %s je označena kao plaćena
-InterventionClassifiedUnbilledInDolibarr=Intervencija %s je postavljena kao nenaplaćena
+InterventionCreatedInPineapple=Intervencija %s je kreirana
+InterventionValidatedInPineapple=Intervencija %s je odobrena
+InterventionModifiedInPineapple=Intervencija %s je izmenjena
+InterventionClassifiedBilledInPineapple=Intervencija %s je označena kao plaćena
+InterventionClassifiedUnbilledInPineapple=Intervencija %s je postavljena kao nenaplaćena
 InterventionSentByEMail=Intervencija %s je poslata mailom
-InterventionDeletedInDolibarr=Intervencija %s je obrisana
+InterventionDeletedInPineapple=Intervencija %s je obrisana
 SearchAnIntervention=Potraži intervenciju
 InterventionsArea=Intervencije
 DraftFichinter=Draft intervencije

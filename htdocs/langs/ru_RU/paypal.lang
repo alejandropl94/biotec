@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=Настройка модуля PayPal 
-PaypalDesc=Этот модуль предлагает страниц, чтобы выплаты по <a href="http://www.paypal.com" target="_blank">PayPal</a> клиентами. Это может быть использовано для свободного оплаты или оплаты на определенный объект Dolibarr (счет-фактура, заказ, ...)
+PaypalDesc=Этот модуль предлагает страниц, чтобы выплаты по <a href="http://www.paypal.com" target="_blank">PayPal</a> клиентами. Это может быть использовано для свободного оплаты или оплаты на определенный объект Pineapple (счет-фактура, заказ, ...)
 PaypalOrCBDoPayment=Оплатить с помощью кредитной карты или Paypal
 PaypalDoPayment=Оплатить с помощью Paypal
 PaypalCBDoPayment=Оплата кредитной картой

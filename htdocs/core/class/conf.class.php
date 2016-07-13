@@ -415,11 +415,11 @@ class Conf
 		$this->email_from = "robot@example.com";
 		if (! empty($this->global->MAIN_MAIL_EMAIL_FROM)) $this->email_from = $this->global->MAIN_MAIL_EMAIL_FROM;
 
-		// conf->notification->email_from = email pour envoi par Dolibarr des notifications
+		// conf->notification->email_from = email pour envoi par Pineapple des notifications
 		$this->notification->email_from=$this->email_from;
 		if (! empty($this->global->NOTIFICATION_EMAIL_FROM)) $this->notification->email_from=$this->global->NOTIFICATION_EMAIL_FROM;
 
-		// conf->mailing->email_from = email pour envoi par Dolibarr des mailings
+		// conf->mailing->email_from = email pour envoi par Pineapple des mailings
 		$this->mailing->email_from=$this->email_from;
 		if (! empty($this->global->MAILING_EMAIL_FROM))	$this->mailing->email_from=$this->global->MAILING_EMAIL_FROM;
 		if (! isset($conf->global->MAIN_EMAIL_ADD_TRACK_ID)) $conf->global->MAIN_EMAIL_ADD_TRACK_ID=1;

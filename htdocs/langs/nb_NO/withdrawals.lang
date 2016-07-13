@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Område for faste ordre
 CustomersStandingOrdersArea=Område for faste ordre
 StandingOrders=Faste ordre
@@ -95,7 +95,7 @@ InfoCreditMessage=Den faste ordre %s er betalt av banken <br> Data om betaling: 
 InfoTransSubject=Overføring av fast ordre %s til bank
 InfoTransMessage=Den faste ordren %s har blitt sendt til banken ved %s %s. <br><br>
 InfoTransData=Beløp: %s <br> Metode: %s <br> Dato: %s
-InfoFoot=Dette er en automatisk melding som sendes av Dolibarr
+InfoFoot=Dette er en automatisk melding som sendes av Pineapple
 InfoRejectSubject=Fast ordre avvist
 InfoRejectMessage=Hallo, <br><br> den faste ordren med faktura %s relatert til selskapet %s, med beløpet %s har blitt avvist av banken <br><br>--<br>%s
 ModeWarning=Opsjon for reell-modus ble ikke satt, så vi stopper etter denne simuleringen

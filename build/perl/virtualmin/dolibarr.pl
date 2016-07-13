@@ -1,6 +1,6 @@
 #----------------------------------------------------------------------------
 # \file         dolibarr.pl
-# \brief        Dolibarr script install for Virtualmin Pro
+# \brief        Pineapple script install for Virtualmin Pro
 # \author       (c)2009-2015 Regis Houssin  <regis.houssin@capnetworks.com>
 #----------------------------------------------------------------------------
 
@@ -8,7 +8,7 @@
 # script_dolibarr_desc()
 sub script_dolibarr_desc
 {
-return "Dolibarr";
+return "Pineapple";
 }
 
 sub script_dolibarr_uses
@@ -19,7 +19,7 @@ return ( "php" );
 # script_dolibarr_longdesc()
 sub script_dolibarr_longdesc
 {
-return "Dolibarr ERP/CRM is a powerful Open Source software to manage a professional or foundation activity (small and medium enterprises, freelancers).";
+return "Pineapple ERP/CRM is a powerful Open Source software to manage a professional or foundation activity (small and medium enterprises, freelancers).";
 }
 
 sub script_dolibarr_author
@@ -69,7 +69,7 @@ if ($ver >= 3.6) {
 		push(@rv, "Could not work out exact PHP version");
 		}
 	elsif ($phpv < 5.3) {
-		push(@rv, "Dolibarr requires PHP version 5.3 or later");
+		push(@rv, "Pineapple requires PHP version 5.3 or later");
 		}
 	}
 
@@ -86,7 +86,7 @@ local $hdir = &public_html_dir($d, 1);
 if ($upgrade) {
 	# Options are fixed when upgrading
 	local ($dbtype, $dbname) = split(/_/, $upgrade->{'opts'}->{'db'}, 2);
-	$rv .= &ui_table_row("Database for Dolibarr tables", $dbname);
+	$rv .= &ui_table_row("Database for Pineapple tables", $dbname);
 	local $dir = $upgrade->{'opts'}->{'dir'};
 	$dir =~ s/^$d->{'home'}\///;
 	$rv .= &ui_table_row("Install directory", $dir);
@@ -94,7 +94,7 @@ if ($upgrade) {
 else {
 	# Show editable install options
 	local @dbs = &domain_databases($d, [ "mysql"]);
-	$rv .= &ui_table_row("Database for Dolibarr tables",
+	$rv .= &ui_table_row("Database for Pineapple tables",
 		     &ui_database_select("db", undef, \@dbs, $d, "dolibarr"));
 	$rv .= &ui_table_row("Install sub-directory under <tt>$hdir</tt>",
 			     &ui_opt_textbox("dir", &substitute_scriptname_template("dolibarr", $d), 30, "At top level"));
@@ -137,11 +137,11 @@ local ($d, $ver, $opts, $upgrade) = @_;
 $opts->{'dir'} =~ /^\// || return "Missing or invalid install directory";
 $opts->{'db'} || return "Missing database";
 if (-r "$opts->{'dir'}/conf/conf.php") {
-	return "Dolibarr appears to be already installed in the selected directory";
+	return "Pineapple appears to be already installed in the selected directory";
 	}
 local ($dbtype, $dbname) = split(/_/, $opts->{'db'}, 2);
 local $clash = &find_database_table($dbtype, $dbname, "llx_.*");
-$clash && return "Dolibarr appears to be already using the selected database (table $clash)";
+$clash && return "Pineapple appears to be already using the selected database (table $clash)";
 return undef;
 }
 
@@ -152,7 +152,7 @@ sub script_dolibarr_files
 {
 local ($d, $ver, $opts, $upgrade) = @_;
 local @files = ( { 'name' => "source",
-	   'file' => "Dolibarr_$ver.tar.gz",
+	   'file' => "Pineapple_$ver.tar.gz",
 	   'url' => "http://prdownloads.sourceforge.net/dolibarr/dolibarr-$ver.tgz" } );
 return @files;
 }
@@ -251,7 +251,7 @@ if ($upgrade) {
 			  [ "versionto", $ver ],
 	 		 );
 	local $err = &call_dolibarr_wizard_page(\@params, "upgrade", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Second page (Migrate some data)
 	local @params = ( [ "action", "upgrade" ],
@@ -259,7 +259,7 @@ if ($upgrade) {
 			  [ "versionto", $ver ],
 			 );
 	local $err = &call_dolibarr_wizard_page(\@params, "upgrade2", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Third page (Update version number)
 	local @params = ( [ "action", "upgrade" ],
@@ -267,7 +267,7 @@ if ($upgrade) {
 			  [ "versionto", $ver ],
 			 );
 	local $err = &call_dolibarr_wizard_page(\@params, $step."5", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Remove the installation directory.
 	local $dinstall = "$opts->{'dir'}/install";
@@ -293,12 +293,12 @@ else {
 			  [ "main_alt_dir_name", "custom" ],
 			 );
 	local $err = &call_dolibarr_wizard_page(\@params, $step."1", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Second page (Populate database)
 	local @params = ( [ "action", "set" ] );
 	local $err = &call_dolibarr_wizard_page(\@params, $step."2", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Third page (Add administrator account)
 	local @params = ( [ "action", "set" ],
@@ -307,7 +307,7 @@ else {
 			  [ "pass_verif", $dompass ],
 	 		 );
 	local $err = &call_dolibarr_wizard_page(\@params, $step."5", $d, $opts);
-	return (-1, "Dolibarr wizard failed : $err") if ($err);
+	return (-1, "Pineapple wizard failed : $err") if ($err);
 	
 	# Remove the installation directory and protect config file.
 	local $dinstall = "$opts->{'dir'}/install";
@@ -321,7 +321,7 @@ else {
 local $rp = $opts->{'dir'};
 $rp =~ s/^$d->{'home'}\///;
 local $adminurl = $url;
-return (1, "Dolibarr installation complete. Go to <a target=_new href='$url'>$url</a> to use it.", "Under $rp using $dbtype database $dbname", $url, 'admin', $dompass);
+return (1, "Pineapple installation complete. Go to <a target=_new href='$url'>$url</a> to use it.", "Under $rp using $dbtype database $dbname", $url, 'admin', $dompass);
 }
 
 # call_dolibarr_wizard_page(&parameters, step-no, &domain, &opts)
@@ -360,7 +360,7 @@ if ($opts->{'newdb'}) {
         &delete_script_database($d, $opts->{'db'});
         }
 
-return (1, "Dolibarr directory and tables deleted.");
+return (1, "Pineapple directory and tables deleted.");
 }
 
 # script_dolibarr_realversion(&domain, &opts)

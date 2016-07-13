@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Ngân hàng
 Banks=Các ngân hàng
 MenuBankCash=Ngân hàng / Tiền
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=Tạp chí tài khoản tài chính
 BankTransfer=Chuyển khoản ngân hàng
 BankTransfers=Chuyển khoản ngân hàng
-TransferDesc=Chuyển từ một tài khoản với nhau, Dolibarr sẽ viết hai bản ghi (ghi nợ trong tài khoản nguồn và tín dụng trong tài khoản mục tiêu, số tiền tương tự. Cùng một nhãn và ngày sẽ được sử dụng cho giao dịch này)
+TransferDesc=Chuyển từ một tài khoản với nhau, Pineapple sẽ viết hai bản ghi (ghi nợ trong tài khoản nguồn và tín dụng trong tài khoản mục tiêu, số tiền tương tự. Cùng một nhãn và ngày sẽ được sử dụng cho giao dịch này)
 TransferFrom=Từ
 TransferTo=Để
 TransferFromToDone=Việc chuyển giao từ <b>%s</b> đến <b>%s</b> của <b>%s</b> %s đã được ghi nhận.

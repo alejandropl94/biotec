@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 MenuSetupBank=Банк / Денежные установки
 FinancialAccount=Счет
 MainAccount=Главное внимание
@@ -43,7 +43,7 @@ EditBankRecord=Редактировать запись
 LineRecord=Сделка
 SocialContributionPayment=Социальная выплата вклада
 FinancialAccountJournal=Финансовый журнал счета
-TransferDesc=Передача с одного счета на другой, Dolibarr напишет две записи (дебет счета в источнике и кредит в целевой счет, на ту же сумму. Же этикетки и даты, будут использованы для этой операции)
+TransferDesc=Передача с одного счета на другой, Pineapple напишет две записи (дебет счета в источнике и кредит в целевой счет, на ту же сумму. Же этикетки и даты, будут использованы для этой операции)
 TransferFromToDone=Трансфер из <b>%s</b> к <b>%s</b> из <b>%s</b> %s был записан.
 BankChecksToReceipt=Проверка ждет депозита
 NumberOfCheques=Кол-во проверки

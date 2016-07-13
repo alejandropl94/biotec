@@ -21,7 +21,7 @@
 
 /**
  *       \file       htdocs/admin/system/about.php
- *       \brief      About Dolibarr File page
+ *       \brief      About Pineapple File page
  */
 
 require '../../main.inc.php';
@@ -42,7 +42,7 @@ $youuselaststable = 0;
 llxHeader();
 
 
-print load_fiche_titre("Dolibarr",'','title_setup');
+print load_fiche_titre("Pineapple",'','title_setup');
 
 print '<div style="padding-left: 30px;">'.img_picto_common('', 'dolibarr_box.png','height="120"').'</div>';
 
@@ -50,7 +50,7 @@ print '<div style="padding-left: 30px;">'.img_picto_common('', 'dolibarr_box.png
 
 print '<div class="fichecenter"><div class="fichehalfleft">';
 
-print $langs->trans("Version").' / '.$langs->trans("DolibarrLicense").':';
+print $langs->trans("Version").' / '.$langs->trans("PineappleLicense").':';
 print '<ul>';
 print '<li><strong>'.DOL_VERSION.'</strong>';
 
@@ -100,8 +100,8 @@ print '</ul>';
 
 print $langs->trans("Developpers").':';
 print '<ul>';
-print '<li>'.$langs->trans("SourcesRepository").': <a href="http://www.github.com/Dolibarr/dolibarr" target="_blank" rel="external">http://www.github.com/Dolibarr/dolibarr</a></li>';
-print '<li>'.$langs->trans("SeeWikiForAllTeam").': <a href="http://wiki.dolibarr.org/index.php/Dolibarr_Project" target="_blank" rel="external">http://wiki.dolibarr.org/index.php/Dolibarr_Project</a></li>';
+print '<li>'.$langs->trans("SourcesRepository").': <a href="http://www.github.com/Pineapple/dolibarr" target="_blank" rel="external">http://www.github.com/Pineapple/dolibarr</a></li>';
+print '<li>'.$langs->trans("SeeWikiForAllTeam").': <a href="http://wiki.dolibarr.org/index.php/Pineapple_Project" target="_blank" rel="external">http://wiki.dolibarr.org/index.php/Pineapple_Project</a></li>';
 print '</ul>';
 
 //print "<br>\n";
@@ -185,7 +185,7 @@ print '<li><a href="'.$url.'" target="_blank" rel="external">'.$langs->trans("Su
 
 print '<li><a href="http://facebook.com/dolibarr" target="_blank" rel="external">FaceBook</a></li>';
 print '<li><a href="http://twitter.com/dolibarr" target="_blank" rel="external">Twitter</a></li>';
-print '<li><a href="http://plus.google.com/+DolibarrOrg" target="_blank" rel="external">Google Plus page</a></li>';
+print '<li><a href="http://plus.google.com/+PineappleOrg" target="_blank" rel="external">Google Plus page</a></li>';
 
 print '</ul>';
 

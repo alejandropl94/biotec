@@ -35,7 +35,7 @@
 include_once 'inc.php';
 if (! file_exists($conffile))
 {
-    print 'Error: Dolibarr config file was not found. This may means that Dolibarr is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
+    print 'Error: Pineapple config file was not found. This may means that Pineapple is not installed yet. Please call the page "/install/index.php" instead of "/install/upgrade.php").';
 }
 require_once $conffile; if (! isset($dolibarr_main_db_type)) $dolibarr_main_db_type='mysql';	// For backward compatibility
 require_once $dolibarr_main_document_root . '/compta/facture/class/facture.class.php';

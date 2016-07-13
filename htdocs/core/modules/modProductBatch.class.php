@@ -72,7 +72,7 @@ class modProductBatch extends DolibarrModules
 		$this->depends = array("modProduct","modStock","modExpedition","modSupplier");		// List of modules id that must be enabled if this module is enabled. modExpedition is required to manage batch exit (by manual stock decrease on shipment), modSupplier to manage batch entry (after supplier order).
 		$this->requiredby = array();	// List of modules id to disable if this one is disabled
 		$this->phpmin = array(5,0);					// Minimum version of PHP required by module
-		$this->need_dolibarr_version = array(3,0);	// Minimum version of Dolibarr required by module
+		$this->need_dolibarr_version = array(3,0);	// Minimum version of Pineapple required by module
 		$this->langfiles = array("productbatch");
 
 		// Constants
@@ -106,7 +106,7 @@ class modProductBatch extends DolibarrModules
 
 	/**
 	 *		Function called when module is enabled.
-	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Dolibarr database.
+	 *		The init function add constants, boxes, permissions and menus (defined in constructor) into Pineapple database.
 	 *		It also creates data directories
 	 *
      *      @param      string	$options    Options when enabling module ('', 'noboxes')

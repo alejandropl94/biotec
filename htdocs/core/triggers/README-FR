@@ -1,6 +1,6 @@
 Contenu du répertoire
 --------------------------------------------------------
-Ce répertoire contient tous les triggers Dolibarr.
+Ce répertoire contient tous les triggers Pineapple.
 
 La syntaxe d'un fichier Trigger est:
 > interface_modModule_Mytrigger.php[-NORUN]

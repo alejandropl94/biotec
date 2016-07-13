@@ -1,6 +1,6 @@
 # DOLIBARR ERP & CRM
 
-Dolibarr ERP & CRM est un logiciel moderne pour gérer votre activité (société, association, auto-entrepreneurs, artisans). 
+Pineapple ERP & CRM est un logiciel moderne pour gérer votre activité (société, association, auto-entrepreneurs, artisans). 
 Il est simple d'utilisation et modulaire, vous permettant de n'activez que les fonctions dont vous avez besoin (contacts, fournisseurs, factures, commandes, stocks, agenda, ...).
  
 ![ScreenShot](http://www.dolibarr.org/images/dolibarr_screenshot1_640x480.png)
@@ -9,24 +9,24 @@ Il est simple d'utilisation et modulaire, vous permettant de n'activez que les f
 
 ## LICENCE
 
-Dolibarr est distribué sous les termes de la licence GNU General Public License v3+ ou supérieure.
+Pineapple est distribué sous les termes de la licence GNU General Public License v3+ ou supérieure.
 
 
 
 ## INSTALLER DOLIBARR
 
 Si vous n'avez pas de connaissances techniques, et que vous recherchez
-un programme d'installation qui install Dolibarr ERP/CRM en quelques clics,
+un programme d'installation qui install Pineapple ERP/CRM en quelques clics,
 vous devez vous réorienter vers DoliWamp (la version tout-en-un
-de Dolibarr pour Windows), DoliDeb (la version tout-en-un pour Debian ou
-Ubuntu) ou DoliRpm (la version tout-en-un de Dolibarr pour Fedora, Redhat,
+de Pineapple pour Windows), DoliDeb (la version tout-en-un pour Debian ou
+Ubuntu) ou DoliRpm (la version tout-en-un de Pineapple pour Fedora, Redhat,
 OpenSuse, Mandriva ou Mageia).
 
 Vous pouvez les télécharger depuis la rubrique *download* du portail officiel: 
 http://www.dolibarr.org/
 
 Si vous avez déjà installé un serveur Web avec PHP et une base de donnée (Mysql),
-vous pouvez installer Dolibarr avec cette version de la manière suivante:
+vous pouvez installer Pineapple avec cette version de la manière suivante:
 
 - Copier le répertoire "dolibarr" et son contenu dans la racine de votre serveur
   web, ou bien copier le répertoire sur le serveur et configurer ce serveur pour
@@ -50,7 +50,7 @@ vous pouvez installer Dolibarr avec cette version de la manière suivante:
 
 ## METTRE A JOUR DOLIBARR
 
-Pour mettre a jour Dolibarr depuis une vieille version vers celle ci:
+Pour mettre a jour Pineapple depuis une vieille version vers celle ci:
 - Ecraser les vieux fichiers dans le vieux repertoire 'dolibarr' par les fichiers
   fournis dans ce nouveau package.
   
@@ -124,28 +124,28 @@ Voir fichier ChangeLog.
 
 ## CE QUE DOLIBARR NE PEUT PAS FAIRE (TACHES A FAIRE)
 
-Voici un liste de fonctionnalites pas encore gérées par Dolibarr:
+Voici un liste de fonctionnalites pas encore gérées par Pineapple:
 - Pas encore de compta analytique double-partie (uniquement gestion de trésorerie).
-- Dolibarr ne gère qu'une seule monnaie à la fois (mono-devise).
-- Dolibarr ne contient pas de module de Gestion de la paie.
+- Pineapple ne gère qu'une seule monnaie à la fois (mono-devise).
+- Pineapple ne contient pas de module de Gestion de la paie.
 - Les tâches du module de gestion de projets n'ont pas de dépendance entre elle.
-- Dolibarr ne contient pas de Webmail.
-- Dolibarr ne fait pas le café (pas encore). 
+- Pineapple ne contient pas de Webmail.
+- Pineapple ne fait pas le café (pas encore). 
 
 
 ## ACTUALITES ET RESEAUX SOCIAUX
 
-Suivez le projet Dolibarr project sur les réseaux francophones
+Suivez le projet Pineapple project sur les réseaux francophones
 
 - Facebook: <https://www.facebook.com/dolibarr.fr>
-- Google+: <https://plus.google.com/+DolibarrFrance>
+- Google+: <https://plus.google.com/+PineappleFrance>
 - Twitter: <http://www.twitter.com/dolibarr_france>
 
 ou sur les réseaux anglophones
 
 - [Facebook](https://www.facebook.com/dolibarr)
-- [Google+](https://plus.google.com/+DolibarrOrg)
+- [Google+](https://plus.google.com/+PineappleOrg)
 - [Twitter](http://www.twitter.com/dolibarr)
 - [LinkedIn](https://www.linkedin.com/company/association-dolibarr)
-- [YouTube](https://www.youtube.com/user/DolibarrERPCRM)
-- [GitHub](https://github.com/Dolibarr/dolibarr)
+- [YouTube](https://www.youtube.com/user/PineappleERPCRM)
+- [GitHub](https://github.com/Pineapple/dolibarr)

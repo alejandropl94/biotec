@@ -48,14 +48,14 @@ insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_M
 
 insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_MAIL_SMTP_SERVER','','chaine','Host or ip address for SMTP server',0,1);
 insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_MAIL_SMTP_PORT','','chaine','Port for SMTP server',0,1);
-insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_MAIL_EMAIL_FROM','robot@domain.com','chaine','EMail emetteur pour les emails automatiques Dolibarr',0,1);
+insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_MAIL_EMAIL_FROM','robot@domain.com','chaine','EMail emetteur pour les emails automatiques Pineapple',0,1);
 
 --
 -- IHM
 --
 insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_SIZE_LISTE_LIMIT','25','chaine','Longueur maximum des listes',0,0);
 insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_SIZE_SHORTLISTE_LIMIT','4','chaine','Longueur maximum des listes courtes (fiche client)',0,0);
-insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_SHOW_WORKBOARD','1','yesno','Affichage tableau de bord de travail Dolibarr',0,0);
+insert into llx_const (name, value, type, note, visible, entity) values ('MAIN_SHOW_WORKBOARD','1','yesno','Affichage tableau de bord de travail Pineapple',0,0);
 
 insert into llx_const (name, value, type, note, visible) values ('MAIN_MENU_STANDARD','eldy_menu.php','chaine','Menu manager for internal users',0);
 insert into llx_const (name, value, type, note, visible) values ('MAIN_MENUFRONT_STANDARD','eldy_menu.php','chaine','Menu manager for external users',0);

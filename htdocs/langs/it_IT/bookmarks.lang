@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Aggiungi segnalibro per questa pagina
 Bookmark=Segnalibro
 Bookmarks=Segnalibri
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Comportamento quando si clicca su un indirizzo
 CreateBookmark=Crea segnalibro
 SetHereATitleForLink=Dai un titolo al segnalibro
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Usa un indirizzo http esterno o uno relativo a Dolibarr
+UseAnExternalHttpLinkOrRelativePineappleLink=Usa un indirizzo http esterno o uno relativo a Pineapple
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Scegli se caricare il link cliccato nella stessa finestra o in una nuova
 BookmarksManagement=Gestione segnalibri
 ListOfBookmarks=Elenco segnalibri

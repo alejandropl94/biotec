@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = O
 CronAbout = O Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Zakázať
 CronTaskInactive=Táto úloha je zakázaný
 CronId=Id
 CronClassFile=Triedy (filename.class.php)
-CronModuleHelp=Názov adresára modulu Dolibarr (tiež pracovať s externým modulom Dolibarr). <BR> Napr načítať metódy objektu výrobku Dolibarr / htdocs / <u>produktu</u> / trieda / product.class.php, hodnota modulu je <i>produkt</i>
-CronClassFileHelp=Názov súboru načítať. <BR> Napr načítať metódy objektu výrobku Dolibarr / htdocs / produktu / trieda / <u>product.class.php,</u> hodnota názov triedy súboru je <i>product.class.php</i>
-CronObjectHelp=Názov objektu načítať. <BR> Napr načítať metódy objektu výrobku Dolibarr / htdocs / produktu / trieda / product.class.php, hodnota názov triedy súboru je <i>výrobok</i>
-CronMethodHelp=Objekt spôsob štartu. <BR> Napr načítať metódy objektu výrobku Dolibarr / htdocs / produktu / trieda / product.class.php, hodnota metódy je <i>fecth</i>
-CronArgsHelp=Metóda argumenty. <BR> Napr načítať metódy objektu výrobku Dolibarr / htdocs / produktu / trieda / product.class.php, môže byť hodnota paramters byť <i>0, ProductRef</i>
+CronModuleHelp=Názov adresára modulu Pineapple (tiež pracovať s externým modulom Pineapple). <BR> Napr načítať metódy objektu výrobku Pineapple / htdocs / <u>produktu</u> / trieda / product.class.php, hodnota modulu je <i>produkt</i>
+CronClassFileHelp=Názov súboru načítať. <BR> Napr načítať metódy objektu výrobku Pineapple / htdocs / produktu / trieda / <u>product.class.php,</u> hodnota názov triedy súboru je <i>product.class.php</i>
+CronObjectHelp=Názov objektu načítať. <BR> Napr načítať metódy objektu výrobku Pineapple / htdocs / produktu / trieda / product.class.php, hodnota názov triedy súboru je <i>výrobok</i>
+CronMethodHelp=Objekt spôsob štartu. <BR> Napr načítať metódy objektu výrobku Pineapple / htdocs / produktu / trieda / product.class.php, hodnota metódy je <i>fecth</i>
+CronArgsHelp=Metóda argumenty. <BR> Napr načítať metódy objektu výrobku Pineapple / htdocs / produktu / trieda / product.class.php, môže byť hodnota paramters byť <i>0, ProductRef</i>
 CronCommandHelp=Systém príkazového riadka spustiť.
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=Informácie
 # Common
 CronType=Job type
-CronType_method=Volanie metódy triedy Dolibarr
+CronType_method=Volanie metódy triedy Pineapple
 CronType_command=Shell príkaz
 CronMenu=Cron
 CronCannotLoadClass=Nemožno načítať triedu alebo objekt %s %s

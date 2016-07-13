@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Името на фирмата %s вече съществува. Изберете друго.
 ErrorPrefixAlreadyExists=Префикса %s вече съществува. Изберете друг.
 ErrorSetACountryFirst=Първо задайте държава
@@ -18,7 +18,7 @@ NewCompany=Нова фирма (потенциален, клиент, доста
 NewThirdParty=Нов контрагент (потенциален, клиент, доставчик)
 NewSocGroup=Нова компания група
 NewPrivateIndividual=Ново физическо лице (потенциален, клиент, доставчик)
-CreateDolibarrThirdPartySupplier=Създаване на контрагент (доставчик)
+CreatePineappleThirdPartySupplier=Създаване на контрагент (доставчик)
 ProspectionArea=Област потенциални
 SocGroup=Група от фирми
 IdThirdParty=ID на контрагент
@@ -387,8 +387,8 @@ NoParentCompany=Няма
 ExportImport=Внос-износ
 ExportCardToFormat=Износна карта формат
 ContactNotLinkedToCompany=Контактът не е свързан с никой контрагент
-DolibarrLogin=Dolibarr вход
-NoDolibarrAccess=Няма Dolibarr достъп
+PineappleLogin=Pineapple вход
+NoPineappleAccess=Няма Pineapple достъп
 ExportDataset_company_1=Контрагенти (Компании/организации/физически лица) и имущество
 ExportDataset_company_2=Контакти и свойства
 ImportDataset_company_1=Контрагенти (Компании/организации/физически лица) и имущество

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Banka
 Banks=Bankalar
 MenuBankCash=Banka/Kasa
@@ -117,7 +117,7 @@ SocialContributionPayment=Sosyal/mali vergi ödemesi
 FinancialAccountJournal=Ticari hesap günlüğü
 BankTransfer=Banka havalesi
 BankTransfers=Banka havaleleri
-TransferDesc=Bir hesaptan başka bir hesaba transfer sırasında Dolibarr iki kayıt yazacaktır (aynı tutarda olmak üzere kaynak hesaba borç ve hedef hesaba alacak. Bu işlem için aynı etiket ve tarih kullanılacaktır).
+TransferDesc=Bir hesaptan başka bir hesaba transfer sırasında Pineapple iki kayıt yazacaktır (aynı tutarda olmak üzere kaynak hesaba borç ve hedef hesaba alacak. Bu işlem için aynı etiket ve tarih kullanılacaktır).
 TransferFrom=Kimden
 TransferTo=Kime
 TransferFromToDone=<b>%s</b> den <b>%s</b> nin <b>%s</b> %s ne bir transfer kaydedildi.

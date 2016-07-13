@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=بانک
 Banks=بانک ها
 MenuBankCash=بانک/صندوق
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=مجله حساب مالی
 BankTransfer=انتقال بانک
 BankTransfers=نقل و انتقالات بانکی
-TransferDesc=انتقال از یک حساب به دیگری، Dolibarr دو پرونده ارسال (بدهی در حساب منبع و اعتبار در حساب هدف، از همان مقدار. همان برچسب و تاریخ را برای این معامله استفاده می شود)
+TransferDesc=انتقال از یک حساب به دیگری، Pineapple دو پرونده ارسال (بدهی در حساب منبع و اعتبار در حساب هدف، از همان مقدار. همان برچسب و تاریخ را برای این معامله استفاده می شود)
 TransferFrom=از
 TransferTo=به
 TransferFromToDone=ونقل من هناك إلى ٪ <b>٪ ق ق ق ٪</b> ٪ وقد سجلت ق.

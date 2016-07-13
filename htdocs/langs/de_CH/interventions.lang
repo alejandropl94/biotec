@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Arbeitseinsatz
 Interventions=Arbeitseinsätze
 InterventionCard=Kundeneinsatz
@@ -23,12 +23,12 @@ RelatedInterventions=Verbundene Eingriffe
 ShowIntervention=Zeige Kundeneinsatz
 SendInterventionRef=Einreichung von Eingriffen %s
 SendInterventionByMail=Eingriff per E-Mail versenden
-InterventionCreatedInDolibarr=Eingriff %s erstellt
-InterventionValidatedInDolibarr=Eingriff %s freigegeben
-InterventionModifiedInDolibarr=Eingriff %s geändert
-InterventionClassifiedBilledInDolibarr=Eingriff %s als verrechnet eingestuft
-InterventionClassifiedUnbilledInDolibarr=Eingriff %s als nicht verrechnet eingestuft
-InterventionDeletedInDolibarr=Eingriff %s gelöscht
+InterventionCreatedInPineapple=Eingriff %s erstellt
+InterventionValidatedInPineapple=Eingriff %s freigegeben
+InterventionModifiedInPineapple=Eingriff %s geändert
+InterventionClassifiedBilledInPineapple=Eingriff %s als verrechnet eingestuft
+InterventionClassifiedUnbilledInPineapple=Eingriff %s als nicht verrechnet eingestuft
+InterventionDeletedInPineapple=Eingriff %s gelöscht
 SearchAnIntervention=Arbeitseinsatz suchen
 InterventionsArea=Arbeitseinsätze Übersicht
 DraftFichinter=Kundeneinsätze Entwürfe

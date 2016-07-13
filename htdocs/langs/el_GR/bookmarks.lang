@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - marque pages
+# Pineapple language file - Source file is en_US - marque pages
 AddThisPageToBookmarks=Προσθέστε αυτή τη σελίδα στους σελιδοδείκτες
 Bookmark=Σελιδοδείκτης
 Bookmarks=Σελιδοδείκτες
@@ -13,7 +13,7 @@ UrlOrLink=URL
 BehaviourOnClick=Μετάβαση σε
 CreateBookmark=Δημιουργία σελιδοδείκτη
 SetHereATitleForLink=Ορισμός τίτλου για τον σελιδοδείκτη
-UseAnExternalHttpLinkOrRelativeDolibarrLink=Χρησιμοποιήστε μια εξωτερική διεύθυνση URL ή μια σχετική διεύθυνση URL του Dolibarr
+UseAnExternalHttpLinkOrRelativePineappleLink=Χρησιμοποιήστε μια εξωτερική διεύθυνση URL ή μια σχετική διεύθυνση URL του Pineapple
 ChooseIfANewWindowMustBeOpenedOnClickOnBookmark=Με ποιον τρόπο θα ανοίξει η σελίδα
 BookmarksManagement=Διαχείριση σελιδοδεικτών
 ListOfBookmarks=Λίστα σελιδοδεικτών

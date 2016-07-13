@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=银行
 Banks=银行
 MenuBankCash=银行/现金
@@ -117,7 +117,7 @@ SocialContributionPayment=Social/fiscal tax payment
 FinancialAccountJournal=金融帐日记
 BankTransfer=银行汇款
 BankTransfers=银行转帐
-TransferDesc=从一个帐户转移到另一个，Dolibarr会写两个记录（相同数额的源帐户借记卡和信用卡帐户中的目标。同样的标签和日期将在此交易中使用）
+TransferDesc=从一个帐户转移到另一个，Pineapple会写两个记录（相同数额的源帐户借记卡和信用卡帐户中的目标。同样的标签和日期将在此交易中使用）
 TransferFrom=从
 TransferTo=至
 TransferFromToDone=从<b>%s</b>向<b>%s</b>转帐<b>%s</b>已被记录。

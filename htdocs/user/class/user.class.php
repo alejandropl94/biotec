@@ -35,7 +35,7 @@ require_once DOL_DOCUMENT_ROOT .'/core/class/commonobject.class.php';
 
 
 /**
- *	Class to manage Dolibarr users
+ *	Class to manage Pineapple users
  */
 class User extends CommonObject
 {

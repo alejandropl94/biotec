@@ -22,7 +22,7 @@
 /**
  *     	\file       htdocs/public/paypal/newpayment.php
  *		\ingroup    paypal
- *		\brief      File to offer a way to make a payment for a particular Dolibarr entity
+ *		\brief      File to offer a way to make a payment for a particular Pineapple entity
  *		\author	    Laurent Destailleur
  */
 

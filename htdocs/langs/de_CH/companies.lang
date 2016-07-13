@@ -1,10 +1,10 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 SelectThirdParty=Wähle einen Geschäftspartner
 DeleteThirdParty=Lösche einen Geschäftspartner
 ConfirmDeleteCompany=Möchten Sie diesen Geschäftspartner und alle damit verbundenen Informationen wirklich löschen?
 MenuNewThirdParty=Neuer Geschäftspartner
 NewThirdParty=Neuer Geschäftspartner (Leads, Kunden, Lieferanten)
-CreateDolibarrThirdPartySupplier=Neuen Geschäftspartner erstellen (Lieferant)
+CreatePineappleThirdPartySupplier=Neuen Geschäftspartner erstellen (Lieferant)
 IdThirdParty=Geschäftspartner ID
 ThirdPartyContacts=Geschäftspartner-Kontakte
 ThirdPartyContact=Geschäftspartner-Kontakt
@@ -50,7 +50,7 @@ VATIntraManualCheck=Sie können die Überprüfung auch manuell durchführen <a h
 OthersNotLinkedToThirdParty=Andere, nicht mit einem Geschäftspartner verknüpfte Projekte
 TE_GROUP=Grossunternehmen
 ContactNotLinkedToCompany=Kontakt keinem Geschäftspartner zugeordnet
-DolibarrLogin=Dolibarr Benutzername
+PineappleLogin=Pineapple Benutzername
 ExportDataset_company_1=Geschäftspartner (Unternehmen/Stiftungen/Personen) und Eigenschaften
 ImportDataset_company_1=Geschäftspartner (Unternehmen/Stiftungen/Personen) und Eigenschaften
 ImportDataset_company_4=Geschäftspartner / Aussendienstmitarbeiter (Auswirkung Aussendienstmitarbeiter  an Unternehmen)

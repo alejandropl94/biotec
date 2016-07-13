@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 VersionProgram=Programa de versión
 VersionLastInstall=Versión inicial de la instalación
 VersionLastUpgrade=Versión de la última actualización
@@ -8,7 +8,7 @@ SessionId=ID de sesión
 SessionSavePath=Ubicación de la sesión guardada
 PurgeSessions=Depuración de sesiones
 ConfirmPurgeSessions=¿Realmente deseas depurar todas las sesiones? Ésto desconectará a todos los usuarios (excepto a ti).
-ConfirmLockNewSessions=¿Seguro que deseas restringir cualquier nueva conexión Dolibarr? Solamente el usuario <b>%s</b> será capaz de conectarse después de esto.
+ConfirmLockNewSessions=¿Seguro que deseas restringir cualquier nueva conexión Pineapple? Solamente el usuario <b>%s</b> será capaz de conectarse después de esto.
 UnlockNewSessions=Remover bloqueo de conexión
 YourSession=Tu sesión
 Sessions=Sesión de usuarios
@@ -19,7 +19,7 @@ DBStoringCharset=Charset de la base de datos para almacenar información
 DBSortingCharset=Charset de la base para ordenar información
 WarningModuleNotActive=El módulo <b>%s</b> debe estar habilitado
 WarningOnlyPermissionOfActivatedModules=Sólo los permisos relacionados a los módulos activados son mostrados aquí. Puedes activar otros módulos en la página Inicio->Configuración->Módulos
-DolibarrSetup=Instalación o actualización de Dolibarr
+PineappleSetup=Instalación o actualización de Pineapple
 GlobalSetup=Configuración global
 SetupArea=Área de configuración
 FormToTestFileUploadForm=Formulario para probar la carga de archivos (según la configuración)
@@ -28,7 +28,7 @@ RemoveLock=Eliminar archivo <b>%s</b> si existe para permitir el uso de la herra
 RestoreLock=Restablece el archivo <b>%s</b>, con permisos de sólo escritura, para deshabilitar cualquier uso de la herramienta para actualizar.
 SecuritySetup=Configuración de seguridad
 ErrorModuleRequirePHPVersion=Error, éste módulo requiere PHP versión %s o superior
-ErrorModuleRequireDolibarrVersion=Error, éste módulo requiere Dolibarr versión %s o superior
+ErrorModuleRequirePineappleVersion=Error, éste módulo requiere Pineapple versión %s o superior
 ErrorDecimalLargerThanAreForbidden=Error, una precisión superior a <b>%s</b> no es soportada.
 ErrorReservedTypeSystemSystemAuto=Los valores 'system' y 'systemauto' para el tipo están reservados. Puedes usar 'user' como valor para añadir tu propio registro
 DisableJavascript=Deshabilita las funciones de JavaScript y Ajax (Recomendado para personas visualmente débiles o navegadores de texto)

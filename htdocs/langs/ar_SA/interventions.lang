@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=التدخل
 Interventions=المداخلات
 InterventionCard=تدخل البطاقة
@@ -31,13 +31,13 @@ RelatedInterventions=التدخلات المتعلقة
 ShowIntervention=عرض التدخل
 SendInterventionRef=تقديم التدخل٪ الصورة
 SendInterventionByMail=إرسال تدخل عن طريق البريد الإلكتروني
-InterventionCreatedInDolibarr=التدخل٪ الصورة خلقت
-InterventionValidatedInDolibarr=التدخل%s التأكد من صلاحيتها
-InterventionModifiedInDolibarr=التدخل٪ الصورة المعدلة
-InterventionClassifiedBilledInDolibarr=التدخل٪ الصورة كما وصفت مجموعة
-InterventionClassifiedUnbilledInDolibarr=التدخل٪ الصورة مجموعة كما فواتير
+InterventionCreatedInPineapple=التدخل٪ الصورة خلقت
+InterventionValidatedInPineapple=التدخل%s التأكد من صلاحيتها
+InterventionModifiedInPineapple=التدخل٪ الصورة المعدلة
+InterventionClassifiedBilledInPineapple=التدخل٪ الصورة كما وصفت مجموعة
+InterventionClassifiedUnbilledInPineapple=التدخل٪ الصورة مجموعة كما فواتير
 InterventionSentByEMail=التدخل٪ الصورة إرسالها عن طريق البريد الإلكتروني
-InterventionDeletedInDolibarr=التدخل٪ الصورة حذفها
+InterventionDeletedInPineapple=التدخل٪ الصورة حذفها
 SearchAnIntervention=بحث تدخل
 InterventionsArea=منطقة التدخلات
 DraftFichinter=مشروع التدخلات

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Cégnév %s már létezik. Válasszon egy másikat.
 ErrorPrefixAlreadyExists=Prefix %s már létezik. Válasszon egy másikat.
 ErrorSetACountryFirst=Először állítsa be az országot
@@ -18,7 +18,7 @@ NewCompany=Új cég (jelentkező, vevő, szállító)
 NewThirdParty=Új partner (jelentkező, vevő, szállító)
 NewSocGroup=Új cégcsoport
 NewPrivateIndividual=Új magánszemély (jelentkező, vevő, szállító)
-CreateDolibarrThirdPartySupplier=Parnter (szállító) létrehozása
+CreatePineappleThirdPartySupplier=Parnter (szállító) létrehozása
 ProspectionArea=Potenciális ​​terület
 SocGroup=Cégcsoport
 IdThirdParty=Partner ID
@@ -387,8 +387,8 @@ NoParentCompany=Egyik sem
 ExportImport=Import-Export
 ExportCardToFormat=Kártya exportálása formázással
 ContactNotLinkedToCompany=Kapcsolat nincs partnerhez csatolva
-DolibarrLogin=Dolibarr bejelentkezés
-NoDolibarrAccess=Nem Dolibarr hozzáférés
+PineappleLogin=Pineapple bejelentkezés
+NoPineappleAccess=Nem Pineapple hozzáférés
 ExportDataset_company_1=Partner (Cég/alapítvány/magánszemély) és tulajdonságok
 ExportDataset_company_2=Kapcsolatok és tulajdonságai
 ImportDataset_company_1=Partner (Cég/alapítvány/magánszemély) és tulajdonságok

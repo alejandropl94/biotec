@@ -24,14 +24,14 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  * @category Api
  * @package  Api
  * 
  *
  */
-class CommandeApi extends DolibarrApi
+class CommandeApi extends PineappleApi
 {
 
     /**
@@ -75,7 +75,7 @@ class CommandeApi extends DolibarrApi
      */
     function get($id='',$ref='', $ref_ext='', $ref_int='')
     {		
-		if(! DolibarrApiAccess::$user->rights->commande->lire) {
+		if(! PineappleApiAccess::$user->rights->commande->lire) {
 			throw new RestException(401);
 		}
 			
@@ -84,8 +84,8 @@ class CommandeApi extends DolibarrApi
             throw new RestException(404, 'Order not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('commande',$this->commande->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('commande',$this->commande->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         $this->commande->fetchObjectLinked();
@@ -111,23 +111,23 @@ class CommandeApi extends DolibarrApi
         
         $obj_ret = array();
         
-        $socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+        $socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
             
         // If the internal user must only see his customers, force searching by him
-        if (! DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = DolibarrApiAccess::$user->id;
+        if (! PineappleApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = PineappleApiAccess::$user->id;
 
         $sql = "SELECT s.rowid";
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
         $sql.= " FROM ".MAIN_DB_PREFIX."commande as s";
         
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
         
 		// Example of use $mode
         //if ($mode == 1) $sql.= " AND s.client IN (1, 3)";
         //if ($mode == 2) $sql.= " AND s.client IN (2, 3)";
 
         $sql.= ' WHERE s.entity IN ('.getEntity('commande', 1).')';
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
         if ($socid) $sql.= " AND s.fk_soc = ".$socid;
         if ($search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";		// Join for the needed table to filter by sale
         
@@ -190,7 +190,7 @@ class CommandeApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->commande->creer) {
+        if(! PineappleApiAccess::$user->rights->commande->creer) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -199,7 +199,7 @@ class CommandeApi extends DolibarrApi
         foreach($request_data as $field => $value) {
             $this->commande->$field = $value;
         }
-        if(! $this->commande->create(DolibarrApiAccess::$user) ) {
+        if(! $this->commande->create(PineappleApiAccess::$user) ) {
             throw new RestException(401);
         }
         
@@ -218,7 +218,7 @@ class CommandeApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->commande->creer) {
+        if(! PineappleApiAccess::$user->rights->commande->creer) {
 			throw new RestException(401);
 		}
         
@@ -227,15 +227,15 @@ class CommandeApi extends DolibarrApi
             throw new RestException(404, 'Commande not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('commande',$this->commande->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('commande',$this->commande->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->commande->$field = $value;
         }
         
-        if($this->commande->update($id, DolibarrApiAccess::$user,1,'','','update'))
+        if($this->commande->update($id, PineappleApiAccess::$user,1,'','','update'))
             return $this->get ($id);
         
         return false;
@@ -252,7 +252,7 @@ class CommandeApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->commande->supprimer) {
+        if(! PineappleApiAccess::$user->rights->commande->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->commande->fetch($id);
@@ -260,11 +260,11 @@ class CommandeApi extends DolibarrApi
             throw new RestException(404, 'Order not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('commande',$this->commande->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('commande',$this->commande->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
-        if( ! $this->commande->delete(DolibarrApiAccess::$user)) {
+        if( ! $this->commande->delete(PineappleApiAccess::$user)) {
             throw new RestException(500, 'Error when delete order : '.$this->commande->error);
         }
         
@@ -291,7 +291,7 @@ class CommandeApi extends DolibarrApi
      */
     function validOrder($id, $idwarehouse=0)
     {
-        if(! DolibarrApiAccess::$user->rights->commande->creer) {
+        if(! PineappleApiAccess::$user->rights->commande->creer) {
 			throw new RestException(401);
 		}
         $result = $this->commande->fetch($id);
@@ -299,11 +299,11 @@ class CommandeApi extends DolibarrApi
             throw new RestException(404, 'Order not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('commande',$this->commande->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('commande',$this->commande->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
-        if( ! $this->commande->valid(DolibarrApiAccess::$user, $idwarehouse)) {
+        if( ! $this->commande->valid(PineappleApiAccess::$user, $idwarehouse)) {
             throw new RestException(500, 'Error when validate order');
         }
         

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. proyecto
 ProjectRef=Ref. proyecto
 ProjectId=Id proyecto
@@ -131,10 +131,10 @@ ConfirmCloneProject=¿Está seguro de querer clonar este proyecto?
 ProjectReportDate=Cambiar las fechas de las tareas en función de la fecha de inicio del proyecto
 ErrorShiftTaskDate=Se ha producido un error en el cambio de las fechas de las tareas
 ProjectsAndTasksLines=Proyectos y tareas
-ProjectCreatedInDolibarr=Proyecto %s creado
-TaskCreatedInDolibarr=La tarea %s fue creada
-TaskModifiedInDolibarr=La tarea %s fue modificada
-TaskDeletedInDolibarr=La tarea %s fue eliminada
+ProjectCreatedInPineapple=Proyecto %s creado
+TaskCreatedInPineapple=La tarea %s fue creada
+TaskModifiedInPineapple=La tarea %s fue modificada
+TaskDeletedInPineapple=La tarea %s fue eliminada
 OpportunityStatus=Estado de oportunidad
 OpportunityStatusShort=Estado oportunidad
 OpportunityProbability=Probabilidad de oportunidades

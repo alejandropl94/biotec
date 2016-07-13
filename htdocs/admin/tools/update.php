@@ -19,7 +19,7 @@
 
 /**
  *		\file 		htdocs/admin/tools/update.php
- *		\brief      Page to make a Dolibarr online upgrade
+ *		\brief      Page to make a Pineapple online upgrade
  */
 
 require '../../main.inc.php';
@@ -72,7 +72,7 @@ if ($action=='install')
 		if (! preg_match('/\.zip/i',$original_file))
 		{
 			$langs->load("errors");
-			setEventMessages($langs->trans("ErrorFileMustBeADolibarrPackage",$original_file), null, 'errors');
+			setEventMessages($langs->trans("ErrorFileMustBeAPineapplePackage",$original_file), null, 'errors');
 			$error++;
 		}
 	}
@@ -207,7 +207,7 @@ print '<b>'.$langs->trans("StepNb",1).'</b>: ';
 $fullurl='<a href="'.$urldolibarr.'" target="_blank">'.$urldolibarr.'</a>';
 print $langs->trans("DownloadPackageFromWebSite",$fullurl).'<br>';
 print '<b>'.$langs->trans("StepNb",2).'</b>: ';
-print $langs->trans("UnpackPackageInDolibarrRoot",$dolibarrroot).'<br>';
+print $langs->trans("UnpackPackageInPineappleRoot",$dolibarrroot).'<br>';
 print '<b>'.$langs->trans("StepNb",3).'</b>: ';
 print $langs->trans("RemoveLock",$dolibarrdataroot.'/install.lock').'<br>';
 print '<b>'.$langs->trans("StepNb",4).'</b>: ';
@@ -288,7 +288,7 @@ if ($allowfromweb >= 0)
 
 	if ($allowfromweb == 1)
 	{
-		print $langs->trans("UnpackPackageInDolibarrRoot",$dirins).'<br>';
+		print $langs->trans("UnpackPackageInPineappleRoot",$dirins).'<br>';
 		print '<form enctype="multipart/form-data" method="POST" class="noborder" action="'.$_SERVER["PHP_SELF"].'" name="forminstall">';
 		print '<input type="hidden" name="action" value="install">';
 		print $langs->trans("YouCanSubmitFile").' <input type="file" name="fileinstall"> ';
@@ -297,7 +297,7 @@ if ($allowfromweb >= 0)
 	}
 	else
 	{
-		print $langs->trans("UnpackPackageInDolibarrRoot",$dirins).'<br>';
+		print $langs->trans("UnpackPackageInPineappleRoot",$dirins).'<br>';
 		print '<b>'.$langs->trans("StepNb",4).'</b>: ';
 		print $langs->trans("SetupIsReadyForUse").'<br>';
 	}

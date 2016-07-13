@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# Pineapple language file - Source file is en_US - oauth
 ConfigOAuth=Oauth Yapılandırma
 NoAccessToken=Yerel veritabanına kayıtlı erişim belirteçi yok
 HasAccessToken=Bir belirteç oluşturuldu ve yerel veritabanına kaydedildi

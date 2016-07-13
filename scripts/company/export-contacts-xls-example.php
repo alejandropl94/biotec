@@ -66,14 +66,14 @@ $fname = DOL_DATA_ROOT.'/export-contacts.xls';
 
 //$objPHPExcel = new writeexcel_workbook($fname);
 $objPHPExcel = new PHPExcel();
-$objPHPExcel->getProperties()->setCreator("Dolibarr script");
-$objPHPExcel->getProperties()->setLastModifiedBy("Dolibarr script");
+$objPHPExcel->getProperties()->setCreator("Pineapple script");
+$objPHPExcel->getProperties()->setLastModifiedBy("Pineapple script");
 $objPHPExcel->getProperties()->setTitle("Test Document");
 $objPHPExcel->getProperties()->setSubject("Test Document");
 $objPHPExcel->getProperties()->setDescription("Test document, generated using PHP classes.");
 
 
-//$page = &$objPHPExcel->addworksheet('Export Dolibarr');
+//$page = &$objPHPExcel->addworksheet('Export Pineapple');
 $objPHPExcel->setActiveSheetIndex(0);
 $objPHPExcel->getActiveSheet()->setTitle('Contacts');
 

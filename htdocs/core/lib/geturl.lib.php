@@ -52,7 +52,7 @@ function getURLContent($url,$postorget='GET',$param='',$followlocation=1,$addhea
      exit;*/
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
-	curl_setopt($ch, CURLOPT_USERAGENT, 'Dolibarr geturl function');
+	curl_setopt($ch, CURLOPT_USERAGENT, 'Pineapple geturl function');
 
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, ($followlocation?true:false));
 	if (count($addheaders)) curl_setopt($ch, CURLOPT_HTTPHEADER, $addheaders);

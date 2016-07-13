@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - other
+# Pineapple language file - Source file is en_US - other
 ToolsDesc=Dieser Bereich ist zur Gruppe diverse Werkzeuge nicht verfügbar in andere Menüeinträge gewidmet. <br><br> Diese Tools können aus dem Menü auf der Seite zu erreichen.
 DateToBirth=Geburtstdatum
 Notify_ORDER_SENTBYMAIL=Kunden bestellen per Post geschickt
@@ -43,4 +43,4 @@ EMailTextOrderRefused=Bestellung %s abgelehnt
 EMailTextOrderRefusedBy=Bestellung %s von %s abgelehnt
 ThisIsListOfModules=Dies ist eine Liste der Module, die von dieser Demo-Profil (nur gängigsten Module sind in dieser Demo) vorgewählt. Bearbeiten, um eine personalisierte Demo haben und klicken Sie auf &quot;Start&quot;.
 SelectAColor=Wählen Sie eine Farbe
-ShipmentValidatedInDolibarr=Sendung %s validiert
+ShipmentValidatedInPineapple=Sendung %s validiert

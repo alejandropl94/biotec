@@ -20,7 +20,7 @@
 
 /**
  *		\file       htdocs/viewimage.php
- *		\brief      Wrapper to show images into Dolibarr screens
+ *		\brief      Wrapper to show images into Pineapple screens
  *      \remarks    Call to wrapper is '<img src="'.DOL_URL_ROOT.'/viewimage.php?modulepart=diroffile&file=relativepathofofile&cache=0">'
  */
 
@@ -80,7 +80,7 @@ if (empty($modulepart)) accessforbidden('Bad value for parameter modulepart');
 if (GETPOST("cache"))
 {
     // Important: Following code is to avoid page request by browser and PHP CPU at
-    // each Dolibarr page access.
+    // each Pineapple page access.
     if (empty($dolibarr_nocache))
     {
         header('Cache-Control: max-age=3600, public, must-revalidate');

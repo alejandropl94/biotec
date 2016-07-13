@@ -20,7 +20,7 @@
 /**
  *     	\file       htdocs/public/paybox/newpayment.php
  *		\ingroup    paybox
- *		\brief      File to offer a way to make a payment for a particular Dolibarr entity
+ *		\brief      File to offer a way to make a payment for a particular Pineapple entity
  *		\author	    Laurent Destailleur
  */
 

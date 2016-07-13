@@ -25,7 +25,7 @@ require_once DOL_DOCUMENT_ROOT.'/user/class/user.class.php';
  * Class for API
  *
  */
-class DolibarrApi
+class PineappleApi
 {
 
     /**
@@ -137,7 +137,7 @@ class DolibarrApi
 			$feature2 = explode("|", $feature2);
 		}
 
-		return checkUserAccessToObject(DolibarrApiAccess::$user, $featuresarray,$resource_id,$dbtablename,$feature2,$dbt_keyfield,$dbt_select);
+		return checkUserAccessToObject(PineappleApiAccess::$user, $featuresarray,$resource_id,$dbtablename,$feature2,$dbt_keyfield,$dbt_select);
 	}
 }
 
@@ -145,7 +145,7 @@ class DolibarrApi
  * API init
  *
  */
-class DolibarrApiInit extends DolibarrApi
+class PineappleApiInit extends PineappleApi
 {
 
 	function __construct() {
@@ -209,10 +209,10 @@ class DolibarrApiInit extends DolibarrApi
 	}
 
 	/**
-     * Get status (Dolibarr version)
+     * Get status (Pineapple version)
      *
 	 * @access protected
-	 * @class  DolibarrApiAccess {@requires admin}
+	 * @class  PineappleApiAccess {@requires admin}
 	 */
 	function status() {
 		require_once DOL_DOCUMENT_ROOT . '/core/lib/functions.lib.php';

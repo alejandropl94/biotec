@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = За
 CronAbout = За Cron
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=Деактивирай
 CronTaskInactive=Тази задача е неактивирана
 CronId=Id
 CronClassFile=Класове (filename.class.php)
-CronModuleHelp=Име на Dolibarr модулна директория (работи също така с външен Dolibarr модул).<BR> Например, за да издърпате метод на обект Dolibarr Product /htdocs/<u>product</u>/class/product.class.php, стойността на модула е <i>product</i>
-CronClassFileHelp=Име на файл да се зареди.<BR> Например, за да издърпате метод на обект Dolibarrr Product /htdocs/product/class/<u>product.class.php</u>, стойността на името на файла за класа е <i>product.class.php</i>
-CronObjectHelp=Името на обекът, който да се зареди.<BR> Например, за да издърпате метод на обект Dolibarr Product /htdocs/product/class/product.class.php, стойността на името на файла за класа е <i>Product</i>
-CronMethodHelp=Методът на обекта да се зареди.<BR> Например, за да издърпате метод на обект Dolibarr Product /htdocs/product/class/product.class.php, стойността на метода е <i>fecth</i>
-CronArgsHelp=Аргументите за метода.<BR> Например, за да издърпате метод на обект Dolibarr Product /htdocs/product/class/product.class.php, стойността на параметрите може да бъде <i>0, ProductRef</i>
+CronModuleHelp=Име на Pineapple модулна директория (работи също така с външен Pineapple модул).<BR> Например, за да издърпате метод на обект Pineapple Product /htdocs/<u>product</u>/class/product.class.php, стойността на модула е <i>product</i>
+CronClassFileHelp=Име на файл да се зареди.<BR> Например, за да издърпате метод на обект Pineappler Product /htdocs/product/class/<u>product.class.php</u>, стойността на името на файла за класа е <i>product.class.php</i>
+CronObjectHelp=Името на обекът, който да се зареди.<BR> Например, за да издърпате метод на обект Pineapple Product /htdocs/product/class/product.class.php, стойността на името на файла за класа е <i>Product</i>
+CronMethodHelp=Методът на обекта да се зареди.<BR> Например, за да издърпате метод на обект Pineapple Product /htdocs/product/class/product.class.php, стойността на метода е <i>fecth</i>
+CronArgsHelp=Аргументите за метода.<BR> Например, за да издърпате метод на обект Pineapple Product /htdocs/product/class/product.class.php, стойността на параметрите може да бъде <i>0, ProductRef</i>
 CronCommandHelp=Системният команден ред за стартиране.
 CronCreateJob=Създаване на нова Планирана задача
 CronFrom=От
@@ -84,7 +84,7 @@ CronFrom=От
 CronInfoPage=Информация
 # Common
 CronType=Тип задача
-CronType_method=Изпълни метод на Dolibarr клас
+CronType_method=Изпълни метод на Pineapple клас
 CronType_command=Терминална команда
 CronMenu=Крон (софтуер за изпънение на автоматични задачи)
 CronCannotLoadClass=Неможе да се зареди класа %s или обекта %s

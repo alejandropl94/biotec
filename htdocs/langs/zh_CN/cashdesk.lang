@@ -38,4 +38,4 @@ ShowStock=显示仓库
 DeleteArticle=删除项目
 FilterRefOrLabelOrBC=搜索 (REF /标签)
 UserNeedPermissionToEditStockToUsePos=你已经要求在POS销售时进行库存更新，所以操作POS模块的用户必须有更改库存的权限。
-DolibarrReceiptPrinter=Dolibarr Receipt Printer
+PineappleReceiptPrinter=Pineapple Receipt Printer

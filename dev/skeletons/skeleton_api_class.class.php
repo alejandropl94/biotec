@@ -23,11 +23,11 @@
  *
  * @smart-auto-routing false
  * @access protected 
- * @class  DolibarrApiAccess {@requires user,external}
+ * @class  PineappleApiAccess {@requires user,external}
  * 
  *
  */
-class SkeletonApi extends DolibarrApi
+class SkeletonApi extends PineappleApi
 {
     /**
      * @var array   $FIELDS     Mandatory fields, checked when create and update object 
@@ -67,7 +67,7 @@ class SkeletonApi extends DolibarrApi
      */
     function get($id)
     {		
-		if(! DolibarrApiAccess::$user->rights->skeleton->read) {
+		if(! PineappleApiAccess::$user->rights->skeleton->read) {
 			throw new RestException(401);
 		}
 			
@@ -76,8 +76,8 @@ class SkeletonApi extends DolibarrApi
             throw new RestException(404, 'Skeleton not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
 		return $this->_cleanObjectDatas($this->skeleton);
@@ -103,16 +103,16 @@ class SkeletonApi extends DolibarrApi
         
         $obj_ret = array();
         
-        $socid = DolibarrApiAccess::$user->societe_id ? DolibarrApiAccess::$user->societe_id : '';
+        $socid = PineappleApiAccess::$user->societe_id ? PineappleApiAccess::$user->societe_id : '';
             
         // If the internal user must only see his customers, force searching by him
-        if (! DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = DolibarrApiAccess::$user->id;
+        if (! PineappleApiAccess::$user->rights->societe->client->voir && !$socid) $search_sale = PineappleApiAccess::$user->id;
 
         $sql = "SELECT s.rowid";
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql .= ", sc.fk_soc, sc.fk_user"; // We need these fields in order to filter by sale (including the case where the user can only see his prospects)
         $sql.= " FROM ".MAIN_DB_PREFIX."skeleton as s";
         
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= ", ".MAIN_DB_PREFIX."societe_commerciaux as sc"; // We need this table joined to the select in order to filter by sale
         $sql.= ", ".MAIN_DB_PREFIX."c_stcomm as st";
         $sql.= " WHERE s.fk_stcomm = st.id";
         
@@ -121,7 +121,7 @@ class SkeletonApi extends DolibarrApi
         //if ($mode == 2) $sql.= " AND s.client IN (2, 3)";
 
         $sql.= ' AND s.entity IN ('.getEntity('skeleton', 1).')';
-        if ((!DolibarrApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
+        if ((!PineappleApiAccess::$user->rights->societe->client->voir && !$socid) || $search_sale > 0) $sql.= " AND s.fk_soc = sc.fk_soc";
         if ($socid) $sql.= " AND s.fk_soc = ".$socid;
         if ($search_sale > 0) $sql.= " AND s.rowid = sc.fk_soc";		// Join for the needed table to filter by sale
         
@@ -182,7 +182,7 @@ class SkeletonApi extends DolibarrApi
      */
     function post($request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->skeleton->create) {
+        if(! PineappleApiAccess::$user->rights->skeleton->create) {
 			throw new RestException(401);
 		}
         // Check mandatory fields
@@ -191,7 +191,7 @@ class SkeletonApi extends DolibarrApi
         foreach($request_data as $field => $value) {
             $this->skeleton->$field = $value;
         }
-        if( ! $this->skeleton->create(DolibarrApiAccess::$user)) {
+        if( ! $this->skeleton->create(PineappleApiAccess::$user)) {
             throw new RestException(500);
         }
         return $this->skeleton->id;
@@ -208,7 +208,7 @@ class SkeletonApi extends DolibarrApi
      */
     function put($id, $request_data = NULL)
     {
-        if(! DolibarrApiAccess::$user->rights->skeleton->create) {
+        if(! PineappleApiAccess::$user->rights->skeleton->create) {
 			throw new RestException(401);
 		}
         
@@ -217,15 +217,15 @@ class SkeletonApi extends DolibarrApi
             throw new RestException(404, 'Skeleton not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
 
         foreach($request_data as $field => $value) {
             $this->skeleton->$field = $value;
         }
         
-        if($this->skeleton->update($id, DolibarrApiAccess::$user))
+        if($this->skeleton->update($id, PineappleApiAccess::$user))
             return $this->get ($id);
         
         return false;
@@ -241,7 +241,7 @@ class SkeletonApi extends DolibarrApi
      */
     function delete($id)
     {
-        if(! DolibarrApiAccess::$user->rights->skeleton->supprimer) {
+        if(! PineappleApiAccess::$user->rights->skeleton->supprimer) {
 			throw new RestException(401);
 		}
         $result = $this->skeleton->fetch($id);
@@ -249,8 +249,8 @@ class SkeletonApi extends DolibarrApi
             throw new RestException(404, 'Skeleton not found');
         }
 		
-		if( ! DolibarrApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
-			throw new RestException(401, 'Access not allowed for login '.DolibarrApiAccess::$user->login);
+		if( ! PineappleApi::_checkAccessToResource('skeleton',$this->skeleton->id)) {
+			throw new RestException(401, 'Access not allowed for login '.PineappleApiAccess::$user->login);
 		}
         
         if( !$this->skeleton->delete($id))

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Espace exports
 ImportArea=Espace import
 NewExport=Nouvel export
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Choisissez le format de fichier à importer en cliqua
 ChooseFileToImport=Ajoutez le fichier à importer puis cliquez sur le pictogramme %s pour le sélectionner comme fichier source d'import…
 SourceFileFormat=Format du fichier source
 FieldsInSourceFile=Champs dans le fichier source
-FieldsInTargetDatabase=Champs cibles dans la base Dolibarr (gras=obligatoire)
+FieldsInTargetDatabase=Champs cibles dans la base Pineapple (gras=obligatoire)
 Field=Champ
 NoFields=Aucun champ
 MoveField=Déplacer champ colonne numéro %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Nombre de lignes sans erreur ni avertissement : <b>%s</b>.
 NbOfLinesImported=Nombre de lignes importées avec succès : <b>%s</b>.
 DataComeFromNoWhere=La valeur à insérer n'est issue d'aucun champ du fichier source.
 DataComeFromFileFieldNb=La valeur à insérer sera issue du champ numéro <b>%s</b> du fichier source.
-DataComeFromIdFoundFromRef=La valeur issue du champ numéro <b>%s</b> du fichier source sera utilisée pour trouver l'identifiant de l'objet père à utiliser (L'objet <b>%s</b> ayant la réf. issue du fichier source doit donc exister dans Dolibarr).
+DataComeFromIdFoundFromRef=La valeur issue du champ numéro <b>%s</b> du fichier source sera utilisée pour trouver l'identifiant de l'objet père à utiliser (L'objet <b>%s</b> ayant la réf. issue du fichier source doit donc exister dans Pineapple).
 DataComeFromIdFoundFromCodeId=Le code issu du champ numéro <b>%s</b> du fichier source sera utilisée pour trouver l'id de l'objet père à utiliser (Le code issue du fichier source doit donc exister dans le dictionnaire <b>%s</b>). Notons que si vous connaissez cet id, vous pouvez l'utiliser dans le fichier source au lieu du code. L'import fonctionnera dans les 2 cas.
 DataIsInsertedInto=La donnée issue du fichier source sera insérée dans le champ suivant:
 DataIDSourceIsInsertedInto=L'identifiant de l'objet père retrouvé à partir de la donnée source, sera inséré dans le champ suivant :

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Spaltentrennzeichen der Exportdatei
 ACCOUNTING_EXPORT_DATE=Datumsformat der Exportdatei
 ACCOUNTING_EXPORT_PIECE=Stückzahl exportieren
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Anzahl der Elemente, die Aufgliederung nach Se
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Beginnen Sie die Sortierung der Abbau Seiten "Muss sortiert werden" durch die aktuellen Elemente
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Beginnen Sie die Sortierung der Abbau Seiten "Abbau" durch die aktuellen Elemente
 
-AccountLength=Länge der in Dolibarr gezeigten Rechnungskonten
-AccountLengthDesc=Funktion ermöglicht, eine Länge von Rechnungslegungs Konto indem Räume, die durch den Nullwert vorzutäuschen. Diese Funktion berührt nur die Anzeige, ist es nicht die in Dolibarr registriert Rechnungswesen Konten ändern. Für den Export ist diese Funktion erforderlich, bei bestimmten Software-kompatibel zu sein.
+AccountLength=Länge der in Pineapple gezeigten Rechnungskonten
+AccountLengthDesc=Funktion ermöglicht, eine Länge von Rechnungslegungs Konto indem Räume, die durch den Nullwert vorzutäuschen. Diese Funktion berührt nur die Anzeige, ist es nicht die in Pineapple registriert Rechnungswesen Konten ändern. Für den Export ist diese Funktion erforderlich, bei bestimmten Software-kompatibel zu sein.
 ACCOUNTING_LENGTH_DESCRIPTION=Listenlänge für die Anzeige von Produkt- und Dienstleistungsbeschreibung (Empfehlung = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Länge für die Anzeige der Beschreibung von Produkte und Leistungen in den Listen (Ideal = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Länge der Finanzbuchführung

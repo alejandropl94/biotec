@@ -20,7 +20,7 @@
 
 /**
  *	\file       htdocs/public/offline.php
- *	\brief      Dolibarr offline page
+ *	\brief      Pineapple offline page
  */
 
 define('NOCSRFCHECK',1);

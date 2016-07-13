@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Dışaaktarma dosyası için sütun ayırıcısı
 ACCOUNTING_EXPORT_DATE=Dışaaktarma dosyası için tarih biçimi
 ACCOUNTING_EXPORT_PIECE=Parça sayısını dışaaktar
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Analiz syfasında gösterilecek öğe sayısı
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Analiz sayfalarında "Analiz edileceklerin" sıralandırılmasını en son öğelerden göre başlatın
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Analiz sayfalarında "Analiz edilmişlerin" sıralandırılmasını en son öğelerden göre başlatın
 
-AccountLength=Dolibarr'da gösterilen muhasebe hesapları uzunluğu
-AccountLengthDesc=Boşlukların sıfır figürü ile değiştirilmesiyle muhasebe hesap uzunluğunun uydurulmasını sağlayan işlevdir. Bu işlev yalnızca görüntüyü değiştirir, Dolibarr'da kayıtlı muhasebe hesaplarını değiştirmez. Dışaaktarma için bu fonksiyonun belirli yazılımla uyumlu olması gerekir.
+AccountLength=Pineapple'da gösterilen muhasebe hesapları uzunluğu
+AccountLengthDesc=Boşlukların sıfır figürü ile değiştirilmesiyle muhasebe hesap uzunluğunun uydurulmasını sağlayan işlevdir. Bu işlev yalnızca görüntüyü değiştirir, Pineapple'da kayıtlı muhasebe hesaplarını değiştirmez. Dışaaktarma için bu fonksiyonun belirli yazılımla uyumlu olması gerekir.
 ACCOUNTING_LENGTH_DESCRIPTION=Listelemede ürün & hizmet tanımlaması için yer uzunluğu (En iyi = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Listelemede ürün & hizmet hesap tanımlama formu için yer uzunluğu (En iyi = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Genel hesapların uzunluğu

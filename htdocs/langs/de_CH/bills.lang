@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - bills
+# Pineapple language file - Source file is en_US - bills
 BillsCustomersUnpaidForCompany=Offene Rechnungen vom Kunden %s
 BillsSuppliersUnpaid=Offene Lieferantenrechnungen
 BillsSuppliersUnpaidForCompany=Offene Rechnungen für den Lieferanten %s

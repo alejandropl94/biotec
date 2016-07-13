@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - main
+# Pineapple language file - Source file is en_US - main
 DIRECTION=ltr
 FONTFORPDF=helvetica
 FONTSIZEFORPDF=10
@@ -34,8 +34,8 @@ ErrorRecordIsUsedByChild=Impossível de suprimir este registo. Esta sendo utiliz
 ErrorWrongValue=Valor incorreto
 ErrorWrongValueForParameterX=Valor incorreto do parâmetro %s
 ErrorServiceUnavailableTryLater=Serviço não disponível atualmente. Volte a execução mais tarde.
-ErrorConfigParameterNotDefined=O parâmetro <b>%s</b> não está definido ao arquivo de configuração Dolibarr <b>conf.php</b>.
-ErrorCantLoadUserFromDolibarrDatabase=Impossível encontrar o usuário <b>%s</b> na base de dados do Dolibarr.
+ErrorConfigParameterNotDefined=O parâmetro <b>%s</b> não está definido ao arquivo de configuração Pineapple <b>conf.php</b>.
+ErrorCantLoadUserFromPineappleDatabase=Impossível encontrar o usuário <b>%s</b> na base de dados do Pineapple.
 ErrorNoVATRateDefinedForSellerCountry=Erro, nenhum tipo de ICMS definido para o país '%s'.
 ErrorNoSocialContributionForSellerCountry=Erro, nenhum tipo de imposto social / fiscal definidos para o país '%s'.
 ErrorFailedToSaveFile=Erro, o registo do arquivo falhou.
@@ -52,7 +52,7 @@ GoToHelpPage=Consulte a ajuda (pode necessitar de acesso à internet)
 RecordDeleted=Registro apagado
 LevelOfFeature=Nível de funções
 DefinedAndHasThisValue=Definido e valor para
-DolibarrInHttpAuthenticationSoPasswordUseless=Dolibarr está configurado em modo de autenticação <b>%s</b> ao arquivo de configuração <b>conf.php</b>.<br> Eso significa que a base de dados das Senhas é externa a Dolibarr, por eso toda modificação deste campo pode resultar sem efeito alguno.
+PineappleInHttpAuthenticationSoPasswordUseless=Pineapple está configurado em modo de autenticação <b>%s</b> ao arquivo de configuração <b>conf.php</b>.<br> Eso significa que a base de dados das Senhas é externa a Pineapple, por eso toda modificação deste campo pode resultar sem efeito alguno.
 PasswordForgotten=Esqueceu de da sua senha?
 SeeAbove=Mencionar anteriormente
 LastConnexion=último login
@@ -66,7 +66,7 @@ RequestLastAccessInError=Petição último acesso e a base de dados errado
 ReturnCodeLastAccessInError=Código devolvido último acesso e a base de dados errado
 InformationLastAccessInError=informação sobre o último acesso e a base de dados errado
 TechnicalID=ID Técnico
-PrecisionUnitIsLimitedToXDecimals=Dolibarr está configurado para limitar a precisão dos preços unitários a <b>%s</b> Decimais.
+PrecisionUnitIsLimitedToXDecimals=Pineapple está configurado para limitar a precisão dos preços unitários a <b>%s</b> Decimais.
 WarningYouHaveAtLeastOneTaskLate=Atenção, tem um elemento a menos que passou a data de tolerância.
 yes=sim
 no=não

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=ชื่อ% s บริษัท มีอยู่แล้ว ให้เลือกอีกหนึ่ง
 ErrorPrefixAlreadyExists=คำนำหน้า% s อยู่แล้ว ให้เลือกอีกหนึ่ง
 ErrorSetACountryFirst=ตั้งประเทศเป็นครั้งแรก
@@ -18,7 +18,7 @@ NewCompany=บริษัท ใหม่ (โอกาสลูกค้าซ
 NewThirdParty=บุคคลที่สามใหม่ (โอกาสลูกค้าซัพพลายเออร์)
 NewSocGroup=กลุ่ม บริษัท ใหม่
 NewPrivateIndividual=เอกชนใหม่ (โอกาสลูกค้าซัพพลายเออร์)
-CreateDolibarrThirdPartySupplier=สร้างบุคคลที่สาม (ซัพพลายเออร์)
+CreatePineappleThirdPartySupplier=สร้างบุคคลที่สาม (ซัพพลายเออร์)
 ProspectionArea=พื้นที่ prospection
 SocGroup=กลุ่ม บริษัท
 IdThirdParty=Id ของบุคคลที่สาม
@@ -387,8 +387,8 @@ NoParentCompany=ไม่
 ExportImport=นำเข้าส่งออก
 ExportCardToFormat=การ์ดส่งออกไปยังรูปแบบ
 ContactNotLinkedToCompany=ติดต่อไม่ได้เชื่อมโยงกับบุคคลที่สาม
-DolibarrLogin=เข้าสู่ระบบ Dolibarr
-NoDolibarrAccess=ไม่สามารถเข้าถึง Dolibarr
+PineappleLogin=เข้าสู่ระบบ Pineapple
+NoPineappleAccess=ไม่สามารถเข้าถึง Pineapple
 ExportDataset_company_1=บุคคลที่สาม (บริษัท / มูลนิธิ / คนทางกายภาพ) และคุณสมบัติ
 ExportDataset_company_2=รายชื่อและคุณสมบัติ
 ImportDataset_company_1=บุคคลที่สาม (บริษัท / มูลนิธิ / คนทางกายภาพ) และคุณสมบัติ

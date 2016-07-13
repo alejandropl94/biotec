@@ -132,10 +132,10 @@ if ($resql)
         {
             // Lien interne societe
             $linkintern=1;
-            $link="Dolibarr";
+            $link="Pineapple";
             if (! $obj->title)
             {
-                // For compatibility with old Dolibarr bookmarks
+                // For compatibility with old Pineapple bookmarks
                 require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
                 $societe=new Societe($db);
                 $societe->fetch($obj->rowid);

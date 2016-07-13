@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 AddIntervention=Criar Intervenção
 ActionsOnFicheInter=Açoes na intervençao
 CustomerDoesNotHavePrefix=O cliente não tem prefixoo de definido
@@ -15,12 +15,12 @@ RelatedInterventions=Intervençoes relativas
 ShowIntervention=Mostrar intervençao
 SendInterventionRef=Apresentação de intervenção %s
 SendInterventionByMail=Enviar por E-mail intervenção
-InterventionCreatedInDolibarr=Intervenção %s criada
-InterventionValidatedInDolibarr=Intervenção %s validada
-InterventionModifiedInDolibarr=Intervenção %s alterada
-InterventionClassifiedBilledInDolibarr=Intervenção %s classificada como Faturada
-InterventionClassifiedUnbilledInDolibarr=Intervenção %s definida como à faturar
-InterventionDeletedInDolibarr=Intervenção %s excluída
+InterventionCreatedInPineapple=Intervenção %s criada
+InterventionValidatedInPineapple=Intervenção %s validada
+InterventionModifiedInPineapple=Intervenção %s alterada
+InterventionClassifiedBilledInPineapple=Intervenção %s classificada como Faturada
+InterventionClassifiedUnbilledInPineapple=Intervenção %s definida como à faturar
+InterventionDeletedInPineapple=Intervenção %s excluída
 SearchAnIntervention=Pesquisar uma intervenção
 InterventionsArea=Área intervenções
 DraftFichinter=Rascunho de intervenções

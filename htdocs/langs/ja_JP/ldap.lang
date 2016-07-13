@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=ドメインのパスワード
 YouMustChangePassNextLogon=ドメイン<b>%s</b>のユーザー<b>%s</b>のパスワードを変更する必要があります。
 UserMustChangePassNextLogon=ユーザーは、ドメイン%sにパスワードを変更する必要があります。
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=最初のサブスクリプションの日付
 LDAPFieldFirstSubscriptionAmount=最初のサブスクリプションの量
 LDAPFieldLastSubscriptionDate=最後のサブスクリプションの日付
 LDAPFieldLastSubscriptionAmount=最後のサブスクリプションの量
-SynchronizeDolibarr2Ldap=（ - &gt; LDAP Dolibarr）ユーザを同期
+SynchronizePineapple2Ldap=（ - &gt; LDAP Pineapple）ユーザを同期
 UserSynchronized=ユーザーの同期
 GroupSynchronized=グループは、同期
 MemberSynchronized=メンバーは、同期
 ContactSynchronized=同期に連絡
-ForceSynchronize=Dolibarrを同期させる力 - &gt; LDAP
+ForceSynchronize=Pineappleを同期させる力 - &gt; LDAP
 ErrorFailedToReadLDAP=LDAPデータベースの読み込みに失敗しました。 LDAPモジュールの設定とデータベースのアクセシビリティをチェックします。

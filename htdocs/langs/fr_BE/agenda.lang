@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - agenda
+# Pineapple language file - Source file is en_US - agenda
 ActionsArea=Section événements (actions et tâches)
 DoneBy=Fait par
 ListOfActions=Liste d'événements
@@ -18,8 +18,8 @@ ViewDay=Vue quotidienne
 ViewWeek=Vue hebdomadaire
 ViewWithPredefinedFilters=Vue avec filtres prédéfinis
 AutoActions=Remplissage automatique
-PropalValidatedInDolibarr=Propale %s validée
-InvoiceBackToDraftInDolibarr=Facture %s retour à l'état de brouillon
+PropalValidatedInPineapple=Propale %s validée
+InvoiceBackToDraftInPineapple=Facture %s retour à l'état de brouillon
 ProposalSentByEMail=Propale %s envoyée par e-mail
 OrderSentByEMail=Commande client %s envoyée par e-mail
 ShippingSentByEMail=Livraison %s envoyée par e-mail

@@ -16,7 +16,7 @@
  */
 
 /**
- * 	\defgroup   api     Module DolibarrApi
+ * 	\defgroup   api     Module PineappleApi
  *  \brief      API loader
  *				Search files htdocs/<module>/class/api_<module>.class.php
  *  \file       htdocs/api/indexphp
@@ -49,7 +49,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
 if (empty($conf->global->MAIN_MODULE_API))
 {
     $langs->load("admin");
-    dol_syslog("Call Dolibarr API interfaces with module REST disabled");
+    dol_syslog("Call Pineapple API interfaces with module REST disabled");
     print $langs->trans("WarningModuleNotActive",'Api').'.<br><br>';
     print $langs->trans("ToActivateModule");
     exit;
@@ -57,12 +57,12 @@ if (empty($conf->global->MAIN_MODULE_API))
 
 use \Luracast\Restler\Defaults;
 
-$api = new DolibarrApi($db);
+$api = new PineappleApi($db);
 
 $api->r->addAPIClass('Luracast\\Restler\\Resources'); //this creates resources.json at API Root
-$api->r->addAPIClass('DolibarrApiInit',''); // Just for url root page
+$api->r->addAPIClass('PineappleApiInit',''); // Just for url root page
 $api->r->setSupportedFormats('JsonFormat', 'XmlFormat');
-$api->r->addAuthenticationClass('DolibarrApiAccess','');
+$api->r->addAuthenticationClass('PineappleApiAccess','');
 
 $listofapis = array();
 

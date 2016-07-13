@@ -226,7 +226,7 @@ class RssParser
         else
         {
             try {
-                ini_set("user_agent","Dolibarr ERP-CRM RSS reader");
+                ini_set("user_agent","Pineapple ERP-CRM RSS reader");
                 ini_set("max_execution_time", $conf->global->MAIN_USE_RESPONSE_TIMEOUT);
                 ini_set("default_socket_timeout", $conf->global->MAIN_USE_RESPONSE_TIMEOUT);
 

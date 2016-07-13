@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - cron
+# Pineapple language file - Source file is en_US - cron
 # About page
 About = در حدود
 CronAbout = درباره cron را
@@ -72,11 +72,11 @@ CronStatusInactiveBtn=از کار انداختن
 CronTaskInactive=این کار غیر فعال است
 CronId=شناسایی
 CronClassFile=کلاس ها (filename.class.php)
-CronModuleHelp=نام Dolibarr دایرکتوری ماژول (با ماژول Dolibarr خارجی کار می کنند). <BR> برای exemple به بهانه روش Dolibarr شی محصولات / htdocs / <u>محصول</u> / کلاس / product.class.php، ارزش ماژول <i>محصول</i>
-CronClassFileHelp=نام فایل برای بارگذاری. <BR> برای exemple به بهانه روش Dolibarr محصولات شی / htdocs / محصول / کلاس / <u>product.class.php،</u> ارزش نام فایل کلاس <i>product.class.php</i> است
-CronObjectHelp=نام شی برای بارگذاری. <BR> برای exemple به بهانه روش Dolibarr شی محصولات / htdocs / محصول / کلاس / product.class.php، ارزش نام فایل کلاس <i>محصولات</i> است
-CronMethodHelp=روش شی برای راه اندازی. <BR> برای exemple به بهانه روش Dolibarr محصولات شی / htdocs / محصول / کلاس / product.class.php، ارزش روش است <i>fecth</i>
-CronArgsHelp=استدلال از روش. <BR> برای exemple به بهانه روش Dolibarr محصولات شی / htdocs / محصول / کلاس / product.class.php، مقدار پارامترهای می تواند <i>0، ProductRef</i>
+CronModuleHelp=نام Pineapple دایرکتوری ماژول (با ماژول Pineapple خارجی کار می کنند). <BR> برای exemple به بهانه روش Pineapple شی محصولات / htdocs / <u>محصول</u> / کلاس / product.class.php، ارزش ماژول <i>محصول</i>
+CronClassFileHelp=نام فایل برای بارگذاری. <BR> برای exemple به بهانه روش Pineapple محصولات شی / htdocs / محصول / کلاس / <u>product.class.php،</u> ارزش نام فایل کلاس <i>product.class.php</i> است
+CronObjectHelp=نام شی برای بارگذاری. <BR> برای exemple به بهانه روش Pineapple شی محصولات / htdocs / محصول / کلاس / product.class.php، ارزش نام فایل کلاس <i>محصولات</i> است
+CronMethodHelp=روش شی برای راه اندازی. <BR> برای exemple به بهانه روش Pineapple محصولات شی / htdocs / محصول / کلاس / product.class.php، ارزش روش است <i>fecth</i>
+CronArgsHelp=استدلال از روش. <BR> برای exemple به بهانه روش Pineapple محصولات شی / htdocs / محصول / کلاس / product.class.php، مقدار پارامترهای می تواند <i>0، ProductRef</i>
 CronCommandHelp=خط فرمان سیستم را اجرا کند.
 CronCreateJob=Create new Scheduled Job
 CronFrom=From
@@ -84,7 +84,7 @@ CronFrom=From
 CronInfoPage=اطلاعات
 # Common
 CronType=Job type
-CronType_method=روش تماس از یک کلاس Dolibarr
+CronType_method=روش تماس از یک کلاس Pineapple
 CronType_command=فرمان شل
 CronMenu=cron را
 CronCannotLoadClass=آیا می توانم کلاس٪ s ​​را بار نیست و یا شی از٪ s

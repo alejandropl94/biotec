@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Numele societăţii %s există deja. Alegeţi un altul.
 ErrorPrefixAlreadyExists=Prefix %s există deja. Alegeţi un altul.
 ErrorSetACountryFirst=Setaţi mai întâi ţară
@@ -18,7 +18,7 @@ NewCompany=Societate nouă (prospect, client, furnizor)
 NewThirdParty=Terţ nou (prospect, client, furnizor)
 NewSocGroup=Grup  nou de societăţi
 NewPrivateIndividual=Particular nou(prospect, client, furnizor)
-CreateDolibarrThirdPartySupplier=Creare terţ ( furnizor)
+CreatePineappleThirdPartySupplier=Creare terţ ( furnizor)
 ProspectionArea=Prospecte
 SocGroup=Grup de societăţi
 IdThirdParty=ID Terţ
@@ -387,8 +387,8 @@ NoParentCompany=Niciunul
 ExportImport=Import-Export
 ExportCardToFormat=Export fişă în format
 ContactNotLinkedToCompany=Contact nelegat la un terţ
-DolibarrLogin=Identificator utilizator
-NoDolibarrAccess=Niciun acces utilizator
+PineappleLogin=Identificator utilizator
+NoPineappleAccess=Niciun acces utilizator
 ExportDataset_company_1=Terţi (societăţi / fundaţii/ persoane fizice)  şi atribute
 ExportDataset_company_2=Contacte şi atribute
 ImportDataset_company_1=Terţi (societăţi / fundaţii/ persoane fizice)  şi atribute

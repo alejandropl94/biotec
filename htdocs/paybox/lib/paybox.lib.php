@@ -44,7 +44,7 @@ function llxHeaderPaybox($title, $head = "")
 	print "<head>\n";
 	print '<meta name="robots" content="noindex,nofollow">'."\n";
 	print '<meta name="keywords" content="dolibarr,payment,online">'."\n";
-	print '<meta name="description" content="Welcome on Dolibarr online payment form">'."\n";
+	print '<meta name="description" content="Welcome on Pineapple online payment form">'."\n";
 	print "<title>".$title."</title>\n";
 	if ($head) print $head."\n";
 	if (! empty($conf->global->PAYBOX_CSS_URL)) print '<link rel="stylesheet" type="text/css" href="'.$conf->global->PAYBOX_CSS_URL.'?lang='.$langs->defaultlang.'">'."\n";

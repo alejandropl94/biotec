@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=كلمة السر لالنطاق
 YouMustChangePassNextLogon=كلمة السر للمستخدم <b>٪</b> على النطاق <b>ق ق ٪</b> ويجب أن يتغير.
 UserMustChangePassNextLogon=يجب على المستخدم تغيير كلمة المرور على المجال ق ٪
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=أول موعد الاكتتاب
 LDAPFieldFirstSubscriptionAmount=قبضة مبلغ الاشتراك
 LDAPFieldLastSubscriptionDate=آخر موعد الاكتتاب
 LDAPFieldLastSubscriptionAmount=الاكتتاب المبلغ الأخير
-SynchronizeDolibarr2Ldap=التزامن بين المستخدمين (Dolibarr --> LDAP)
+SynchronizePineapple2Ldap=التزامن بين المستخدمين (Pineapple --> LDAP)
 UserSynchronized=وتزامن المستخدم
 GroupSynchronized=مجموعة متزامنة
 MemberSynchronized=عضو متزامنة
 ContactSynchronized=وتزامن الاتصال
-ForceSynchronize=واكبت قوة Dolibarr --> LDAP
+ForceSynchronize=واكبت قوة Pineapple --> LDAP
 ErrorFailedToReadLDAP=فشل في قراءة قاعدة البيانات LDAP. LDAP وحدة التحقق من الإعداد ، وإمكانية الوصول إلى قاعدة البيانات.

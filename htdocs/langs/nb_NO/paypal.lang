@@ -1,6 +1,6 @@
-# Dolibarr language file - Source file is en_US - paypal
+# Pineapple language file - Source file is en_US - paypal
 PaypalSetup=PayPal moduloppsett
-PaypalDesc=Denne modulen tilbyr sider for å tillate betaling på <a href="http://www.paypal.com" target="_blank">PayPal</a> av kunder. Dette kan brukes til en gratis betaling eller for et bestemt Dolibarr objekt (faktura, ordre, ...)
+PaypalDesc=Denne modulen tilbyr sider for å tillate betaling på <a href="http://www.paypal.com" target="_blank">PayPal</a> av kunder. Dette kan brukes til en gratis betaling eller for et bestemt Pineapple objekt (faktura, ordre, ...)
 PaypalOrCBDoPayment=Betal med kredittkort eller Paypal
 PaypalDoPayment=Betal med Paypal
 PaypalCBDoPayment=Betal med kredittkort

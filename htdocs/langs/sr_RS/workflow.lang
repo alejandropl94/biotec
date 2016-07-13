@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 WorkflowSetup=Podešavanja modula Workflow
 WorkflowDesc=Ovaj modul je namenjen za izmene automatskih akcija u aplikaciji. Po defaultu, workflow je otvoren (možete vršiti akcije redosledom kojim poželite). Možete aktivirati automatske akcije koje Vas interesuju.
 ThereIsNoWorkflowToModify=Nema mogućih izmena workflow-a u aktiviranim modulima.

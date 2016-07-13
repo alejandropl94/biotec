@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# Pineapple language file - Source file is en_US - printing
 Module64000Name=Impressió automàtica
 Module64000Desc=Habilita el sistema de impressió automàtica
 PrintingSetup=Configuració del sistema de impressió automàtic

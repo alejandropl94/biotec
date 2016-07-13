@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - printing
+# Pineapple language file - Source file is en_US - printing
 Module64000Name=Direct Printing
 Module64000Desc=Enable Direct Printing System
 PrintingSetup=Настройки системы прямой печати

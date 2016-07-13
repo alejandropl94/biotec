@@ -1237,7 +1237,7 @@ if ($step == 5 && $datatoimport)
 		{
 			if ($newval) print ', ';
 			$newval=$val;
-			// Link to Dolibarr wiki pages
+			// Link to Pineapple wiki pages
 			/*$helppagename='EN:Table_'.$newval;
 			if ($helppagename && empty($conf->global->MAIN_HELP_DISABLELINK))
 			{
@@ -1578,7 +1578,7 @@ if ($step == 6 && $datatoimport)
 		{
 			if ($newval) print ', ';
 			$newval=$val;
-			// Link to Dolibarr wiki pages
+			// Link to Pineapple wiki pages
 			/*$helppagename='EN:Table_'.$newval;
 			if ($helppagename && empty($conf->global->MAIN_HELP_DISABLELINK))
 			{

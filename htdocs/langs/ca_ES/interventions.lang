@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - interventions
+# Pineapple language file - Source file is en_US - interventions
 Intervention=Intervenció
 Interventions=Intervencions
 InterventionCard=Fitxa intervenció
@@ -31,13 +31,13 @@ RelatedInterventions=Intervencions relacionades
 ShowIntervention=Mostrar intervenció
 SendInterventionRef=Presentar intervenció %s
 SendInterventionByMail=Envia la intervenció per e-mail
-InterventionCreatedInDolibarr=Intervenció %s creada
-InterventionValidatedInDolibarr=Intervenció %s validada
-InterventionModifiedInDolibarr=Intervenció %s modificada
-InterventionClassifiedBilledInDolibarr=Intervenció %s marcada com a facturada
-InterventionClassifiedUnbilledInDolibarr=Intervenció %s marcada com a no facturada
+InterventionCreatedInPineapple=Intervenció %s creada
+InterventionValidatedInPineapple=Intervenció %s validada
+InterventionModifiedInPineapple=Intervenció %s modificada
+InterventionClassifiedBilledInPineapple=Intervenció %s marcada com a facturada
+InterventionClassifiedUnbilledInPineapple=Intervenció %s marcada com a no facturada
 InterventionSentByEMail=Intervenció %s enviada per email
-InterventionDeletedInDolibarr=Intevenció %s eliminada
+InterventionDeletedInPineapple=Intevenció %s eliminada
 SearchAnIntervention=Cerca una intervenció
 InterventionsArea=Àrea d'intervencions
 DraftFichinter=Intervencions esborrany

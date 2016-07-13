@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Salasana verkkotunnuksen
 YouMustChangePassNextLogon=Salasana <b>käyttäjän %s verkkotunnuksen %s</b> on muuttunut.
 UserMustChangePassNextLogon=Käyttäjän on muutettava salasana verkkotunnuksen %s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Ensimmäisen tilauksen päivämäärä
 LDAPFieldFirstSubscriptionAmount=Fist merkinnän määrästä
 LDAPFieldLastSubscriptionDate=Viimeisin tilaus päivämäärän
 LDAPFieldLastSubscriptionAmount=Viimeisin tilaus määrä
-SynchronizeDolibarr2Ldap=Synkronoi käyttäjä (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Synkronoi käyttäjä (Pineapple -> LDAP)
 UserSynchronized=Käyttäjän synkronoidaan
 GroupSynchronized=Ryhmän synkronoidaan
 MemberSynchronized=Jäsen synkronoidaan
 ContactSynchronized=Yhteystiedot synkronoidaan
-ForceSynchronize=Force synkronointi Dolibarr -> LDAP
+ForceSynchronize=Force synkronointi Pineapple -> LDAP
 ErrorFailedToReadLDAP=Lukeminen epäonnistui LDAP-tietokantaan. Tarkista LDAP-moduulin asennus ja tietokannan saavutettavuus.

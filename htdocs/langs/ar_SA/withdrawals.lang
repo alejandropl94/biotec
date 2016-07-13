@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=أوامر دائمة المنطقة
 CustomersStandingOrdersArea=أوامر دائمة منطقة العملاء
 StandingOrders=أوامر دائمة
@@ -95,7 +95,7 @@ InfoCreditMessage=تم دفع %s النظام وقوفه الى جانب الب�
 InfoTransSubject=انتقال %s ترتيب دائمة للبنك
 InfoTransMessage=وقد transmited في %s أجل الوقوف على البنك من قبل %s %s. <br><br>
 InfoTransData=المبلغ: %s <br> Metode: %s <br> تاريخ: %s
-InfoFoot=هذه رسالة تلقائية ترسل من قبل Dolibarr
+InfoFoot=هذه رسالة تلقائية ترسل من قبل Pineapple
 InfoRejectSubject=ورفض النظام واقفا
 InfoRejectMessage=أهلا، <br><br> وقد رفض النظام مكانة فاتورة%s المتعلقة بالشركة٪ الصورة، مع مبلغ٪ الصورة من قبل البنك. <br><br> - <br> ٪ الصورة
 ModeWarning=لم يتم تعيين خيار الوضع الحقيقي، ونحن بعد توقف هذه المحاكاة

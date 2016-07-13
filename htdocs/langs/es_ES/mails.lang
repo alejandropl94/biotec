@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=E-Mailing
 EMailing=E-Mailing
 Mailings=E-Mailings
@@ -95,12 +95,12 @@ NbSent=Nº enviados
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Contactos de terceros (clientes potenciales, clientes, proveedores...)
-MailingModuleDescDolibarrUsers=Usuarios de Dolibarr
+MailingModuleDescPineappleUsers=Usuarios de Pineapple
 MailingModuleDescFundationMembers=Miembros
 MailingModuleDescEmailsFromFile=E-Mails de un archivo (e-mail;nombre;varios)
 MailingModuleDescEmailsFromUser=E-mails introducidos por el usuario (email;apellidos;nombre;otros)
 MailingModuleDescContactsCategories=Terceros (por categoría)
-MailingModuleDescDolibarrContractsLinesExpired=Terceros con líneas de contratos de servicios expirados
+MailingModuleDescPineappleContractsLinesExpired=Terceros con líneas de contratos de servicios expirados
 MailingModuleDescContactsByCompanyCategory=Contactos de terceros (por categoría de terceros)
 MailingModuleDescContactsByCategory=Contactos de terceros (por categoría)
 MailingModuleDescMembersCategories=Miembros (por categoría)

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# Pineapple language file - Source file is en_US - compta
 FeatureIsSupportedInInOutModeOnly=Dieses Feautre ist nur in der Soll-Haben-Option verfügbar (siehe Konfiguration des Rechnungswesen-Moduls)
 PaymentsNotLinkedToInvoice=Zahlungen mit keiner Rechnung und damit auch keinem Geschäftspartner verbunden
 VATReceived=Erhobene MwSt.

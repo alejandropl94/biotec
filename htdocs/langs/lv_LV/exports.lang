@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Eksporta zona
 ImportArea=Importa zona
 NewExport=Jauns eksporta
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Izvēlieties faila formātu, lai izmantotu kā import
 ChooseFileToImport=Augšupielādēt failu, tad noklikšķiniet uz Piktogramma %s, lai izvēlētos failu kā avota importa faila ...
 SourceFileFormat=Avota faila formāts
 FieldsInSourceFile=Lauki avota failā
-FieldsInTargetDatabase=Mērķa lauki Dolibarr datu bāzē (treknrakstā = obligāti)
+FieldsInTargetDatabase=Mērķa lauki Pineapple datu bāzē (treknrakstā = obligāti)
 Field=Lauks
 NoFields=Nav lauki
 MoveField=Pārvietot lauka kolonnas numurs %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Skaits līniju bez kļūdām un bez brīdinājumiem: <b>%s.</b>
 NbOfLinesImported=Skaits līniju veiksmīgi importēto: <b>%s.</b>
 DataComeFromNoWhere=Vērtību, lai ievietotu nāk no nekur avota failā.
 DataComeFromFileFieldNb=Vērtību, lai ievietotu nāk no lauka skaits <b>%s,</b> kas avota failā.
-DataComeFromIdFoundFromRef=Vērtība, kas nāk no lauka numurs <b>%s</b> no avota fails tiks izmantoti, lai atrastu ID mātes objekta izmantot (Tātad Objet <b>%s,</b> kas ir ref. No avota failā ir pastāv uz Dolibarr).
+DataComeFromIdFoundFromRef=Vērtība, kas nāk no lauka numurs <b>%s</b> no avota fails tiks izmantoti, lai atrastu ID mātes objekta izmantot (Tātad Objet <b>%s,</b> kas ir ref. No avota failā ir pastāv uz Pineapple).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Dati, kas nāk no avota fails tiks ievietota pēc lauka:
 DataIDSourceIsInsertedInto=Mātes objekta atrasts izmantojot datus avota failā id, tiks ievietota pēc lauka:

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=Mailversand
 EMailing=E-Mail-Kampagne
 Mailings=E-Mail-Kampagnen
@@ -95,12 +95,12 @@ NbSent=Anz. gesendet
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kontakte aller Partner (Kunden, Leads, Lieferanten, ...)
-MailingModuleDescDolibarrUsers=Alle Systembenutzer mit E-Mail-Adresse
+MailingModuleDescPineappleUsers=Alle Systembenutzer mit E-Mail-Adresse
 MailingModuleDescFundationMembers=Alle Stiftungsmitglieder mit E-Mail-Adresse
 MailingModuleDescEmailsFromFile=E-Mail-Adressen aus einer Text-Datei (Format: E-Mail, Vorname, Nachname)
 MailingModuleDescEmailsFromUser=E-Mail-Adressen aus Benutzereingabe (Format: E-Mail;Nachname;Vorname;weitere)
 MailingModuleDescContactsCategories=Partnerkontakte (nach Kategorie)
-MailingModuleDescDolibarrContractsLinesExpired=Partner mit abgelaufenen Vertragspositionen
+MailingModuleDescPineappleContractsLinesExpired=Partner mit abgelaufenen Vertragspositionen
 MailingModuleDescContactsByCompanyCategory=Kontakt über Partner (durch Kategorie)
 MailingModuleDescContactsByCategory=Kontakte/Adressen von Partnern (nach Kontakt-Kategorien)
 MailingModuleDescMembersCategories=Mitglieder der Stiftung (durch Kategorie)

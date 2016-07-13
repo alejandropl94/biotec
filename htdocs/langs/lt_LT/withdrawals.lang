@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Pastovių užsakymų sritis
 CustomersStandingOrdersArea=Klientų pastovių užsakymų sritis
 StandingOrders=Pastovūs užsakymai
@@ -95,7 +95,7 @@ InfoCreditMessage=Periodinis užsakymas %s buvo banke<br> apmokėtas. Mokėjimo 
 InfoTransSubject=Periodinio užsakymo %s perdavimas bankui
 InfoTransMessage=Periodinis užsakymas %s buvo išsiųstas bankui nuo %s %s. br>br>
 InfoTransData=Suma:%s<br>Metodas:%s<br>Data:%s
-InfoFoot=Tai automatinis pranešimas išsiųstas iš Dolibarr
+InfoFoot=Tai automatinis pranešimas išsiųstas iš Pineapple
 InfoRejectSubject=Periodinis užsakymas atmestas
 InfoRejectMessage=Sveiki, <br><br>periodinis užsakymas sąskaitos-faktūros %s, susijusios su įmone %s, suma %s, buvo banko atmestas.<br><br>-<br>%s
 ModeWarning=Opcija realiam režimui nebuvo nustatyta, sustabdyta po šios simuliacijos

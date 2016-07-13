@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=E-pasta sūtīšana
 EMailing=E-pasta sūtīšanas
 Mailings=E-pastu ssūtīšana
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=Kontakti / adreses visām trešo personu (klientu, izredzes, piegādātāju, ...)
-MailingModuleDescDolibarrUsers=Dolibarr lietotājiem
+MailingModuleDescPineappleUsers=Pineapple lietotājiem
 MailingModuleDescFundationMembers=Fonda biedri ar e-pastiem
 MailingModuleDescEmailsFromFile=E-pastus no teksta faila (e-pasts, Uzvārds, Vārds, cits)
 MailingModuleDescEmailsFromUser=Pastus no lietotāja ievadi (e-pasts, Uzvārds, Vārds, cits)
 MailingModuleDescContactsCategories=Trešās personas (pēc sadaļas)
-MailingModuleDescDolibarrContractsLinesExpired=Trešās personas ar beidzies līgums ir līnijas
+MailingModuleDescPineappleContractsLinesExpired=Trešās personas ar beidzies līgums ir līnijas
 MailingModuleDescContactsByCompanyCategory=Kontakti/adreses trešajām personām (trešo personu sadaļas)
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=Fonda biedri (pa kategorijām)

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - products
+# Pineapple language file - Source file is en_US - products
 ProductRef=Ref. producte
 ProductLabel=Etiqueta producte
 ProductLabelTranslated=Etiqueta de producte traduïda
@@ -291,7 +291,7 @@ ComposedProductIncDecStock=Incrementar/Disminueix estoc en canviar el seu pare
 ComposedProduct=Sub-producte
 MinSupplierPrice=Preu mínim de proveïdor
 DynamicPriceConfiguration=Configuració de preu dinàmic
-DynamicPriceDesc=En la fitxa de producte, amb aquest mòdul activat, podràs definir funcions matemàtiques per calcular els preus de Client o Proveïdor. Cada funció pot utilitzar tots els operadors matemàtics, algunes constants i variables. Pots definir aquí les variables que vulgui i si la variable necessita una actualització automàtica, la URL externa a utilitzar per demanar a Dolibarr la actualització automàtica del valor.
+DynamicPriceDesc=En la fitxa de producte, amb aquest mòdul activat, podràs definir funcions matemàtiques per calcular els preus de Client o Proveïdor. Cada funció pot utilitzar tots els operadors matemàtics, algunes constants i variables. Pots definir aquí les variables que vulgui i si la variable necessita una actualització automàtica, la URL externa a utilitzar per demanar a Pineapple la actualització automàtica del valor.
 AddVariable=Afegeix variable
 AddUpdater=Afegeix actualitzador
 GlobalVariables=Variables globals

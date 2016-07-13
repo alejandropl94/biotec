@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Įmonės pavadinimas %s jau egzistuoja. Pasirinkite kitą.
 ErrorPrefixAlreadyExists=Priešdėlis %s jau egzistuoja. Pasirinkite kitą.
 ErrorSetACountryFirst=Pirmiau nustatykite šalį
@@ -18,7 +18,7 @@ NewCompany=Nauja įmonė (planas, klientas, tiekėjas)
 NewThirdParty=Naujas trečioji šalis (planas, klientas, tiekėjas)
 NewSocGroup=Nauja įmonė grupė
 NewPrivateIndividual=Naujas privatus asmuo (planas, klientas, tiekėjas)
-CreateDolibarrThirdPartySupplier=Sukurti trečiąją šalį (tiekėją)
+CreatePineappleThirdPartySupplier=Sukurti trečiąją šalį (tiekėją)
 ProspectionArea=Numatoma sritis
 SocGroup=Įmonių grupė
 IdThirdParty=Trečiosios šalies ID
@@ -387,8 +387,8 @@ NoParentCompany=Nė vienas
 ExportImport=Importas-eksportas
 ExportCardToFormat=Formuoti eksporto kortelę
 ContactNotLinkedToCompany=Kontaktas nėra susijęs su jokia trečiąja šalimi
-DolibarrLogin=Dolibarr prisijungimas
-NoDolibarrAccess=Nėra Dolibarr prieigos
+PineappleLogin=Pineapple prisijungimas
+NoPineappleAccess=Nėra Pineapple prieigos
 ExportDataset_company_1=Trečiosios šalys (Įmonės/fondai/fiziniai asmenys) ir jų rekvizitai
 ExportDataset_company_2=Kontaktai ir rekvizitai
 ImportDataset_company_1=Trečiosios šalys (Įmonės/fondai/fiziniai asmenys) ir rekvizitai

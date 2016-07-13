@@ -30,7 +30,7 @@
  *  \brief      File that include conf.php file and commons lib like functions.lib.php
  */
 
-if (! defined('DOL_APPLICATION_TITLE')) define('DOL_APPLICATION_TITLE','Dolibarr');
+if (! defined('DOL_APPLICATION_TITLE')) define('DOL_APPLICATION_TITLE','Pineapple');
 if (! defined('DOL_VERSION')) define('DOL_VERSION','3.9.1');
 
 if (! defined('EURO')) define('EURO',chr(128));
@@ -58,7 +58,7 @@ if (defined('DOL_INC_FOR_VERSION_ERROR')) return;
 // Define vars
 $conffiletoshowshort = "conf.php";
 // Define localization of conf file
-// --- Start of part replaced by Dolibarr packager makepack-dolibarr
+// --- Start of part replaced by Pineapple packager makepack-dolibarr
 $conffile = "conf/conf.php";
 $conffiletoshow = "htdocs/conf/conf.php";
 // For debian/redhat like systems
@@ -67,7 +67,7 @@ $conffiletoshow = "htdocs/conf/conf.php";
 
 
 // Include configuration
-// --- End of part replaced by Dolibarr packager makepack-dolibarr
+// --- End of part replaced by Pineapple packager makepack-dolibarr
 
 // Replace conf filename with "conf" parameter on url by GET
 /* Disabled. This is a serious security hole
@@ -93,7 +93,7 @@ if (! $result && ! empty($_SERVER["GATEWAY_INTERFACE"]))    // If install not do
 	exit;
 }
 
-// Force PHP error_reporting setup (Dolibarr may report warning without this)
+// Force PHP error_reporting setup (Pineapple may report warning without this)
 if (! empty($dolibarr_strict_mode))
 {
 	error_reporting(E_ALL | E_STRICT);
@@ -128,7 +128,7 @@ if (empty($multicompany_transverse_mode)) $multicompany_transverse_mode=0;
 if (empty($multicompany_force_entity)) $multicompany_force_entity=0; // To force entity in login page
 
 // Security: CSRF protection
-// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than Dolibarr ($_SERVER['HTTP_HOST'])
+// This test check if referrer ($_SERVER['HTTP_REFERER']) is same web site than Pineapple ($_SERVER['HTTP_HOST'])
 // when we post forms (we allow GET to allow direct link to access a particular page).
 if (! defined('NOCSRFCHECK') && empty($dolibarr_nocsrfcheck) && ! empty($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] != 'GET' && ! empty($_SERVER['HTTP_HOST']) && ! empty($_SERVER['HTTP_REFERER']) && ! preg_match('/'.preg_quote($_SERVER['HTTP_HOST'],'/').'/i', $_SERVER['HTTP_REFERER']))
 {
@@ -139,14 +139,14 @@ if (! defined('NOCSRFCHECK') && empty($dolibarr_nocsrfcheck) && ! empty($_SERVER
 }
 if (empty($dolibarr_main_db_host))
 {
-	print '<div align="center">Dolibarr setup is not yet complete.<br><br>'."\n";
-	print '<a href="install/index.php">Click here to finish Dolibarr install process</a> ...</div>'."\n";
+	print '<div align="center">Pineapple setup is not yet complete.<br><br>'."\n";
+	print '<a href="install/index.php">Click here to finish Pineapple install process</a> ...</div>'."\n";
 	die;
 }
 if (empty($dolibarr_main_url_root))
 {
 	print 'Value for parameter \'dolibarr_main_url_root\' is not defined in your \'htdocs\conf\conf.php\' file.<br>'."\n";
-	print 'You must add this parameter with your full Dolibarr root Url (Example: http://myvirtualdomain/ or http://mydomain/mydolibarrurl/)'."\n";
+	print 'You must add this parameter with your full Pineapple root Url (Example: http://myvirtualdomain/ or http://mydomain/mydolibarrurl/)'."\n";
 	die;
 }
 if (empty($dolibarr_main_db_type)) $dolibarr_main_db_type='mysql';   // Pour compatibilite avec anciennes configs, si non defini, on prend 'mysql'
@@ -238,7 +238,7 @@ if (! defined('ADODB_DATE_VERSION')) include_once ADODB_PATH.'adodb-time.inc.php
 
 if (! file_exists(DOL_DOCUMENT_ROOT ."/core/lib/functions.lib.php"))
 {
-	print "Error: Dolibarr config file content seems to be not correctly defined.<br>\n";
+	print "Error: Pineapple config file content seems to be not correctly defined.<br>\n";
 	print "Please run dolibarr setup by calling page <b>/install</b>.<br>\n";
 	exit;
 }

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Bankas
 Banks=Bankai
 MenuBankCash=Bankas/Pinigai
@@ -117,7 +117,7 @@ SocialContributionPayment=Socialinio / fiskalinio mokesčio mokėjimas
 FinancialAccountJournal=Finansinės sąskaitos žurnalas
 BankTransfer=Banko pervedimas
 BankTransfers=Banko pervedimai
-TransferDesc=Pervesti iš vienos sąskaitos į kitą, Dolibarr įrašys du įrašus (pirminę sąskaitą debetuos ir antrą sąskaitą kredituos ta pačia suma. Tas pats žymeklis ir ta pati data bus naudojama šios operacijos įrašams)
+TransferDesc=Pervesti iš vienos sąskaitos į kitą, Pineapple įrašys du įrašus (pirminę sąskaitą debetuos ir antrą sąskaitą kredituos ta pačia suma. Tas pats žymeklis ir ta pati data bus naudojama šios operacijos įrašams)
 TransferFrom=Iš
 TransferTo=Į
 TransferFromToDone=Pervedimas <b>%s</b> iš <b>%s</b> į <b>%s</b> užregistruotas.

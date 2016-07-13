@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - banks
+# Pineapple language file - Source file is en_US - banks
 Bank=Banco
 Banks=Bancos
 MenuBankCash=Bancos/Cajas
@@ -117,7 +117,7 @@ SocialContributionPayment=Pago impuesto social/fiscal
 FinancialAccountJournal=Diario de tesorería de la cuenta
 BankTransfer=Transferencia bancaria
 BankTransfers=Transferencias bancarias
-TransferDesc=Al crear una transferencia de una de sus cuentas bancarias hacia otra, Dolibarr crea dos registros contables (uno de débito en una cuenta y otro de crédito, del mismo importe, en la otra cuenta. Se utiliza para los dos registros la misma etiqueta de transferencia y la misma fecha)
+TransferDesc=Al crear una transferencia de una de sus cuentas bancarias hacia otra, Pineapple crea dos registros contables (uno de débito en una cuenta y otro de crédito, del mismo importe, en la otra cuenta. Se utiliza para los dos registros la misma etiqueta de transferencia y la misma fecha)
 TransferFrom=De
 TransferTo=Hacia
 TransferFromToDone=La transferencia de <b>%s</b> hacia <b>%s</b> de <b>%s</b> %s se ha creado.

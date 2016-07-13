@@ -2262,7 +2262,7 @@ else
         if (! empty($conf->adherent->enabled))
         {
             $langs->load("members");
-            print '<tr><td class="tdtop">'.$langs->trans("LinkedToDolibarrMember").'</td>';
+            print '<tr><td class="tdtop">'.$langs->trans("LinkedToPineappleMember").'</td>';
             print '<td colspan="3">';
             $adh=new Adherent($db);
             $result=$adh->fetch('','',$object->id);

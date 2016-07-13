@@ -17,10 +17,10 @@
 
 /**
  *       \file       htdocs/webservices/server_thirdparty.php
- *       \brief      File that is entry point to call Dolibarr WebServices
+ *       \brief      File that is entry point to call Pineapple WebServices
  */
 
-// This is to make Dolibarr working with Plesk
+// This is to make Pineapple working with Plesk
 set_include_path($_SERVER['DOCUMENT_ROOT'].'/htdocs');
 
 require_once '../master.inc.php';
@@ -32,7 +32,7 @@ require_once DOL_DOCUMENT_ROOT.'/societe/class/societe.class.php';
 require_once DOL_DOCUMENT_ROOT.'/core/class/extrafields.class.php';
 
 
-dol_syslog("Call Dolibarr webservices interfaces");
+dol_syslog("Call Pineapple webservices interfaces");
 
 $langs->load("main");
 
@@ -40,7 +40,7 @@ $langs->load("main");
 if (empty($conf->global->MAIN_MODULE_WEBSERVICES))
 {
 	$langs->load("admin");
-	dol_syslog("Call Dolibarr webservices interfaces with module webservices disabled");
+	dol_syslog("Call Pineapple webservices interfaces with module webservices disabled");
 	print $langs->trans("WarningModuleNotActive",'WebServices').'.<br><br>';
 	print $langs->trans("ToActivateModule");
 	exit;
@@ -51,7 +51,7 @@ $server = new nusoap_server();
 $server->soap_defencoding='UTF-8';
 $server->decode_utf8=false;
 $ns='http://www.dolibarr.org/ns/';
-$server->configureWSDL('WebServicesDolibarrThirdParty',$ns);
+$server->configureWSDL('WebServicesPineappleThirdParty',$ns);
 $server->wsdl->schemaTargetNamespace=$ns;
 
 

@@ -158,7 +158,7 @@ $php_self.= $_SERVER["QUERY_STRING"]?'?'.$_SERVER["QUERY_STRING"]:'';
 $dol_url_root = DOL_URL_ROOT;
 
 // Title
-$title='Dolibarr '.DOL_VERSION;
+$title='Pineapple '.DOL_VERSION;
 if (! empty($conf->global->MAIN_APPLICATION_TITLE)) $title=$conf->global->MAIN_APPLICATION_TITLE;
 
 // Select templates

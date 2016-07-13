@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - compta
+# Pineapple language file - Source file is en_US - compta
 Accountancy=Contabilidade
 AccountancyCard=Ficha Contabilidade
 Treasury=Tesouraria
@@ -8,7 +8,7 @@ TaxModuleSetupToModifyRulesLT=Ir para <a href="%s">configurar Empresa</a> para m
 OptionMode=Opção de Gestão Contabilidade
 OptionModeTrue=Opção Depósitos/Despesas
 OptionModeVirtual=Opção Créditos/Dividas
-OptionModeTrueDesc=Neste método, o balanço calcula-se sobre a base das facturas pagas.\n A validade dos valores não está garantida pois a Gestão da Contabilidade passa rigorosamente pelas entradas/saídas das contas mediante as facturas.\n Nota : Nesta Versão, Dolibarr utiliza a data da factura ao estado ' Validada ' e não a data do estado ' paga '.
+OptionModeTrueDesc=Neste método, o balanço calcula-se sobre a base das facturas pagas.\n A validade dos valores não está garantida pois a Gestão da Contabilidade passa rigorosamente pelas entradas/saídas das contas mediante as facturas.\n Nota : Nesta Versão, Pineapple utiliza a data da factura ao estado ' Validada ' e não a data do estado ' paga '.
 OptionModeVirtualDesc=Neste método, o balanço calcula-se sobre a base das facturas validadas. Pagas ou não, aparecem no resultado.
 FeatureIsSupportedInInOutModeOnly=Função disponível somente ao modo contas CREDITOS-dividas (Ver a configuração do módulo contas)
 VATReportBuildWithOptionDefinedInModule=Montantes apresentados aqui são calculadas usando as regras definidas pelo Imposto de configuração do módulo.

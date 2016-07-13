@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=Domeeni salasõna
 YouMustChangePassNextLogon=Kasutaja <b>%s</b> salasõna domeenis <b>%s</b> peab muutma.
 UserMustChangePassNextLogon=Kasutaja peab muutma oma salasõna domeenis %s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=Esimese tellimuse kuupäev
 LDAPFieldFirstSubscriptionAmount=Esimese tellimuse kogus
 LDAPFieldLastSubscriptionDate=Viimase tellimuse kuupäev
 LDAPFieldLastSubscriptionAmount=Viimse tellimuse kogus
-SynchronizeDolibarr2Ldap=Sünkroniseeri kasutaja (Dolibarr -> LDAP)
+SynchronizePineapple2Ldap=Sünkroniseeri kasutaja (Pineapple -> LDAP)
 UserSynchronized=Kasutaja sünkroniseeritud
 GroupSynchronized=Grupp sünkroniseeritud
 MemberSynchronized=Liige sünkroniseeritud
 ContactSynchronized=Kontakt sünkroniseeritud
-ForceSynchronize=Sunni Dolibarr -> LDAP sünkroniseerimine
+ForceSynchronize=Sunni Pineapple -> LDAP sünkroniseerimine
 ErrorFailedToReadLDAP=LDAPi andmebaasi lugemine ebaõnnestus. Kontrolli LDAPi mooduli seadistust ja ligipääsu andmebaasile.

@@ -46,7 +46,7 @@ class Interfaces
     }
 
     /**
-     *   Function called when a Dolibarr business event occurs
+     *   Function called when a Pineapple business event occurs
      *   This function call all qualified triggers.
      *
      *   @param		string		$action     Trigger event code

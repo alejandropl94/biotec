@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ldap
+# Pineapple language file - Source file is en_US - ldap
 DomainPassword=密码域
 YouMustChangePassNextLogon=<b>%</b>用户密码<b>%之S</b>必须改变对域。
 UserMustChangePassNextLogon=用户必须更改密码的域%s
@@ -20,10 +20,10 @@ LDAPFieldFirstSubscriptionDate=首先认购日期
 LDAPFieldFirstSubscriptionAmount=认购金额拳
 LDAPFieldLastSubscriptionDate=最后认购日期
 LDAPFieldLastSubscriptionAmount=最后认购金额
-SynchronizeDolibarr2Ldap=同步用户（Dolibarr - &gt;的LDAP）
+SynchronizePineapple2Ldap=同步用户（Pineapple - &gt;的LDAP）
 UserSynchronized=用户同步
 GroupSynchronized=集团同步
 MemberSynchronized=会员同步
 ContactSynchronized=联系同步
-ForceSynchronize=力同步Dolibarr - &gt;的LDAP
+ForceSynchronize=力同步Pineapple - &gt;的LDAP
 ErrorFailedToReadLDAP=无法读取LDAP数据库。检查的LDAP模块设置和数据库获取。

@@ -2,7 +2,7 @@
 /* Copyright (C) 2005-2010 Laurent Destailleur  <eldy@users.sourceforge.net>
  *
 * This file is an example to follow to add your own email selector inside
-* the Dolibarr email tool.
+* the Pineapple email tool.
 * Follow instructions given in README file to know what to change to build
 * your own emailing list selector.
 * Code that need to be changed in this file are marked by "CHANGE THIS" tag.
@@ -22,7 +22,7 @@ require_once DOL_DOCUMENT_ROOT.'/core/lib/functions2.lib.php';
  */
 class mailing_thirdparties_services_expired extends MailingTargets
 {
-    var $name='DolibarrContractsLinesExpired';
+    var $name='PineappleContractsLinesExpired';
     var $desc='Third parties with expired contract\'s lines';
     var $require_admin=0;
 

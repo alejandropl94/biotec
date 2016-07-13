@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Exporteeroverzicht
 ImportArea=Importeeroverzicht
 NewExport=Nieuwe export
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Kies betandsformaat om als importbestand te gebruiken
 ChooseFileToImport=Upload het bestand en klik op het pictogram %s om het bestand te selecteren als bronimportbestand
 SourceFileFormat=Bestandsformaat van het bronbestand
 FieldsInSourceFile=Velden in het bronbestand
-FieldsInTargetDatabase=Doelvelden in Dolibarr databank (vet=verplicht)
+FieldsInTargetDatabase=Doelvelden in Pineapple databank (vet=verplicht)
 Field=veld
 NoFields=Geen velden
 MoveField=Verplaats veld kolomnummer %s
@@ -102,7 +102,7 @@ NbOfLinesOK=Aantal regels zonder fouten of waarschuwingen: <b>%s</b>.
 NbOfLinesImported=Aantal regels succesvol geïmporteerd: <b>%s</b>.
 DataComeFromNoWhere=De waarde die ingevoegd moet worden komt nergens uit het bronbestand vandaan.
 DataComeFromFileFieldNb=De in te voegen waarde komt uit het veldnummer <b>%s</b> in het bronbestand.
-DataComeFromIdFoundFromRef=De waarde van het veld verkregen vanaf regel <b>%s</b> uit het bronbestand zal worden gebruikt om het id van het bovenliggende object te vinden, zodat dit object gebruikt kan worden (Dus het object met id <b>%s</b> moet bestaan in Dolibarr).
+DataComeFromIdFoundFromRef=De waarde van het veld verkregen vanaf regel <b>%s</b> uit het bronbestand zal worden gebruikt om het id van het bovenliggende object te vinden, zodat dit object gebruikt kan worden (Dus het object met id <b>%s</b> moet bestaan in Pineapple).
 DataComeFromIdFoundFromCodeId=De code uit het bronbestand, van het veld met nummer <b>%s</b>, wordt gebruikt om de id te bepalen van het parent-object.  (Dus moet de code van het bronbestand bestaan in het woordenboek <b>%s</b>). Als je de id kent, kan je die ook gebruiken in plaats van de code in het bronbestand.  De import zou moeten werken in beide gevallen.
 DataIsInsertedInto=De gegevens uit het bronbestand worden ingevoegd in het volgende veld:
 DataIDSourceIsInsertedInto=Het id van het bovenliggende object, gevonden door gebruik te maken van gegevens in het bronbestand, zal worden ingevoegd in het volgende veld:

@@ -222,8 +222,8 @@ switch ($action)
 							$mouvP = new MouvementStock($db);
 							$mouvP->origin = &$invoice;
 							// We decrease stock for product
-							if ($invoice->type == $invoice::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInDolibarrFromPos",$invoice->newref));
-							else $result=$mouvP->livraison($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInDolibarrFromPos",$invoice->newref));
+							if ($invoice->type == $invoice::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInPineappleFromPos",$invoice->newref));
+							else $result=$mouvP->livraison($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInPineappleFromPos",$invoice->newref));
 							if ($result < 0) {
 								$error++;
 							}
@@ -262,8 +262,8 @@ switch ($action)
 							$mouvP = new MouvementStock($db);
 							$mouvP->origin = &$invoice;
 							// We decrease stock for product
-							if ($invoice->type == $invoice::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInDolibarrFromPos",$invoice->newref));
-							else $result=$mouvP->livraison($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInDolibarrFromPos",$invoice->newref));
+							if ($invoice->type == $invoice::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInPineappleFromPos",$invoice->newref));
+							else $result=$mouvP->livraison($user, $invoice->lines[$i]->fk_product, $warehouseidtodecrease, $invoice->lines[$i]->qty, $invoice->lines[$i]->subprice, $langs->trans("InvoiceValidatedInPineappleFromPos",$invoice->newref));
 							if ($result < 0) {
 								$error++;
 							}
@@ -321,12 +321,12 @@ switch ($action)
 		if (! $error)
 		{
 			$db->commit();
-			$redirection = 'affIndex.php?menutpl=validation_ok&facid='.$id;	// Ajout de l'id de la facture, pour l'inclure dans un lien pointant directement vers celle-ci dans Dolibarr
+			$redirection = 'affIndex.php?menutpl=validation_ok&facid='.$id;	// Ajout de l'id de la facture, pour l'inclure dans un lien pointant directement vers celle-ci dans Pineapple
 		}
 		else
 		{
 			$db->rollback();
-			$redirection = 'affIndex.php?facid='.$id.'&mesg=ErrorFailedToCreateInvoice';	// Ajout de l'id de la facture, pour l'inclure dans un lien pointant directement vers celle-ci dans Dolibarr
+			$redirection = 'affIndex.php?facid='.$id.'&mesg=ErrorFailedToCreateInvoice';	// Ajout de l'id de la facture, pour l'inclure dans un lien pointant directement vers celle-ci dans Pineapple
 		}
 		break;
 

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Moji dokumenti
 DocsGenerated=Generisani doumenti
 DocsElements=Elementi dokumenata
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Broj poddirektorija
 ECMNbOfFilesInSubDir=Broj fajlova u poddirektoriju
 ECMCreationUser=Kreator
 ECMArea=Područje za EDM
-ECMAreaDesc=Područje za EDM (Elektronsko upravljanje dokumentima) vam omogućava da snimite, podijelite ili brzo tražite sve tipove dokumenata u Dolibarr-u.
+ECMAreaDesc=Područje za EDM (Elektronsko upravljanje dokumentima) vam omogućava da snimite, podijelite ili brzo tražite sve tipove dokumenata u Pineapple-u.
 ECMAreaDesc2=* Automatski direktoriji se popunjavaju automatski nakon dodavanja dokumenata sa kartice elementa. <br> * Manuelni direktoriji se mogu koristit za snimanje dokumenata koji nisu povezani za određeni element.
 ECMSectionWasRemoved=Direktorij <b>%s</b> je obrisan.
 ECMDocumentsSection=Dokument u direktoriju

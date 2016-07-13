@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Mano dokumentai
 DocsGenerated=Sugeneruoti dokumentai
 DocsElements=Elementų dokumentai
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Pakatalogių skaičius
 ECMNbOfFilesInSubDir=Failų skaičius pakatalogiuose
 ECMCreationUser=Kūrėjas
 ECMArea=EDM sritis
-ECMAreaDesc=EDM (Elektroninių dokumentų valdymo) sritis leidžia Jums įrašyti, bendrinti ir greitai ieškoti visų rūšių dokumentų Dolibarr.
+ECMAreaDesc=EDM (Elektroninių dokumentų valdymo) sritis leidžia Jums įrašyti, bendrinti ir greitai ieškoti visų rūšių dokumentų Pineapple.
 ECMAreaDesc2=* Automatiniai katalogai yra užpildomi automatiškai, pridedant dokumentus iš elemento kortelės.<br> * Rankiniai katalogai gali būti naudojama saugoti dokumentams, nesusijusiems su konkrečiu elementu.
 ECMSectionWasRemoved=Katalogas <b>%s</b> buvo ištrintas.
 ECMDocumentsSection=Katalogo dokumentas

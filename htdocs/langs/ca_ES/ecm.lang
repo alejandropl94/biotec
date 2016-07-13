@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Els meus documents
 DocsGenerated=Documents generats
 DocsElements=Documents elements
@@ -25,7 +25,7 @@ ECMNbOfSubDir=nombre de subcarpetes
 ECMNbOfFilesInSubDir=Nombre d'arxius en les subcarpetes
 ECMCreationUser=Creador
 ECMArea=Àrea GED
-ECMAreaDesc=L'àrea GED (Gestió Electrònica de Documents) li permet controlar ràpidament els documents en Dolibarr.
+ECMAreaDesc=L'àrea GED (Gestió Electrònica de Documents) li permet controlar ràpidament els documents en Pineapple.
 ECMAreaDesc2=Podeu crear carpetes manuals i adjuntar els documents<br>Les carpetes automàtiques són emplenades automàticament en l'addició d'un document en una fitxa.
 ECMSectionWasRemoved=La carpeta <b>%s</b> ha estat eliminada
 ECMDocumentsSection=Document de la secció

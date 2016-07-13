@@ -21,7 +21,7 @@
  */
 
 /**
- *    Class to manage Dolibarr database access for an SQL database
+ *    Class to manage Pineapple database access for an SQL database
  */
 interface Database
 {

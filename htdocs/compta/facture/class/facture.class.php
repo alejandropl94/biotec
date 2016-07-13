@@ -1466,8 +1466,8 @@ class Facture extends CommonInvoice
 						$mouvP = new MouvementStock($this->db);
 						$mouvP->origin = &$this;
 						// We decrease stock for product
-						if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceDeleteDolibarr",$this->ref));
-						else $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceDeleteDolibarr",$this->ref));	// we use 0 for price, to not change the weighted average value
+						if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceDeletePineapple",$this->ref));
+						else $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceDeletePineapple",$this->ref));	// we use 0 for price, to not change the weighted average value
 					}
 				}
 			}
@@ -1860,8 +1860,8 @@ class Facture extends CommonInvoice
 							$mouvP = new MouvementStock($this->db);
 							$mouvP->origin = &$this;
 							// We decrease stock for product
-							if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceValidatedInDolibarr",$num));
-							else $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceValidatedInDolibarr",$num));
+							if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceValidatedInPineapple",$num));
+							else $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceValidatedInPineapple",$num));
 							if ($result < 0) {
 								$error++;
 							}
@@ -1997,8 +1997,8 @@ class Facture extends CommonInvoice
 						$mouvP = new MouvementStock($this->db);
 						$mouvP->origin = &$this;
 						// We decrease stock for product
-						if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceBackToDraftInDolibarr",$this->ref));
-						else $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceBackToDraftInDolibarr",$this->ref));	// we use 0 for price, to not change the weighted average value
+						if ($this->type == self::TYPE_CREDIT_NOTE) $result=$mouvP->livraison($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, $this->lines[$i]->subprice, $langs->trans("InvoiceBackToDraftInPineapple",$this->ref));
+						else $result=$mouvP->reception($user, $this->lines[$i]->fk_product, $idwarehouse, $this->lines[$i]->qty, 0, $langs->trans("InvoiceBackToDraftInPineapple",$this->ref));	// we use 0 for price, to not change the weighted average value
 					}
 				}
 			}

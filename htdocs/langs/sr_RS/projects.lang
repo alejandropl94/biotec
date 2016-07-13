@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=Ref. projekta
 ProjectRef=Ref. projekta
 ProjectId=ID projekta
@@ -131,10 +131,10 @@ ConfirmCloneProject=Da li ste sigurni da želite da duplirate ovaj projekat ?
 ProjectReportDate=Izmenite datum zadatka prema datumu početka projekta.
 ErrorShiftTaskDate=Nemoguće promeniti datum zadatka prema novom datumu početka projekta
 ProjectsAndTasksLines=Projekti i zadaci
-ProjectCreatedInDolibarr=Projekat %s je kreiran
-TaskCreatedInDolibarr=Zadatak %s je kreiran
-TaskModifiedInDolibarr=Zadatak %s je izmenjen
-TaskDeletedInDolibarr=Zadatak %s je obrisan
+ProjectCreatedInPineapple=Projekat %s je kreiran
+TaskCreatedInPineapple=Zadatak %s je kreiran
+TaskModifiedInPineapple=Zadatak %s je izmenjen
+TaskDeletedInPineapple=Zadatak %s je obrisan
 OpportunityStatus=Status prilike
 OpportunityStatusShort=Status prilike
 OpportunityProbability=Verovatnoća prilike

@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Ločilo za stolpce za izvozno datoteko
 ACCOUNTING_EXPORT_DATE=Format datuma za izvozno datoteko
 ACCOUNTING_EXPORT_PIECE=Export the number of piece
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Število elementov za pregled po straneh (najv
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Začni sortiranje strani za pregled "potrebno pregledati" z najnovejšimi elementi
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Začni sortiranje strani za pregled "Pregledano" z najnovejšimi elementi
 
-AccountLength=Dolžina računovodstva računov prikazan v Dolibarrju
-AccountLengthDesc=Funkcija omogoča, da Predstavljati dolžino obračunskega računa z zamenjavo prostorov z ničelno sliki. Ta funkcija se dotakne le zaslon, ne spreminja računovodskih račune registrirane v Dolibarrju. Za izvoz, to funkcijo je potrebno, da so združljivi z določeno programsko opremo.
+AccountLength=Dolžina računovodstva računov prikazan v Pineappleju
+AccountLengthDesc=Funkcija omogoča, da Predstavljati dolžino obračunskega računa z zamenjavo prostorov z ničelno sliki. Ta funkcija se dotakne le zaslon, ne spreminja računovodskih račune registrirane v Pineappleju. Za izvoz, to funkcijo je potrebno, da so združljivi z določeno programsko opremo.
 ACCOUNTING_LENGTH_DESCRIPTION=Dolžina za prikaz opisa proizvodov in storitev v seznamih (najbolje = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Dolžina za prikaz oblike opisa računa proizvodov in storitev v seznamih (najbolje = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Dolžina glavne knjige

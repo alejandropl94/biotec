@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - ecm
+# Pineapple language file - Source file is en_US - ecm
 DocsMine=Moji dokumenti
 DocsGenerated=Generirani dokumenti
 DocsElements=Elementi dokumentov
@@ -25,7 +25,7 @@ ECMNbOfSubDir=Število poddirektorijev
 ECMNbOfFilesInSubDir=Število datotek v poddirektorijih
 ECMCreationUser=Kreator
 ECMArea=EDM področje
-ECMAreaDesc=Področje za upravljanje elektronskih dokumentov (EDM - Electronic Document Management) omogoča shranjevanje, skupno rabo in hitro iskanje vseh vrst dokumentov v Dolibarrju.
+ECMAreaDesc=Področje za upravljanje elektronskih dokumentov (EDM - Electronic Document Management) omogoča shranjevanje, skupno rabo in hitro iskanje vseh vrst dokumentov v Pineappleju.
 ECMAreaDesc2=* Avtomatske mape se polnijo avtomatsko, ko se doda dokument s kartice elementa.<br>* Ročne mape se lahko uporabijo za shranitev dokumentov, ki niso vezani na določen element.
 ECMSectionWasRemoved=Mapa <b>%s</b> je bila izbrisana.
 ECMDocumentsSection=Dokument v mapi

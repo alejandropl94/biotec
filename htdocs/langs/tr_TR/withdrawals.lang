@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Ödeme talimatları alanı
 CustomersStandingOrdersArea=Müşteri ödeme talimatları alanı
 StandingOrders=Ödeme talimatları
@@ -95,7 +95,7 @@ InfoCreditMessage=%s Ödeme talimatı banka tarafından ödenmiştir<br>Ödeme t
 InfoTransSubject=%s Ödeme talimatının bankaya iletilmesi
 InfoTransMessage=%s ödeme talimatı bankaya %s %s tarafından iletilmiştir.<br><br>
 InfoTransData=Tutarı: %s<br> Yöntemi: %s<br>Tarihi: %s
-InfoFoot=Bu Dolibarr tarafından otomatik gönderilen bir mesajtır
+InfoFoot=Bu Pineapple tarafından otomatik gönderilen bir mesajtır
 InfoRejectSubject=Ödeme talimatı reddedildi
 InfoRejectMessage=Merhaba,<br><br>Aşağıda ayrıntıları verilen ödeme talimatı reddedilmiştir: Fatura %s, Firma %s, Tutar %s, Banka<br><br>--<br>%s
 ModeWarning=Gerçek mod için seçenek ayarlanmamış, bu simülasyondan sonra durdururuz

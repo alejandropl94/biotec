@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Nessun errore, committiamo
@@ -42,7 +42,7 @@ ErrorFailedToWriteInDir=Impossibile scrivere nella directory %s
 ErrorFoundBadEmailInFile=Sintassi email errata nelle righe %s del file (ad esempio alla riga %s con email = %s)
 ErrorUserCannotBeDelete=L'utente non può essere eliminato. Probabilmente è collegato a qualcosa.
 ErrorFieldsRequired=Mancano alcuni campi obbligatori.
-ErrorFailedToCreateDir=Impossibile creare la directory. Verifica che l'utente del server Web abbia i permessi per scrivere nella directory Dolibarr. Se il parametro <b>safe_mode</b> è abilitato in PHP, verifica che i file php di Dolibarr appartengano all'utente o al gruppo del server web (per esempio www-data).
+ErrorFailedToCreateDir=Impossibile creare la directory. Verifica che l'utente del server Web abbia i permessi per scrivere nella directory Pineapple. Se il parametro <b>safe_mode</b> è abilitato in PHP, verifica che i file php di Pineapple appartengano all'utente o al gruppo del server web (per esempio www-data).
 ErrorNoMailDefinedForThisUser=Nessun indirizzo memorizzato per questo utente
 ErrorFeatureNeedJavascript=Questa funzione necessita di javascript per essere attivata. Modificare questa impostazione nel menu Impostazioni - layout di visualizzazione.
 ErrorTopMenuMustHaveAParentWithId0=Un menu di tipo "Top" non può appartenere ad un menu superiore. Seleziona 0 menu genitori o scegli un menu di tipo "Left".
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Valore errato nel campo numero <b>%s</b> (il valore <b>%s</b>
 ErrorsOnXLines=Errori in <b>%s</b> righe del sorgente
 ErrorFileIsInfectedWithAVirus=Il programma antivirus non è stato in grado di convalidare il file (il file potrebbe essere infetto)
 ErrorSpecialCharNotAllowedForField=I caratteri speciali non sono ammessi per il campo "%s"
-ErrorDatabaseParameterWrong=Il parametro di configurazione database '<b>%s</b>' ha un valore non compatibile con il funzionamento di Dolibarr (deve avere valore '<b>%s </b>' ).
+ErrorDatabaseParameterWrong=Il parametro di configurazione database '<b>%s</b>' ha un valore non compatibile con il funzionamento di Pineapple (deve avere valore '<b>%s </b>' ).
 ErrorNumRefModel=Esiste un riferimento nel database (%s) e non è compatibile con questa regola di numerazione. Rimuovere o rinominare il record per attivare questo modulo.
 ErrorQtyTooLowForThisSupplier=Quantità troppa bassa per questo fornitore o nessun prezzo definito sul prodotto per questo fornitore
 ErrorModuleSetupNotComplete=L'installazione del modulo pare incompleta. Vai su <b>Impostazioni - Moduli</b> per completarla.
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Impossibile inviare la password
 ErrorFailedToLoadRSSFile=Impossibile ottenere feed RSS. Se i messaggi di errore non forniscono informazioni sufficienti, prova ad ativare il debug con MAIN_SIMPLEXMLLOAD_DEBUG.
 ErrorPasswordDiffers=Le password immesse sono diverse, digitarle nuovamente.
 ErrorForbidden=Access denied.<br>You try to access to a page, area or feature of a disabled module or without being in an authenticated session or that is not allowed to your user.
-ErrorForbidden2=L'autorizzazione all'accesso per questi dati può essere impostata dall'amministratore di Dolibarr tramite il menu %s - %s.
-ErrorForbidden3=Sembra che Dolibarr non venga utilizzato tramite una sessione autenticata. Dai un'occhiata alla documentazione di installazione Dolibarr per sapere come gestire le autenticazioni (htaccess, mod_auth o altri...).
+ErrorForbidden2=L'autorizzazione all'accesso per questi dati può essere impostata dall'amministratore di Pineapple tramite il menu %s - %s.
+ErrorForbidden3=Sembra che Pineapple non venga utilizzato tramite una sessione autenticata. Dai un'occhiata alla documentazione di installazione Pineapple per sapere come gestire le autenticazioni (htaccess, mod_auth o altri...).
 ErrorNoImagickReadimage=La funzione Imagick_readimage non è stata trovato nel PHP. L'anteprima non è disponibile. Gli amministratori possono disattivare questa scheda dal menu <b>Impostazioni - Schermo</b>
 ErrorRecordAlreadyExists=Il record esiste già
 ErrorCantReadFile=Impossibile leggere il file <b>%s</b>
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=L'account utente <b>%s</b> utilizzato per ese
 ErrorNoActivatedBarcode=Nessun tipo di codice a barre attivato
 ErrUnzipFails=Estrazione dell'archivio %s con ZipArchive fallita
 ErrNoZipEngine=Non c'è modo di spacchettare i file %s in questo PHP
-ErrorFileMustBeADolibarrPackage=Il file %s deve essere un archivio zip Dolibarr
-ErrorFileRequired=Ci vuole un file del pacchetto Dolibarr
+ErrorFileMustBeAPineapplePackage=Il file %s deve essere un archivio zip Pineapple
+ErrorFileRequired=Ci vuole un file del pacchetto Pineapple
 ErrorPhpCurlNotInstalled=PHP CURL non risulta installato, ma è necessario per comunicare con Paypal
 ErrorFailedToAddToMailmanList=Impossibile aggiungere il dato %s alla Mailman lista %s o SPIP base
 ErrorFailedToRemoveToMailmanList=Impossibile rimuovere il dato %s alla Mailman lista %s o SPIP base
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Impossibile aggiungere il contatto
 ErrorDateMustBeBeforeToday=La data non può essere maggiore di quella odierna
 ErrorPaymentModeDefinedToWithoutSetup=Un metodo di pagamento è stato impostato come %s ma il setup del modulo Fattura non è stato completato per definire le impostazioni da mostrare per questo metodo di pagamento.
 ErrorPHPNeedModule=Errore, il tuo PHP deve avere il modulo <b>%s</b> installato per usare questa funzionalità.
-ErrorOpenIDSetupNotComplete=Hai impostato il config file di Dolibarr per permettere l'autenticazione tramite OpenID, ma l'URL del service di OpenID non è definita nella costante %s
+ErrorOpenIDSetupNotComplete=Hai impostato il config file di Pineapple per permettere l'autenticazione tramite OpenID, ma l'URL del service di OpenID non è definita nella costante %s
 ErrorWarehouseMustDiffers=Il magazzino di origine e quello di destinazione devono essere differenti
 ErrorBadFormat=Formato non valido!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Errore, questo membro non è stato ancora collegato a nessuna terza parte. Collega il membro ad una delle terze parti esistenti o creane una nuova prima di creare sottoscrizioni con fattura.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=Warehouse is required on the line to ship
 ErrorFileMustHaveFormat=File must have format %s
 
 # Warnings
-WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Dolibarr. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
+WarningPasswordSetWithNoAccount=A password was set for this member. However, no user account was created. So this password is stored but can't be used to login to Pineapple. It may be used by an external module/interface but if you don't need to define any login nor password for a member, you can disable option "Manage a login for each member" from Member module setup. If you need to manage a login but don't need any password, you can keep this field empty to avoid this warning. Note: Email can also be used as a login if the member is linked to a user.
 WarningMandatorySetupNotComplete=I parametri di configurazione obbligatori non sono ancora stati definiti
 WarningSafeModeOnCheckExecDir=Attenzione: quando è attiva l'opzione <b>safe_mode</b>, il comando deve essere contenuto in una directory dichiarata dal parametro <b>safe_mode_exec_dir</b>.
 WarningAllowUrlFopenMustBeOn=Il parametro <b>allow_url_fopen</b> deve essere impostato su <b>on</b> nel file <b>php.ini</b> perché questo modulo funzioni correttamente. È necessario modificare questo file manualmente.

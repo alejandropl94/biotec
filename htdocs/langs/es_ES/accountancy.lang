@@ -1,4 +1,4 @@
-# Dolibarr language file - en_US - Accounting Expert
+# Pineapple language file - en_US - Accounting Expert
 ACCOUNTING_EXPORT_SEPARATORCSV=Separador de columnas en el archivo de exportación
 ACCOUNTING_EXPORT_DATE=Formato de fecha en el archivo de exportación
 ACCOUNTING_EXPORT_PIECE=Exportar el número de asiento
@@ -75,8 +75,8 @@ ACCOUNTING_LIMIT_LIST_VENTILATION=Número de elementos a contabilizar que se mue
 ACCOUNTING_LIST_SORT_VENTILATION_TODO=Ordenar las páginas de contabilización "A contabilizar" por los elementos más recientes
 ACCOUNTING_LIST_SORT_VENTILATION_DONE=Ordenar las páginas de contabilización "Contabilizadas" por los elementos más recientes
 
-AccountLength=Longitud de las cuentas contables mostradas en Dolibarr
-AccountLengthDesc=Función para simular una longitud de cuenta contable sustituyendo los espacios por cero. Esta función sólo afecta a la pantalla, no cambia las cuentas contables registradas en Dolibarr. Esta función es necesaria para la exportación, para ser compatible con algunos programas.
+AccountLength=Longitud de las cuentas contables mostradas en Pineapple
+AccountLengthDesc=Función para simular una longitud de cuenta contable sustituyendo los espacios por cero. Esta función sólo afecta a la pantalla, no cambia las cuentas contables registradas en Pineapple. Esta función es necesaria para la exportación, para ser compatible con algunos programas.
 ACCOUNTING_LENGTH_DESCRIPTION=Longitud para la visualización de productos y servicios en los listados (Ideal = 50)
 ACCOUNTING_LENGTH_DESCRIPTION_ACCOUNT=Longitud para la visualización de la descripción de productos y servicios en los listados (Ideal = 50)
 ACCOUNTING_LENGTH_GACCOUNT=Longitud de las cuentas generales

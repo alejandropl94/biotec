@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - errors
+# Pineapple language file - Source file is en_US - errors
 
 # No errors
 NoErrorCommitIsDone=Sin errores,  es válido
@@ -40,9 +40,9 @@ ErrorBadDateFormat=El valor '%s' tiene un formato de fecha no reconocido
 ErrorWrongDate=¡La fecha no es correcta!
 ErrorFailedToWriteInDir=Imposible escribir en el directorio %s
 ErrorFoundBadEmailInFile=Encontrada sintaxis incorrecta en email en %s líneas en archivo (ejemplo linea %s con email=%s)
-ErrorUserCannotBeDelete=El usuario no puede ser eliminado. Quizá esté asociado a elementos de Dolibarr.
+ErrorUserCannotBeDelete=El usuario no puede ser eliminado. Quizá esté asociado a elementos de Pineapple.
 ErrorFieldsRequired=No se indicaron algunos campos obligatorios
-ErrorFailedToCreateDir=Error en la creación de un directorio. Compruebe que el usuario del servidor Web tiene derechos de escritura en los directorios de documentos de Dolibarr. Si el  parámetro <b>safe_mode</b> está activo en este PHP, Compruebe que los archivos php Dolibarr pertenecen al usuario del servidor Web.
+ErrorFailedToCreateDir=Error en la creación de un directorio. Compruebe que el usuario del servidor Web tiene derechos de escritura en los directorios de documentos de Pineapple. Si el  parámetro <b>safe_mode</b> está activo en este PHP, Compruebe que los archivos php Pineapple pertenecen al usuario del servidor Web.
 ErrorNoMailDefinedForThisUser=E-Mail no definido para este usuario
 ErrorFeatureNeedJavascript=Esta funcionalidad precisa de javascript activo para funcionar. Modifique en configuración->entorno.
 ErrorTopMenuMustHaveAParentWithId0=Un menú del tipo 'Superior' no puede tener un menú padre. Ponga 0 en el ID padre o busque un menú del tipo 'Izquierdo'
@@ -66,7 +66,7 @@ ErrorFieldCanNotContainSpecialCharacters=El campo <b>%s</b> no debe contener car
 ErrorFieldCanNotContainSpecialNorUpperCharacters=El campo <b>%s</b> no debe contener carácteres especiales, ni caracteres en mayúsculas y no puede contener sólo números
 ErrorNoAccountancyModuleLoaded=Módulo de contabilidad no activado
 ErrorExportDuplicateProfil=El nombre de este perfil ya existe para este conjunto de exportación
-ErrorLDAPSetupNotComplete=La configuración Dolibarr-LDAP es incompleta.
+ErrorLDAPSetupNotComplete=La configuración Pineapple-LDAP es incompleta.
 ErrorLDAPMakeManualTest=Se ha creado unn archivo .ldif en el directorio %s. Trate de cargar manualmente este archivo desde la línea de comandos para obtener más detalles acerca del error.
 ErrorCantSaveADoneUserWithZeroPercentage=No se puede cambiar una acción al estado no comenzada si tiene un usuario realizante de  la acción.
 ErrorRefAlreadyExists=La referencia utilizada para la creación ya existe
@@ -82,7 +82,7 @@ ErrorFieldRefNotIn=Valor incorrecto para el campo número <b>%s</b> (el valor '<
 ErrorsOnXLines=Errores en <b>%s</b> líneas fuente
 ErrorFileIsInfectedWithAVirus=¡El antivirus no ha podido validar este archivo (es probable que esté infectado por un virus)!
 ErrorSpecialCharNotAllowedForField=Los caracteres especiales no son admitidos por el campo "%s"
-ErrorDatabaseParameterWrong=El parámetro de configuración de la base de datos '<b>%s</b>' tiene un valor no compatible para una instalación de Dolibarr (debe tener el valor '<b>%s</b>').
+ErrorDatabaseParameterWrong=El parámetro de configuración de la base de datos '<b>%s</b>' tiene un valor no compatible para una instalación de Pineapple (debe tener el valor '<b>%s</b>').
 ErrorNumRefModel=Hay una referencia en la base de datos (%s) y es incompatible con esta numeración. Elimine la línea o renombre la referencia para activar este módulo.
 ErrorQtyTooLowForThisSupplier=Cantidad insuficiente para este proveedor
 ErrorModuleSetupNotComplete=La configuración del módulo parece incompleta. Vaya al área Configuración - Módulos para corregir
@@ -99,8 +99,8 @@ ErrorFailedToSendPassword=Error en el envío de la contraseña
 ErrorFailedToLoadRSSFile=Error en la recuperación del flujo RSS. Añada la constante MAIN_SIMPLEXMLLOAD_DEBUG si el mensaje de error no es muy explícito.
 ErrorPasswordDiffers=Las contraseñas no son idénticas, vuelva a introducirlas
 ErrorForbidden=Acceso denegado.<br>Intenta acceder a una página, área o funcionalidad de un módulo desactivado o sin una sesión auntenticada o no permitida a su usuario
-ErrorForbidden2=Los permisos para este usuario pueden ser asignados por el administrador Dolibarr mediante el menú %s-> %s.
-ErrorForbidden3=Dolibarr no parece funcionar en una sesión autentificada. Consulte la documentación de instalación de Dolibarr para saber cómo administrar las autenticaciones (htaccess, mod_auth u otro...).
+ErrorForbidden2=Los permisos para este usuario pueden ser asignados por el administrador Pineapple mediante el menú %s-> %s.
+ErrorForbidden3=Pineapple no parece funcionar en una sesión autentificada. Consulte la documentación de instalación de Pineapple para saber cómo administrar las autenticaciones (htaccess, mod_auth u otro...).
 ErrorNoImagickReadimage=La classe imagick_readimage no está presente en esta instalación de PHP. La reseña no está pues disponible. Los administradores pueden desactivar esta pestaña en el menú Configuración - Visualización.
 ErrorRecordAlreadyExists=Registro ya existente
 ErrorCantReadFile=Error de lectura del archivo '%s'
@@ -119,8 +119,8 @@ ErrorWebServerUserHasNotPermission=La cuenta de ejecución del servidor web <b>%
 ErrorNoActivatedBarcode=No hay activado ningún tipo de código de barras
 ErrUnzipFails=No se ha podido descomprimir el archivo %s con ZipArchive
 ErrNoZipEngine=En este PHP no hay motor para descomprimir el archivo %s
-ErrorFileMustBeADolibarrPackage=El archivo %s debe ser un paquete Dolibarr en formato zip
-ErrorFileRequired=Se requiere un archivo de paquete Dolibarr en formato zip
+ErrorFileMustBeAPineapplePackage=El archivo %s debe ser un paquete Pineapple en formato zip
+ErrorFileRequired=Se requiere un archivo de paquete Pineapple en formato zip
 ErrorPhpCurlNotInstalled=La extensión PHP CURL no se encuentra instalada, es indispensable para dialogar con Paypal.
 ErrorFailedToAddToMailmanList=Ha ocurrido un error al intentar añadir un registro a la lista Mailman o base de datos SPIP
 ErrorFailedToRemoveToMailmanList=Error en la eliminación de %s de la lista Mailmain %s o base SPIP
@@ -131,7 +131,7 @@ ErrorFailedToAddContact=Error en la adición del contacto
 ErrorDateMustBeBeforeToday=La fecha no puede ser superior a hoy
 ErrorPaymentModeDefinedToWithoutSetup=Se ha establecido el modo de pago al tipo %s pero en la configuración del módulo de facturas no se ha indicado la información para mostrar de este modo de pago.
 ErrorPHPNeedModule=Error, su PHP debe tener instalado el módulo <b>%s</b> para usar esta funcionalidad.
-ErrorOpenIDSetupNotComplete=Ha configurado Dolibarr para aceptar la autentificación OpenID, pero la URL del servicio OpenID no se encuentra definida en la constante %s
+ErrorOpenIDSetupNotComplete=Ha configurado Pineapple para aceptar la autentificación OpenID, pero la URL del servicio OpenID no se encuentra definida en la constante %s
 ErrorWarehouseMustDiffers=El almacén de origen y destino deben de ser diferentes
 ErrorBadFormat=¡El formato es erróneo!
 ErrorMemberNotLinkedToAThirpartyLinkOrCreateFirst=Error, este miembro aún no está enlazado a un tercero. Enlace el miembro a un tercero existente o cree un tercero nuevo antes de crear la suscripción con la factura.
@@ -176,7 +176,7 @@ ErrorWarehouseRequiredIntoShipmentLine=El almacén es obligatorio en la línea a
 ErrorFileMustHaveFormat=El archivo debe tener el formato %s
 
 # Warnings
-WarningPasswordSetWithNoAccount=Se fijó una contraseña para este miembro. Sin embargo, no se ha creado ninguna cuenta de usuario. Así que esta contraseña no se puede utilizar para acceder a Dolibarr. Puede ser utilizada por un módulo/interfaz externo, pero si no necesitar definir accesos de un miembro, puede desactivar la opción "Administrar un inicio de sesión para cada miembro" en la configuración del módulo miembros. Si necesita administrar un inicio de sesión, pero no necesita ninguna contraseña, puede dejar este campo vacío para evitar esta advertencia. Nota: También puede usarse el correo electrónico como inicio de sesión si el miembro está vinculada a un usuario.
+WarningPasswordSetWithNoAccount=Se fijó una contraseña para este miembro. Sin embargo, no se ha creado ninguna cuenta de usuario. Así que esta contraseña no se puede utilizar para acceder a Pineapple. Puede ser utilizada por un módulo/interfaz externo, pero si no necesitar definir accesos de un miembro, puede desactivar la opción "Administrar un inicio de sesión para cada miembro" en la configuración del módulo miembros. Si necesita administrar un inicio de sesión, pero no necesita ninguna contraseña, puede dejar este campo vacío para evitar esta advertencia. Nota: También puede usarse el correo electrónico como inicio de sesión si el miembro está vinculada a un usuario.
 WarningMandatorySetupNotComplete=Los parámetros obligatorios de configuración no están todavía definidos
 WarningSafeModeOnCheckExecDir=Atención, está activada la opción PHP <b>safe_mode</b>, el comando deberá estar dentro de un directorio declarado dentro del parámetro php <b>safe_mode_exec_dir</b>.
 WarningAllowUrlFopenMustBeOn=El parámetro <b>allow_url_fopen</b> debe ser especificado a <b>on</b> en el archivo <b>php.ini</b> para disponer de este módulo completamente activo. Debe modificar este archivo manualmente

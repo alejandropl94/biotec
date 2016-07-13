@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=Vývoz plocha
 ImportArea=Dovoz oblasť
 NewExport=New export
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=Zvoľte si formát súboru ako formát súboru pre im
 ChooseFileToImport=Nahrať súbor kliknite na %s Piktogram pre výber súboru ako zdrojový súbor importu ...
 SourceFileFormat=Zdrojový súbor
 FieldsInSourceFile=Polia v zdrojovom súbore
-FieldsInTargetDatabase=Cieľové pole v Dolibarr databáze (tučne = povinná)
+FieldsInTargetDatabase=Cieľové pole v Pineapple databáze (tučne = povinná)
 Field=Pole
 NoFields=Žiadne položky
 MoveField=Presuňte pole %s číslo stĺpca
@@ -102,7 +102,7 @@ NbOfLinesOK=Počet riadkov bez chýb a bez varovania: <b>%s.</b>
 NbOfLinesImported=Počet riadkov úspešne importovaných: <b>%s.</b>
 DataComeFromNoWhere=Hodnota vložiť pochádza z ničoho nič v zdrojovom súbore.
 DataComeFromFileFieldNb=Hodnota vložiť pochádza z <b>%s</b> číslo poľa v zdrojovom súbore.
-DataComeFromIdFoundFromRef=Hodnota, ktorá pochádza z <b>%s</b> číslo poľa zdrojový súbor bude použitý k nájdeniu id nadradený objekt používať (teda obísť <b>%s</b> ktorý má čj. Zo zdrojového súboru musí byť do Dolibarr existuje).
+DataComeFromIdFoundFromRef=Hodnota, ktorá pochádza z <b>%s</b> číslo poľa zdrojový súbor bude použitý k nájdeniu id nadradený objekt používať (teda obísť <b>%s</b> ktorý má čj. Zo zdrojového súboru musí byť do Pineapple existuje).
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=Dáta prichádzajúce zo zdrojového súboru budú vložené do nasledujúceho poľa:
 DataIDSourceIsInsertedInto=Id z nadradeného objektu zistené na základe údajov v zdrojovom súbore, sa vloží do nasledujúceho poľa:

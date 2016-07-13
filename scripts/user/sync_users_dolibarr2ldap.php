@@ -21,7 +21,7 @@
 /**
  *      \file       scripts/user/sync_users_dolibarr2ldap.php
  *      \ingroup    ldap core
- *      \brief      Script de mise a jour des users dans LDAP depuis base Dolibarr
+ *      \brief      Script de mise a jour des users dans LDAP depuis base Pineapple
  */
 
 $sapi_type = php_sapi_name();
@@ -60,7 +60,7 @@ dol_syslog($script_file." launched with arg ".join(',',$argv));
 /*
 if (! $conf->global->LDAP_SYNCHRO_ACTIVE)
 {
-	print $langs->trans("LDAPSynchronizationNotSetupInDolibarr");
+	print $langs->trans("LDAPSynchronizationNotSetupInPineapple");
 	exit(-1);
 }
 */

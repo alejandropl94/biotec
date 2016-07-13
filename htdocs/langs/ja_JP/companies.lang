@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=会社名%sはすでに存在しています。別のいずれかを選択します。
 ErrorPrefixAlreadyExists=プレフィックス%sはすでに存在しています。別のいずれかを選択します。
 ErrorSetACountryFirst=始めに国を設定する
@@ -18,7 +18,7 @@ NewCompany=新会社（見通し、顧客、サプラ​​イヤー）
 NewThirdParty=新しいサードパーティ（見込み客、顧客、サプラ​​イヤー）
 NewSocGroup=新しい企業グループ
 NewPrivateIndividual=新しい秘密個（見通し、顧客、サプラ​​イヤー）
-CreateDolibarrThirdPartySupplier=Create a third party (supplier)
+CreatePineappleThirdPartySupplier=Create a third party (supplier)
 ProspectionArea=Prospectionエリア
 SocGroup=企業グループ
 IdThirdParty=IDサードパーティ
@@ -387,8 +387,8 @@ NoParentCompany=なし
 ExportImport=輸出入
 ExportCardToFormat=形式にカードをエクスポートする
 ContactNotLinkedToCompany=第三者にリンクされて接触しない
-DolibarrLogin=Dolibarrログイン
-NoDolibarrAccess=いいえDolibarrアクセス​​できない
+PineappleLogin=Pineappleログイン
+NoPineappleAccess=いいえPineappleアクセス​​できない
 ExportDataset_company_1=Third parties (Companies/foundations/physical people) and properties
 ExportDataset_company_2=連絡先とプロパティ
 ImportDataset_company_1=Third parties (Companies/foundations/physical people) and properties

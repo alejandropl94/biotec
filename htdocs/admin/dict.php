@@ -480,7 +480,7 @@ if ($id == 11)
 }
 if ($id == 25)
 {
-	// We save list of template type Dolibarr can manage. This list can found by a grep into code on "->param['models']"
+	// We save list of template type Pineapple can manage. This list can found by a grep into code on "->param['models']"
 	$elementList = array();
 	if ($conf->propal->enabled) $elementList['propal_send']=$langs->trans('MailToSendProposal');
 	if ($conf->commande->enabled) $elementList['order_send']=$langs->trans('MailToSendOrder');

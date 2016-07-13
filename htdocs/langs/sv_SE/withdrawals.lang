@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Stående order område
 CustomersStandingOrdersArea=Kunder stående order område
 StandingOrders=Stående order
@@ -95,7 +95,7 @@ InfoCreditMessage=Den stående beställning %s har betalats av banken <br> Uppgi
 InfoTransSubject=Överföring av %s stående order till bank
 InfoTransMessage=Den stående beställning %s har transmited till bank med %s %s. <br><br>
 InfoTransData=Belopp: %s <br> Metode: %s <br> Datum: %s
-InfoFoot=Detta är ett automatiskt meddelande skickas av Dolibarr
+InfoFoot=Detta är ett automatiskt meddelande skickas av Pineapple
 InfoRejectSubject=Stående order vägrade
 InfoRejectMessage=Hej, <br><br> den stående beställning av faktura %s relaterad till bolagets %s, med en mängd %s har avslagits av banken. <br><br>--<br> %s
 ModeWarning=Alternativ på riktigt läget inte var satt, sluta vi efter denna simulering

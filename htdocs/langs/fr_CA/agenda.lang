@@ -1,5 +1,5 @@
-# Dolibarr language file - Source file is en_US - agenda
-OrderDeliveredInDolibarr=Commande %s classée Délivrée
+# Pineapple language file - Source file is en_US - agenda
+OrderDeliveredInPineapple=Commande %s classée Délivrée
 ShippingSentByEMail=Bon expédition %s envoyé par EMail
 InterventionSentByEMail=Intervention %s envoyée par EMail
 AgendaUrlOptionsProject=<b>project=PROJECT_ID</b> pour restreindre aux écévements associés au projet <b>PROJECT_ID</b>.

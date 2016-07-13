@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 WorkflowSetup=İş Akışı modülü kurulumu
 WorkflowDesc=Bu modül, uygulamadaki otomatik eylemlerin davranışlarını değiştirilmek için tasarlanmıştır. Varsayılan olarak, iş akışı açıktır (işleri istediğiniz sıraya göre yapabilirsiniz). İlgilendiğiniz otomatik eylemleri etkinleştirebilirsiniz.
 ThereIsNoWorkflowToModify=Etkin modüllerde hiç iş akışı değişikliği yok.

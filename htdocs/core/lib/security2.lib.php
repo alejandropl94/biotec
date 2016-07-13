@@ -117,7 +117,7 @@ function checkLoginPassEntity($usertotest,$passwordtotest,$entitytotest,$authmod
 
 
 /**
- * Show Dolibarr default login page.
+ * Show Pineapple default login page.
  * Part of this code is also duplicated into main.inc.php::top_htmlhead
  *
  * @param		Translate	$langs		Lang object (must be initialized by a new).
@@ -151,7 +151,7 @@ function dol_loginfunction($langs,$conf,$mysoc)
 	$appli=constant('DOL_APPLICATION_TITLE');
 	$title=$appli.' '.DOL_VERSION;
 	if (! empty($conf->global->MAIN_APPLICATION_TITLE)) $title=$conf->global->MAIN_APPLICATION_TITLE;
-	$titletruedolibarrversion=DOL_VERSION;	// $title used by login template after the @ to inform of true Dolibarr version
+	$titletruedolibarrversion=DOL_VERSION;	// $title used by login template after the @ to inform of true Pineapple version
 
 	// Note: $conf->css looks like '/theme/eldy/style.css.php'
 	$conf->css = "/theme/".(GETPOST('theme')?GETPOST('theme','alpha'):$conf->theme)."/style.css.php";

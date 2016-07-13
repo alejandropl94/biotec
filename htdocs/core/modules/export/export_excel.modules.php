@@ -213,8 +213,8 @@ class ExportExcel extends ModeleExports
 		    }
 
             $this->workbook = new PHPExcel();
-            $this->workbook->getProperties()->setCreator($user->getFullName($outputlangs).' - Dolibarr '.DOL_VERSION);
-            //$this->workbook->getProperties()->setLastModifiedBy('Dolibarr '.DOL_VERSION);
+            $this->workbook->getProperties()->setCreator($user->getFullName($outputlangs).' - Pineapple '.DOL_VERSION);
+            //$this->workbook->getProperties()->setLastModifiedBy('Pineapple '.DOL_VERSION);
             $this->workbook->getProperties()->setTitle($outputlangs->trans("Export").' - '.$file);
             $this->workbook->getProperties()->setSubject($outputlangs->trans("Export").' - '.$file);
             $this->workbook->getProperties()->setDescription($outputlangs->trans("Export").' - '.$file);
@@ -458,7 +458,7 @@ class ExportExcel extends ModeleExports
      */
     function excel_clean($newvalue)
     {
-		// Rule Dolibarr: No HTML
+		// Rule Pineapple: No HTML
     	$newvalue=dol_string_nohtmltag($newvalue);
 
     	return $newvalue;

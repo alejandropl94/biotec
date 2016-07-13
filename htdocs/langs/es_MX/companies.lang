@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=El nombre de la empresa %s ya existe. Elige uno diferente.
 ErrorPrefixAlreadyExists=El prefijo %s ya existe. Elige uno diferente.
 ErrorSetACountryFirst=Ajusta primero el país
@@ -7,7 +7,7 @@ ConfirmDeleteCompany=¿Seguro que quieres eliminar esta empresa y toda la inform
 DeleteContact=Eliminar un contacto/dirección
 ConfirmDeleteContact=¿Seguro que quieres eliminar este contacto y toda la información relacionada?
 NewSocGroup=Nuevo grupo de empresas
-CreateDolibarrThirdPartySupplier=Crear tercero (proveedor)
+CreatePineappleThirdPartySupplier=Crear tercero (proveedor)
 SocGroup=Grupo de empresas
 IdThirdParty=ID de tercero
 IdCompany=ID de empresa
@@ -162,7 +162,7 @@ BillingContact=Contacto de facturación
 NbOfAttachedFiles=Número de archivos adjuntos
 AttachANewFile=Adjuntar nuevo archivo
 NoParentCompany=Ninguno
-DolibarrLogin=Login de usuario
+PineappleLogin=Login de usuario
 ExportDataset_company_1=Terceros (Empresas/fundaciones/personas físicas) y propiedades
 ExportDataset_company_2=Contactos y propiedades
 ImportDataset_company_1=Terceros (Empresas/fundaciones/personas físicas) y propiedades

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - withdrawals
+# Pineapple language file - Source file is en_US - withdrawals
 StandingOrdersArea=Standing orders area
 CustomersStandingOrdersArea=Customers standing orders area
 StandingOrders=הוראות קבע
@@ -95,7 +95,7 @@ InfoCreditMessage=The standing order %s has been paid by the bank<br>Data of pay
 InfoTransSubject=Transmission of standing order %s to bank
 InfoTransMessage=The standing order %s has been sent to bank by %s %s.<br><br>
 InfoTransData=Amount: %s<br>Method: %s<br>Date: %s
-InfoFoot=This is an automated message sent by Dolibarr
+InfoFoot=This is an automated message sent by Pineapple
 InfoRejectSubject=Standing order refused
 InfoRejectMessage=Hello,<br><br>the standing order of invoice %s related to the company %s, with an amount of %s has been refused by the bank.<br><br>--<br>%s
 ModeWarning=Option for real mode was not set, we stop after this simulation

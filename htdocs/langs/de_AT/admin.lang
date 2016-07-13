@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - admin
+# Pineapple language file - Source file is en_US - admin
 VersionProgram=Versionsnummer
 VersionLastInstall=Installationsversion
 VersionLastUpgrade=Version nach Upgrade
@@ -7,7 +7,7 @@ SessionId=Sitzungsnummer
 SessionSaveHandler=Sessionmanager
 YourSession=Ihre Anmeldung
 Sessions=Benutzeranmeldung
-DolibarrUser=Dolibarr Benutzer
+PineappleUser=Pineapple Benutzer
 InternalUser=interner Nutzer
 ExternalUser=externer Nutzer
 InternalUsers=interne Nutzer

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - sms
+# Pineapple language file - Source file is en_US - sms
 Sms=SMS
 SmsSetup=Configuración de los SMS
 SmsDesc=Esta pantalla le permite definir las opciones globales del uso de las funciones SMS

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - exports
+# Pineapple language file - Source file is en_US - exports
 ExportsArea=出口地区
 ImportArea=进口地区
 NewExport=新的出口
@@ -65,7 +65,7 @@ ChooseFormatOfFileToImport=选择文件格式为导入文件格式使用的象�
 ChooseFileToImport=上传文件然后点击象形%s到选择导入文件作为源文件...
 SourceFileFormat=源文件格式
 FieldsInSourceFile=在源文件中的字段
-FieldsInTargetDatabase=目标字段：Dolibarr数据库(粗体=强制)
+FieldsInTargetDatabase=目标字段：Pineapple数据库(粗体=强制)
 Field=场
 NoFields=没有字段
 MoveField=移动领域的%s的列号
@@ -102,7 +102,7 @@ NbOfLinesOK=行数没有错误，也没有警告<b>：%s的</b> 。
 NbOfLinesImported=线成功导入数<b>：%s的</b> 。
 DataComeFromNoWhere=值插入来自无处源文件。
 DataComeFromFileFieldNb=值插入来自<b>S</b>的源文件<b>%</b>来自外地的数目。
-DataComeFromIdFoundFromRef=值<b>%</b>来自外地号码文件<b>的</b> S来源将被用来找到父对象的ID使用（因此，客体<b>%s的</b>具有参考。Dolibarr从源文件必须存在到）。
+DataComeFromIdFoundFromRef=值<b>%</b>来自外地号码文件<b>的</b> S来源将被用来找到父对象的ID使用（因此，客体<b>%s的</b>具有参考。Pineapple从源文件必须存在到）。
 DataComeFromIdFoundFromCodeId=Code that comes from field number <b>%s</b> of source file will be used to find id of parent object to use (So the code from source file must exists into dictionary <b>%s</b>). Note that if you know id, you can also use it into source file instead of code. Import should work in both cases.
 DataIsInsertedInto=未来的数据源文件将被插入到以下领域：
 DataIDSourceIsInsertedInto=标识对象的家长发现使用源文件中的数据，将被插入到下面的字段：

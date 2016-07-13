@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - projects
+# Pineapple language file - Source file is en_US - projects
 RefProject=อ้าง โครงการ
 ProjectRef=Project ref.
 ProjectId=Id โครงการ
@@ -131,10 +131,10 @@ ConfirmCloneProject=คุณแน่ใจว่าจะโคลนโคร
 ProjectReportDate=เปลี่ยนวันงานโครงการตามวันที่เริ่มต้น
 ErrorShiftTaskDate=เป็นไปไม่ได้ที่จะเปลี่ยนวันงานตามโครงการใหม่วันที่เริ่มต้น
 ProjectsAndTasksLines=โครงการและงาน
-ProjectCreatedInDolibarr=โครงการสร้าง% s
-TaskCreatedInDolibarr=งาน% s สร้าง
-TaskModifiedInDolibarr=งาน% s การแก้ไข
-TaskDeletedInDolibarr=งาน% s ลบ
+ProjectCreatedInPineapple=โครงการสร้าง% s
+TaskCreatedInPineapple=งาน% s สร้าง
+TaskModifiedInPineapple=งาน% s การแก้ไข
+TaskDeletedInPineapple=งาน% s ลบ
 OpportunityStatus=สถานะโอกาส
 OpportunityStatusShort=Opp. status
 OpportunityProbability=Opportunity probability

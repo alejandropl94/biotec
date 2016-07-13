@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - help
+# Pineapple language file - Source file is en_US - help
 CommunitySupport=Assistència Forums i Wiki
 EMailSupport=Assistència E-Mail
 RemoteControlSupport=Assistència en temps real a distància
@@ -6,8 +6,8 @@ OtherSupport=Altres tipus d'assistència
 ToSeeListOfAvailableRessources=Per contactar/veure els recursos disponibles:
 ClickHere=Faci clic aquí
 HelpCenter=Centre  d'assistència
-DolibarrHelpCenter=Centre de suport i ajuda Dolibarr
-ToGoBackToDolibarr=D'altra banda, faci clic <a href="%s">aquí per utilitzar Dolibarr</a>
+PineappleHelpCenter=Centre de suport i ajuda Pineapple
+ToGoBackToPineapple=D'altra banda, faci clic <a href="%s">aquí per utilitzar Pineapple</a>
 TypeOfSupport=Tipus de suport
 TypeSupportCommunauty=Comunitari (gratuït)
 TypeSupportCommercial=Comercial
@@ -21,8 +21,8 @@ ToGetHelpGoOnSparkAngels1=Algunes empreses o independents ofereixen serveis de s
 ToGetHelpGoOnSparkAngels3=Per accedir a la recerca de <b>assistents disponibles</b>, feu clic aquí
 ToGetHelpGoOnSparkAngels2=En ocasions, cap operador es troba disponible en el moment de la seva recerca, no oblideu canviar el criteri de cerca indicant "tots els disponibles". Pot, doncs, posar-se en contacte en diferit.
 BackToHelpCenter=Sinó, feu clic aquí per <a href="%s"> tornar al centre d'assistència</a>.
-LinkToGoldMember=En cas contrari, podeu trucar immediatament a un dels assistents preseleccionats per Dolibarr per al seu idioma (%s) fent clic en el seu widget (disponibilitat i tarifa màxima actualitzades automàticament):
+LinkToGoldMember=En cas contrari, podeu trucar immediatament a un dels assistents preseleccionats per Pineapple per al seu idioma (%s) fent clic en el seu widget (disponibilitat i tarifa màxima actualitzades automàticament):
 PossibleLanguages=Idiomes disponibles
-MakeADonation=Ajudeu-nos al projecte Dolibarr, feu una donació
-SubscribeToFoundation=Ajuda al projecte Dolibarr, adhereix-te a l'associació
+MakeADonation=Ajudeu-nos al projecte Pineapple, feu una donació
+SubscribeToFoundation=Ajuda al projecte Pineapple, adhereix-te a l'associació
 SeeOfficalSupport=Per suport oficial de Dolibar amb el teu llenguatge:<br><b><a href="%s" target="_blank">%s</a></b>

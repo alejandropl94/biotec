@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - oauth
+# Pineapple language file - Source file is en_US - oauth
 ConfigOAuth=تكوين أوث
 NoAccessToken=لا رمز وصول حفظها في قاعدة البيانات المحلية
 HasAccessToken=تم إنشاء رمز مميز وحفظها في قاعدة البيانات المحلية

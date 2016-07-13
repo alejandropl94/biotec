@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - mails
+# Pineapple language file - Source file is en_US - mails
 Mailing=發送電子郵件
 EMailing=發送電子郵件
 Mailings=EMailings
@@ -95,12 +95,12 @@ NbSent=Nb sent
 
 # Libelle des modules de liste de destinataires mailing
 MailingModuleDescContactCompanies=所有第三方（聯系客戶，潛在客戶，供應商，...）
-MailingModuleDescDolibarrUsers=用戶與郵件全部Dolibarr
+MailingModuleDescPineappleUsers=用戶與郵件全部Pineapple
 MailingModuleDescFundationMembers=基金會成員與電子郵件
 MailingModuleDescEmailsFromFile=從一個文本文件（電子郵件電子郵件，姓名或名稱;姓;評論）
 MailingModuleDescEmailsFromUser=EMails from user input (email;lastname;firstname;other)
 MailingModuleDescContactsCategories=第三方的電子郵件（按類別）
-MailingModuleDescDolibarrContractsLinesExpired=與合同到期的路線第三方
+MailingModuleDescPineappleContractsLinesExpired=與合同到期的路線第三方
 MailingModuleDescContactsByCompanyCategory=聯系第三方（第三方類）
 MailingModuleDescContactsByCategory=Contacts/addresses of third parties (by category)
 MailingModuleDescMembersCategories=基金會的成員（按類別）

@@ -1,4 +1,4 @@
-# Dolibarr language file - Source file is en_US - companies
+# Pineapple language file - Source file is en_US - companies
 ErrorCompanyNameAlreadyExists=Názov spoločnosti %s už existuje. Vyberte si inú.
 ErrorPrefixAlreadyExists=Prefix %s už existuje. Vyberte si inú.
 ErrorSetACountryFirst=Nastavenie krajiny prvý
@@ -18,7 +18,7 @@ NewCompany=Nová spoločnosť (vyhliadka, zákazník, dodávateľ)
 NewThirdParty=Nový tretia strana (vyhliadka, zákazník, dodávateľ)
 NewSocGroup=Nová skupina spoločností
 NewPrivateIndividual=Nová súkromná osoba (vyhliadka, zákazník, dodávateľ)
-CreateDolibarrThirdPartySupplier=Vytvoriť tretiu stranu (dodávateľa)
+CreatePineappleThirdPartySupplier=Vytvoriť tretiu stranu (dodávateľa)
 ProspectionArea=Prospekcia plochy
 SocGroup=Skupina spoločností
 IdThirdParty=Id treťou stranou
@@ -387,8 +387,8 @@ NoParentCompany=Nikto
 ExportImport=Import-Export
 ExportCardToFormat=Export do formátu karty
 ContactNotLinkedToCompany=Kontaktu, ktorý nie je spojený s akoukoľvek treťou stranou
-DolibarrLogin=Dolibarr prihlásenie
-NoDolibarrAccess=Žiadny prístup Dolibarr
+PineappleLogin=Pineapple prihlásenie
+NoPineappleAccess=Žiadny prístup Pineapple
 ExportDataset_company_1=Tretie strany (spoločnosti/nadácie/fyzické osoby) a vlastnosti
 ExportDataset_company_2=Kontakty a vlastnosti
 ImportDataset_company_1=Tretie strany (spoločnosti/nadácie/fyzické osoby) a vlastnosti
