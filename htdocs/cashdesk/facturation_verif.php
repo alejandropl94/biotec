@@ -184,6 +184,19 @@ switch ( $_GET['action'] )
 		$redirection = DOL_URL_ROOT.'/cashdesk/affIndex.php?menutpl=facturation';
 		break;
 
+	case 'change_articles':
+		$tab=array();
+		$tab = $_SESSION['poscart'];
+
+		$tab_size=count($tab);
+		for ($i=0;$i < $tab_size;$i++)
+		{
+			if($_POST['rowQty'.$i] != $tab[$i]['qte'] && $_POST['rowQty'.$i] > 0)
+				$obj_facturation->updateArticle($i, $_POST['rowQty'.$i]);
+		}
+
+		$redirection = DOL_URL_ROOT.'/cashdesk/affIndex.php?menutpl=facturation';
+		break;
 }
 
 // We saved object obj_facturation

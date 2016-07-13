@@ -1,3 +1,3 @@
 <?php
 // Wrapper to include master into htdocs
-include_once 'C:/xampp/htdocs/biotec/htdocs/master.inc.php';
+include_once '/Users/david/Work/Apache/biotec/htdocs/master.inc.php';

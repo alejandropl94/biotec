@@ -120,3 +120,7 @@ $langs->load("bills");
 
 
 </fieldset>
+
+<script>
+	$("#frmValidation").submit();
+</script>

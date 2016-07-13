@@ -29,7 +29,7 @@ $langs->load("cashdesk");
 <div class="liste_articles_haut">
 <div class="liste_articles_bas">
 
-<p class="titre"><?php echo $langs->trans("ShoppingCart"); ?></p>
+<p class="titre"><?php echo $langs->trans("Venta"); ?></p>
 
 <?php
 /** add Ditto for MultiPrix*/
@@ -38,35 +38,55 @@ $societe = new Societe($db);
 $societe->fetch($thirdpartyid);
 /** end add Ditto */
 
-$tab=array();
-$tab = $_SESSION['poscart'];
+?>
 
-$tab_size=count($tab);
-if ($tab_size <= 0) print '<div class="center">'.$langs->trans("NoArticle").'</div><br>';
-else
-{
-    for ($i=0;$i < $tab_size;$i++)
-    {
-        echo ('<div class="cadre_article">'."\n");
-        echo ('<p><a href="facturation_verif.php?action=suppr_article&suppr_id='.$tab[$i]['id'].'" title="'.$langs->trans("DeleteArticle").'">'.$tab[$i]['ref'].' - '.$tab[$i]['label'].'</a></p>'."\n");
+<form id="frmDifference"  class="formulaire1" method="post" onsubmit="javascript: return verifReglement()" action="validation_verif.php?action=valide_achat" autocomplete="off">
+  <input type="hidden" name="hdnChoix" value="" />
+  <input type="hidden" name="token" value="<?php echo $_SESSION['newtoken']; ?>" />
+  <table style="width:100%;">
+    <tr>
+      <!-- Affichage du montant du -->
+      <td>
+        <input class="texte2_off" type="hidden" name="txtDu" value="<?php echo price2num($obj_facturation->prixTotalTtc(), 'MT'); ?>" disabled />
+      </td>
+    </tr>
+    <tr>
+      <th class="label1">
+        <?php echo $langs->trans("Received"); ?>
+      </th>
+    </tr>
+    <tr>
+      <!-- Choix du montant encaisse -->
+      <td>
+        <input class="texte2" type="text" id="txtEncaisse" name="txtEncaisse" value="" onkeyup="javascript: verifDifference();" onfocus="javascript: this.select();" />
+        <?php print genkeypad("txtEncaisse", "frmDifference");?>
+      </td>
+    </tr>
+    <tr>
+      <th class="label1">
+        <?php echo $langs->trans("Change"); ?>
+      </th>
+    </tr>
+    <tr>
+      <!-- Affichage du montant rendu -->
+      <td>
+        <input class="texte2_off" type="text" name="txtRendu" value="0" disabled />
+      </td>
+    </tr>
+  </table>
 
-        if ( $tab[$i]['remise_percent'] > 0 ) {
+  <?php
+  if (empty($_SESSION['CASHDESK_ID_BANKACCOUNT_CASH']) || $_SESSION['CASHDESK_ID_BANKACCOUNT_CASH'] < 0)
+  {
+    $langs->load("errors");
+    print '<input class="bouton_mode_reglement_disabled" type="button" name="btnModeReglement" value="'.$langs->trans("Terminar venta").'" title="'.dol_escape_htmltag($langs->trans("ErrorModuleSetupNotComplete")).'" />';
+  }
+  else print '<input class="button bouton_mode_reglement" type="submit" name="btnModeReglement" value="'.$langs->trans("Terminar venta").'" onclick="javascript: verifClic(\'ESP\');" />';
+  ?>
+</form>
+<br/>
 
-            $remise_percent = ' -'.$tab[$i]['remise_percent'].'%';
-
-        } else {
-
-            $remise_percent = '';
-
-        }
-
-        $remise = $tab[$i]['remise'];
-
-        echo ('<p>'.$tab[$i]['qte'].' x '.price2num($tab[$i]['price'], 'MT').$remise_percent.' = '.price(price2num($tab[$i]['total_ht'], 'MT'),0,$langs,0,0,-1,$conf->currency).' '.$langs->trans("HT").' ('.price(price2num($tab[$i]['total_ttc'], 'MT'),0,$langs,0,0,-1,$conf->currency).' '.$langs->trans("TTC").')</p>'."\n");
-        echo ('</div>'."\n");
-    }
-}
-
+<?php
 echo ('<p class="cadre_prix_total">'.$langs->trans("Total").' : '.price(price2num($total_ttc, 'MT'),0,$langs,0,0,-1,$conf->currency).'<br></p>'."\n");
 
 ?></div>

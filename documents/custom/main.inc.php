@@ -1,3 +1,3 @@
 <?php
 // Wrapper to include main into htdocs
-include_once 'C:/xampp/htdocs/biotec/htdocs/main.inc.php';
+include_once '/Users/david/Work/Apache/biotec/htdocs/main.inc.php';

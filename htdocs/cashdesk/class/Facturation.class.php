@@ -156,10 +156,37 @@ class Facturation
         $newcartarray[$i]['total_vat']=price2num($total_vat, 'MT');
         $newcartarray[$i]['total_localtax1']=price2num($total_localtax1, 'MT');
         $newcartarray[$i]['total_localtax2']=price2num($total_localtax2, 'MT');
+
+
+        $newcartarray[$i]['total_ht_u']=price2num($total_ht,'MT');
+        $newcartarray[$i]['total_ttc_u']=price2num($total_ttc,'MT');
+        $newcartarray[$i]['total_vat_u']=price2num($total_vat, 'MT');
+        $newcartarray[$i]['total_localtax1_u']=price2num($total_localtax1, 'MT');
+        $newcartarray[$i]['total_localtax2_u']=price2num($total_localtax2, 'MT');
+
         $_SESSION['poscart']=$newcartarray;
 
         $this->raz();
 
+    }
+
+    /**
+     *  Update product Qte
+     *
+     *  @return void
+     */
+    public function updateArticle($id, $qte)
+    {
+        $newcartarray = $_SESSION['poscart'];
+
+        $newcartarray[$id]['qte'] = $qte;
+        $newcartarray[$id]['total_ht'] = $newcartarray[$id]['total_ht_u'] * $qte;
+        $newcartarray[$id]['total_ttc'] = $newcartarray[$id]['total_ttc_u'] * $qte;
+        $newcartarray[$id]['total_vat'] = $newcartarray[$id]['total_vat_u'] * $qte;
+        $newcartarray[$id]['total_localtax1'] = $newcartarray[$id]['total_localtax1_u'] * $qte;
+        $newcartarray[$id]['total_localtax2'] = $newcartarray[$id]['total_localtax2_u'] * $qte;
+
+        $_SESSION['poscart'] = $newcartarray;
     }
 
     /**

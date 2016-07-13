@@ -45,3 +45,7 @@ $langs->load("bills");
 <p><a class="lien1" href="#" onclick="Javascript: popupTicket(); return(false);"><?php echo $langs->trans("PrintTicket"); ?></a></p>
 
 </div>
+
+<script>
+  window.location = $("#new_v").attr("href");
+</script>
