@@ -5,9 +5,10 @@ $dolibarr_main_document_root='/home/u472248101/public_html/biotec/htdocs';
 $dolibarr_main_url_root_alt='/custom';
 $dolibarr_main_document_root_alt='/home/u472248101/public_html/biotec/htdocs/custom';
 $dolibarr_main_data_root='/home/u472248101/public_html/biotec/documents';
+
 $dolibarr_main_db_host='localhost';
 $dolibarr_main_db_port='';
-$dolibarr_main_db_name='u472248101_erp_b';
+$dolibarr_main_db_name='u472248101_erpb';
 $dolibarr_main_db_prefix='llx_';
 $dolibarr_main_db_user='u472248101_bio';
 $dolibarr_main_db_pass='biotec123';
