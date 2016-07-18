@@ -96,6 +96,7 @@ if (dol_strlen($search) >= 0)	// If search criteria is on char length at least
 					<li class="dhtml_defaut" title="'.$tab[$i]['ref'].'"
 						onMouseOver="javascript: this.className = \'dhtml_selection\';"
 						onMouseOut="javascript: this.className = \'dhtml_defaut\';"
+						onclick="javascript: document.getElementById(\'txtRef\').value =\''.$tab[$i]['ref'].'\'; setSource(\'REF\');"
 					>'.$tab[$i]['ref'].' - '.$tab[$i]['label'].'</li>
 				';
 			}

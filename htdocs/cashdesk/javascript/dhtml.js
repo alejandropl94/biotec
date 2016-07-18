@@ -55,7 +55,6 @@ function file(fichier) {
 function afficheDonnees(aId, aTexte) {
 
 	document.getElementById(aId).innerHTML = aTexte;
-
 }
 
 
