@@ -67,7 +67,7 @@ if (in_array(
 		array(
 			'deconnexion',
 			'index','index_verif','facturation','facturation_verif','facturation_dhtml',
-			'validation','validation_ok','validation_ticket','validation_verif',
+			'validation','validation_ok','validation_ticket','validation_verif','sells'
 		)
 	))
 {
@@ -83,13 +83,17 @@ print '</div>';
 
 
 
-// Right area with selected articles (shopping cart)
-print '<div class="inline-block" style="vertical-align: top">';
-print '<div class="liste_articles">';
+if($page != "sells")
+{
+	// Right area with selected articles (shopping cart)
+	print '<div class="inline-block" style="vertical-align: top">';
+	print '<div class="liste_articles">';
 
-require ('tpl/liste_articles.tpl.php');
+	require ('tpl/liste_articles.tpl.php');
 
-print '</div>';
-print '</div>';
+	print '</div>';
+	print '</div>';
+}
+
 
 $_SESSION['serObjFacturation'] = serialize($obj_facturation);
