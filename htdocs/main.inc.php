@@ -33,7 +33,7 @@
  */
 
 //@ini_set('memory_limit', '64M');	// This may be useless if memory is hard limited by your PHP
-
+date_default_timezone_set('America/Mexico_City');
 // For optional tuning. Enabled if environment variable MAIN_SHOW_TUNING_INFO is defined.
 $micro_start_time=0;
 if (! empty($_SERVER['MAIN_SHOW_TUNING_INFO']))
