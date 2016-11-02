@@ -2114,6 +2114,7 @@ if ($action == 'create')
 	print $desc;
 	print '</div></div>';
 
+	/* disabled 011116
 	if ((empty($origin)) || ((($origin == 'propal') || ($origin == 'commande')) && (! empty($originid))))
 	{
 		// Deposit
@@ -2143,7 +2144,7 @@ if ($action == 'create')
 
 		print '</div></div>';
 	}
-
+	*/
 	if ($socid > 0)
 	{
 		if (! empty($conf->global->INVOICE_USE_SITUATION))

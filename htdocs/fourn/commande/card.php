@@ -1533,9 +1533,9 @@ if ($action=='create')
 	}
 	print '</td>';
 
-	// Ref supplier
-	print '<tr><td>'.$langs->trans('RefSupplier').'</td><td><input name="refsupplier" type="text"></td>';
-	print '</tr>';
+	// Ref supplier disabled 011116
+	/*print '<tr><td>'.$langs->trans('RefSupplier').'</td><td><input name="refsupplier" type="text"></td>';
+	print '</tr>';*/
 
 	print '</td></tr>';
 

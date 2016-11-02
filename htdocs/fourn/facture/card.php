@@ -325,13 +325,15 @@ if (empty($reshook))
 	        $_GET['socid']=$_POST['socid'];
 	        $error++;
 	    }
+
+	    /* disabled 011116
 	    if (! GETPOST('ref_supplier'))
 	    {
 		    setEventMessages($langs->trans('ErrorFieldRequired',$langs->transnoentities('RefSupplier')), null, 'errors');
 	        $action='create';
 	        $_GET['socid']=$_POST['socid'];
 	        $error++;
-	    }
+	    }*/
 
 	    // Fill array 'array_options' with data from add form
 
@@ -1353,9 +1355,9 @@ if ($action == 'create')
     }
     print '</td></tr>';
 
-    // Ref supplier
-    print '<tr><td class="fieldrequired">'.$langs->trans('RefSupplier').'</td><td><input name="ref_supplier" value="'.(isset($_POST['ref_supplier'])?$_POST['ref_supplier']:'').'" type="text"></td>';
-    print '</tr>';
+    // Ref supplier disabled 011116
+    /*print '<tr><td class="fieldrequired">'.$langs->trans('RefSupplier').'</td><td><input name="ref_supplier" value="'.(isset($_POST['ref_supplier'])?$_POST['ref_supplier']:'').'" type="text"></td>';
+    print '</tr>';*/
 
     print '<tr><td valign="top" class="fieldrequired">'.$langs->trans('Type').'</td><td colspan="2">';
     print '<table class="nobordernopadding">'."\n";
@@ -1440,8 +1442,8 @@ if ($action == 'create')
     print '</table>';
     print '</td></tr>';
 
-    // Label
-    print '<tr><td>'.$langs->trans('Label').'</td><td><input size="30" name="libelle" value="'.(isset($_POST['libelle'])?$_POST['libelle']:'').'" type="text"></td></tr>';
+    // Label disabled 011116
+    //print '<tr><td>'.$langs->trans('Label').'</td><td><input size="30" name="libelle" value="'.(isset($_POST['libelle'])?$_POST['libelle']:'').'" type="text"></td></tr>';
 
     // Date invoice
     print '<tr><td class="fieldrequired">'.$langs->trans('DateInvoice').'</td><td>';
@@ -1754,10 +1756,10 @@ else
         print '</td>';
         print "</tr>\n";
 
-        // Ref supplier
-        print '<tr><td>'.$form->editfieldkey("RefSupplier",'ref_supplier',$object->ref_supplier,$object,($object->statut<FactureFournisseur::STATUS_CLOSED && $user->rights->fournisseur->facture->creer)).'</td><td colspan="4">';
+        // Ref supplier disabled 011116
+        /*print '<tr><td>'.$form->editfieldkey("RefSupplier",'ref_supplier',$object->ref_supplier,$object,($object->statut<FactureFournisseur::STATUS_CLOSED && $user->rights->fournisseur->facture->creer)).'</td><td colspan="4">';
         print $form->editfieldval("RefSupplier",'ref_supplier',$object->ref_supplier,$object,($object->statut<FactureFournisseur::STATUS_CLOSED && $user->rights->fournisseur->facture->creer));
-        print '</td></tr>';
+        print '</td></tr>';*/
 
         // Third party
         print '<tr><td>'.$langs->trans('Supplier').'</td><td colspan="4">'.$societe->getNomUrl(1,'supplier');

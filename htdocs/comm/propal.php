@@ -1278,10 +1278,10 @@ if ($action == 'create')
 	// Reference
 	print '<tr><td width="25%" class="fieldrequired">' . $langs->trans('Ref') . '</td><td colspan="2">' . $langs->trans("Draft") . '</td></tr>';
 
-	// Ref customer
-	print '<tr><td>' . $langs->trans('RefCustomer') . '</td><td colspan="2">';
+	// Ref customer disabled 011116
+	/*print '<tr><td>' . $langs->trans('RefCustomer') . '</td><td colspan="2">';
 	print '<input type="text" name="ref_client" value="'.GETPOST('ref_client').'"></td>';
-	print '</tr>';
+	print '</tr>';*/
 
 	// Third party
 	print '<tr>';
@@ -1362,10 +1362,10 @@ if ($action == 'create')
         print '</td></tr>';
     }
 
-	// What trigger creation
-	print '<tr><td>' . $langs->trans('Source') . '</td><td>';
+	// What trigger creation disabled 011116
+	/*print '<tr><td>' . $langs->trans('Source') . '</td><td>';
 	$form->selectInputReason('', 'demand_reason_id', "SRC_PROP", 1);
-	print '</td></tr>';
+	print '</td></tr>';*/
 
 	// Delivery delay
 	print '<tr><td>' . $langs->trans('AvailabilityPeriod') . '</td><td colspan="2">';
@@ -1418,13 +1418,13 @@ if ($action == 'create')
 		print '</td></tr>';
 	}
 
-	// Template to use by default
-	print '<tr>';
+	// Template to use by default disabled 011116
+	/*print '<tr>';
 	print '<td>' . $langs->trans("DefaultModel") . '</td>';
 	print '<td colspan="2">';
 	$liste = ModelePDFPropales::liste_modeles($db);
 	print $form->selectarray('model', $liste, ($conf->global->PROPALE_ADDON_PDF_ODT_DEFAULT ? $conf->global->PROPALE_ADDON_PDF_ODT_DEFAULT : $conf->global->PROPALE_ADDON_PDF));
-	print "</td></tr>";
+	print "</td></tr>";*/
 
 	// Public note
 	print '<tr>';
