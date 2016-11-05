@@ -1,0 +1,17 @@
+.button {
+
+	cursor: pointer;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+
+	font-weight: normal;
+
+}
+
+.button:hover {
+
+	text-decoration: none;
+
+}
