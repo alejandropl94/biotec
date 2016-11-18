@@ -114,11 +114,22 @@ if($action == 'prices_cli') {
 	    <form method='post' action='' enctype='multipart/form-data'>
             <h3>Importación de precio al público</h3>
 	        <div class="titre">Seleccionar plantilla *.csv
-            <img src="../theme/md/img/info.png" border="0" alt="" title="Para convertir un archivo de excel a CSV, ve a archivo, guardar como y en tipo poner CSV(MS-DOS)" class="hideonsmartphone"></div><br>
+                <img src="../theme/md/img/info.png" border="0" alt="" title="Para convertir un archivo de excel a CSV, ve a archivo, guardar como y en tipo poner CSV(MS-DOS)" class="hideonsmartphone">
+                <a id="show_info" href="#">Ejemplo platilla</a>
+                <div id="info_sheet" hidden="true">
+                    <img src="../theme/common/plantilla_import.PNG" title="La lista de productos debe iniciar a partir de la fila 2 y los datos deben ir en el orden indicado en las columnas (A - F)">
+                </div>
+            </div><br>
 	        <input type='file' name='filename' size='10'>
 	        <input type='submit' class="button" value='Importar' class="">
 	    </form>
 _END;
+    print ' <script>
+
+                $("#show_info").click(function(){
+                    $("#info_sheet").toggle();
+                });
+            </script>';
 
     $f_uploaded = cargarArchivo($name);
 
